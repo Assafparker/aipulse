@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
-/* ── הפלטה ──────────────────────────────────────────────────────────────
-   כל הצבעים מוגדרים על :root. הכהה דורס פעמיים: פעם לפי מערכת ההפעלה
-   (אלא אם המשתמש בחר ידנית "בהיר"), ופעם לפי דריסה ידנית data-theme="dark",
-   כדי שההחלפה הידנית תגבר בשני הכיוונים.                                */
+/* ── Palette ────────────────────────────────────────────────────────────
+   Every colour is defined on :root. Dark overrides twice: once from the OS
+   preference (unless the reader explicitly chose light), and once from an
+   explicit data-theme="dark", so the manual toggle wins in both directions. */
 
 :root {
   --ground: #f6f8f6;
@@ -55,9 +55,10 @@
   --pin-soft: #2e2118;
 }
 
-/* ── חשיפת הטוקנים ל-Tailwind ───────────────────────────────────────────
-   `inline` חיוני כאן: הוא גורם לכלים להפנות אל המשתנה עצמו ולא להעתיק את
-   ערכו, ולכן `bg-surface` עוקב אחרי החלפת המצב במקום לקפוא על ערך בהיר.  */
+/* ── Exposing the tokens to Tailwind ────────────────────────────────────
+   `inline` matters here: it makes the generated utilities point at the
+   variable rather than copy its value, so `bg-surface` follows a theme
+   change instead of freezing on the light value.                        */
 
 @theme inline {
   --color-ground: var(--ground);
@@ -79,7 +80,7 @@
   --font-mono: var(--font-plex-mono), ui-monospace, monospace;
 }
 
-/* ── בסיס ───────────────────────────────────────────────────────────── */
+/* ── Base ───────────────────────────────────────────────────────────── */
 
 html {
   color-scheme: light;
@@ -110,7 +111,7 @@ h3 {
   font-weight: 700;
 }
 
-/* מספרים, תאריכים ותוויות — רוחב ספרה אחיד כדי שעמודות לא ירקדו */
+/* Numbers, dates and labels — uniform digit width so columns don't jitter */
 .tnum,
 time,
 code,
@@ -119,15 +120,16 @@ kbd {
   font-variant-numeric: tabular-nums;
 }
 
-/* פוקוס נראה בכל הדפדפנים — דרישת נגישות, לא קישוט */
+/* Visible focus everywhere — an accessibility requirement, not decoration */
 :focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
   border-radius: 2px;
 }
 
-/* מחרוזת שמתחילה בתו ניטרלי (#, /, () נזרקת לצד הלא נכון בהקשר RTL.
-   שים את זה על אלמנט טקסט בלבד — לעולם לא על אלמנט ממוקם. */
+/* A string starting with a neutral character (#, /, "(") lands on the wrong
+   side in an RTL context. Apply this to text elements only — never to a
+   positioned element, whose inset-inline-* would then flip. */
 .ltr {
   direction: ltr;
   unicode-bidi: isolate;

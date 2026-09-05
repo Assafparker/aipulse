@@ -1,11 +1,11 @@
 /**
- * סימן AiPulse — טבעת (הסריקה היומית), אות נבחרת במרכזה, ונקודה אחת
- * בחלודה: הפריט שסומן.
+ * The AiPulse mark — a ring (the daily scan), one selected item at its
+ * centre, and a single rust-coloured dot: the item the reader flagged.
  *
- * מוטמע inline ולא כ-<img> בכוונה. קובץ SVG שנטען כתמונה הוא מסמך מבודד
- * שלא רואה את הטוקנים של הדף, ולכן היה קופא על צבעי המצב הבהיר. כרכיב
- * מוטמע הוא קורא את --accent ואת --pin ישירות, ולכן עוקב גם אחרי מצב
- * המערכת וגם אחרי הדריסה הידנית.
+ * Inlined rather than served as an <img> on purpose. An SVG loaded as an
+ * image is an isolated document that cannot see the page's tokens, so it
+ * would freeze on the light-mode colours. Inlined, it reads --accent and
+ * --pin directly and follows both the system theme and the manual override.
  */
 export function Logo({ size = 40 }: { size?: number }) {
   return (
