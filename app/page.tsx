@@ -1,9 +1,14 @@
 import { Logo } from "@/components/brand/logo";
+import { ITEMS, RECENT, MONTHS, LAST_SCAN } from "@/lib/content";
+import { FAMILIES } from "@/lib/constants";
 
 /**
- * דף בית זמני — שלב 0 בלבד.
- * תפקידו היחיד להוכיח שהשלד עומד: עברית מימין לשמאל, שלושת הגופנים,
- * והפלטה שמתחלפת עם מצב המערכת. שלב 4 מחליף אותו בדף הנחיתה האמיתי.
+ * Temporary home page — stages 0 and 1 only.
+ * It exists to prove the skeleton stands: Hebrew right-to-left, the three
+ * fonts, the palette following the system theme, and the content layer
+ * validating and loading. Stage 4 replaces it with the real landing page.
+ *
+ * The counters below are computed from the content, never typed by hand.
  */
 
 const SWATCHES = [
@@ -36,8 +41,30 @@ export default function Home() {
           <span className="ltr">AUROC</span> ו-<span className="ltr">LLM</span>{" "}
           משובצים בתוכו בלי לשבור את הכיוון.
         </p>
-        <p className="tnum mt-4 text-sm text-ink-3">
-          34 פריטים · 8 משפחות מקור · סריקה אחרונה 2026-09-05
+      </section>
+
+      <section className="rounded-lg border border-line bg-surface p-6">
+        <h2 className="text-xl">שכבת התוכן</h2>
+        <p className="mt-2 text-sm text-ink-3">
+          המספרים האלה מחושבים מ-<span className="ltr">content/items.json</span>{" "}
+          אחרי ולידציה, ולא מוקלדים.
+        </p>
+        <dl className="tnum mt-4 grid grid-cols-2 gap-4 sm:grid-cols-4">
+          {[
+            { label: "פריטים בסך הכול", value: ITEMS.length },
+            { label: "בחלון 30 הימים", value: RECENT.length },
+            { label: "חודשים בארכיון", value: MONTHS.length },
+            { label: "משפחות מקור", value: FAMILIES.length },
+          ].map(({ label, value }) => (
+            <div key={label}>
+              <dt className="text-xs text-ink-3">{label}</dt>
+              <dd className="text-2xl text-accent">{value}</dd>
+            </div>
+          ))}
+        </dl>
+        <p className="mt-4 text-sm text-ink-3">
+          סריקה אחרונה <time className="text-ink-2">{LAST_SCAN}</time> · חודשים:{" "}
+          <span className="tnum ltr text-ink-2">{MONTHS.join(" · ")}</span>
         </p>
       </section>
 
