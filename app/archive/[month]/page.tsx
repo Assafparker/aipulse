@@ -54,6 +54,8 @@ export default async function MonthPage({ params }: Params) {
         <p className="tnum mt-2 text-sm text-ink-3">{itemCount(items.length)}</p>
       </header>
 
+      {/* Cards use <h3>; without this the order jumps h1 to h3. */}
+      <h2 className="sr-only">פריטי החודש</h2>
       <ol className="flex flex-col gap-4">
         {items.map((item) => (
           <li key={item.id}>

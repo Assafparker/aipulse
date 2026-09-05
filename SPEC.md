@@ -311,7 +311,7 @@ export const scoreOf = (i: Item, prefs: UserState["prefs"]) =>
 ```css
 :root{
   --ground:#F6F8F6; --surface:#FFFFFF; --surface-2:#EEF2EF;
-  --ink:#151E1B; --ink-2:#3C4A45; --ink-3:#6E7D77;
+  --ink:#151E1B; --ink-2:#3C4A45; --ink-3:#63716B;
   --line:#DCE3DE; --line-2:#C6D1CB;
   --accent:#2F6F62; --accent-soft:#E3EFEA; --accent-ink:#1E4C43;
   --pin:#A65A2A; --pin-soft:#F6E8DE;

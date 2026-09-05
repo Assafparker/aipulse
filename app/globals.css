@@ -11,7 +11,13 @@
   --surface-2: #eef2ef;
   --ink: #151e1b;
   --ink-2: #3c4a45;
-  --ink-3: #6e7d77;
+  /* Darkened from the original #6E7D77, light mode only. That value scored
+     4.05 / 4.32 / 3.82 against --ground / --surface / --surface-2, all below
+     the 4.5 WCAG AA needs for small text, and this token carries the
+     disclosure line and every date and label. Same hue and saturation, 4%
+     darker; worst case is now 4.53. Dark mode already passed and is
+     unchanged. Approved 2026-09-05. */
+  --ink-3: #63716b;
   --line: #dce3de;
   --line-2: #c6d1cb;
   --accent: #2f6f62;
@@ -125,6 +131,29 @@ kbd {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
   border-radius: 2px;
+}
+
+/* The theme toggle ships both icons and CSS picks one, so the button renders
+   identically on server and client. Same three-block structure as the
+   palette above: base, system preference, explicit override. */
+.theme-icon-dark {
+  display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .theme-icon-light {
+    display: none;
+  }
+  :root:not([data-theme="light"]) .theme-icon-dark {
+    display: block;
+  }
+}
+
+:root[data-theme="dark"] .theme-icon-light {
+  display: none;
+}
+:root[data-theme="dark"] .theme-icon-dark {
+  display: block;
 }
 
 /* A string starting with a neutral character (#, /, "(") lands on the wrong

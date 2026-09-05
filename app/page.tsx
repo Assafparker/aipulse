@@ -1,119 +1,158 @@
 import Link from "next/link";
+import { HeroGraphic } from "@/components/brand/hero-graphic";
 import { Logo } from "@/components/brand/logo";
-import { ITEMS, RECENT, MONTHS, LAST_SCAN } from "@/lib/content";
+import { ItemCard } from "@/components/feed/item-card";
 import { FAMILIES } from "@/lib/constants";
+import { ITEMS, LAST_SCAN, RECENT } from "@/lib/content";
+import { itemCount } from "@/lib/format";
 
 /**
- * Temporary home page — stages 0 and 1 only.
- * It exists to prove the skeleton stands: Hebrew right-to-left, the three
- * fonts, the palette following the system theme, and the content layer
- * validating and loading. Stage 4 replaces it with the real landing page.
+ * The landing page. A server component throughout — nothing here is
+ * interactive beyond navigation.
  *
- * The counters below are computed from the content, never typed by hand.
+ * Every number is computed from the content. A family carrying a `gap` is
+ * not something that can be scanned at all, so it is excluded from the
+ * count of scanned families, per SPEC.md 3.2. Claiming eight would overstate
+ * what the scan actually covers.
  */
 
-const SWATCHES = [
-  { token: "--ground", label: "רקע" },
-  { token: "--surface", label: "משטח" },
-  { token: "--accent", label: "מבטא" },
-  { token: "--accent-soft", label: "מבטא רך" },
-  { token: "--pin", label: "הצמדה" },
-  { token: "--line", label: "קו" },
+const SCANNED_FAMILIES = FAMILIES.filter((f) => !f.gap);
+
+const PRINCIPLES = [
+  {
+    title: "מקור ראשוני קודם לדיווח עליו",
+    body: "כשעיתונות מקצועית מדווחת על מחקר, הקישור כאן הוא למאמר עצמו ולא לכתבה. עיגול מלא מסמן מקור ראשוני, עיגול חלול מסמן דיווח משני.",
+  },
+  {
+    title: "הסייג הוא חלק מהידיעה",
+    body: "כל תקציר של מחקר נושא את עיצוב המחקר, את ה-n, ואת המגבלה שהמחברים עצמם הצהירו עליה. מאמר דעה מסומן במפורש כטיעון ולא כראיה.",
+  },
+  {
+    title: "הקורא מסנן לעצמו",
+    body: "משפחות מקור ונושאים ניתנים לכיבוי ולהדגשה, וכל אחד מסמן לעצמו מה כבר קרא ומה לשמור. הסימון נשאר בדפדפן שלך בלבד.",
+  },
 ];
 
 export default function Home() {
+  const latest = ITEMS.slice(0, 4);
+
   return (
-    <main className="mx-auto flex min-h-dvh max-w-3xl flex-col justify-center gap-12 px-6 py-16">
-      <header className="flex items-center gap-4">
-        <Logo size={56} />
-        <div>
-          <h1 className="text-4xl font-black tracking-tight sm:text-5xl">
-            AiPulse
-          </h1>
-          <p className="mt-1 text-ink-2">סריקה יומית של AI בבריאות</p>
-        </div>
-      </header>
-
-      <nav className="flex gap-3">
-        <Link
-          href="/feed"
-          className="rounded-md bg-accent px-4 py-2 text-surface hover:opacity-90"
-        >
-          לפיד
-        </Link>
-        <Link
-          href="/archive"
-          className="rounded-md border border-line px-4 py-2 hover:border-line-2"
-        >
-          לארכיון
-        </Link>
-      </nav>
-
-      <section className="rounded-lg border border-line bg-surface p-6">
-        <h2 className="text-xl">בדיקת שלד</h2>
-        <p className="mt-3 max-w-prose font-light leading-relaxed text-ink-2">
-          הפסקה הזאת ב-Heebo, הכותרות ב-Frank Ruhl Libre, והמספרים והתוויות
-          ב-IBM Plex Mono. הטקסט זורם מימין לשמאל, ומונחים לטיניים כמו{" "}
-          <span className="ltr">AUROC</span> ו-<span className="ltr">LLM</span>{" "}
-          משובצים בתוכו בלי לשבור את הכיוון.
-        </p>
-      </section>
-
-      <section className="rounded-lg border border-line bg-surface p-6">
-        <h2 className="text-xl">שכבת התוכן</h2>
-        <p className="mt-2 text-sm text-ink-3">
-          המספרים האלה מחושבים מ-<span className="ltr">content/items.json</span>{" "}
-          אחרי ולידציה, ולא מוקלדים.
-        </p>
-        <dl className="tnum mt-4 grid grid-cols-2 gap-4 sm:grid-cols-4">
-          {[
-            { label: "פריטים בסך הכול", value: ITEMS.length },
-            { label: "בחלון 30 הימים", value: RECENT.length },
-            { label: "חודשים בארכיון", value: MONTHS.length },
-            { label: "משפחות מקור", value: FAMILIES.length },
-          ].map(({ label, value }) => (
-            <div key={label}>
-              <dt className="text-xs text-ink-3">{label}</dt>
-              <dd className="text-2xl text-accent">{value}</dd>
+    <main>
+      {/* 1 — Hero. The dot field is sparse on the right; in RTL the headline
+          starts there, so the two do not collide. */}
+      <section className="relative isolate overflow-hidden">
+        <HeroGraphic className="pointer-events-none absolute inset-0 size-full opacity-70" />
+        <div className="relative mx-auto max-w-5xl px-6 py-20 sm:py-28">
+          <div className="max-w-xl">
+            <Logo size={52} />
+            <h1 className="mt-4 text-5xl font-black tracking-tight sm:text-6xl">
+              AiPulse
+            </h1>
+            <p className="mt-4 text-lg leading-relaxed text-ink-2">
+              סריקה יומית של AI בבריאות — מעבדות חזית, כתבי עת שפוטים,
+              פרה-פרינטים ורגולטורים, בעברית, עם המספרים, הסייג, וקישור למקור
+              הראשוני.
+            </p>
+            <div className="mt-8 flex flex-wrap gap-3">
+              <Link
+                href="/feed"
+                className="rounded-md bg-accent px-5 py-2.5 font-medium text-surface hover:opacity-90"
+              >
+                לפיד
+              </Link>
+              <Link
+                href="/about"
+                className="rounded-md border border-line-2 bg-surface px-5 py-2.5 font-medium hover:border-ink-3"
+              >
+                איך זה עובד
+              </Link>
             </div>
-          ))}
-        </dl>
-        <p className="mt-4 text-sm text-ink-3">
-          סריקה אחרונה <time className="text-ink-2">{LAST_SCAN}</time> · חודשים:{" "}
-          <span className="tnum ltr text-ink-2">{MONTHS.join(" · ")}</span>
-        </p>
+          </div>
+        </div>
       </section>
 
-      <section>
-        <h2 className="text-xl">הפלטה</h2>
-        <p className="mt-2 text-sm text-ink-3">
-          החלף את מצב מערכת ההפעלה בין בהיר לכהה — הערכים והרקע צריכים להתחלף.
-        </p>
-        <ul className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3">
-          {SWATCHES.map(({ token, label }) => (
-            <li
-              key={token}
-              className="flex items-center gap-3 rounded-md border border-line bg-surface p-3"
-            >
-              <span
-                className="size-8 shrink-0 rounded border border-line-2"
-                style={{ background: `var(${token})` }}
-              />
-              <span className="min-w-0">
-                <span className="block text-sm">{label}</span>
-                <span className="ltr tnum block truncate text-xs text-ink-3">
-                  {token}
-                </span>
+      {/* 2 — An honest count, computed from the content */}
+      <section className="border-y border-line bg-surface-2">
+        <dl className="mx-auto grid max-w-5xl grid-cols-2 gap-6 px-6 py-8 sm:grid-cols-3">
+          {/* A <dl> may only contain dt, dd, div, script and template — a
+              stray <p> inside the wrapper fails the definition-list rule, so
+              the sub-note lives inside the <dd>. */}
+          <div>
+            <dt className="text-sm text-ink-3">פריטים בארכיון</dt>
+            <dd className="mt-1">
+              <span className="tnum text-3xl text-accent">{ITEMS.length}</span>
+              <span className="mt-1 block text-xs text-ink-3">
+                מתוכם {RECENT.length} ב-30 הימים האחרונים
               </span>
+            </dd>
+          </div>
+          <div>
+            <dt className="text-sm text-ink-3">משפחות מקור נסרקות</dt>
+            <dd className="mt-1">
+              <span className="tnum text-3xl text-accent">
+                {SCANNED_FAMILIES.length}
+              </span>
+              <span className="mt-1 block text-xs text-ink-3">
+                רשתות חברתיות אינן נסרקות כלל
+              </span>
+            </dd>
+          </div>
+          <div>
+            <dt className="text-sm text-ink-3">הסריקה האחרונה</dt>
+            <dd className="mt-1">
+              <time
+                dateTime={LAST_SCAN}
+                className="tnum ltr block text-3xl text-accent"
+              >
+                {LAST_SCAN}
+              </time>
+              <span className="mt-1 block text-xs text-ink-3">
+                מתעדכן כל בוקר
+              </span>
+            </dd>
+          </div>
+        </dl>
+      </section>
+
+      {/* 3 — Live preview: the four newest items, as real cards */}
+      <section className="mx-auto max-w-5xl px-6 py-14">
+        <div className="flex flex-wrap items-baseline justify-between gap-3">
+          <h2 className="text-2xl font-bold">מה נכנס היום</h2>
+          <Link href="/feed" className="text-sm text-accent hover:underline">
+            כל הפיד ({itemCount(RECENT.length)}) ←
+          </Link>
+        </div>
+        <ol className="mt-6 flex flex-col gap-4">
+          {latest.map((item) => (
+            <li key={item.id}>
+              <ItemCard item={item} isNew={item.added === LAST_SCAN} />
             </li>
           ))}
-        </ul>
+        </ol>
       </section>
 
-      <footer className="border-t border-line pt-6 text-sm text-ink-3">
-        התקצירים באתר מופקים בסריקה יומית אוטומטית ומקושרים למקור הראשוני. המקור
-        הוא הקובע.
-      </footer>
+      {/* 4 — How the scan works */}
+      <section className="border-t border-line bg-surface-2">
+        <div className="mx-auto max-w-5xl px-6 py-14">
+          <h2 className="text-2xl font-bold">שיטת העבודה</h2>
+          <ol className="mt-6 grid gap-6 sm:grid-cols-3">
+            {PRINCIPLES.map((p, i) => (
+              <li key={p.title}>
+                <span className="tnum text-sm text-accent">0{i + 1}</span>
+                <h3 className="mt-1 text-lg font-bold">{p.title}</h3>
+                <p className="mt-2 font-light leading-relaxed text-ink-2">
+                  {p.body}
+                </p>
+              </li>
+            ))}
+          </ol>
+          <p className="mt-8 text-sm">
+            <Link href="/about" className="text-accent hover:underline">
+              מה בדיוק נסרק, ומה לא ←
+            </Link>
+          </p>
+        </div>
+      </section>
     </main>
   );
 }

@@ -30,7 +30,12 @@ export function ViewTabs({
               className="rounded-md border border-line px-2.5 py-1 text-sm text-ink-2 hover:border-line-2 hover:text-ink aria-pressed:border-accent aria-pressed:bg-accent-soft aria-pressed:text-accent-ink"
             >
               {label}{" "}
-              <span className="tnum text-xs text-ink-3">{counts[id]}</span>
+              {/* The count inherits the button's colour outright — no tint of
+                  its own. --ink-3 gave 4.33 against the pressed tab's
+                  --accent-soft, and dimming with opacity was worse still
+                  (3.85), since it blends toward the background. Size alone
+                  carries the distinction. */}
+              <span className="tnum text-xs">{counts[id]}</span>
             </button>
           </li>
         ))}

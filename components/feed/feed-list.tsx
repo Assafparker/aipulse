@@ -271,6 +271,11 @@ export function FeedList({
                 </ol>
               </section>
             )}
+            {/* The cards use <h3>, so the page needs an <h2> between them and
+                the page <h1> or the heading order skips a level. */}
+            <h2 className="sr-only">
+              {pinnedGroup.length > 0 ? "שאר הפריטים" : "פריטים"}
+            </h2>
             <ol className="flex flex-col gap-4">{mainGroup.map(renderCard)}</ol>
           </>
         )}
