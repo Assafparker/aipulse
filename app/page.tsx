@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Logo } from "@/components/brand/logo";
 import { ITEMS, RECENT, MONTHS, LAST_SCAN } from "@/lib/content";
 import { FAMILIES } from "@/lib/constants";
@@ -32,6 +33,21 @@ export default function Home() {
           <p className="mt-1 text-ink-2">סריקה יומית של AI בבריאות</p>
         </div>
       </header>
+
+      <nav className="flex gap-3">
+        <Link
+          href="/feed"
+          className="rounded-md bg-accent px-4 py-2 text-surface hover:opacity-90"
+        >
+          לפיד
+        </Link>
+        <Link
+          href="/archive"
+          className="rounded-md border border-line px-4 py-2 hover:border-line-2"
+        >
+          לארכיון
+        </Link>
+      </nav>
 
       <section className="rounded-lg border border-line bg-surface p-6">
         <h2 className="text-xl">בדיקת שלד</h2>
