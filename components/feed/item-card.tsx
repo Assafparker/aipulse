@@ -6,32 +6,54 @@ import type { Item } from "@/lib/schema";
  * One feed item, per the layout in SPEC.md 6.
  *
  * Deliberately imports nothing from lib/content: that module pulls in the
- * whole of items.json, and this component ends up in the client bundle once
- * the buttons are wired in stage 3. Anything derived from the full content
- * set — `isNew` above all — arrives as a prop instead.
+ * whole of items.json, and this component is in the client bundle. Anything
+ * derived from the full content set — `isNew` above all — arrives as a prop.
  *
- * Stage 2 is layout only. The three state buttons render with aria-pressed
- * but do nothing yet; stage 3 wires them to lib/user-state.
+ * `actions` is optional. The feed passes handlers and gets the button row;
+ * the archive passes none and gets no buttons, rather than three controls
+ * that look live and do nothing.
  */
 
 const FAMILY_BY_ID = new Map(FAMILIES.map((f) => [f.id, f]));
 const TOPIC_BY_ID = new Map(TOPICS.map((t) => [t.id, t]));
 
+export type ItemActions = {
+  onPin: () => void;
+  onSave: () => void;
+  onRead: () => void;
+};
+
 type Props = {
   item: Item;
   isNew?: boolean;
   pinned?: boolean;
+  saved?: boolean;
+  read?: boolean;
+  /** Negative preference score: dimmed, never hidden (SPEC.md 5). */
+  dimmed?: boolean;
+  /** Topics the reader marked "more" — highlighted per SPEC.md 6. */
+  boosted?: ReadonlySet<string>;
+  actions?: ItemActions;
 };
 
-export function ItemCard({ item, isNew = false, pinned = false }: Props) {
+export function ItemCard({
+  item,
+  isNew = false,
+  pinned = false,
+  saved = false,
+  read = false,
+  dimmed = false,
+  boosted,
+  actions,
+}: Props) {
   const family = FAMILY_BY_ID.get(item.fam);
   const isPrimary = family?.tier === "primary";
 
   return (
     <article
-      className={`rounded-lg border border-line bg-surface p-4 sm:p-5 ${
+      className={`rounded-lg border border-line bg-surface p-4 transition-opacity sm:p-5 ${
         pinned ? "border-s-4 border-s-pin" : ""
-      }`}
+      } ${dimmed ? "opacity-60" : ""}`}
     >
       {/* Row 1 — source family, and the badge for items from the latest scan */}
       <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
@@ -54,6 +76,11 @@ export function ItemCard({ item, isNew = false, pinned = false }: Props) {
             חדש
           </span>
         )}
+        {pinned && (
+          <span className="rounded-full bg-pin-soft px-2 py-0.5 text-xs font-medium text-pin">
+            מוצמד
+          </span>
+        )}
       </div>
 
       {/* Row 2 — source name, date, topic tags */}
@@ -63,14 +90,21 @@ export function ItemCard({ item, isNew = false, pinned = false }: Props) {
         <time dateTime={item.date} className="tnum ltr">
           {item.date}
         </time>
-        {item.topics.map((t) => (
-          <span
-            key={t}
-            className="rounded border border-line px-1.5 py-0.5 text-ink-2"
-          >
-            {TOPIC_BY_ID.get(t)?.label ?? t}
-          </span>
-        ))}
+        {item.topics.map((t) => {
+          const up = boosted?.has(t) ?? false;
+          return (
+            <span
+              key={t}
+              className={`rounded border px-1.5 py-0.5 ${
+                up
+                  ? "border-accent bg-accent-soft text-accent-ink"
+                  : "border-line text-ink-2"
+              }`}
+            >
+              {TOPIC_BY_ID.get(t)?.label ?? t}
+            </span>
+          );
+        })}
       </div>
 
       {/* The linked title points at the primary source, never at coverage of it */}
@@ -90,11 +124,30 @@ export function ItemCard({ item, isNew = false, pinned = false }: Props) {
       </p>
 
       <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-t border-line pt-3">
-        <div className="flex flex-wrap gap-2">
-          <StateButton label="הצמד" pressed={pinned} />
-          <StateButton label="שמור" pressed={false} />
-          <StateButton label="כבר קראתי" pressed={false} />
-        </div>
+        {actions ? (
+          <div className="flex flex-wrap gap-2">
+            <StateButton
+              label="הצמד"
+              pressed={pinned}
+              onClick={actions.onPin}
+              title={`הצמד את "${item.title}" לראש הפיד`}
+            />
+            <StateButton
+              label="שמור"
+              pressed={saved}
+              onClick={actions.onSave}
+              title={`שמור את "${item.title}"`}
+            />
+            <StateButton
+              label="כבר קראתי"
+              pressed={read}
+              onClick={actions.onRead}
+              title={`הסר את "${item.title}" מהפיד שלי`}
+            />
+          </div>
+        ) : (
+          <span />
+        )}
         <a
           href={item.url}
           target="_blank"
@@ -109,11 +162,23 @@ export function ItemCard({ item, isNew = false, pinned = false }: Props) {
   );
 }
 
-function StateButton({ label, pressed }: { label: string; pressed: boolean }) {
+function StateButton({
+  label,
+  pressed,
+  onClick,
+  title,
+}: {
+  label: string;
+  pressed: boolean;
+  onClick: () => void;
+  title: string;
+}) {
   return (
     <button
       type="button"
       aria-pressed={pressed}
+      title={title}
+      onClick={onClick}
       className="rounded-md border border-line px-2.5 py-1 text-sm text-ink-2 hover:border-line-2 hover:text-ink aria-pressed:border-accent aria-pressed:bg-accent-soft aria-pressed:text-accent-ink"
     >
       {label}
