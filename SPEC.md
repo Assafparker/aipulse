@@ -306,27 +306,30 @@ export const scoreOf = (i: Item, prefs: UserState["prefs"]) =>
 
 ### פלטה — טוקנים ב-`globals.css`
 
-הגדר את **כל** הצבעים על `:root`, ודרוס בלבד את מה שמשתנה:
+הגדר את **כל** הצבעים על `:root` בערכי הכהה — זו ברירת המחדל, ללא תנאי —
+ודרוס אותם רק כשהקורא בחר בהיר במפורש. אין כאן `@media` בכלל: העדפת מערכת
+ההפעלה אינה משפיעה על הפלטה:
 
 ```css
 :root{
+  --ground:#0F1513; --surface:#161E1B; --surface-2:#1D2724;
+  --ink:#E7EEEA; --ink-2:#B4C2BC; --ink-3:#7F8F89;
+  --line:#26312D; --line-2:#33403B;
+  --accent:#74B8A6; --accent-soft:#1B2E29; --accent-ink:#9BD0C1;
+  --pin:#D08A55; --pin-soft:#2E2118;
+}
+:root[data-theme="light"]{
   --ground:#F6F8F6; --surface:#FFFFFF; --surface-2:#EEF2EF;
   --ink:#151E1B; --ink-2:#3C4A45; --ink-3:#63716B;
   --line:#DCE3DE; --line-2:#C6D1CB;
   --accent:#2F6F62; --accent-soft:#E3EFEA; --accent-ink:#1E4C43;
   --pin:#A65A2A; --pin-soft:#F6E8DE;
 }
-@media (prefers-color-scheme:dark){
-  :root:not([data-theme="light"]){
-    --ground:#0F1513; --surface:#161E1B; --surface-2:#1D2724;
-    --ink:#E7EEEA; --ink-2:#B4C2BC; --ink-3:#7F8F89;
-    --line:#26312D; --line-2:#33403B;
-    --accent:#74B8A6; --accent-soft:#1B2E29; --accent-ink:#9BD0C1;
-    --pin:#D08A55; --pin-soft:#2E2118;
-  }
-}
-:root[data-theme="dark"]{ /* אותם ערכי כהה — כדי שההחלפה הידנית תגבר בשני הכיוונים */ }
 ```
+
+`color-scheme` ואייקוני כפתור המצב בנויים באותו מבנה דו-שלבי: כהה על
+`html`/`:root`, והדריסה היחידה היא `[data-theme="light"]`. הערך נכתב
+ב-localStorage ומוחזר על ידי סקריפט חוסם ב-`<head>` לפני הציור הראשון.
 
 ### גופנים
 
