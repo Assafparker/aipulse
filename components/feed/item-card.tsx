@@ -119,12 +119,13 @@ export function ItemCard({
         </a>
       </h3>
 
-      {/* The source's own headline, when the scan captured one. dir="ltr" and
-          not the .ltr utility: that class is for neutral strings like dates,
-          this is real Latin-script prose sitting inside an RTL page. */}
-      {item.titleEn ? (
-        <p dir="ltr" className="mt-1 text-sm leading-snug text-ink-2">
-          {item.titleEn}
+      {/* The source's own headline, when the scan captured one. dir="auto"
+          rather than a fixed direction: sources range from npj to משרד הבריאות,
+          so the string itself decides, via its first strong character. Not the
+          .ltr utility either — that class is for neutral strings like dates. */}
+      {item.titleSrc ? (
+        <p dir="auto" className="mt-1 text-sm leading-snug text-ink-2">
+          {item.titleSrc}
         </p>
       ) : null}
 
