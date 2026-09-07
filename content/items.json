@@ -586,5 +586,74 @@
       "ethics",
       "adoption"
     ]
+  },
+  {
+    "id": "openevidence-model-family",
+    "date": "2026-09-03",
+    "added": "2026-09-07",
+    "src": "STAT News",
+    "fam": "press",
+    "title": "OpenEvidence משיקה משפחת מודלים רפואיים וטוענת לציון מושלם ב-MedQA",
+    "summary": "OpenEvidence הציגה שלושה מודלים בייצור לרופאים מאומתים — Osler (כחמש שניות לתשובה), Sackett (כ-30 שניות) ו-Snow (כחמש דקות של חיפוש עומק בספרות) — ומודל רביעי, Darwin, בגישת מחקר בלבד. החברה מדווחת ש-Darwin הגיע לציון מושלם ב-MedQA ולתוצאות של 72.8% ב-MedXpertQA, 82.7% ב-HealthBench Professional ו-87.2% ב-NOHARM. כל המספרים מדווחים על ידי החברה עצמה, וביצועים בבנצ'מרק אינם עדות לבטיחות במפגש קליני אמיתי.",
+    "url": "https://www.statnews.com/2026/09/03/openevidence-launches-new-ai-models-clinicians-health-tech/",
+    "topics": [
+      "research",
+      "adoption"
+    ]
+  },
+  {
+    "id": "healthwatch-ai-scribe-errors",
+    "date": "2026-08-31",
+    "added": "2026-09-07",
+    "src": "The Next Web",
+    "fam": "press",
+    "title": "ארגון המטופלים של ה-NHS: תמלולי AI משבשים שמות תרופות ואבחנות",
+    "summary": "Healthwatch England, גוף המטופלים הסטטוטורי של ה-NHS, פרסם עדויות שלפיהן כלי תמלול אוטומטיים הכניסו לרשומות אבחנות ותרופות שגויות. בין הדוגמאות: תוצאת בדיקה שקראה \"null demyelination\" שממנה נשמטה מילת השלילה, ומטופל שזיהה בעצמו החלפה בין שתי תרופות בעלות שם דומה. בשירות פועלים לפחות 27 מוצרי תמלול שונים, וה-MHRA בחר שלא לסווג אותם כמכשירים רפואיים — כלומר אין פיקוח בטיחות לאומי אחיד, והאיתור נשען פעמים רבות על המטופל.",
+    "url": "https://thenextweb.com/news/nhs-ai-scribes-errors-healthwatch-mhra",
+    "topics": [
+      "ambient",
+      "ethics"
+    ]
+  },
+  {
+    "id": "sinai-genomic-ai-center",
+    "date": "2026-09-01",
+    "added": "2026-09-07",
+    "src": "Mount Sinai",
+    "fam": "provider",
+    "title": "מאונט סיני פותחת מרכז לבינה מלאכותית גנומית ורפואת מיקרוביום",
+    "summary": "בית הספר לרפואה איקאהן במאונט סיני השיק מרכז מחקר שמאחד גנטיקה אנושית ומחקר מיקרוביום ומשתמש בבינה מלאכותית כדי לבחון כיצד שונות גנטית וחיידקי המעי מעצבים יחד את מהלך המחלה והתגובה לטיפול. המיקוד הראשוני הוא מחלות נוירודגנרטיביות — אלצהיימר ופרקינסון — וסרטן במערכת העיכול. מדובר בהקמת מרכז ולא בתוצאות: לא פורסמו ממצאים קליניים או לוח זמנים ליישום.",
+    "url": "https://www.mountsinai.org/about/newsroom/2026/mount-sinai-launches-center-for-genomic-ai-and-microbiome-medicine-to-advance-precision-medicine",
+    "topics": [
+      "research"
+    ]
+  },
+  {
+    "id": "newdays-seed-16m",
+    "date": "2026-09-02",
+    "added": "2026-09-07",
+    "src": "GeekWire",
+    "fam": "press",
+    "title": "NewDays סוגרת סבב זרע של 16 מיליון דולר לטיפול משולב AI בדמנציה קלה",
+    "summary": "הסטארטאפ מסיאטל השלים סבב זרע של 16 מיליון דולר בהובלת Madrona ו-General Catalyst, והרחיב את השירות לנבאדה — המדינה השישית שלו. המודל משלב ביקורי טלרפואה עם קלינאי אנושי פעם-פעמיים בחודש עם שיחות בלתי מוגבלות עם מלווה AI בשם Sunny. החברה מדווחת שמטופליה השיגו תוצאות טובות מהצפוי בעקומות דעיכה היסטוריות, בפער המקביל לכ-18 חודשי תפקוד קוגניטיבי — נתון שהחברה עצמה מציגה, בעוד ניסוי מבוקר אקראי מול Kaiser Permanente עדיין רץ.",
+    "url": "https://www.geekwire.com/2026/newdays-brings-its-ai-driven-dementia-care-platform-to-nevada-expands-seed-round-to-16m/",
+    "topics": [
+      "funding",
+      "adoption"
+    ]
+  },
+  {
+    "id": "commure-ambient-ce-mhra",
+    "date": "2026-09-03",
+    "added": "2026-09-07",
+    "src": "GlobeNewswire",
+    "fam": "press",
+    "title": "Commure מקבלת סימון CE ורישום MHRA לפלטפורמת התיעוד האוטומטי שלה",
+    "summary": "Commure הודיעה שפלטפורמת התיעוד הקלינית שלה קיבלה סימון CE כתוכנת מכשיר רפואי Class I תחת EU MDR 2017/745 ונרשמה ב-MHRA הבריטי תחת תקנות המכשירים הרפואיים משנת 2002, ומשווקת מעתה בבריטניה ובאירופה. הצעד בא שבועות ספורים אחרי שה-MHRA הבהיר שכלי תמלול שרק מסכמים שיחה לבדיקת קלינאי אינם מכשירים רפואיים. Class I הוא סיווג הסיכון הנמוך ביותר ומבוסס על הצהרה עצמית של היצרן — הוא אינו עדות ליעילות קלינית.",
+    "url": "https://www.globenewswire.com/news-release/2026/09/03/3355653/0/en/commure-ambient-ai-achieves-class-i-certification-and-mhra-registration.html",
+    "topics": [
+      "ambient",
+      "policy"
+    ]
   }
 ]
