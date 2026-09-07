@@ -24,11 +24,11 @@ export const themeScript = `try{var t=localStorage.getItem('${THEME_KEY}');if(t=
 export function ThemeToggle() {
   const toggle = () => {
     const root = document.documentElement;
-    const current =
-      root.getAttribute("data-theme") ??
-      (window.matchMedia("(prefers-color-scheme: dark)").matches
-        ? "dark"
-        : "light");
+    // No data-theme yet means the reader has never chosen, and the default
+    // is dark unconditionally — the OS preference is not consulted here, or
+    // in globals.css. Reading it back would make the first click a no-op for
+    // anyone on a light system.
+    const current = root.getAttribute("data-theme") ?? "dark";
     const next = current === "dark" ? "light" : "dark";
     root.setAttribute("data-theme", next);
     try {

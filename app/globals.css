@@ -1,11 +1,30 @@
 @import "tailwindcss";
 
 /* ── Palette ────────────────────────────────────────────────────────────
-   Every colour is defined on :root. Dark overrides twice: once from the OS
-   preference (unless the reader explicitly chose light), and once from an
-   explicit data-theme="dark", so the manual toggle wins in both directions. */
+   Dark is the unconditional default. Every colour is defined on :root in its
+   dark value, and :root[data-theme="light"] is the only thing that overrides
+   it. The OS preference is deliberately not consulted: a reader who has never
+   chosen gets dark whatever their system says, and only the toggle (persisted
+   in localStorage, replayed by themeScript before first paint) changes that. */
 
 :root {
+  --ground: #0f1513;
+  --surface: #161e1b;
+  --surface-2: #1d2724;
+  --ink: #e7eeea;
+  --ink-2: #b4c2bc;
+  --ink-3: #7f8f89;
+  --line: #26312d;
+  --line-2: #33403b;
+  --accent: #74b8a6;
+  --accent-soft: #1b2e29;
+  --accent-ink: #9bd0c1;
+  --pin: #d08a55;
+  --pin-soft: #2e2118;
+}
+
+/* The reader explicitly chose light. */
+:root[data-theme="light"] {
   --ground: #f6f8f6;
   --surface: #ffffff;
   --surface-2: #eef2ef;
@@ -25,40 +44,6 @@
   --accent-ink: #1e4c43;
   --pin: #a65a2a;
   --pin-soft: #f6e8de;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --ground: #0f1513;
-    --surface: #161e1b;
-    --surface-2: #1d2724;
-    --ink: #e7eeea;
-    --ink-2: #b4c2bc;
-    --ink-3: #7f8f89;
-    --line: #26312d;
-    --line-2: #33403b;
-    --accent: #74b8a6;
-    --accent-soft: #1b2e29;
-    --accent-ink: #9bd0c1;
-    --pin: #d08a55;
-    --pin-soft: #2e2118;
-  }
-}
-
-:root[data-theme="dark"] {
-  --ground: #0f1513;
-  --surface: #161e1b;
-  --surface-2: #1d2724;
-  --ink: #e7eeea;
-  --ink-2: #b4c2bc;
-  --ink-3: #7f8f89;
-  --line: #26312d;
-  --line-2: #33403b;
-  --accent: #74b8a6;
-  --accent-soft: #1b2e29;
-  --accent-ink: #9bd0c1;
-  --pin: #d08a55;
-  --pin-soft: #2e2118;
 }
 
 /* ── Exposing the tokens to Tailwind ────────────────────────────────────
@@ -89,17 +74,11 @@
 /* ── Base ───────────────────────────────────────────────────────────── */
 
 html {
-  color-scheme: light;
-}
-
-@media (prefers-color-scheme: dark) {
-  html:not([data-theme="light"]) {
-    color-scheme: dark;
-  }
-}
-
-html[data-theme="dark"] {
   color-scheme: dark;
+}
+
+html[data-theme="light"] {
+  color-scheme: light;
 }
 
 body {
@@ -134,26 +113,17 @@ kbd {
 }
 
 /* The theme toggle ships both icons and CSS picks one, so the button renders
-   identically on server and client. Same three-block structure as the
-   palette above: base, system preference, explicit override. */
-.theme-icon-dark {
+   identically on server and client. Same two-block structure as the palette
+   above: dark by default, light only on an explicit data-theme="light". */
+.theme-icon-light {
   display: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .theme-icon-light {
-    display: none;
-  }
-  :root:not([data-theme="light"]) .theme-icon-dark {
-    display: block;
-  }
-}
-
-:root[data-theme="dark"] .theme-icon-light {
-  display: none;
-}
-:root[data-theme="dark"] .theme-icon-dark {
+:root[data-theme="light"] .theme-icon-light {
   display: block;
+}
+:root[data-theme="light"] .theme-icon-dark {
+  display: none;
 }
 
 /* A string starting with a neutral character (#, /, "(") lands on the wrong
