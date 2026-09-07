@@ -31,4 +31,5 @@ export const TOPICS: { id: TopicId; label: string }[] = [
   { id: "funding",  label: "מימון ותעשייה" },
   { id: "ethics",   label: "אתיקה, בטיחות וכוח אדם" },
   { id: "adoption", label: "אימוץ בשטח" },
+  { id: "interop",  label: "FHIR ואינטראופרביליות" },
 ];
