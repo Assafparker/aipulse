@@ -18,9 +18,10 @@ export const isDimmed = (i: Item, prefs: UserState["prefs"]) =>
   scoreOf(i, prefs) < 0;
 
 /**
- * "date" sorts newest first. "pref" sorts by score descending and breaks
- * ties by date descending, so preferences reorder the feed without ever
- * discarding the recency signal.
+ * "added" sorts by the date the scan added the item, newest first, and is
+ * the default. "date" sorts by the publish date, newest first. "pref" sorts
+ * by score descending. Both "added" and "pref" break ties by publish date
+ * descending, so neither one discards the recency signal.
  */
 export function sortItems(
   items: Item[],
@@ -28,6 +29,17 @@ export function sortItems(
   prefs: UserState["prefs"],
 ): Item[] {
   const out = [...items];
+
+  // "added" is the default: it answers "what is new here?", which is not the
+  // same question as "what was published most recently". A whole scan run
+  // shares one added value, so publish date orders each batch internally.
+  if (sort === "added") {
+    out.sort((a, b) => {
+      const byAdded = b.added.localeCompare(a.added);
+      return byAdded !== 0 ? byAdded : b.date.localeCompare(a.date);
+    });
+    return out;
+  }
 
   if (sort === "date") {
     out.sort((a, b) => b.date.localeCompare(a.date));

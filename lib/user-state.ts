@@ -20,7 +20,7 @@ export type UserState = {
   saved: string[];
   read: string[]; // ids only — the content is already in the repo
   famOff: FamilyId[];
-  sort: "date" | "pref";
+  sort: "date" | "pref" | "added";
 };
 
 const KEY = "aipulse:v1";
@@ -33,7 +33,7 @@ export const EMPTY: UserState = {
   saved: [],
   read: [],
   famOff: [],
-  sort: "date",
+  sort: "added",
 };
 
 /**
@@ -79,7 +79,7 @@ function normalize(raw: unknown): UserState {
     saved: stringsOf(o.saved),
     read: stringsOf(o.read),
     famOff: stringsOf(o.famOff).filter((f): f is FamilyId => FAMILY_IDS.has(f)),
-    sort: o.sort === "pref" ? "pref" : "date",
+    sort: o.sort === "pref" ? "pref" : o.sort === "added" ? "added" : "date",
   };
 }
 

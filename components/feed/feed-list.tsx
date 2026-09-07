@@ -216,6 +216,7 @@ export function FeedList({
             <div className="mt-2 flex gap-2">
               {(
                 [
+                  { id: "added", label: "נוסף לאחרונה" },
                   { id: "date", label: "מהחדש לישן" },
                   { id: "pref", label: "לפי העדפות" },
                 ] as const
