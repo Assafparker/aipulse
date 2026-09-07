@@ -119,6 +119,15 @@ export function ItemCard({
         </a>
       </h3>
 
+      {/* The source's own headline, when the scan captured one. dir="ltr" and
+          not the .ltr utility: that class is for neutral strings like dates,
+          this is real Latin-script prose sitting inside an RTL page. */}
+      {item.titleEn ? (
+        <p dir="ltr" className="mt-1 text-sm leading-snug text-ink-2">
+          {item.titleEn}
+        </p>
+      ) : null}
+
       <p className="mt-2 font-light leading-relaxed text-ink-2">
         {item.summary}
       </p>

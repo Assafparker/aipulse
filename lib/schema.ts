@@ -20,6 +20,7 @@ export const ItemSchema = z.object({
   src:     z.string().min(1),             // "npj Digital Medicine"
   fam:     z.enum(FAMILY_IDS),
   title:   z.string().min(1).max(200),
+  titleEn: z.string().min(1).max(300).optional(),  // הכותרת כפי שפורסמה במקור; קיימת רק בפריטים חדשים
   summary: z.string().min(40),            // 2–3 משפטים, עם מספרים וסייג
   url:     z.string().url(),
   topics:  z.array(z.enum(TOPIC_IDS)).min(1).max(3),
