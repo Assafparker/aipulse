@@ -8,7 +8,7 @@ export const FAMILY_IDS = [
 export const TOPIC_IDS = [
   "israel", "policy", "research", "ambient", "imaging",
   "mental", "ops", "funding", "ethics", "adoption",
-  "interop",
+  "interop", "marketplace",
 ] as const;
 
 const isoDate = z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "תאריך חייב להיות YYYY-MM-DD");

@@ -21,15 +21,16 @@ export const FAMILIES: { id: FamilyId; label: string; tier: "primary" | "seconda
 ];
 
 export const TOPICS: { id: TopicId; label: string }[] = [
-  { id: "israel",   label: "ישראל" },
-  { id: "policy",   label: "רגולציה ומדיניות" },
-  { id: "research", label: "מחקר קליני וראיות" },
-  { id: "ambient",  label: "תיעוד ו-Ambient AI" },
-  { id: "imaging",  label: "הדמיה ואבחון" },
-  { id: "mental",   label: "בריאות הנפש" },
-  { id: "ops",      label: "תפעול ומחזור הכנסות" },
-  { id: "funding",  label: "מימון ותעשייה" },
-  { id: "ethics",   label: "אתיקה, בטיחות וכוח אדם" },
-  { id: "adoption", label: "אימוץ בשטח" },
-  { id: "interop",  label: "FHIR ואינטראופרביליות" },
+  { id: "israel",      label: "ישראל" },
+  { id: "policy",      label: "רגולציה ומדיניות" },
+  { id: "research",    label: "מחקר קליני וראיות" },
+  { id: "ambient",     label: "תיעוד ו-Ambient AI" },
+  { id: "imaging",     label: "הדמיה ואבחון" },
+  { id: "mental",      label: "בריאות הנפש" },
+  { id: "ops",         label: "תפעול ומחזור הכנסות" },
+  { id: "funding",     label: "מימון ותעשייה" },
+  { id: "ethics",      label: "אתיקה, בטיחות וכוח אדם" },
+  { id: "adoption",    label: "אימוץ בשטח" },
+  { id: "interop",     label: "FHIR ואינטראופרביליות" },
+  { id: "marketplace", label: "Marketplace" },
 ];

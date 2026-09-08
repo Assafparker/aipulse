@@ -63,6 +63,7 @@ export const FAMILY_IDS = [
 export const TOPIC_IDS = [
   "israel", "policy", "research", "ambient", "imaging",
   "mental", "ops", "funding", "ethics", "adoption",
+  "interop", "marketplace",
 ] as const;
 
 const isoDate = z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "תאריך חייב להיות YYYY-MM-DD");
@@ -122,16 +123,18 @@ export const FAMILIES: { id: FamilyId; label: string; tier: "primary" | "seconda
 ];
 
 export const TOPICS: { id: TopicId; label: string }[] = [
-  { id: "israel",   label: "ישראל" },
-  { id: "policy",   label: "רגולציה ומדיניות" },
-  { id: "research", label: "מחקר קליני וראיות" },
-  { id: "ambient",  label: "תיעוד ו-Ambient AI" },
-  { id: "imaging",  label: "הדמיה ואבחון" },
-  { id: "mental",   label: "בריאות הנפש" },
-  { id: "ops",      label: "תפעול ומחזור הכנסות" },
-  { id: "funding",  label: "מימון ותעשייה" },
-  { id: "ethics",   label: "אתיקה, בטיחות וכוח אדם" },
-  { id: "adoption", label: "אימוץ בשטח" },
+  { id: "israel",      label: "ישראל" },
+  { id: "policy",      label: "רגולציה ומדיניות" },
+  { id: "research",    label: "מחקר קליני וראיות" },
+  { id: "ambient",     label: "תיעוד ו-Ambient AI" },
+  { id: "imaging",     label: "הדמיה ואבחון" },
+  { id: "mental",      label: "בריאות הנפש" },
+  { id: "ops",         label: "תפעול ומחזור הכנסות" },
+  { id: "funding",     label: "מימון ותעשייה" },
+  { id: "ethics",      label: "אתיקה, בטיחות וכוח אדם" },
+  { id: "adoption",    label: "אימוץ בשטח" },
+  { id: "interop",     label: "FHIR ואינטראופרביליות" },
+  { id: "marketplace", label: "Marketplace" },
 ];
 ```
 
