@@ -916,5 +916,20 @@
       "ethics",
       "ops"
     ]
+  },
+  {
+    "id": "fda-genai-device-framework-rfi",
+    "date": "2026-08-18",
+    "added": "2026-09-08",
+    "src": "FDA",
+    "fam": "regulator",
+    "title": "ה-FDA מבקש מהציבור פידבק על מסגרת רגולציה חדשה למכשירים רפואיים מבוססי-AI גנרטיבי",
+    "titleSrc": "FDA Seeks Public Feedback to Inform Regulatory Approach for Generative AI-Enabled Medical Devices",
+    "summary": "ה-FDA פרסם נייר דיון (discussion paper) עם קריאה לתגובות ציבור על אופן הרגולציה העתידי של מכשירים רפואיים מבוססי-AI גנרטיבי, כולל מודלי יסוד ומערכות אג'נטיות שהמסגרות הקיימות לא מכסות היטב. הנייר מציע מסגרת סיכון דו-צירית, מודל הערכה טרום-שיווקי מבוסס-כשירות (המשלב השוואת-מדדים למכשיר עם אימות קליני), וגישת ניטור פוסט-שיווקי שמידת הפיקוח בה יחסית לרמת הסיכון. מועד אחרון להגשת תגובות: 19 באוקטובר 2026 (תיק FDA-2026-N-7874 ב-Regulations.gov). זו קריאה לדיון ציבורי ולא רגולציה מחייבת — הכללים בפועל טרם נקבעו.",
+    "url": "https://www.fda.gov/news-events/press-announcements/fda-seeks-public-feedback-inform-regulatory-approach-generative-ai-enabled-medical-devices",
+    "topics": [
+      "policy",
+      "ethics"
+    ]
   }
 ]
