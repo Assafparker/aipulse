@@ -931,5 +931,78 @@
       "policy",
       "ethics"
     ]
+  },
+  {
+    "id": "dmoa-clinical-diagnosis",
+    "date": "2026-09-04",
+    "added": "2026-09-09",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "מסגרת רב-סוכנית מבוססת-דיון (DMoA) משפרת דיוק ובטיחות באבחון קליני מורכב",
+    "titleSrc": "A Structured Debate-Mixture-of-Agents Framework for Complex Clinical Diagnostic Decision Support",
+    "summary": "חוקרים הציגו Debate-Mixture-of-Agents (DMoA) — מסגרת רב-סוכנית מובנית שמדמה תהליך דיון קליני איטרטיבי במקום שאלה-תשובה חד-פעמית. במבחן על 297 מקרי מחלות נדירות ו-1,719 מקרים מאתגרים, DMoA שיפרה את דיוק האבחנה הסבירה ביותר ב-10.21 נקודות אחוז ואת שיעור הבטיחות ב-11.36 נקודות אחוז לעומת בסיס GPT-4o. ניסויי אבלציה הראו שהשיפור נובע ממבנה העבודה המובנה עצמו ולא רק משימוש ביותר מודלים או בפלט ארוך יותר.",
+    "url": "https://arxiv.org/abs/2609.05069",
+    "topics": [
+      "research"
+    ]
+  },
+  {
+    "id": "medtraj-reasoning-trajectories",
+    "date": "2026-09-04",
+    "added": "2026-09-09",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "MedTraj: מסגרת חדשה מציעה להעריך סוכני AI רפואיים לפי איכות ההיגיון ולא רק נכונות התשובה",
+    "titleSrc": "Constructing and Evaluating Clinical Reasoning Trajectories for Medical Agent",
+    "summary": "מאמר טוען שהערכת סוכני AI רפואיים כיום מתמקדת כמעט אך ורק בנכונות התשובה הסופית ומתעלמת מאיכות ההיגיון בדרך אליה — כשל מסוכן, שכן תשובה נכונה שהתקבלה מראיות מפוברקות או היגיון לא-עקבי מסוכנת כמו תשובה שגויה. המסגרת המוצעת, MedTraj, מפרקת כל 'מסלול היגיון' לתצפיות קליניות, ראיות, שלבי היגיון ממוספרים ומסקנה סופית, ומדרגת אותו לפי חמישה ממדים: עקביות, תמיכת ראיות, הזיה, שלמות ומעקב-אחריות.",
+    "url": "https://arxiv.org/abs/2609.05090",
+    "topics": [
+      "research",
+      "ethics"
+    ]
+  },
+  {
+    "id": "intermountain-signa-sprint-mri",
+    "date": "2026-09-03",
+    "added": "2026-09-09",
+    "src": "Intermountain Health",
+    "fam": "provider",
+    "title": "Intermountain Health: בית החולים הראשון ביוטה עם מכשיר MRI מבוסס-AI לקיצור זמני סריקה",
+    "titleSrc": "First in Utah: Intermountain Health Brings Innovative MRI Technology to Intermountain Medical Center to Enhance Care for Cancer and Heart Patients",
+    "summary": "המרכז הרפואי אינטרמאונטיין במאריי, יוטה, הפך לבית החולים הראשון במדינה ולשני בלבד בארה״ב שמפעיל את מכשיר ה-MRI מדגם SIGNA Sprint Elite של GE HealthCare. המכשיר משלב תוכנת שחזור תמונה מבוססת-AI עם חומרת גרדיאנט מתקדמת כדי לקצר את זמני הסריקה ולחדד את בהירות ההדמיה עבור מטופלי לב וסרטן מורכבים. לא פורסם נתון מספרי רשמי על אחוז קיצור הזמן; ההודעה מדגישה שהמטרה היא לאפשר לבית החולים לשרת יותר מטופלים תוך שמירה על דיוק אבחוני.",
+    "url": "https://news.intermountainhealth.org/first-in-utah-intermountain-health-brings-innovative-mri-technology-to-intermountain-medical-center-to-enhance-care-for-cancer-and-heart-patients",
+    "topics": [
+      "imaging",
+      "adoption"
+    ]
+  },
+  {
+    "id": "fda-deputy-commissioner-tech-ai",
+    "date": "2026-09-08",
+    "added": "2026-09-09",
+    "src": "HHS",
+    "fam": "regulator",
+    "title": "ה-FDA ממנה לראשונה סגן נציב לטכנולוגיה ובינה מלאכותית",
+    "titleSrc": "HHS Announces Key Leadership Selections at FDA to Promote Innovation, Reform, and National Health Priorities",
+    "summary": "משרד הבריאות והשירותים האנושיים האמריקאי (HHS) הודיע על מינויים בכירים ב-FDA, ובהם ג'ארד סיהייפר לתפקיד החדש של סגן נציב לטכנולוגיה ובינה מלאכותית — תפקיד ראשון מסוגו בסוכנות. סיהייפר, שהיה מנכ״ל ומייסד-שותף של חברת Enzyme בתחום הרגולציה הטכנולוגית, יוביל את גיבוש האסטרטגיה וסדרי-הקדימות של ה-FDA כלפי תוכנה ובינה מלאכותית ברחבי הסוכנות. ההודעה כללה גם מינויים קבועים לראשות מרכזי הערכת התרופות (CDER) והמוצרים הביולוגיים (CBER). זהו מינוי ניהולי — לא שינוי בפועל בכללי הרישוי או האכיפה.",
+    "url": "https://www.hhs.gov/press-room/hhs-announces-key-fda-leadership-selections.html",
+    "topics": [
+      "policy"
+    ]
+  },
+  {
+    "id": "oura-ipo-ai-health-platform",
+    "date": "2026-09-03",
+    "added": "2026-09-09",
+    "src": "TechCrunch",
+    "fam": "press",
+    "title": "Oura מגישה בקשה להנפקה ומתמקמת כפלטפורמת בריאות מבוססת-AI",
+    "titleSrc": "Oura files to go public",
+    "summary": "יצרנית טבעת החיישנים Oura הגישה בקשה להנפקה בבורסה האמריקאית, כשההכנסות בתשעת החודשים שהסתיימו ביוני 2026 קפצו ל-1.2 מיליארד דולר לעומת 697 מיליון דולר בתקופה המקבילה אשתקד, לצד רווח נקי של כ-61 מיליון דולר. בכתב ההנפקה החברה ממצבת עצמה כפלטפורמת בריאות מונעת-AI ולא רק כיצרנית מכשיר לביש, ומדגישה מאגר נתונים ביומטריים ארוך-טווח שנאסף מכ-5 מיליון מנויים משלמים ומ-3.6 מיליון טבעות שנמכרו בשנה האחרונה. הסייג: אלה נתונים מתוך כתב הנפקה (S-1) שטרם הושלמה, וההנפקה בפועל וכל שווי יעד עדיין כפופים לתנאי שוק.",
+    "url": "https://techcrunch.com/2026/09/03/oura-files-to-go-public/",
+    "topics": [
+      "funding",
+      "adoption"
+    ]
   }
 ]
