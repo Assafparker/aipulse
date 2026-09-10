@@ -1004,5 +1004,95 @@
       "funding",
       "adoption"
     ]
+  },
+  {
+    "id": "uk-mhra-ai-healthcare-commission-recommendations",
+    "date": "2026-09-09",
+    "added": "2026-09-10",
+    "src": "STAT News",
+    "fam": "regulator",
+    "title": "ועדה בריטית ממליצה לעבור לרישוי מדורג ומעקב שוטף אחר בינה מלאכותית ברפואה",
+    "titleSrc": "U.K. unveils recommendations for regulation of AI in medicine",
+    "summary": "הוועדה הלאומית להסדרת בינה מלאכותית בבריאות, שהוקמה ביוזמת רשות התרופות והמכשור הרפואי הבריטית (MHRA) ובראשות פרופ' אלסטייר דניסטון, פרסמה את המלצותיה למסגרת רגולציה חדשה למכשור רפואי מבוסס-AI. הוועדה קוראת לזנוח את מודל האישור החד-פעמי ולעבור לפריסה מדורגת: מודלים חדשים ייכנסו לשימוש תחת פיקוח הדוק וניטור מתמשך בזמן אמת, ורק לאחר שהוכיחו בטיחות ויעילות בפועל בשטח יקבלו אישור מלא. בשלב זה מדובר בהמלצות מדיניות בלבד — הן טרם עוגנו בחקיקה או בנהלים מחייבים של ה-MHRA.",
+    "url": "https://www.statnews.com/2026/09/09/uk-unveils-recommendations-ai-regulation-medicine/",
+    "topics": [
+      "policy",
+      "adoption"
+    ]
+  },
+  {
+    "id": "mayo-platform-accelerate-multiyear-pathway",
+    "date": "2026-09-03",
+    "added": "2026-09-10",
+    "src": "Mayo Clinic News Network",
+    "fam": "provider",
+    "title": "Mayo Clinic Platform משיקה מסלול רב-שנתי לחברות AI קליניות בוגרות, עם 12 חברות ראשונות",
+    "titleSrc": "Mayo Clinic Platform Accelerate announces inaugural participants of its new multiyear pathway program",
+    "summary": "Mayo Clinic Platform_Accelerate, מאיץ הטכנולוגיה הרפואית של מיו קליניק הפועל מאז 2022 ותמך עד כה ביותר מ-130 חברות במחזורי עבודה של כ-30 שבועות, השיק מסלול חדש רב-שנתי המיועד לחברות AI בוגרות יותר הזקוקות לגישה מתמשכת ולא רק למחזור קצר. שתים-עשרה חברות, המפתחות כלים קליניים מבוססי-AI, נבחרו כמשתתפות הראשונות ויקבלו גישה ארוכת-טווח לסביבת המחקר המאובטחת של מיו, לנתונים קליניים רב-ממדיים מזוהים חלקית (תוצאות מעבדה, הדמיה, פתולוגיה) וללוויית רגולציה וטכנולוגיה.",
+    "url": "https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-platform-accelerate-announces-inaugural-participants-of-its-new-multiyear-pathway-program/",
+    "topics": [
+      "research",
+      "adoption"
+    ]
+  },
+  {
+    "id": "elucid-series-d-plaque-ai-funding",
+    "date": "2026-09-04",
+    "added": "2026-09-10",
+    "src": "Elucid",
+    "fam": "press",
+    "title": "Elucid מגייסת 55 מיליון דולר בסבב D להרחבת פלטפורמת AI לניתוח רובד טרשתי בהדמיה",
+    "titleSrc": "Elucid Raises $55 Million in Oversubscribed Series D Financing",
+    "summary": "חברת Elucid, המפתחת תוכנת AI מאושרת FDA (Plaque-IQ) לניתוח הרכב רובד טרשתי בעורקים כליליים וצוואריים מתוך הדמיה לא-פולשנית, גייסה 55 מיליון דולר בסבב מימון D שהיה oversubscribed, ומעלה את סך הגיוס הכולל שלה לכ-185 מיליון דולר. בין המשקיעים החדשים חברת מדטק ציבורית גדולה שלא נחשפה בשמה — המשקיעה האסטרטגית הרביעית מסוגה בחברה — לצד IAG Capital Partners ו-Elevage Medical Technologies. הכספים מיועדים להאצת המסחור של הפלטפורמה, כולל מוצר ה-FFR-CT שנמצא כרגע בבדיקת FDA.",
+    "url": "https://elucid.com/elucid-raises-55-million-series-d/",
+    "topics": [
+      "funding",
+      "imaging"
+    ]
+  },
+  {
+    "id": "foltmed-thoughtmed-medical-vqa",
+    "date": "2026-09-07",
+    "added": "2026-09-10",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "מודל שפה-ראייה רפואי (FOLTMed), שאומן על מיליון זוגות שאלה-תשובה מתוכן קליני ברשתות חברתיות, מוביל ב-42 מבחני VQA",
+    "titleSrc": "A visual large language foundational model for medical image recognition using clinician-oriented social media",
+    "summary": "חוקרים בנו את ThoughtMed-1M — מאגר של יותר ממיליון זוגות שאלה-תשובה חזותיות (VQA) רפואיות ארוכות, שנבנה מתוכן ציבורי שפרסמו קלינאים ברשתות חברתיות מקצועיות ועבר אימות אנוש בלולאה, כדי לספק נתוני אימון שמשקפים היגיון קליני אמיתי ולא רק תיוג תמונה-טקסט שטחי. המודל שאומן על הנתונים, FOLTMed, השיג דיוק ממוצע (macro accuracy) של 85.4% על פני 42 מבחני VQA רפואיים שונים — תוצאה מובילה לעומת מודלי שפה-ראייה רפואיים קודמים. הנתונים מבוססים על תוכן ציבורי שפרסמו קלינאים ולא על רשומות מטופלים ישירות.",
+    "url": "https://arxiv.org/abs/2609.06914",
+    "topics": [
+      "imaging",
+      "research"
+    ]
+  },
+  {
+    "id": "clintracebench-longitudinal-ehr-reasoning",
+    "date": "2026-09-01",
+    "added": "2026-09-10",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "ClinTraceBench: מבחן חדש בודק אם עוזרי AI קליניים שומרים על היגיון נכון לאורך היסטוריה רפואית מרובת ביקורים",
+    "titleSrc": "ClinTraceBench: Source-Verifiable Longitudinal Clinical Reasoning over EHR-Derived Dialogues",
+    "summary": "המבחן ClinTraceBench כולל 385 דיאלוגים המבוססים על נתוני MIMIC-IV, עם מעקב ברמת אירוע בודד שמאפשר לאמת כל טענה מול הרשומה המקורית, ופרוס על-פני תשעה סוגי משימות הבודקים היגיון קליני לאורך זמן. במבחן על שמונה שיטות שונות לייצוג היסטוריה רפואית (מלוא ההקשר, אחזור צפוף, סיכומי LLM וזיכרון סוכן, בין השאר) על פני ארבעה מודלי שפה שונים ו-6,271 שאלות, נמצא כי שיטות דחיסה נפוצות מאבדות מידע קריטי להיגיון קליני נכון ביחס למלוא ההקשר. שיעור ההסכמה בין מעריכים אנושיים לתיוג האוטומטי עמד על 98.92%.",
+    "url": "https://arxiv.org/abs/2609.01111",
+    "topics": [
+      "research",
+      "ops"
+    ]
+  },
+  {
+    "id": "cotiviti-medcity-ai-readiness-index-2026",
+    "date": "2026-09-08",
+    "added": "2026-09-10",
+    "src": "MedCity News",
+    "fam": "press",
+    "title": "סקר: אימוץ AI ברפואה מאיץ, אך המוכנות הניהולית והאבטחתית נשארת מאחור",
+    "titleSrc": "Survey Reveals AI Adoption is Accelerating in Healthcare, But Readiness is Not",
+    "summary": "לפי מדד Healthcare AI Readiness Index 2026 של Cotiviti ו-MedCity News, המבוסס על סקר בקרב 70 בכירי בריאות בקיץ 2026, יותר מ-70% מהמשיבים כבר החלו להשתמש בכלי AI, וכ-40% מחברות הביטוח הרפואי מגדירות את ה-AI כ'ליבתי' לפעילותן — לעומת ספקי שירותי הבריאות, שרובם עדיין בשלבים מוקדמים של האימוץ. הפער המרכזי הוא בממשל תאגידי ואבטחת מידע: רק 42% מחברות הביטוח ו-32% מהספקים דיווחו שהם 'מוכנים מאוד' להתמודד עם מתקפות סייבר מבוססות-AI, וכ-60% מחברות הביטוח מדווחות על שימוש עובדים בכלי 'AI צללים' שאינם מאושרים או משולבים במערכות הארגון.",
+    "url": "https://medcitynews.com/2026/09/survey-reveals-ai-adoption-is-accelerating-in-healthcare-but-readiness-is-not/",
+    "topics": [
+      "adoption",
+      "ops"
+    ]
   }
 ]
