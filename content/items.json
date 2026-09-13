@@ -1094,5 +1094,79 @@
       "adoption",
       "ops"
     ]
+  },
+  {
+    "id": "doctors-not-ai-act-hr10210-introduced",
+    "date": "2026-09-01",
+    "added": "2026-09-13",
+    "src": "Congress.gov",
+    "fam": "regulator",
+    "title": "הצעת חוק דו-מפלגתית בקונגרס: רק רופא מוסמך יוכל לקבוע אי-נחיצות רפואית, לא בינה מלאכותית",
+    "titleSrc": "Doctors Not AI Act of 2026",
+    "summary": "ארבעה חברי קונגרס דו-מפלגתיים — לנדסמן, קרטר, שרייר וברט — הגישו את הצעת החוק Doctors Not AI Act (H.R. 10210), שתחייב קביעת אי-נחיצות רפואית רק בידי איש מקצוע רפואי מורשה, ותתיר לבינה מלאכותית לשמש רק ככלי עזר בעיבוד תביעות. ההצעה מחייבת חברות ביטוח לגלות למטופלים מתי נעשה שימוש ב-AI בהחלטה על התביעה, ומחילה כללי פיקוח דומים גם על תביעות בתחום בריאות הנפש והתמכרויות.",
+    "url": "https://www.govinfo.gov/app/details/BILLS-119hr10210ih",
+    "topics": [
+      "policy",
+      "ethics"
+    ]
+  },
+  {
+    "id": "hl7-fhir-r6-formal-ballot-september-2026",
+    "date": "2026-09-07",
+    "added": "2026-09-13",
+    "src": "HL7",
+    "fam": "regulator",
+    "title": "HL7 פותח סבב הצבעה פורמלי ראשון על FHIR R6, הגרסה הבאה של תקן חילופי המידע הרפואי",
+    "titleSrc": "HL7 Announcement of FHIR R6 Early Ballot Opening for September Ballot Cycle",
+    "summary": "ארגון התקינה HL7 פרסם הודעה רשמית על פתיחה מוקדמת (Early Ballot Opening) של סבב ההצבעה על FHIR R6 במחזור ספטמבר 2026 — הגרסה הבאה של תקן חילופי המידע הרפואי שעליו מבוססות מרבית מערכות ה-EHR והאינטראופרביליות בעולם. זהו הסבב הפורמלי הראשון על גרסת ה-R6 המלאה, לאחר סדרת גרסאות טיוטה (ballot4), ונוגע ישירות ליצרני EHR ולמפתחי אפליקציות SMART on FHIR ברחבי העולם.",
+    "url": "https://www.hl7.org/documentcenter/public/ballots/2026SEP/Announcements/2026Sep_HL7_Announcement_of_FHIR_R6_Early_Ballot_Opening_for_September_Ballot_Cycle.pdf",
+    "topics": [
+      "interop"
+    ]
+  },
+  {
+    "id": "openevidence-model-family-osler-sackett-snow-darwin",
+    "date": "2026-09-03",
+    "added": "2026-09-13",
+    "src": "OpenEvidence",
+    "fam": "press",
+    "title": "OpenEvidence משיקה משפחת מודלים קליניים: שלושה מודלים לרופאים ורביעי, Darwin, בגרסת מחקר סגורה",
+    "titleSrc": "Introducing the OpenEvidence Model Family",
+    "summary": "חברת הבריאות OpenEvidence השיקה שלושה מודלים קליניים חדשים לרופאים מאומתים — Osler (תשובה תוך כ-5 שניות), Sackett (כ-30 שניות) ו-Snow (עד כ-5 דקות למחקר מעמיק) — הזמינים בחינם באתר ובאפליקציות החברה. מודל רביעי, Darwin, מוחזק כרגע רק בגרסת מחקר סגורה בשל סיכוני שימוש כפול בתחומי וירולוגיה וגנטיקה, אך לפי החברה הוא המודל הראשון שהשיג ציון מושלם במבחן MedQA, אמת המידה המובילה להערכת בינה מלאכותית רפואית.",
+    "url": "https://www.openevidence.com/announcements/introducing-the-openevidence-model-family",
+    "topics": [
+      "research",
+      "adoption"
+    ]
+  },
+  {
+    "id": "genhealth-ai-series-a-back-office-agents",
+    "date": "2026-09-08",
+    "added": "2026-09-13",
+    "src": "MedCity News",
+    "fam": "press",
+    "title": "GenHealth.ai גייסה 16.5 מיליון דולר בסבב A לסוכני AI המנהלים את המשרד האחורי בבתי חולים",
+    "titleSrc": "GenHealth.ai Raises $16.5M to Automate Healthcare Administrative Tasks",
+    "summary": "סטארטאפ הבריאות GenHealth.ai גייס 16.5 מיליון דולר בסבב גיוס A בהובלת Flare Capital Partners, ומעלה את סך הגיוס הכולל שלו ל-30 מיליון דולר. סוכני ה-AI של החברה מבצעים מקצה לקצה תהליכי מחזור הכנסות — קליטת מטופלים, בדיקת זכאות, אישורים מוקדמים וטיפול בדחיות — כשלדברי החברה לקוחות שהשתמשו בפלטפורמה הגדילו הכנסות ב-34% וקיצצו עלויות תפעול בעד 80%.",
+    "url": "https://medcitynews.com/2026/09/genhealth-ai-raises-16-5m-to-automate-healthcare-administrative-tasks/",
+    "topics": [
+      "funding",
+      "ops"
+    ]
+  },
+  {
+    "id": "stat-senate-hearings-ai-rural-health-klomp-saphier",
+    "date": "2026-09-10",
+    "added": "2026-09-13",
+    "src": "STAT News",
+    "fam": "press",
+    "title": "בשימועי סנאט למינויי HHS: פקידי ממשל טראמפ מציגים בינה מלאכותית כפתרון למשבר הבריאות הכפרית",
+    "titleSrc": "Trump officials bet on AI for rural health, HHS nominee hearings",
+    "summary": "בדיוני אישור בסנאט האמריקאי למועמדים לתפקידים בכירים ב-HHS — בהם ראש CMS מיהמט עוז וראש המרכזים למדיקר ולמדיקייד המיועד כריס קלומפ — הציגו פקידי הממשל את הבינה המלאכותית ככלי מרכזי לפתרון משבר הנגישות לרפואה באזורים כפריים. הכתבה מציינת כי מערכת הבריאות הכפרית ניצבת מול קיצוץ צפוי של כ-1 טריליון דולר במדיקייד בעשור הקרוב, ומצטטת חוקרים ומנהיגי בריאות כפריים המזהירים שהשקעה ב-AI בלבד עלולה דווקא להעמיק את הפערים בין אזורים עירוניים לכפריים.",
+    "url": "https://www.statnews.com/2026/09/10/ai-rural-health-hospitals-chris-klomp-nicole-saphier-senate-hearings/",
+    "topics": [
+      "policy",
+      "adoption"
+    ]
   }
 ]
