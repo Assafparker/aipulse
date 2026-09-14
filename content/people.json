@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Eric Topol",
+    "role": "Founder & Director, Scripps Research Translational Institute",
+    "channel": "https://erictopol.substack.com/",
+    "channelType": "substack",
+    "status": "followed",
+    "addedOn": "2026-09-14"
+  },
+  {
+    "name": "John Halamka",
+    "role": "President, Mayo Clinic Platform",
+    "channel": "https://mcpress.mayoclinic.org/authors/john-d-halamka-m-d-m-s/",
+    "channelType": "institutional-blog",
+    "status": "followed",
+    "addedOn": "2026-09-14"
+  },
+  {
+    "name": "Vinod Khosla",
+    "role": "Founder, Khosla Ventures",
+    "channel": "https://www.khoslaventures.com/entrepreneurs/thought-provoking",
+    "channelType": "essays",
+    "status": "followed",
+    "addedOn": "2026-09-14"
+  }
+]
