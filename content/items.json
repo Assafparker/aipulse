@@ -1168,5 +1168,110 @@
       "policy",
       "adoption"
     ]
+  },
+  {
+    "id": "chest-ct-protocol-llm-embeddings",
+    "date": "2026-09-07",
+    "added": "2026-09-14",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "מודל שפה בוחר פרוטוקול סריקת CT לחזה מתוך הניסוח החופשי של בקשת ההדמיה",
+    "titleSrc": "Automated Chest CT Protocol Selection via Large Language Model Derived Text Embeddings from Imaging Request Text",
+    "summary": "חוקרים קנדים פיתחו מערכת תמיכת החלטה המשתמשת בהטמעות טקסט שנגזרו ממודל שפה גדול כדי להמליץ על פרוטוקול סריקת CT לחזה ישירות מהניסוח החופשי של ההתוויה הקלינית בבקשת ההדמיה. המערכת אומנה ונבחנה על 285,123 בקשות היסטוריות למרכז רפואי אקדמי גדול בין 2017 ל-2024, במטרה לצמצם שונות וטעויות אנוש בבחירת פרוטוקולים. המחקר טרם נבדק בסביבה קלינית חיה, רק על נתונים רטרוספקטיביים.",
+    "url": "https://arxiv.org/abs/2609.07986",
+    "topics": [
+      "imaging",
+      "research"
+    ]
+  },
+  {
+    "id": "medsnip-snippet-fact-verification",
+    "date": "2026-09-11",
+    "added": "2026-09-14",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "MedSNIP: אמת מידה לבדיקת אמינות עובדתית של תשובות רפואיות ברמת קטע-טקסט בודד",
+    "titleSrc": "MedSNIP: Building and Benchmarking Snippet-Level Granularity for Medical Fact Verification",
+    "summary": "מחקר חדש מציג את MedSNIP, אמת מידה לבדיקת אמינות עובדתית של תשובות רפואיות ברמת קטעי טקסט בודדים ולא רק ברמת התשובה השלמה. מאגר הנתונים כולל 276 תשובות בהקשר צרכני-בריאותי וקליני, שפורקו ל-2,524 קטעי טקסט מתויגים בנפרד, בשני הקשרים - כללי ופרטני למטופל. המטרה היא לחשוף הזיות חלקיות שנשארות סמויות כשבודקים רק את התשובה כמכלול, סוגיה שהופכת דחופה יותר ככל שכלי AI רפואיים לצרכן מתרבים.",
+    "url": "https://arxiv.org/abs/2609.12884",
+    "topics": [
+      "research",
+      "ethics"
+    ]
+  },
+  {
+    "id": "jama-autonomous-ai-vs-physicians-stat",
+    "date": "2026-09-09",
+    "added": "2026-09-14",
+    "src": "STAT News",
+    "fam": "press",
+    "title": "עמנואל וחבריו ב-JAMA: בינה מלאכותית אוטונומית תעקוף עד 2030 גם רופאים המסתייעים ב-AI",
+    "titleSrc": "Autonomous AI will beat AI-assisted physicians at some medical tasks by 2030",
+    "summary": "כתבה ב-STAT מסכמת מאמר דעה בכתב העת JAMA מאת הביואתיקאי איזקיאל עמנואל ושותפיו, הטוען שכבר כיום מודלי שפה גדולים מתחרים או עולים על רופאים מורשים בחמש משימות קוגניטיביות רפואיות מרכזיות - איסוף מידע, אבחנה מבדלת, בחירת בדיקות, קביעת טיפול לפי קווים מנחים וניהול מחלות כרוניות. הכותבים טוענים שברגע ש-AI עולה על בני אדם במשימה מסוימת, שילוב רופא-AI עלול דווקא לפגוע בביצועים לעומת AI לבדו, ולכן הם צופים ש-AI אוטונומי יהיה מוכן לפריסה בחלק מזרימות העבודה הרפואיות עד 2030 - תחזית שנויה במחלוקת בקהילה הרפואית.",
+    "url": "https://www.statnews.com/2026/09/09/ai-medicine-assisted-physicians-research-autonomy/",
+    "topics": [
+      "research",
+      "ethics"
+    ]
+  },
+  {
+    "id": "stat-ai-prognosis-emergency-room-scribe",
+    "date": "2026-09-09",
+    "added": "2026-09-14",
+    "src": "STAT News",
+    "fam": "press",
+    "title": "חדר המיון כמבחן קשה ל-AI: תיעוד קולי אוטומטי מקל על הרופא אך לא פותר את הצפיפות",
+    "titleSrc": "Can AI fix health care? In the chaos of emergency rooms, the technology comes up short",
+    "summary": "כתבה ב-STAT ממדור \"AI Prognosis\" בוחנת את חדר המיון של בית החולים Brigham and Women's, שכבר ב-2025 היה צפוף מדי - בערב אחד נספרו 59 מטופלים ב-61 חדרי טיפול חריף ו-152 איש בסך הכול כולל חדר ההמתנה. מערכת הבריאות Mass General Brigham עברה בתחילת 2026 לתיעוד קולי מבוסס AI של מיקרוסופט, ולדברי רופאים הוא מקל על העומס הקוגניטיבי, אך לא ברור אם התועלת חורגת מעבר למשתמש הבודד, וכלי התיעוד אינו פותר את בעיות היסוד של צפיפות וכוח אדם בחדרי המיון.",
+    "url": "https://www.statnews.com/2026/09/09/scribe-emergency-room-fix-health-care-ai-prognosis/",
+    "topics": [
+      "ambient",
+      "adoption"
+    ]
+  },
+  {
+    "id": "stat-rural-health-unraveled-part4-ai-funding",
+    "date": "2026-09-10",
+    "added": "2026-09-14",
+    "src": "STAT News",
+    "fam": "press",
+    "title": "בצל קיצוצי מדיקייד של כטריליון דולר, בתי חולים כפריים בארה\"ב מתלבטים אם AI יכול להציל אותם",
+    "titleSrc": "Rural health: Is AI use transformative or just a pricey false hope?",
+    "summary": "החלק הרביעי בסדרת \"Unraveled\" של STAT בוחן אם בינה מלאכותית יכולה לקזז את הפגיעה הכספית הצפויה לבתי חולים כפריים בארה\"ב, שניצבים מול קיצוצי מדיקייד בהיקף של כ-1 טריליון דולר בעשור הקרוב. פקידי ממשל טראמפ מציגים קרן בת 50 מיליארד דולר לתמורת הבריאות הכפרית כמנוף להטמעת AI, אך מנהיגי בתי חולים כפריים רבים מזהירים שההשקעה הנדרשת בטכנולוגיה יקרה מדי עבורם ולא תסגור את פערי המימון שנפערו בעקבות הקיצוצים.",
+    "url": "https://www.statnews.com/2026/09/10/rural-health-care-ai-adoption-challenges-part-4-unraveled-series/",
+    "topics": [
+      "policy",
+      "funding"
+    ]
+  },
+  {
+    "id": "mayo-clinic-carecast-trusted-health-workforce",
+    "date": "2026-09-10",
+    "added": "2026-09-14",
+    "src": "PR Newswire",
+    "fam": "provider",
+    "title": "מאיו קליניק מעניקה רישיון לטכנולוגיית התחזית התפעולית שלה CareCast לחברת Trusted Health",
+    "titleSrc": "Trusted Health Collaborates to Bring CareCast Workforce Demand Forecasting to Health Systems",
+    "summary": "מאיו קליניק תעניק ל-Trusted Health רישיון לטכנולוגיית CareCast שפיתחה, המשתמשת בנתוני איוש היסטוריים ובמגמות נפח מטופלים כדי לחזות ביקוש עתידי לכוח אדם סיעודי. הטכנולוגיה תשולב בפלטפורמת Trusted Works לתזמון ואיוש, כשסוכני AI יבנו לוחות משמרות, יאתרו פערי כיסוי וישוו כל תוכנית לתוצאה בפועל כדי לשפר את דיוק התחזית לאורך זמן. השילוב פותח בשיתוף אחיות ומנהיגות סיעוד של מאיו, ומיועד להימכר בהמשך גם לבתי חולים אחרים.",
+    "url": "http://www.prnewswire.com/news-releases/trusted-health-collaborates-to-bring-carecast-workforce-demand-forecasting-to-health-systems-302874439.html",
+    "topics": [
+      "ops",
+      "adoption"
+    ]
+  },
+  {
+    "id": "xsolis-genai-peer-to-peer-clinical-synopsis",
+    "date": "2026-09-01",
+    "added": "2026-09-14",
+    "src": "Xsolis",
+    "fam": "press",
+    "title": "Xsolis משיקה כלי AI גנרטיבי שמקצר משמעותית את זמן הכנת רופאים לערעור על סירובי ביטוח",
+    "titleSrc": "Xsolis Launches Generative AI Solution to Streamline Peer-to-Peer Reviews Following Payer Denials",
+    "summary": "חברת Xsolis השיקה יכולת AI גנרטיבי חדשה בתוך פלטפורמת Dragonfly Advise, הסורקת אוטומטית את הרשומה הרפואית האלקטרונית של המטופל ובונה נרטיב יומי של צורך רפואי לקראת שיחת \"רופא מול רופא\" לערעור על סירוב ביטוח. בפיילוט בן שלושה חודשים במערכת הבריאות Beacon Health Systems, הכלי קיצר את זמן ההכנה הממוצע ב-68%, מ-15 דקות ל-4.7 דקות לבדיקה. החברה כבר חתמה על הסכמים עם כמה מערכות בריאות ליישום הכלי בחודשים הקרובים.",
+    "url": "https://www.globenewswire.com/news-release/2026/09/01/3354094/0/en/xsolis-launches-generative-ai-solution-to-streamline-peer-to-peer-reviews-following-payer-denials.html",
+    "topics": [
+      "ops",
+      "adoption"
+    ]
   }
 ]
