@@ -1273,5 +1273,138 @@
       "ops",
       "adoption"
     ]
+  },
+  {
+    "id": "deepmind-alphagenome-atlas-9-billion-mutations",
+    "date": "2026-09-08",
+    "added": "2026-09-15",
+    "src": "Google DeepMind",
+    "fam": "lab",
+    "title": "AlphaGenome Atlas: מפת חיזוי לכל 9 מיליארד השינויים האפשריים בגנום האנושי",
+    "titleSrc": "AlphaGenome Atlas: Molecular predictions for 9 Billion human DNA variants",
+    "summary": "גוגל דיפמיינד פרסמה מסד נתונים חופשי לחוקרים אקדמיים המכיל תחזיות עבור כל 9 מיליארד השינויים האפשריים באות בודדת בגנום האנושי, בנפח של יותר מפטהבייט אחד — כפי 30 ממסד AlphaFold. המסד כולל גם ציון AVI המשלב את תחזיות AlphaGenome עם AlphaMissense כדי לדרג וריאנטים לפי סבירות ההשפעה הביולוגית שלהם, אך מדובר בתחזיות חישוביות שטרם אומתו קלינית עבור רוב הווריאנטים.",
+    "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+    "topics": [
+      "research"
+    ]
+  },
+  {
+    "id": "arpa-h-advocate-cardiovascular-ai-627-million",
+    "date": "2026-09-09",
+    "added": "2026-09-15",
+    "src": "ARPA-H",
+    "fam": "regulator",
+    "title": "ARPA-H משיקה מהלך של 62.7 מיליון דולר לבניית בינה מלאכותית אוטונומית לטיפול באי-ספיקת לב",
+    "titleSrc": "ARPA-H launches the world's first bid to build FDA-authorized clinical AI for cardiovascular care",
+    "summary": "סוכנות המחקר הביו-רפואי של ממשל ארה\"ב, ARPA-H, הכריזה על תוכנית ADVOCATE בהיקף כולל של 62.7 מיליון דולר על פני ארבע שנים, לפיתוח סוכני בינה מלאכותית אוטונומיים למחצה שיאושרו על ידי ה-FDA לטיפול בחולי אי-ספיקת לב. בין הזוכים בסבב הראשון: Tempus AI, UpDoc (עד 9.2 מיליון דולר) ו-Atman Health, וצוותים מאוניברסיטאות סטנפורד ודיוק וממערכת הבריאות Kaiser Permanente; המטרה המוצהרת היא לספק טיפול לב זמין סביב השעון לתושבי כמחצית ממחוזות ארה\"ב שאין בהם אפילו קרדיולוג יחיד.",
+    "url": "https://arpa-h.gov/news-and-events/arpa-h-launches-worlds-first-bid-build-fda-authorized-clinical-ai-cardiovascular",
+    "topics": [
+      "funding",
+      "research"
+    ]
+  },
+  {
+    "id": "mmro-urac-ai-healthcare-accreditation",
+    "date": "2026-09-04",
+    "added": "2026-09-15",
+    "src": "PR Newswire",
+    "fam": "press",
+    "title": "MMRO מקבלת מ-URAC את הסמכת ה-AI הראשונה בארה\"ב לתחום הבריאות",
+    "titleSrc": "MMRO Earns URAC Artificial Intelligence in Health Care Accreditation",
+    "summary": "חברת ניהול הסיכונים הרפואיים MMRO קיבלה את ההסמכה \"בינה מלאכותית בבריאות\" (גרסה 1.0) מטעם URAC — תוכנית ההסמכה הראשונה בארה\"ב לשימוש אחראי בבינה מלאכותית במערכת הבריאות, בתום תהליך של כשנה שכלל בניית ממשל AI, מדיניות שימוש אחראי והערכות סיכון. המדיניות שאושרה קובעת במפורש שכלי ה-AI לא ישמשו לקבלת החלטות קליניות, לקביעת נחיצות רפואית או כמקבלי החלטות אוטונומיים הפוגעות במטופלים, מבטחים או ספקים.",
+    "url": "https://www.prnewswire.com/news-releases/mmro-earns-urac-artificial-intelligence-in-health-care-accreditation-302870285.html",
+    "topics": [
+      "policy",
+      "ops"
+    ]
+  },
+  {
+    "id": "insilico-rentosertib-biological-age-reversal",
+    "date": "2026-09-07",
+    "added": "2026-09-15",
+    "src": "Nature Biotechnology",
+    "fam": "journal",
+    "title": "תרופה שתוכננה כליל בבינה מלאכותית מפחיתה סמני גיל ביולוגי בניסוי שלב 2a",
+    "titleSrc": "Integration of proteomic aging clocks in a phase 2a clinical trial supports simultaneous geroprotective assessment",
+    "summary": "מחקר ב-Nature Biotechnology, המבוסס על נתוני פרוטאומיקה מ-42 חולי פיברוזיס ריאתי אידיופתי (IPF) בניסוי שלב 2a, מדווח שהתרופה rentosertib של Insilico Medicine — שהמטרה התרופתית והמולקולה שלה תוכננו שתיהן בבינה מלאכותית — הביאה להפחתה בגיל הביולוגי הנמדד לפי שישה \"שעוני הזדקנות\" פרוטאומיים בלתי תלויים, שפותחו בהרווארד, אוקספורד ופקין. במקביל נצפתה מגמת שיפור תלוית-מינון ביכולת הנשימה (FVC), אך מדובר במדגם קטן של תוצאות ביניים שטרם אומתו בניסוי גדול יותר.",
+    "url": "https://www.nature.com/articles/s41587-026-03286-y",
+    "topics": [
+      "research"
+    ]
+  },
+  {
+    "id": "california-newsom-ai-chatbot-minors-law",
+    "date": "2026-09-10",
+    "added": "2026-09-15",
+    "src": "Office of the Governor of California",
+    "fam": "regulator",
+    "title": "מושל קליפורניה חותם על החוק המחמיר בארה\"ב להגנת קטינים מצ'אטבוטים מבוססי AI",
+    "titleSrc": "Governor Newsom signs the strongest child safety chatbot and social media laws in the nation",
+    "summary": "מושל קליפורניה גאווין ניוסום חתם על חבילת חוקים, הקרויה על שם הנער אדם ריין שהתאבד לאחר שיחות עם ChatGPT, המחייבת מפעילי צ'אטבוטים להטמיע הגבלות זמן שימוש לקטינים, משאבי בריאות נפש מובנים והתראה להורים במקרה של זיהוי סיכון לפגיעה עצמית. החוק גם מחייב חברות AI לבצע הערכות סיכון עצמאיות לפני השקת צ'אטבוטים חדשים וקובע קנס של עד מיליון דולר לילד במקרה של הפרה, ומהווה אחד הצעדים הרגולטוריים המשמעותיים ביותר בארה\"ב על ממשקי AI שיחתיים בהקשר בריאות הנפש.",
+    "url": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
+    "topics": [
+      "policy",
+      "mental"
+    ]
+  },
+  {
+    "id": "nhs-proximie-surgical-ai-theatre-evaluation",
+    "date": "2026-09-09",
+    "added": "2026-09-15",
+    "src": "Med-Tech Insights",
+    "fam": "provider",
+    "title": "ה-NHS משיק את הערכת ה-AI הכירורגית הגדולה בתולדותיו עם Proximie, AWS ו-Deloitte",
+    "titleSrc": "Proximie launches largest ever surgical AI evaluation with AWS, Deloitte, and the NHS",
+    "summary": "שמונה בתי חולים של ה-NHS בבריטניה משיקים ניסוי שנתי שבו Proximie Intelligence Suite יפעל ב-104 חדרי ניתוח, אנדוסקופיה וצנתורים, במטרה לזהות צווארי בקבוק ולשפר את ניצול זמן חדרי הניתוח הקיימים בלי תוספת תקנים או תשתית. הפרויקט, בשיתוף AWS ו-Deloitte, צפוי ללוות יותר מ-20,000 פרוצדורות; הנתונים מבוזים באנונימיזציה במקור, אך תוצאות בפועל על קיצור זמני המתנה טרם פורסמו.",
+    "url": "https://med-techinsights.com/2026/09/09/proximie-launches-largest-ever-surgical-ai-evaluation-with-aws-deloitte-and-the-nhs/",
+    "topics": [
+      "adoption",
+      "ops"
+    ]
+  },
+  {
+    "id": "tandem-health-100m-series-b-europe",
+    "date": "2026-09-14",
+    "added": "2026-09-15",
+    "src": "Tech.eu",
+    "fam": "press",
+    "title": "Tandem Health גייסה 100 מיליון דולר בסבב B בהובלת קרן האיחוד האירופי להרחבת AI קליני",
+    "titleSrc": "Tandem Health scores $100M Series B, led by EU's €5bn tech startup fund",
+    "summary": "חברת ה-AI הרפואי השוודית Tandem Health גייסה 100 מיליון דולר בסבב B בהובלת Scaleup Europe Fund (קרן ציבורית-פרטית בהיקף יעד של 5 מיליארד יורו המנוהלת ע\"י EQT), ומעלה את סך הגיוסים שלה ל-160 מיליון דולר. סקרייב ה-AI של החברה משמש כיום כ-10,000 ארגוני בריאות ב-14 מדינות אירופיות, והכספים מיועדים להפיכת המוצר מעוזר AI רפואי ל\"מערכת הפעלה לקליניקה\" מבוססת AI המנהלת גם זרימת מטופלים, מיון ותקשורת.",
+    "url": "https://tech.eu/2026/09/14/swedish-healthtech-tandem-health-scores-100m-series-b-led-by-eus-eur5bn-tech-startup-fund",
+    "topics": [
+      "funding",
+      "adoption"
+    ]
+  },
+  {
+    "id": "owkin-servier-k-pro-oncology-license",
+    "date": "2026-09-11",
+    "added": "2026-09-15",
+    "src": "Owkin",
+    "fam": "press",
+    "title": "Owkin מעניקה ל-Servier רישיון ל\"מדען AI\" שלה K Pro ולנתוני מטופלים לצורך מחקר אונקולוגי",
+    "titleSrc": "Owkin to License K Pro and Multimodal Data to Servier to Advance Oncology Research",
+    "summary": "חברת ה-AI הביו-רפואי הצרפתית Owkin הודיעה על הסכם רישיון עם חברת התרופות Servier, שיאפשר לצוותי המחקר של Servier גישה ל-K Pro — סוכן AI המשלב נתוני מטופלים מרובי-מודליות מרשת MOSAIC של Owkin עם סוכני בינה מלאכותית ביולוגית ייעודיים. הפלטפורמה מיועדת לתמוך באופטימיזציית מולקולות, איתור מטרות תרופתיות, זיהוי ביומרקרים ותכנון ניסויים קליניים באונקולוגיה, ומהווה שלב נוסף בשיתוף פעולה קודם בין החברות בזיהוי תת-קבוצות מטופלים.",
+    "url": "https://www.owkin.com/newsfeed/owkin-to-license-k-pro-and-multimodal-data-to-servier-to-advance-oncology-research",
+    "topics": [
+      "funding",
+      "research"
+    ]
+  },
+  {
+    "id": "inspiren-70m-series-c-senior-care-ai",
+    "date": "2026-09-10",
+    "added": "2026-09-15",
+    "src": "PR Newswire",
+    "fam": "press",
+    "title": "Inspiren גייסה 70 מיליון דולר בסבב C להרחבת פלטפורמת ה-AI הפיזי לדיור מוגן",
+    "titleSrc": "Inspiren Raises $70M Series C to Scale Physical AI for Senior Living",
+    "summary": "חברת ה-AI לדיור מוגן Inspiren גייסה 70 מיליון דולר בסבב C בהובלת NewView Capital, בשווי חברה העולה על 500 מיליון דולר ומעלה את סך הגיוסים שלה ל-225 מיליון דולר. החברה, שמפתחת חיישני AI פיזיים לניטור בטיחות ותפעול במתקני דיור מוגן, מתכננת להשתמש בכספים להרחבת פלטפורמת התוכנה ומערכות החומרה שלה.",
+    "url": "http://www.prnewswire.com/news-releases/inspiren-raises-70m-series-c-to-scale-physical-ai-for-senior-living-302874801.html",
+    "topics": [
+      "funding",
+      "adoption"
+    ]
   }
 ]
