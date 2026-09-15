@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
 import { Frank_Ruhl_Libre, Heebo, IBM_Plex_Mono } from "next/font/google";
 import { SiteFooter } from "@/components/ui/site-footer";
@@ -53,6 +54,7 @@ export default function RootLayout({
         <SiteHeader />
         <div className="grow">{children}</div>
         <SiteFooter />
+        <Analytics />
       </body>
     </html>
   );
