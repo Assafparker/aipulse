@@ -1406,5 +1406,156 @@
       "funding",
       "adoption"
     ]
+  },
+  {
+    "id": "cleveland-clinic-luminai-referral-automation",
+    "date": "2026-09-09",
+    "added": "2026-09-16",
+    "src": "Cleveland Clinic Newsroom",
+    "fam": "provider",
+    "title": "קליבלנד קליניק משתפת פעולה עם Luminai לאוטומציה של טיפול בהפניות המגיעות בפקס באמצעות AI",
+    "titleSrc": "Cleveland Clinic Partners with Luminai to Transform Health System Operations",
+    "summary": "קליבלנד קליניק וחברת האוטומציה Luminai הודיעו על שיתוף פעולה להטמעת AI בתהליכי עבודה מנהליים, כשתחום הפעולה הראשון הוא הפניות חיצוניות שרובן עדיין מגיעות בפקס. מערכת ה-AI מזהה אילו מסמכים נכנסים הם הפניות, מבינה את ההקשר הקליני, מתאימה למטופל ולסוג ההזמנה, ומתעתקת אותן לרשומה הרפואית — עבודה שנעשית כיום ידנית. זהו שלב נוסף בשותפות רחבה יותר בין השתיים שדווחה לראשונה באפריל 2026; אין עדיין נתוני ביצועים כמותיים על היקף החיסכון בזמן.",
+    "url": "https://newsroom.clevelandclinic.org/2026/09/09/cleveland-clinic-partners-with-luminai-to-transform-health-system-operations",
+    "topics": [
+      "ops",
+      "adoption"
+    ]
+  },
+  {
+    "id": "implicity-40m-cardiac-remote-monitoring-ai",
+    "date": "2026-09-09",
+    "added": "2026-09-16",
+    "src": "GlobeNewswire",
+    "fam": "press",
+    "title": "Implicity גייסה 40 מיליון דולר להרחבת פלטפורמת ה-AI שלה לניטור לב מרחוק",
+    "titleSrc": "Implicity secures $40M growth equity funding to scale its AI-driven cardiac monitoring platform globally",
+    "summary": "חברת Implicity, המפעילה פלטפורמת AI לניטור מרחוק של מכשירים לבביים משתלים ואי-ספיקת לב, גייסה 40 מיליון דולר בהובלת קרן הצמיחה האירופית IRIS ובהשתתפות Five Arrows. הפלטפורמה משרתת כיום מעל 250 מרכזים רפואיים ומנטרת יותר מ-120,000 מטופלים מדי יום בארה\"ב, צרפת וגרמניה. החברה מדווחת (בנתונים עצמיים, ללא תיקוף חיצוני) שמטופלים בפלטפורמה שלה מציגים תמותה נמוכה ב-26% ואשפוזים חוזרים נמוכים ב-4% לעומת ניטור מרחוק קונבנציונלי.",
+    "url": "https://www.globenewswire.com/news-release/2026/09/09/3358622/0/en/implicity-secures-40m-growth-equity-funding-to-scale-its-ai-driven-cardiac-monitoring-platform-globally.html",
+    "topics": [
+      "funding",
+      "ops"
+    ]
+  },
+  {
+    "id": "cms-oz-ai-avatars-rural-mental-health",
+    "date": "2026-09-10",
+    "added": "2026-09-16",
+    "src": "STAT News",
+    "fam": "press",
+    "title": "מנהל CMS מהמט עוז: אווטארים מבוססי AI יכולים לסייע לקהילות כפריות בבריאות הנפש — מנהיגים מקומיים חלוקים",
+    "titleSrc": "Oz says 'AI-based avatars' can help rural communities. Some leaders disagree",
+    "summary": "מנהל שירותי מדיקר ומדיקייד (CMS) מהמט עוז הציג אווטארים מבוססי AI ככלי מרכזי לסיוע לקהילות כפריות בגישה לטיפול נפשי, בזיקה לקרן טרנספורמציה כפרית של 50 מיליארד דולר שהוקמה יחד עם קיצוצי מדיקייד. מנהיגי בריאות כפריים הביעו ספקנות: מנכ\"לית Penobscot Community Health Care אמרה שאינה מאמינה שה-AI יוריד עלויות בטווח הקרוב, ופסיכיאטר מבית החולים בית ישראל דיקונס ציין שאין עדיין עדות מספקת ליכולת ה-AI לספק טיפול נפשי איכותי באופן עצמאי.",
+    "url": "https://www.statnews.com/2026/09/10/health-news-oz-says-ai-based-avatars-can-help-rural-communities-despite-skepticism/",
+    "topics": [
+      "mental",
+      "policy"
+    ]
+  },
+  {
+    "id": "nyu-langone-nyudrp-longitudinal-mammography-risk",
+    "date": "2026-09-10",
+    "added": "2026-09-16",
+    "src": "NYU Langone Health",
+    "fam": "provider",
+    "title": "כלי AI של NYU Langone מנתח ממוגרפיות תלת-ממדיות לאורך זמן וחוזה סיכון לסרטן שד בטווח 5 שנים",
+    "titleSrc": "AI-Assisted Imaging Tool for Breast Cancer Could Tailor Screening for Women According to Individual Risk",
+    "summary": "חוקרי NYU Langone ומרכז פרלמוטר לסרטן פיתחו את NYU-DRP, מודל למידה עמוקה שמנתח ממוגרפיות תלת-ממדיות (טומוסינתזה) של אישה לאורך כמה שנים כדי לחזות את הסיכון שלה לפתח סרטן שד בטווח של 5 שנים. במחקר תיקוף על 313,531 ממוגרפיות שנתיות מ-161,165 נשים (2016–2020), המודל דירג נכון נשים בסיכון גבוה יותר ב-72% מהמקרים, לעומת 70% לטומוסינתזה בודדת, 68% ל-AI על ממוגרפיה דו-ממדית ורק 56–67% לכלי הקליני הסטנדרטי Tyrer-Cuzick. מדובר במחקר בודד-מרכז ורטרוספקטיבי; המחקר המלא פורסם ב-American Journal of Roentgenology.",
+    "url": "https://nyulangone.org/news/ai-assisted-imaging-tool-breast-cancer-could-tailor-screening-women-according-individual-risk",
+    "topics": [
+      "imaging",
+      "research"
+    ]
+  },
+  {
+    "id": "urgentiq-15m-series-a-urgent-care-ai-emr",
+    "date": "2026-09-11",
+    "added": "2026-09-16",
+    "src": "PR Newswire",
+    "fam": "press",
+    "title": "UrgentIQ, רשומה רפואית אלקטרונית ילידת-AI למרפאות דחופות, גייסה 15 מיליון דולר בסבב A",
+    "titleSrc": "UrgentIQ Announces Strategic Growth Investment From Five Elms Capital",
+    "summary": "UrgentIQ, פלטפורמת רשומה רפואית אלקטרונית (EMR) שנבנתה ייעודית עבור מרפאות דחופות (urgent care) ולא הותאמה מתוך מערכת בית-חולים, גייסה 15 מיליון דולר בסבב A בהובלת Five Elms Capital. החברה מדווחת על שביעות רצון לקוחות ממוצעת של 9.7 מתוך 10 ומתכננת להרחיב מעבר לרשומה הרפואית עצמה לפלטפורמת תפעול ופיננסים רחבה יותר — כולל ניהול מחזור הכנסות אוטומטי, קידוד ותיעוד מבוססי AI, אימות ביטוח בזמן אמת וסוכן AI לתהליך היציאה של המטופל; אלה יעדי מוצר עתידיים שטרם הושקו.",
+    "url": "https://www.prnewswire.com/news-releases/urgentiq-announces-strategic-growth-investment-from-five-elms-capital-302876441.html",
+    "topics": [
+      "ops",
+      "funding"
+    ]
+  },
+  {
+    "id": "sable-antibody-structural-benchmark-leakage",
+    "date": "2026-09-13",
+    "added": "2026-09-16",
+    "src": "bioRxiv",
+    "fam": "preprint",
+    "title": "SABLE: מדד ייחוס חדש לבדיקת מודלים מבניים לנוגדנים שנועד למנוע דליפת נתונים בין אימון למבחן",
+    "titleSrc": "A structural antibody benchmark for leakage-aware deep-learning evaluation",
+    "summary": "חוקרים מהאוניברסיטה העברית בירושלים ומ-IBM Research הציגו את SABLE, מדד ייחוס גרסתי למודלים מבניים של נוגדנים, המשלב סט אימון קבוע של 16,511 רשומות ניסיוניות עם סט מבחן מבוקר-דליפה של 327 רשומות שנבדקו ידנית ו-3,274 מודלים ברמת ביטחון גבוהה שנגזרו מפטנטים באמצעות AlphaFold3, על פני 476 אנטיגנים. לטענת המחברים, השוואות בין מחקרי AI לעיצוב נוגדנים אינן אמינות כיום מכיוון שחיתוך תאריך בלבד אינו מונע דליפת מידע בין קבוצת האימון לקבוצת המבחן; זהו מאמר פרה-פרינט שטרם עבר ביקורת עמיתים.",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.09.06.749672v1",
+    "topics": [
+      "research"
+    ]
+  },
+  {
+    "id": "sena-health-series-a-clinical-command-center",
+    "date": "2026-09-14",
+    "added": "2026-09-16",
+    "src": "PR Newswire",
+    "fam": "press",
+    "title": "SENA Health גייסה מימון בסבב A להרחבת מוקד הפיקוד הקליני מבוסס ה-AI שלה",
+    "titleSrc": "SENA Health Secures Series A Financing to Accelerate Growth and Expand AI and Technology Capabilities",
+    "summary": "חברת SENA Health, המפעילה \"מוקד פיקוד קליני\" (Clinical Command Center) לניהול גישה לטיפול ותיאום בעזרת AI, הודיעה על השלמת גיוס בסבב A בהובלת Rittenhouse Ventures. המוקד, הפועל מסביב לשעון, מבצע עבור ארגוני בריאות פונקציות של דלפק קבלה, משרד אחורי ומוקד טלפוני, ומשלב אוטומציה עם מומחיות קלינית כדי להפחית את הנטל המנהלי. החברה לא חשפה את סכום הגיוס — הסייג המרכזי של הידיעה.",
+    "url": "https://www.prnewswire.com/news-releases/sena-health-secures-series-a-financing-to-accelerate-growth-and-expand-ai-and-technology-capabilities-302877700.html",
+    "topics": [
+      "ops",
+      "funding"
+    ]
+  },
+  {
+    "id": "knowtex-frontier-ai-lab-knowbench",
+    "date": "2026-09-15",
+    "added": "2026-09-16",
+    "src": "Fierce Healthcare",
+    "fam": "press",
+    "title": "Knowtex משיקה מעבדת AI חזיתית לבריאות ומדד KnowBench למדידת אמינות קלינית",
+    "titleSrc": "Knowtex launches frontier healthcare AI lab",
+    "summary": "חברת ה-AI האמביינטי Knowtex, הפרוסה ביותר מ-300 ארגונים כולל מנהל הוותיקים האמריקאי (VA), השיקה \"מעבדת AI חזיתית\" לפיתוח מודלים ייעודיים לפי התמחות ואמצעי הגנה מפני הזיות. החברה מודדת את עצמה מול מדד פנימי חדש, KnowBench, המבוסס על \"צמצום מאמץ\" — שיעור התוצרים הקליניים שהמערכת מייצרת ושמתקבלים בפועל על ידי הרופא האחראי לאחר בדיקת מומחה ובטיחות — ודיווחה על ציון של 97.99% במדד זה. מדובר בנתוני החברה עצמה במדד פנימי שהיא הגדירה, וטרם עברו תיקוף חיצוני עצמאי.",
+    "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/knowtex-launches-frontier-healthcare-ai-lab",
+    "topics": [
+      "ambient",
+      "research"
+    ]
+  },
+  {
+    "id": "imprivata-shadow-ai-governance-survey",
+    "date": "2026-09-15",
+    "added": "2026-09-16",
+    "src": "GlobeNewswire",
+    "fam": "press",
+    "title": "סקר Imprivata: ב-72% מארגוני הבריאות בארה\"ב נפרסו כלי או סוכני AI בלי אישור IT פורמלי",
+    "titleSrc": "New Imprivata Research Finds 72% of Healthcare Organizations Have AI Tools or Agents Deployed Without Formal IT Approval",
+    "summary": "סקר של Vanson Bourne מטעם Imprivata בקרב 250 בכירי אבטחת זהויות ואסטרטגיית AI בארגוני בריאות אמריקאיים מצא כי ל-83% מהארגונים כבר יש AI פרוס במספר מחלקות, אך ב-72% מהם קיימים כלים או סוכני AI שנפרסו לפחות מדי פעם בלי אישור IT פורמלי — פער ממשל שהדוח מכנה \"AI צללים\". כ-8 מתוך 10 משיבים ציינו בעיות אבטחה, זהות מודל וממשל כחסם מרכזי להרחבת AI אגנטי, כש-57% הצביעו על הרשאות גישה מוגזמות וכ-50% על סיכון רגולטורי; זהו סקר תפיסות מדווח-עצמית ולא מדידה חיצונית של פריסות בפועל.",
+    "url": "https://www.globenewswire.com/news-release/2026/09/15/3362174/0/en/new-imprivata-research-finds-72-of-healthcare-organizations-have-ai-tools-or-agents-deployed-without-formal-it-approval.html",
+    "topics": [
+      "ethics",
+      "ops",
+      "adoption"
+    ]
+  },
+  {
+    "id": "cms-wiser-ai-prior-authorization-documents",
+    "date": "2026-09-15",
+    "added": "2026-09-16",
+    "src": "STAT News",
+    "fam": "press",
+    "title": "מסמכים חדשים חושפים: פיילוט ה-AI של מדיקר לאישור מוקדם הושק בחיפזון וגרם לעיכובים בטיפול",
+    "titleSrc": "Medicare's AI prior authorization pilot was rushed, new documents reveal",
+    "summary": "כ-1,000 עמודי מסמכים שקיבל ארגון Electronic Frontier Foundation בתביעת חופש מידע חושפים שפיילוט ה-WISeR של CMS — המשלב AI ובדיקה אנושית לאישור או דחייה מוקדמים של שירותים כמו תחליפי עור וזריקות אפידורליות לכאב בשש מדינות פיילוט — הושק בחיפזון בינואר 2026. לפי המסמכים, אחד מספקי הטכנולוגיה הזהיר את CMS מראש שלא יהיה ריאלי להגיע למוצר עובד עד מועד ההשקה; בפועל נרשמו עיכובים ודחיות טיפול וכאוס תפעולי, כולל בקשה אחת לאישור מוקדם שנותרה ללא מענה 83 יום לעומת יעד המוצהר של 72 שעות.",
+    "url": "https://www.statnews.com/2026/09/15/medicare-wiser-ai-prior-authorization-pilot-rushed-launch-delayed-care/",
+    "topics": [
+      "policy",
+      "ops",
+      "ethics"
+    ]
   }
 ]
