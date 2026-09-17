@@ -1557,5 +1557,96 @@
       "ops",
       "ethics"
     ]
+  },
+  {
+    "id": "verily-nvidia-investment-precision-health-platform",
+    "date": "2026-09-09",
+    "added": "2026-09-17",
+    "src": "HIT Consultant",
+    "fam": "press",
+    "title": "NVIDIA משקיעה ב-Verily כדי להאיץ את פלטפורמת ה-AI לרפואה מדויקת",
+    "titleSrc": "Verily Secures Strategic Investment from NVIDIA to Accelerate Precision Health AI Platform",
+    "summary": "חברת הבריאות המדויקת Verily (מקבוצת אלפאבט) הודיעה על השקעה אסטרטגית מ-NVIDIA, בהמשך לסבב גיוס של 300 מיליון דולר שהוכרז במרץ 2026, שמטרתה להאיץ את פיתוח ופריסת תשתית ה-AI של פלטפורמת Verily Pre. הכספים ישמשו להרחבת Forecast 1.0, מודל יסוד המשלב נתוני גנומיקה ורשומות רפואיות אלקטרוניות לחיזוי סיכוני בריאות ארוכי טווח; סכום ההשקעה הספציפי של NVIDIA לא פורסם.",
+    "url": "https://hitconsultant.net/2026/09/09/verily-health-secures-nvidia-investment-precision-health-ai-pre-platform/",
+    "topics": [
+      "funding",
+      "research"
+    ]
+  },
+  {
+    "id": "suki-science-at-suki-research-collaborative",
+    "date": "2026-09-15",
+    "added": "2026-09-17",
+    "src": "Physical AI News",
+    "fam": "press",
+    "title": "Suki משיקה יוזמת מחקר תעשייתית ו-Research Collaborative כדי להגדיר סטנדרט ל'AI טוב' ברפואה",
+    "titleSrc": "Suki Unveils Science at Suki to Set a New Standard for Healthcare AI",
+    "summary": "חברת ה-AI האמביינטי Suki השיקה יוזמת מחקר תעשייתית בשם Science at Suki, הבנויה על יותר משמונה שנות עבודה בממשק שבין AI לטיפול קליני. לצדה הוקם Suki Research Collaborative — רשת הכוללת את Regenstrief Institute, את המרכז הלאומי לגורמי אנוש בבריאות של MedStar Health, את משרד ה-AI בחינוך הרפואי של אוניברסיטת מיאמי ואת Rush University System for Health — שמטרתה לגבש סטנדרטים מחקריים מוסכמים להערכת איכות AI קליני.",
+    "url": "https://physicalainews.com/suki-unveils-science-at-suki-to-set-a-new-standard-for-healthcare-ai/",
+    "topics": [
+      "research",
+      "ambient"
+    ]
+  },
+  {
+    "id": "washington-court-ambient-ai-recordings-ruling",
+    "date": "2026-09-15",
+    "added": "2026-09-17",
+    "src": "American Medical Association",
+    "fam": "regulator",
+    "title": "בפעם הראשונה בארה\"ב: בית משפט בוושינגטון קובע שלמטופלים אין זכות חוקית להקלטות ה-AI האמביינטי מהביקור הרפואי",
+    "titleSrc": "Patients don't have right to ambient AI recordings, court says",
+    "summary": "שופט בבית משפט קמא במדינת וושינגטון קבע, במה שנחשב לאחד המקרים הראשונים בארה\"ב שדן ב-AI אמביינטי בחדר הבדיקה, שהקלטות שמע קליניות המשמשות רופאים להפקת הרשומה הסופית משרתות 'מטרה מנהלית' בלבד לפי חוק המידע הרפואי של המדינה, ולכן אין למטופלים זכות חוקית לקבלן. ה-AMA יחד עם ההסתדרויות הרפואית ובתי החולים של וושינגטון הגישו יחד חוות דעת ידידת בית המשפט שטענו כי יש להתייחס להקלטות כאל תרשומת או הכתבה זמנית של הרופא, לא כחלק מהרשומה הרפואית עצמה.",
+    "url": "https://www.ama-assn.org/practice-management/digital-health/patients-don-t-have-right-ambient-ai-recordings-court-says",
+    "topics": [
+      "policy",
+      "ambient",
+      "ethics"
+    ]
+  },
+  {
+    "id": "weave-bio-takeda-ai-regulatory-automation",
+    "date": "2026-09-01",
+    "added": "2026-09-17",
+    "src": "BioSpace",
+    "fam": "press",
+    "title": "טאקדה מרחיבה שימוש באוטומציה רגולטורית מבוססת AI של Weave Bio ל-14 תוכניות פיתוח תרופות גלובליות",
+    "titleSrc": "Weave Bio Announces Collaboration with Takeda to Deploy AI-Native Regulatory Automation Across Key Drug Development Activities",
+    "summary": "חברת התרופות טאקדה הרחיבה את השימוש בפלטפורמת ה-AI של Weave Bio לאוטומציה של מסמכים רגולטוריים ל-14 תוכניות פיתוח תרופות פעילות במספר שווקים גלובליים, כולל ניסוח מודולי בקשת IND ומענה לשאלות רשויות בריאות. מחקר שכתבו יחד מדעני טאקדה ו-Weave Bio דיווח על קיצור של 97% בזמן ניסוח הגשה ראשונית (מכ-100 שעות לכ-3 שעות) וללא שגיאת חילוץ נתונים אחת ביותר מ-100 שאלות ותשובות מול רשויות, כאשר צוותי הרגולציה הפנימיים שומרים על שליטה מלאה באימות ובאישור הסופי.",
+    "url": "https://www.biospace.com/press-releases/weave-bio-announces-collaboration-with-takeda-to-deploy-ai-native-regulatory-automation-across-key-drug-development-activities",
+    "topics": [
+      "ops",
+      "research"
+    ]
+  },
+  {
+    "id": "openai-anthropic-deepmind-biosecurity-coordination",
+    "date": "2026-09-15",
+    "added": "2026-09-17",
+    "src": "Bloomberg",
+    "fam": "press",
+    "title": "OpenAI, Anthropic ו-Google DeepMind מתאמות זה שבועות אמצעי בטיחות למניעת שימוש לרעה ב-AI במחקר ביולוגי ופיתוח תרופות",
+    "titleSrc": "OpenAI Says It's Working With Anthropic, Google on AI Safety",
+    "summary": "בלומברג דיווחה כי OpenAI, Anthropic ו-Google DeepMind מתאמות זה שבועות מדיניות בטיחות ביולוגית למערכות ה-AI שלהן בתחומי גילוי תרופות ומחקר מחלות, כולל בדיקות סיכון ביולוגי, בקרות גישה, סיווג תוכן בזמן אמת ותוכניות גישה מבוקרת לחוקרים מאומתים שנועדו לחסום שימוש הקשור לנשק ביולוגי מבלי לפגוע במחקר לגיטימי. הדיווח מגיע בהמשך למכתב משותף שפרסמו מנכ\"לי שלוש החברות לקונגרס האמריקאי ביוני 2026, שקרא לחקיקת חובת סינון ורישום להזמנות DNA/RNA סינתטיים.",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-15/openai-says-it-s-working-with-anthropic-google-on-ai-safety",
+    "topics": [
+      "ethics",
+      "policy"
+    ]
+  },
+  {
+    "id": "arxiv-ai-morbidity-mortality-framework",
+    "date": "2026-09-01",
+    "added": "2026-09-17",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "מסגרת 'תחלואה ותמותה' חדשה ל-AI קליני: סקירת כשלים שיטתית וללא האשמה בהשראת דיוני M&M בבתי חולים",
+    "titleSrc": "AI Morbidity and Mortality: A Framework for Clinical AI Failure Review",
+    "summary": "חוקרים (Paulius Mui, Dean F. Sittig, Steve Labkoff ו-Sanjay Basu) מציעים מסגרת בשם AI M&M, בהשראת דיוני תחלואה-ותמותה בבתי חולים, לסקירה שיטתית וללא האשמה של מקרי כשל ב-AI קליני. המסגרת משלבת קליטת מקרים סטנדרטית, שימור ראיות ושחזור ברמת חוקר של אופן היווצרות הסיכון באינטראקציה בין מערכת ה-AI, הקלינאים, תהליכי העבודה והבקרות המוסדיות, לצד ייחוס אחריות בשרשרת הכלים ומעקב אחר פעולות תיקון — בטענה שניטור מצטבר של ביצועי מודלים ודיווחי בטיחות מטופלים קיימים אינם בנויים להסביר שגיאות וכמעט-תקריות פרטניות של AI.",
+    "url": "https://arxiv.org/abs/2609.00076",
+    "topics": [
+      "ethics",
+      "ops"
+    ]
   }
 ]
