@@ -1648,5 +1648,215 @@
       "ethics",
       "ops"
     ]
+  },
+  {
+    "id": "novo-anthropic-claude-drug-discovery",
+    "date": "2026-09-16",
+    "added": "2026-09-18",
+    "src": "Anthropic",
+    "fam": "lab",
+    "title": "נובו נורדיסק ואנתרופיק משיקות שיתוף פעולה לזירוז גילוי תרופות עם קלוד",
+    "titleSrc": "Novo and Anthropic will collaborate to advance drug discovery with Claude",
+    "summary": "נובו נורדיסק ואנתרופיק הכריזו על שיתוף פעולה שבו נובו תבחן את פלטפורמת Claude Science של אנתרופיק לאורך תהליכי המחקר והפיתוח שלה, כולל היגיון ביולוגי וזירוז גילוי תרופות, ותשתמש במודלי החברה גם לפיתוח תוכנה מבוסס בינה מלאכותית. Claude Science מתחברת ליותר מ-60 מאגרי מידע מדעיים ומשתמשת בכלי BioNeMo Agent Toolkit של NVIDIA כדי להגיע למודלים ביולוגיים כמו Evo 2, Boltz-2 ו-OpenFold3; זהו שיתוף הפעולה השלישי המשמעותי של נובו נורדיסק בתחום הבינה המלאכותית ב-2026, אחרי עסקאות עם OpenAI ו-AWS.",
+    "url": "https://www.globenewswire.com/news-release/2026/09/16/3363106/0/en/novo-and-anthropic-will-collaborate-to-advance-drug-discovery-with-claude.html",
+    "topics": [
+      "research",
+      "adoption",
+      "ops"
+    ]
+  },
+  {
+    "id": "openai-foundation-public-data-for-health",
+    "date": "2026-09-15",
+    "added": "2026-09-18",
+    "src": "OpenAI Foundation",
+    "fam": "lab",
+    "title": "קרן OpenAI משיקה תוכנית של 125 מיליון דולר לבניית מאגרי נתונים רפואיים פתוחים",
+    "titleSrc": "Public Data for Health",
+    "summary": "קרן OpenAI (OpenAI Foundation) השיקה את התוכנית השנייה שלה בתחום המדע, Public Data for Health, ובה התחייבות ראשונית של למעלה מ-125 מיליון דולר למענקים ליצירה ושימור מאגרי נתונים מדעיים איכותיים ופתוחים לחוקרים במגוון מחלות. התוכנית ממשיכה את תוכנית AI for Alzheimer's שהושקה באפריל 2026, והמענקים הראשונים ניתנו לגופים כמו OpenADMET, CTD Commons ואוניברסיטת צפון קרוליינה, בתחומי גילוי תרופות, ידע רגולטורי וחיסוני סרטן מותאמים אישית — כחלק מהתחייבות הקרן להשקיע לפחות מיליארד דולר במטרות הקשורות לריפוי מחלות.",
+    "url": "https://openaifoundation.org/news/public-data-for-health",
+    "topics": [
+      "funding",
+      "research"
+    ]
+  },
+  {
+    "id": "nature-medicine-i3lung-nsclc-multimodal-ai",
+    "date": "2026-09-13",
+    "added": "2026-09-18",
+    "src": "Nature Medicine",
+    "fam": "journal",
+    "title": "מחקר I3LUNG: מודל בינה מלאכותית מולטימודלי ומוסבר משפר החלטות טיפול בסרטן ריאה גרורתי",
+    "titleSrc": "Clinical usability of an explainable AI decision support tool and evaluation of multimodal models in NSCLC",
+    "summary": "מחקר I3LUNG, המתואר כמחקר הבינלאומי הגדול ביותר בעולם האמיתי על בינה מלאכותית מולטימודלית באימונותרפיה לסרטן ריאה מסוג NSCLC, כלל 2,396 חולים ממדינות שונות ושילב נתונים קליניים ובדיקות דם מהעולם האמיתי, הדמיית CT, פתולוגיה דיגיטלית וגנומיקה. מודל תמיכת החלטות מבוסס בינה מלאכותית הניתן להסבר עלה על ביומרקרים מבוססים כמו PD-L1 בניבוי תוצאות האימונותרפיה, ונמצא כמשפר את קבלת ההחלטות הרפואיות בקרב חולים שעבורם היה מידע מלא בכל המודליות.",
+    "url": "https://www.nature.com/articles/s41591-026-04488-2",
+    "topics": [
+      "imaging",
+      "research"
+    ]
+  },
+  {
+    "id": "nature-medicine-conversational-ai-prospective-evidence",
+    "date": "2026-09-14",
+    "added": "2026-09-18",
+    "src": "Nature Medicine",
+    "fam": "journal",
+    "title": "פרשנות ב-Nature Medicine: אמון בבינה מלאכותית שיחתית ברפואה חייב להיבנות על מחקרים פרוספקטיביים, לא על ציוני מבחן",
+    "titleSrc": "Prospective evidence for conversational medical AI is hard, but non-negotiable",
+    "summary": "במאמר פרשנות ב-Nature Medicine טוענים שייקרמן, פלפו, רודמן ועמיתיהם כי אי אפשר לבסס אמון בבינה מלאכותית קלינית שיחתית רק על ציוני benchmark, וכי יש צורך במחקרים פרוספקטיביים קפדניים בתנאי קליניקה אמיתיים. לדבריהם, הלקחים הקשים ביותר מפריסת בינה מלאכותית רפואית שיחתית נוגעים לרוב לא לטכנולוגיה עצמה אלא לרופאים, לתהליכי העבודה ולמערכות הבריאות שסביבה.",
+    "url": "https://www.nature.com/articles/s41591-026-04639-5",
+    "topics": [
+      "ethics",
+      "research"
+    ]
+  },
+  {
+    "id": "fda-radiology-cad-premarket-exemption-denial",
+    "date": "2026-09-17",
+    "added": "2026-09-18",
+    "src": "FDA",
+    "fam": "regulator",
+    "title": "ה-FDA דוחה בקשה לפטור מכשירי הדמיה מבוססי בינה מלאכותית מבדיקה מוקדמת פרטנית",
+    "titleSrc": "Medical Devices; Exemption From Premarket Notification: Radiology Computer-Aided Detection and/or Diagnosis Devices and Computer-Aided Triage and Notification Devices",
+    "summary": "ה-FDA פרסם צו סופי הדוחה עתירת אזרח של חברת Harrison.ai לפטור חלקי מהליך 510(k) עבור ארבעה סוגי תוכנת רדיולוגיה גנרית, כולל תוכנות CADx לאיתור נגעים חשודים לסרטן ותוכנות CADt/התראה. הסוכנות קבעה כי אישור קודם למכשיר בינה מלאכותית אחד אינו מוכיח שמוצרים עתידיים מאותו יצרן יתפקדו בבטחה, בפרט כשארכיטקטורת המודל או נתוני האימון משתנים, ודחתה הסתמכות עיקרית על ניטור עצמי של היצרנים לאחר השיווק — כך שמפתחי CAD/CADt ברדיולוגיה יידרשו להמשיך ולהגיש כל מכשיר בנפרד לבדיקה מוקדמת.",
+    "url": "https://www.federalregister.gov/documents/2026/09/17/2026-19074/medical-devices-exemption-from-premarket-notification-radiology-computer-aided-detection-and-or",
+    "topics": [
+      "policy",
+      "imaging"
+    ]
+  },
+  {
+    "id": "cms-access-model-expansion-chronic-conditions",
+    "date": "2026-09-15",
+    "added": "2026-09-18",
+    "src": "CMS",
+    "fam": "regulator",
+    "title": "CMS מרחיבה את מודל ACCESS: מסלולים חדשים לאי-ספיקת לב, COPD והפרעות שימוש בחומרים מבוססי בינה מלאכותית",
+    "titleSrc": "CMS Adds Medicare Options to Help People Manage Substance Use Disorder, Heart Failure, and Other Common Chronic Conditions",
+    "summary": "הרשות האמריקאית למדיקייר ומדיקייד (CMS) הודיעה על הרחבת מודל ACCESS, תוכנית תשלום מרצון המבוססת על תוצאות ונתמכת בטכנולוגיית בינה מלאכותית וניטור מרחוק, בהוספת מסלולים לאי-ספיקת לב, COPD, הפרעות שימוש בחומרים וגמילה מטבק — לצד המסלולים הקיימים ליתר לחץ דם, סוכרת, כאב כרוני ודיכאון. המסלולים החדשים ייכנסו לתוקף באביב 2027; כ-160 ארגונים כבר משתתפים במודל, ו-CMS מציינת כי כשלושה מכל ארבעה מוטבי מדיקייר המקורי זכאים למסלול אחד לפחות, כאשר התשלום לארגונים המשתתפים מבוסס על שיפור מדיד בתוצאות ולא על נפח השירותים.",
+    "url": "https://www.cms.gov/newsroom/press-releases/cms-adds-medicare-options-help-people-manage-substance-use-disorder-heart-failure-other-common",
+    "topics": [
+      "policy",
+      "adoption"
+    ]
+  },
+  {
+    "id": "medrxiv-interpretable-ehr-trajectory-features",
+    "date": "2026-09-14",
+    "added": "2026-09-18",
+    "src": "medRxiv",
+    "fam": "preprint",
+    "title": "פרה-פרינט: שיטת חילוץ מאפיינים מבוססת-מגמה הופכת נתוני EHR אורכיים למודלים פרשניים יותר",
+    "titleSrc": "Interpretable Trajectory-Based Feature Extraction from Longitudinal Electronic Health Records",
+    "summary": "חוקרים הציעו ב-medRxiv שיטה להמרת נתוני רשומות רפואיות אלקטרוניות (EHR) אורכיים והטרוגניים למאפייני 'מגמה' קומפקטיים ופרשניים — למשל תיוג משתנים מספריים כ'עולה'/'יורד'/'יציב' — המוזנים למודל רגרסיה לוגיסטית פשוט עם רגולריזציית L1 לצורך ניבוי בר-פירוש. עבור ניבוי תמותה בטיפול נמרץ המודל הטוב ביותר השיג AUROC של 0.8751 בחלון תצפית של 32 שעות, ועבור ניבוי אשפוז חוזר תוך 30 יום, ייצוגי מגמה מ-72 השעות שלפני השחרור השיגו ביצועים כמעט זהים (AUROC של כ-0.687-0.688) בין שני סוגי הייצוג שנבדקו.",
+    "url": "https://www.medrxiv.org/content/10.64898/2026.09.14.26363036v1",
+    "topics": [
+      "research",
+      "ops"
+    ]
+  },
+  {
+    "id": "arxiv-scaling-clinical-judgment-precisetron",
+    "date": "2026-09-11",
+    "added": "2026-09-18",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "פרה-פרינט: מודל שפה ייעודי מנסה להפוך שיפוט קליני אנושי לכלי הערכה בר-קנה-מידה לבינה מלאכותית רפואית",
+    "titleSrc": "Scaling Clinical Judgment to Evaluate Medical AI",
+    "summary": "חוקרים מהרווארד, מבית החולים בית ישראל דיקונס וממוסדות שותפים טוענים ב-arXiv כי הערכה עיוורת של רופאים, הנחשבת אבן הבוחן לשיפוט קליני של מודלי שפה גדולים, אינה ניתנת להרחבה בפועל — משום שמחקרים קודמים נשענים לרוב על פאנלים קטנים של רופאים ממוסד או מהתמחות בודדים, מה שפוגע ביכולת השחזור. הם מציגים את PrecepTron, מודל שפה שכוונן במיוחד לשחזר הערכה ברמת רופא של תגובות פתוחות של בינה מלאכותית קלינית, בניסיון להפוך הערכה קפדנית של היגיון קליני לבת-קנה-מידה מעבר לפאנלים קטנים.",
+    "url": "https://arxiv.org/abs/2609.12822",
+    "topics": [
+      "research",
+      "ethics"
+    ]
+  },
+  {
+    "id": "arxiv-memorisation-bias-medical-ai",
+    "date": "2026-09-15",
+    "added": "2026-09-18",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "פרה-פרינט: 'הטיית שינון' — מודלים רפואיים 'זוכרים' חולים בודדים ומטים ניבויים עתידיים עבורם",
+    "titleSrc": "Memorisation bias in medical AI",
+    "summary": "מחקר ב-arXiv מזהה ומכנה תופעה בשם 'הטיית שינון' (memorisation bias): מודלים רפואיים מבוססי בינה מלאכותית עלולים לשנן בשוגג רשומות של חולים בודדים מנתוני האימון, כך שהניבוי עבור אותו חולה בביקור עתידי משתנה משמעותית בהתאם לשאלה אם נתוניו ההיסטוריים היו בסט האימון — אפקט שנצפה במספר סוגי נתונים וארכיטקטורות מודל ונמשך גם עשרות שנים לאחר איסוף הנתונים ההיסטוריים. כשחולה חוזר הציג מצב רפואי חדש שלא הופיע בהיסטוריה שעליה אומן המודל, רגישות האבחון ירדה משמעותית בהשוואה למודל זהה שלא אומן על נתוני אותו חולה, ולעומת זאת כשמצבו הרפואי של החולה לא השתנה, גם הרגישות וגם הסגוליות היו מנופחות באופן מלאכותי ומובהק.",
+    "url": "https://arxiv.org/abs/2609.17223",
+    "topics": [
+      "research",
+      "ethics"
+    ]
+  },
+  {
+    "id": "kaiser-permanente-arpah-heart-failure-ai-trial",
+    "date": "2026-09-09",
+    "added": "2026-09-18",
+    "src": "Kaiser Permanente Division of Research",
+    "fam": "provider",
+    "title": "קייזר פרמננטה מקבלת עד 16 מיליון דולר ממענק ARPA-H להערכת שימוש אחראי בבינה מלאכותית לטיפול באי-ספיקת לב",
+    "titleSrc": "Kaiser Permanente receives up to $16 million award to evaluate ways to responsibly use AI to enhance care for adults with heart failure",
+    "summary": "חוקרי קייזר פרמננטה יקבלו מענק של עד 16 מיליון דולר על פני שלוש שנים מתוכנית ADVOCATE של הסוכנות האמריקאית ARPA-H, למימון מה שמתואר כמחקר האקראי-מבוקר השיטתי הראשון והגדול ביותר בארה״ב על בינה מלאכותית אגנטית בטיפול באי-ספיקת לב. הפרויקט, בהובלת הקרדיולוג אנקיט בהאט מקבוצת הרפואה הפרמננטית, יבחן כיצד ניתן לשלב בינה מלאכותית באופן אחראי בקבלת ההחלטות הקליניות השוטפת כדי לשפר את הטיפול והתוצאות באי-ספיקת לב.",
+    "url": "https://divisionofresearch.kaiserpermanente.org/award-ai-heart-failure-treatment/",
+    "topics": [
+      "funding",
+      "research"
+    ]
+  },
+  {
+    "id": "nhs-mhra-national-commission-ai-healthcare-regulation",
+    "date": "2026-09-10",
+    "added": "2026-09-18",
+    "src": "MHRA",
+    "fam": "regulator",
+    "title": "ועדה לאומית בבריטניה ממליצה על מסגרת רגולציה חדשה לבינה מלאכותית בבריאות, כולל אישורים מדורגים וניטור בזמן אמת",
+    "titleSrc": "National Commission into the Regulation of AI in Healthcare: Recommendations for a future regulatory framework",
+    "summary": "ועדה עצמאית שהקימה רשות התרופות והמכשור הרפואי הבריטית (MHRA) בספטמבר 2025, בראשות רופאי NHS, פרסמה המלצות בתום חקירה שנמשכה כשנה ואספה עדויות מיותר מ-12,000 מטופלים, קלינאים וגורמי תעשייה. הוועדה קוראת לאישורים מדורגים בסגנון 'L-plate' למודלים חדשים כדי להוכיח בטיחות בעולם האמיתי לפני אישור מלא, לניטור רציף בעולם האמיתי של מכשירים מבוססי בינה מלאכותית, לנתוני בטיחות ותקריות חשופים לציבור, ולסמכויות אכיפה מוגברות ל-MHRA.",
+    "url": "https://www.gov.uk/government/publications/national-commission-into-the-regulation-of-ai-in-healthcare-recommendations-for-a-future-regulatory-framework",
+    "topics": [
+      "policy",
+      "ethics"
+    ]
+  },
+  {
+    "id": "oracle-health-clinical-ai-agent-nurses",
+    "date": "2026-09-14",
+    "added": "2026-09-18",
+    "src": "Oracle Health",
+    "fam": "press",
+    "title": "אורקל הלת' משיקה סוכן בינה מלאכותית קליני לאחיות לצמצום נטל התיעוד",
+    "titleSrc": "Oracle Health Clinical AI Agent Helps Nurses Alleviate Documentation Burden and Streamline Care",
+    "summary": "אורקל הלת' העמידה לרשות בתי חולים בארה״ב את Clinical AI Agent המיועד לאחיות, המשולב ישירות ברשומה הרפואית האלקטרונית Oracle Health Foundation. הכלי משלב ניווט וחיפוש בתרשים המטופל בפקודה קולית, כתיבת סיכומי סיעוד אוטומטית ותיעוד דיסקרטי מופעל-קול ליד מיטת החולה, ומגיע כשנתיים אחרי גרסת הרופאים, שלפי אורקל חסכה לרופאים למעלה מ-400,000 שעות בארגוני בריאות בארה״ב — הכלי לאחיות מושק לפני ועידת Oracle Health and Life Sciences Summit שתתקיים ב-22-24 בספטמבר 2026.",
+    "url": "https://www.prnewswire.com/news-releases/oracle-health-clinical-ai-agent-helps-nurses-alleviate-documentation-burden-and-streamline-care-302876694.html",
+    "topics": [
+      "ambient",
+      "ops"
+    ]
+  },
+  {
+    "id": "knowtex-frontier-ai-lab-healthcare",
+    "date": "2026-09-15",
+    "added": "2026-09-18",
+    "src": "Knowtex",
+    "fam": "press",
+    "title": "חברת Knowtex משיקה 'מעבדת בינה מלאכותית חזיתית' לבריאות, ביותר מ-200 התמחויות רפואיות",
+    "titleSrc": "Knowtex Launches the Frontier AI Lab for Healthcare, Bringing Research-Grade Clinical AI to Health Systems to Maximize Intelligence per Patient Encounter",
+    "summary": "חברת Knowtex, המפתחת תיעוד קליני מבוסס בינה מלאכותית ambient/קולית ופרוסה כבר במשרד לענייני יוצאי מלחמה האמריקאי וביותר מ-300 ארגונים, השיקה 'מעבדת בינה מלאכותית חזיתית' לבניית והערכה קפדנית של מודלי בינה מלאכותית קליניים מבחינת דיוק, יכולת ביקורת ואמון קלינאים ביותר מ-200 התמחויות רפואיות. החברה מדווחת על צמיחה פי 10 בהכנסות ופי 100 בלקוחות מתחילת 2026, ועל תזרים מזומנים חיובי.",
+    "url": "https://www.prnewswire.com/news-releases/knowtex-launches-the-frontier-ai-lab-for-healthcare-bringing-research-grade-clinical-ai-to-health-systems-to-maximize-intelligence-per-patient-encounter-302878575.html",
+    "topics": [
+      "research",
+      "ambient"
+    ]
+  },
+  {
+    "id": "hl7-fhir-deqm-implementation-guide-stu",
+    "date": "2026-09-16",
+    "added": "2026-09-18",
+    "src": "HL7",
+    "fam": "regulator",
+    "title": "HL7 מפרסם גרסת STU חדשה של מדריך היישום FHIR לחילופי נתונים למדדי איכות",
+    "titleSrc": "STU Publication of HL7 FHIR Implementation Guide: Data Exchange for Quality Measures, Edition 1 – Universal Realm",
+    "summary": "ארגון התקינה HL7 פרסם גרסת Standard for Trial Use (STU) חדשה של מדריך היישום FHIR לחילופי נתונים למדדי איכות (DEQM), המפרט כיצד מערכות משתמשות במשאבי ופעולות FHIR לבקש ולדווח נתונים קליניים ומנהליים — כולל מידע על פערי טיפול — לצורכי דיווח מדדי איכות. הפרסום, עדכון פורמלי לתקן האינטראופרביליות, יצא לאור בד בבד עם כנס העבודה וה-Connectathon של HL7 בספטמבר 2026 (19-25 בספטמבר) ובזמן שהצבעת FHIR R6 עדיין מתנהלת.",
+    "url": "http://standups.hl7.org/2026/09/16/stu-publication-of-hl7-fhir-implementation-guide-data-exchange-for-quality-measures-edition-1-universal-realm/",
+    "topics": [
+      "interop"
+    ]
   }
 ]
