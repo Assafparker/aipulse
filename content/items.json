@@ -1858,5 +1858,78 @@
     "topics": [
       "interop"
     ]
+  },
+  {
+    "id": "nature-medicine-panxeon-pancreatic-cancer-liquid-biopsy",
+    "date": "2026-09-17",
+    "added": "2026-09-21",
+    "src": "Nature Medicine",
+    "fam": "journal",
+    "title": "בדיקת דם מבוססת AI בשם PANXEON מזהה סרטן לבלב בשלב מוקדם אצל כ-1,800 מטופלים",
+    "titleSrc": "Liquid biopsy for early detection of pancreatic ductal adenocarcinoma",
+    "summary": "מחקר בינלאומי רב-מרכזי בכ-1,800 מטופלים מארה\"ב, אירופה ואסיה בחן את PANXEON — בדיקת דם המשלבת חתימת מיקרו-RNA, אקסוזומים וחלבון CA19-9 לציון סיכון יחיד מבוסס בינה מלאכותית. הבדיקה השיגה רגישות של 83.8% ו-AUC של 88.6% לזיהוי סרטן לבלב בשלב מוקדם, עם שיעור תוצאות שווא-חיוביות של 3% בקבוצת סיכון נמוך ו-16% בקבוצת סיכון גבוה, וזיהתה מצב טרום-סרטני מתקדם ביותר מ-64% מהמקרים.",
+    "url": "https://www.nature.com/articles/s41591-026-04625-x",
+    "topics": [
+      "research"
+    ]
+  },
+  {
+    "id": "npj-digital-medicine-evidence-challenge-llms",
+    "date": "2026-09-17",
+    "added": "2026-09-21",
+    "src": "npj Digital Medicine",
+    "fam": "journal",
+    "title": "אתגר הראיות: קריאה לסטנדרטים חדשים בהערכת מודלי שפה קליניים",
+    "titleSrc": "The evidence challenge facing large language models in medicine",
+    "summary": "מאמר News & Views ב-npj Digital Medicine מתריע כי הקצב המהיר של פיתוח מודלי שפה גדולים (LLM) עולה על יכולתן של שיטות המחקר הקליני המסורתיות להעריך אותם. הכותבים מצביעים על חוסר אחידות בעיצוב ובדיווח של מחקרים פרוספקטיביים כמכשול מרכזי בדרך להערכה משמעותית ובזמן של בטיחות ויעילות בינה מלאכותית קלינית.",
+    "url": "https://www.nature.com/articles/s41746-026-03262-5",
+    "topics": [
+      "research",
+      "ethics"
+    ]
+  },
+  {
+    "id": "arpa-h-advocate-heart-failure-agentic-ai",
+    "date": "2026-09-09",
+    "added": "2026-09-21",
+    "src": "STAT News",
+    "fam": "press",
+    "title": "ARPA-H משקיעה 62.7 מיליון דולר בסוכני AI אוטונומיים לטיפול באי-ספיקת לב",
+    "titleSrc": "ARPA-H to invest $62.7 million in AI bots for heart failure care",
+    "summary": "הסוכנות הפדרלית ARPA-H הכריזה על תוכנית ADVOCATE בהיקף 62.7 מיליון דולר לארבע שנים, לפיתוח סוכני AI הפונים ישירות למטופל לניהול אי-ספיקת לב. Atman Health, Tempus AI ו-UpDoc ייבנו סוכנים שיעקבו אחר מטופלים בין ביקורים, יתאימו תרופות ויסלימו מקרים לרופאים; סטנפורד תפתח שכבת פיקוח בטיחותי, ודיוק ו-Kaiser Permanente יובילו פריסה בשטח. הסוכנות מעריכה חיסכון שנתי אפשרי של עד 28 מיליארד דולר, אם כי מדובר בהערכה ולא בתוצאה מוכחת.",
+    "url": "https://www.statnews.com/2026/09/09/arpa-h-advocate-program-autonomous-ai-bots-for-heart-failure/",
+    "topics": [
+      "funding",
+      "ops"
+    ]
+  },
+  {
+    "id": "arxiv-knowbench-effort-reduction-clinical-ai-benchmark",
+    "date": "2026-09-14",
+    "added": "2026-09-21",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "KnowBench: מדד חדש ל-AI קליני בודק כמה עבודה קלינית ה-AI חוסך בפועל",
+    "titleSrc": "KnowBench: Effort Reduction as a Unified, Deployment-Grounded Benchmark for Clinical AI",
+    "summary": "פרה-פרינט חדש מציג את KnowBench, מדד שמרכזו 'צמצום מאמץ' (Effort Reduction) — שיעור התוצרים הקליניים שנוצרו על ידי AI ואושרו על ידי הרופא האחראי לאחר בדיקת בטיחות ומומחיות. המדד נבחן על סביבת ייצור אמיתית עם למעלה ממיליון מפגשים חתומים בלמעלה משישה תחומי התמחות רפואיים, והשיג ציון צמצום מאמץ מצטבר של 97.99%.",
+    "url": "https://arxiv.org/abs/2609.15794",
+    "topics": [
+      "research",
+      "ops"
+    ]
+  },
+  {
+    "id": "arxiv-doctorina-primary-care-diagnostics-physicians",
+    "date": "2026-09-08",
+    "added": "2026-09-21",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "מערכת AI קלינית בשם Doctorina עולה על שמונה רופאים ועל מודלי שפה מובילים באבחון ברפואת המשפחה",
+    "titleSrc": "Performance of Clinical AI System and Physicians and Frontier Language Models in primary care diagnostics",
+    "summary": "פרה-פרינט השווה בין מערכת ה-AI הקלינית Doctorina, שמונה רופאים וארבעה מודלי שפה מובילים (ובהם Claude Opus 5) על פני 150 תיקי ייעוץ סימולציה ברפואת משפחה בפולנית. Doctorina הגיעה להתאמה של 82.0% לאבחנה המובילה לעומת 57.0% אצל הרופאים, וציוני בירור וטיפול מנורמלים של 89.4 מול 66.9 בהתאמה; ריצה חוזרת של המערכת שחזרה את היתרון על פני כל המדדים, אך מדובר בתיקים סינתטיים ולא בחולים אמיתיים.",
+    "url": "https://arxiv.org/abs/2609.09070",
+    "topics": [
+      "research"
+    ]
   }
 ]
