@@ -1931,5 +1931,110 @@
     "topics": [
       "research"
     ]
+  },
+  {
+    "id": "who-gi-ai4h-third-meeting-hangzhou",
+    "date": "2026-09-16",
+    "added": "2026-09-22",
+    "src": "ארגון הבריאות העולמי (WHO)",
+    "fam": "regulator",
+    "title": "האו״ם מקיים בהאנגג'ואו את הכנס השלישי של היוזמה הגלובלית לבינה מלאכותית בבריאות",
+    "titleSrc": "Third meeting of the Global Initiative on AI for Health",
+    "summary": "ה-WHO, ה-ITU וה-WIPO קיימו בהאנגג'ואו שבסין, ב-16–18 בספטמבר, את הכנס השלישי של היוזמה הגלובלית לבינה מלאכותית בבריאות (GI-AI4H), בהשתתפות קובעי מדיניות, רגולטורים, אנשי מקצוע רפואיים וחוקרים ממדינות חברות באו״ם. הדיונים התמקדו במעבר מעקרונות ליישום מעשי ואחראי של בינה מלאכותית במערכות בריאות, כולל חיזוק שיתוף הפעולה הבינלאומי בנושאי תקינה וממשל.",
+    "url": "https://www.who.int/news-room/events/detail/2026/09/16/default-calendar/third-meeting-of-the-global-initiative-on-ai-for-health",
+    "topics": [
+      "policy",
+      "adoption"
+    ]
+  },
+  {
+    "id": "fda-de-novo-queen-of-hearts-ecg-ai",
+    "date": "2026-09-11",
+    "added": "2026-09-22",
+    "src": "STAT News",
+    "fam": "regulator",
+    "title": "ה-FDA מאשר לראשונה מודל AI לניתוח א.ק.ג המזהה התקפי לב עם חסימה נסתרת",
+    "titleSrc": "New 'Queen of Hearts' AI aims to detect hidden-blockage heart attacks",
+    "summary": "ה-FDA העניק אישור De Novo למודל הבינה המלאכותית Queen of Hearts של חברת Powerful Medical, המנתח א.ק.ג כדי לזהות תסמונת כלילית חדה, כולל אוטמים מסוג STEMI וחסימות 'שקטות' שאינן מזוהות בשיטות הקיימות. במחקר רישום רטרוספקטיבי בשלוש רשתות מיון קרדיאליות בארה״ב זיהה המודל 92% מהתקפי הלב האמיתיים כבר בא.ק.ג הראשון לעומת 71% בטריאז' הרגיל, ושיעור האזעקות השווא צנח מכ-42% ל-8%.",
+    "url": "https://www.statnews.com/2026/09/11/fda-new-ekg-heart-attack-detection-algo-queen-of-hearts/",
+    "topics": [
+      "research",
+      "adoption"
+    ]
+  },
+  {
+    "id": "stat-geriatrician-ai-scrutiny-older-adults",
+    "date": "2026-09-18",
+    "added": "2026-09-22",
+    "src": "STAT News",
+    "fam": "press",
+    "title": "גריאטרית מ-UCSF: למה בינה מלאכותית עבור מבוגרים מחייבת בדיקה קפדנית במיוחד",
+    "titleSrc": "Geriatrician explains why AI for older adults deserves careful scrutiny",
+    "summary": "ד״ר ג'יימס דירדורף, גריאטר וחוקר ב-UCSF שפיתח מודלים לחיזוי תמותה וצורך באשפוז סיעודי, מסביר בראיון ל-STAT מדוע כלי חיזוי סיכון מבוססי AI המוטמעים ברשומה הרפואית האלקטרונית - למשל לחיזוי אלח דם, נפילות או תמותה - עלולים להיכשל דווקא באוכלוסיית הקשישים. לדבריו, קלינאים חייבים להכיר את ביצועי האלגוריתם בתת-אוכלוסיות ספציפיות של מבוגרים, ולא להניח שדיוק כללי גבוה מבטיח דיוק דומה עבורם.",
+    "url": "https://www.statnews.com/2026/09/18/geriatrician-explains-why-ai-for-older-adults-deserves-careful-scrutiny/",
+    "topics": [
+      "research",
+      "ethics"
+    ]
+  },
+  {
+    "id": "zocdoc-care-access-network-amazon-health-ai",
+    "date": "2026-09-16",
+    "added": "2026-09-22",
+    "src": "Zocdoc (PR Newswire)",
+    "fam": "press",
+    "title": "Zocdoc משיקה 'רשת גישה לטיפול' ופותחת את תשתית התורים שלה לפלטפורמות AI ולמבטחים",
+    "titleSrc": "Zocdoc Enters Its Next Chapter, Expanding Beyond Its Marketplace to Power Access to Care Everywhere",
+    "summary": "Zocdoc השיקה את ה-Care Access Network, המאפשרת לשותפים - ממבטחים ונותני שירות ועד פלטפורמות בינה מלאכותית, מנועי חיפוש ואתרי ביקורות - לשלב את מערכת קביעת התורים שלה ישירות בממשקים שלהם, דרך API, פיד נתונים או שרת MCP ייעודי לחוויות AI. כחלק מההשקה הודיעה החברה על שותפות עם Amazon Health AI לאפשור קביעת תורים ארצית למשתמשיה.",
+    "url": "https://www.prnewswire.com/news-releases/zocdoc-enters-its-next-chapter-expanding-beyond-its-marketplace-to-power-access-to-care-everywhere-302879956.html",
+    "topics": [
+      "adoption",
+      "ops"
+    ]
+  },
+  {
+    "id": "chi-mei-medical-center-ai-records-30-seconds",
+    "date": "2026-09-21",
+    "added": "2026-09-22",
+    "src": "Taipei Times",
+    "fam": "provider",
+    "title": "בית החולים הטאיוואני צ'י מיי משיק מערכת AI המרכזת רשומה רפואית תוך 30 שניות",
+    "titleSrc": "Chi Mei launches AI system to compile medical records in 30 seconds",
+    "summary": "מרכז צ'י מיי הרפואי בטאיוואן השיק מערכת בינה מלאכותית המספקת לרופאי חדר המיון תקציר של ההיסטוריה הרפואית של המטופל תוך כ-30 שניות, במקום חיפוש ידני מסורבל ברשומות ממערכות שונות. המערכת נועדה לקצר את זמן קבלת ההחלטות במצבי חירום, ומצטרפת למהלכי דיגיטציה רחבים יותר של הבינה המלאכותית בבית החולים.",
+    "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/21/2003864647",
+    "topics": [
+      "adoption",
+      "ops"
+    ]
+  },
+  {
+    "id": "topol-ground-truths-wearable-hrv-readiness",
+    "date": "2026-09-19",
+    "added": "2026-09-22",
+    "src": "Ground Truths (Eric Topol)",
+    "fam": "people",
+    "title": "אריק טופול: 'הפערים הגדולים' במדדי שונות קצב הלב וה-Readiness של המכשירים הלבישים",
+    "titleSrc": "The Big Holes in Wearable Heart Rate Variability And Readiness Scores",
+    "summary": "בעקבות הכרזת אפל על שדרוג מערכת חיישני הבריאות של ה-Apple Watch - כולל ציון Readiness בסולם 0–10 והגדלה פי 24 בתפוקת נתוני שונות קצב הלב (HRV) - סוקר אריק טופול בבלוג Ground Truths שלו את הראיות המדעיות מאחורי המדדים הללו. לדבריו, חברות המכשירים הלבישים משווקות HRV וציוני Readiness כמדדים לבריאות המערכת האוטונומית ואף כסמנים דיגיטליים למחלה, אך רבים מהשימושים הללו טרם הוכחו מדעית.",
+    "url": "https://erictopol.substack.com/p/the-big-holes-in-wearable-heart-rate",
+    "topics": [
+      "research",
+      "ethics"
+    ]
+  },
+  {
+    "id": "arxiv-medical-vlm-tuberculosis-screening-audit",
+    "date": "2026-09-18",
+    "added": "2026-09-22",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "מחקר: מודלי ראייה-שפה רפואיים לסינון שחפת בצילומי חזה נכשלים כשמשנים את תנאי הבדיקה",
+    "titleSrc": "Beyond Benchmark Scores: Auditing Medical Vision-Language Models for Chest X-Ray Tuberculosis Screening",
+    "summary": "פרה-פרינט שבדק שלושה מודלי ראייה-שפה רפואיים (BioMedCLIP, CheXficient, MedSigLIP) לצד מודל כללי (OpenCLIP) על 12,200 צילומי חזה מארבעה מאגרי נתונים לאיתור שחפת, מצא שהחלפת קבוצת הביקורת הבריאה בקבוצת חולים ללא שחפת הורידה את דיוק המודלים (AUROC) בין 0.075 ל-0.306 נקודות בכל הארבעה מודלים. הממצאים מטילים ספק ביכולת של ציוני Benchmark בודדים לשקף ביצועים אמינים בתנאי עולם אמיתי משתנים.",
+    "url": "https://arxiv.org/abs/2609.21763",
+    "topics": [
+      "imaging",
+      "research"
+    ]
   }
 ]
