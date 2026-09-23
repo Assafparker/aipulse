@@ -2036,5 +2036,123 @@
       "imaging",
       "research"
     ]
+  },
+  {
+    "id": "who-ethics-oversight-ai-health-research",
+    "date": "2026-09-21",
+    "added": "2026-09-23",
+    "src": "WHO",
+    "fam": "regulator",
+    "title": "ארגון הבריאות העולמי קורא לחיזוק הפיקוח האתי על מחקר בריאות מבוסס בינה מלאכותית",
+    "titleSrc": "New WHO report calls for stronger ethics oversight of AI-related health research",
+    "summary": "ה-WHO פרסם דוח חדש שמזהיר כי ללא פיקוח אתי חזק, מחקרי בריאות מבוססי בינה מלאכותית עלולים לפגוע בזכויות אדם, בשוויון ובאמון הציבור. הדוח מגדיר שלוש קטגוריות של מחקר כזה וממליץ לחוקרים, ועדות אתיקה, רגולטורים וגופי מימון כיצד לחזק את הפיקוח לאורך כל מחזור המחקר — מתכנון ועד פרסום ורגולציה — ומדגיש את הפער בין ריכוז המחקר במדינות עשירות לבין הצורך לחזק מנהיגות מקומית במדינות בעלות הכנסה נמוכה ובינונית.",
+    "url": "https://www.who.int/news/item/21-09-2026-new-who-report-calls-for-stronger-ethics-oversight-of-ai-related-health-research",
+    "topics": [
+      "policy",
+      "ethics"
+    ]
+  },
+  {
+    "id": "mhra-national-commission-ai-healthcare-44-recommendations",
+    "date": "2026-09-10",
+    "added": "2026-09-23",
+    "src": "MHRA / ממשלת בריטניה",
+    "fam": "regulator",
+    "title": "ועדה לאומית בבריטניה מפרסמת 44 המלצות למסגרת רגולטורית חדשה לבינה מלאכותית בבריאות",
+    "titleSrc": "Independent Commission led by NHS doctors sets out blueprint to accelerate safe AI adoption in healthcare",
+    "summary": "הוועדה הלאומית לרגולציה של בינה מלאכותית בבריאות בבריטניה, בהובלת ה-MHRA, פרסמה 44 המלצות למסגרת רגולטורית עתידית, בעקבות התייעצות של כשנה עם יותר מ-12,000 מטופלים, קלינאים ובעלי עניין — התהליך הגדול מסוגו שבריטניה ערכה בנושא רגולציה של טכנולוגיה רפואית. הוועדה ממליצה לעבור ממערכת המבוססת על אישור חד-פעמי טרום-שיווקי למודל פיקוח לאורך מחזור חיים עם ניטור מתמשך, כולל גישת L-plate שבה כלי AI חדשים נפרסים תחת פיקוח הדוק לפני קבלת אישור סופי.",
+    "url": "https://www.gov.uk/government/news/independent-commission-led-by-nhs-doctors-sets-out-blueprint-to-accelerate-safe-ai-adoption-in-healthcare",
+    "topics": [
+      "policy",
+      "adoption"
+    ]
+  },
+  {
+    "id": "anthropic-openevidence-medical-ai-lmic",
+    "date": "2026-09-22",
+    "added": "2026-09-23",
+    "src": "Reuters (Anthropic / OpenEvidence)",
+    "fam": "lab",
+    "title": "Anthropic ו-OpenEvidence משיקות שותפות להבאת בינה מלאכותית רפואית חינמית לכ-100 מדינות מתפתחות",
+    "titleSrc": "Exclusive-Anthropic, OpenEvidence partner to bring medical AI worldwide",
+    "summary": "Anthropic ו-OpenEvidence, פלטפורמת תמיכת ההחלטות הקלינית החינמית לרופאים בארה\"ב ובאירופה, הכריזו על שותפות שתביא גרסה ייעודית של הכלי בחינם לקלינאים בכ-100 מדינות בעלות הכנסה נמוכה ובינונית, בהן אוגנדה, אנגולה, סודן, האיטי ומונגוליה. טכנולוגיית Anthropic תספק את התשתית, ו-OpenEvidence תתאים את המערכת לתשתיות הבריאות המקומיות; תנאי ההסכם הכספיים לא פורסמו.",
+    "url": "https://www.thestar.com.my/tech/tech-news/2026/09/23/exclusive-anthropic-openevidence-partner-to-bring-medical-ai-worldwide",
+    "topics": [
+      "adoption"
+    ]
+  },
+  {
+    "id": "intermountain-health-ai-cdi-documentation",
+    "date": "2026-09-21",
+    "added": "2026-09-23",
+    "src": "MedCity News",
+    "fam": "press",
+    "title": "Intermountain Health: כלי בינה מלאכותית לשיפור תיעוד קליני מעלים את שיעור השלמת התיקים ב-22 נקודות אחוז",
+    "titleSrc": "How AI Is Transforming Clinical Documentation at Intermountain Health",
+    "summary": "מערכת הבריאות Intermountain Health מדווחת כי מאז הטמעת כלי בינה מלאכותית לשיפור איכות התיעוד הקליני (CDI), שיעור השלמת התיקים הרפואיים באשפוז במהלך הסבב או מיד לאחריו עלה ב-22 נקודות אחוז. ד\"ר בו ביילי, הרופא המוביל בתחום ערעורים ודחיות בארגון, מציין שיפור משמעותי גם ביעילות וגם בשביעות רצון הצוות הרפואי, תוך ציון שחלק מהיישומים המשמעותיים ביותר של AI קליני נמצאים דווקא מחוץ לחדר הבדיקה.",
+    "url": "https://medcitynews.com/2026/09/how-ai-is-transforming-clinical-documentation-at-intermountain-health/",
+    "topics": [
+      "ops",
+      "adoption"
+    ]
+  },
+  {
+    "id": "va-abridge-ambient-ai-enterprise-contract",
+    "date": "2026-09-22",
+    "added": "2026-09-23",
+    "src": "Abridge (הודעה לעיתונות)",
+    "fam": "provider",
+    "title": "משרד יוצאי הצבא האמריקאי (VA) בוחר ב-Abridge לפריסת בינה מלאכותית אמביינטית ארצית בחוזה של עד 775.7 מיליון דולר",
+    "titleSrc": "Abridge Selected to Bring Ambient AI to Veteran Care Nationwide Through the VA Enterprise Contract",
+    "summary": "משרד יוצאי הצבא האמריקאי (VA) בחר בחברת Abridge לספק בינה מלאכותית אמביינטית לתיעוד קליני במסגרת חוזה ארגוני מרובה-ספקים בתקרה כוללת של עד 775.72 מיליון דולר על פני חמש שנים. הפריסה תאפשר למרכזים הרפואיים והרשתות האזוריות של ה-VA לרכוש את השירות עבור כ-9 מיליון יוצאי צבא ב-1,380 מתקני בריאות; לפי החברה, לאחר שלב פיילוט היא כבר פועלת ביותר מ-75 מרכזים רפואיים של ה-VA, הן על מערכת ה-VistA/CPRS הישנה והן על ה-EHR הפדרלי החדש מבית Oracle Health.",
+    "url": "https://www.lelezard.com/en/news-22374820.html",
+    "topics": [
+      "adoption",
+      "ops"
+    ]
+  },
+  {
+    "id": "confluence-health-ambient-ai-time-savings",
+    "date": "2026-09-16",
+    "added": "2026-09-23",
+    "src": "Columbia Basin Herald (yoursourceone.com)",
+    "fam": "provider",
+    "title": "Confluence Health: כלי בינה מלאכותית אמביינטית חוסכים לרופאי רפואת המשפחה 34 דקות ביום בעבודה מול הרשומה הרפואית",
+    "titleSrc": "Confluence Health doctors report big time savings as AI tools ease charting",
+    "summary": "מערכת הבריאות Confluence Health בוושינגטון מדווחת שכלי תיעוד אמביינטי ההופך שיחות עם מטופלים לטיוטת רשומה, חוסך לרופאי רפואת המשפחה כ-34 דקות ביום של עבודה מול הרשומה הרפואית האלקטרונית. לפי הארגון, בעקבות ההטמעה זינק דירוג שביעות הרצון מהרשומה במדד Arch Collaborative הארצי מהאחוזון ה-20 לאחוזון ה-100 בקרב מערכות בתי חולים קהילתיים, עם שיפור של כ-8 נקודות בציון הרופאים ועלייה דו-ספרתית בציוני אחיות, עוזרים רפואיים ונותני שירות שאינם רופאים.",
+    "url": "https://www.yoursourceone.com/columbia_basin/confluence-health-doctors-report-big-time-savings-as-ai-tools-ease-charting/article_27113705-7d42-4911-b131-5aee31e2e6a1.html",
+    "topics": [
+      "ambient",
+      "ops"
+    ]
+  },
+  {
+    "id": "eu-von-der-leyen-european-way-ai-health",
+    "date": "2026-09-16",
+    "added": "2026-09-23",
+    "src": "נאום מצב האיחוד 2026 / Euronews",
+    "fam": "regulator",
+    "title": "נשיאת הנציבות האירופית: בינה מלאכותית בבריאות חייבת להיעשות \"בדרך אירופית\" ובלי להחליף רופאים",
+    "titleSrc": "AI in health must be done in a 'European way,' without replacing doctors, von der Leyen says",
+    "summary": "בנאום מצב האיחוד 2026 בפני הפרלמנט האירופי, בחרה נשיאת הנציבות האירופית אורסולה פון דר ליין בסינון ממוגרפי מבוסס-AI לגילוי סרטן שד כדוגמה מובילה לאופן שבו בינה מלאכותית יכולה לשנות את הבריאות באירופה. לדבריה, הגישה האירופית פירושה קירוב הבינה המלאכותית לזרימת העבודה הקלינית תוך שמירה על אחריות אנושית לאבחון ולטיפול — \"אני לא רוצה שרובוט יגיד לי אם יש לי סרטן או לא\".",
+    "url": "https://www.euronews.com/health/2026/09/16/ai-in-health-must-be-done-in-a-european-way-without-replacing-doctors-von-der-leyen-says",
+    "topics": [
+      "policy"
+    ]
+  },
+  {
+    "id": "dexcare-acquires-mila-health-care-coordination",
+    "date": "2026-09-21",
+    "added": "2026-09-23",
+    "src": "HIT Consultant",
+    "fam": "press",
+    "title": "DexCare רוכשת את Mila Health ומרחיבה סוכני AI משיבוץ תורים לתיאום טיפול מלא",
+    "titleSrc": "M&A: DexCare Acquires AI Care Coordination Platform Mila Health",
+    "summary": "חברת הניווט והגישה לטיפול DexCare הודיעה על רכישת Mila Health, חברת תיאום טיפול מבוססת AI שסוכניה השיחתיים מתקשרים, שולחים הודעות טקסט וצ'אט למטופלים באופן אוטונומי לניהול קביעת תורים, הכנה לפני ביקור ומעקב לאחר שחרור. זו רכישת החברה השנייה של DexCare מאז פיצולה מ-Providence ב-2022; לפי הצדדים, סוכני Mila משיגים שיעור מענה של 54% בפניות יוצאות - כ-80% גבוה יותר מפניות טלפוניות ידניות - ומפחיתים אי-הגעה לתורים בכ-50%.",
+    "url": "https://hitconsultant.net/2026/09/21/dexcare-acquires-mila-health-ai-care-coordination-autonomous-patient-access/",
+    "topics": [
+      "adoption",
+      "ops"
+    ]
   }
 ]
