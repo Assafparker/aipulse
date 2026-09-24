@@ -2154,5 +2154,95 @@
       "adoption",
       "ops"
     ]
+  },
+  {
+    "id": "eagle-esophageal-ct-ai-nature-medicine",
+    "date": "2026-09-22",
+    "added": "2026-09-24",
+    "src": "Nature Medicine",
+    "fam": "journal",
+    "title": "מודל AI מזהה סרטן ושט בבדיקת CT רגילה של החזה, ללא חומר ניגוד, בסריקה של יותר מ-90 אלף מטופלים",
+    "titleSrc": "Large-scale esophageal cancer screening through noncontrast computed tomography and artificial intelligence",
+    "summary": "מודל EAGLE אומן על 6,813 מטופלים משני מרכזים ואומת על 80,612 מטופלים ב-12 מרכזים בשלוש מדינות. בקוהורטות בדיקה חיצוניות (שמונה מרכזים, כ-11,466 מטופלים) הושגו 98.5% סגוליות, עם 90% רגישות לסרטן אך רק 52.5% רגישות לנגעים טרום-ממאירים — פער שמדגיש את מגבלות הכלי בזיהוי מוקדם מאוד.",
+    "url": "https://www.nature.com/articles/s41591-026-04656-4",
+    "topics": [
+      "imaging",
+      "research"
+    ]
+  },
+  {
+    "id": "nc-chain-rural-ai-network",
+    "date": "2026-09-22",
+    "added": "2026-09-24",
+    "src": "UNC Health",
+    "fam": "provider",
+    "title": "UNC Health ו-Duke Health משיקות רשת ארצית בצפון קרוליינה לסיוע לבתי חולים כפריים באימוץ בטוח של בינה מלאכותית",
+    "titleSrc": "First-of-Its-Kind Initiative Aims to Deliver AI to Rural and Critical Access Hospitals and Clinics in North Carolina",
+    "summary": "רשת NC CHAIN, הממומנת במענק תלת-שנתי של 4.4 מיליון דולר מקרן Duke Endowment, תסייע לבתי חולים כפריים ומרפאות קטנות ללמוד, לבחור וליישם כלי AI בבטחה. מוביל היוזמה מזהיר כי הפער הדיגיטלי הוא סיכון ממשי וטרם נענה דיו נוכח הצמיחה המהירה של הבינה המלאכותית ברפואה.",
+    "url": "https://news.unchealthcare.org/2026/09/first-of-its-kind-initiative-aims-to-deliver-ai-to-rural-and-critical-access-hospitals-and-clinics-in-north-carolina",
+    "topics": [
+      "adoption",
+      "funding"
+    ]
+  },
+  {
+    "id": "allina-health-doctors-strike-ai-control",
+    "date": "2026-09-16",
+    "added": "2026-09-24",
+    "src": "MPR News",
+    "fam": "press",
+    "title": "כ-150 רופאים ב-Allina Health יוצאים לשביתה של ארבעה ימים, כשהשליטה על תפקיד הבינה המלאכותית באבחון היא אחד הנושאים המרכזיים",
+    "titleSrc": "Allina Health's doctors strike takes on AI diagnoses",
+    "summary": "כ-150 רופאים בבתי החולים Mercy ו-Unity במינסוטה, המאוגדים ב-Doctors Council SEIU, שבתו ארבעה ימים ודרשו מעורבות מובטחת בקביעת אופן השימוש בבינה מלאכותית באבחון, בהמלצות טיפול ובקידוד לחיוב. הרופאים ציינו כי AI כבר מציע קודי אבחון וחוששים מהרחבתו להמלצות טיפוליות; לצד זאת עמדו במחלוקת גם שכר וימי מחלה.",
+    "url": "https://www.mprnews.org/story/2026/09/16/allina-healths-doctors-strike-takes-on-ai-diagnoses",
+    "topics": [
+      "ethics",
+      "adoption"
+    ]
+  },
+  {
+    "id": "nhs-proximie-aws-surgical-ai-theatre-trial",
+    "date": "2026-09-09",
+    "added": "2026-09-24",
+    "src": "AWS (press.aboutamazon.com)",
+    "fam": "provider",
+    "title": "Proximie, AWS ו-Deloitte משיקים עם ה-NHS את ניסוי הבינה המלאכותית הגדול ביותר אי-פעם בחדרי ניתוח — 104 חדרים בשמונה בתי חולים",
+    "titleSrc": "Global Healthtech Proximie, in Collaboration with AWS, Deloitte and the NHS, Launches Largest NHS AI Theatre Evaluation to Unlock Hidden Operating Theatre Capacity",
+    "summary": "הערכה שנתית של Intelligence Suite מבית Proximie תיפרס ב-104 חדרי ניתוח, חדרי אנדוסקופיה ומעבדות צנתור בשמונה אתרי NHS, ותכסה למעלה מ-20,000 פרוצדורות. מטרת הפיילוט תפעולית: להגדיל את תפוקת הניתוחים באמצעות התשתית והצוות הקיימים, מבלי שמדובר עדיין בניסוי לתוצאות קליניות.",
+    "url": "https://press.aboutamazon.com/2026/9/global-healthtech-proximie-in-collaboration-with-aws-deloitte-and-the-nhs-launches-largest-nhs-ai-theatre-evaluation-to-unlock-hidden-operating-theatre-capacity",
+    "topics": [
+      "adoption",
+      "ops"
+    ]
+  },
+  {
+    "id": "fda-cardiovascular-ml-notification-class-ii",
+    "date": "2026-09-11",
+    "added": "2026-09-24",
+    "src": "FDA — Federal Register",
+    "fam": "regulator",
+    "title": "ה-FDA מפרסם צו סופי המסווג תוכנת התראה מבוססת למידת מכונה למחלות לב כמכשיר Class II, בעקבות Viz HCM של Viz.ai",
+    "titleSrc": "Medical Devices; Cardiovascular Devices; Classification of the Cardiovascular Machine Learning-Based Notification Software",
+    "summary": "צו סופי של ה-FDA, שנכנס לתוקף ב-11 בספטמבר 2026, מסווג 'תוכנת התראה קרדיווסקולרית מבוססת למידת מכונה' כמכשיר Class II הכפוף לבקרות מיוחדות, בעקבות בקשת De Novo של Viz.ai למוצרה Viz HCM. הצו יוצר מסלול רגולטורי מוגדר שיצרנים נוספים של תוכנה דומה יוכלו להשתמש בו; התוכנה מיועדת כאמצעי הפניה בלבד ולא כאבחון סופי.",
+    "url": "https://www.federalregister.gov/documents/2026/09/11/2026-18612/medical-devices-cardiovascular-devices-classification-of-the-cardiovascular-machine-learning-based",
+    "topics": [
+      "policy",
+      "imaging"
+    ]
+  },
+  {
+    "id": "stanford-nia-ai-dementia-center-grant",
+    "date": "2026-09-18",
+    "added": "2026-09-24",
+    "src": "Stanford Medicine",
+    "fam": "provider",
+    "title": "ה-NIA מעניק ל-Stanford Medicine מענק של 25 מיליון דולר להקמת מרכז לבינה מלאכותית בטיפול בדמנציה, בשיתוף VA Palo Alto ו-Stanford HAI",
+    "titleSrc": "New center will use AI to tailor dementia care",
+    "summary": "המכון הלאומי לזקנה (NIA, חלק מ-NIH) העניק ל-Stanford Medicine מענק חמש-שנתי בסך 25 מיליון דולר להקמת מרכז שיבחן שימוש בבינה מלאכותית להתאמה אישית של טיפול בדמנציה ובמחלת אלצהיימר, בשותפות עם VA Palo Alto ו-Stanford HAI. בראש המרכז שלושה חוקרים ראשיים: אהסאן עדלי, פנג ואנקי לין וג'יימס לנדיי; ההשפעה הקלינית של המרכז טרם הודגמה.",
+    "url": "https://news.stanford.edu/stories/2026/09/AI-dementia-center",
+    "topics": [
+      "research",
+      "funding"
+    ]
   }
 ]
