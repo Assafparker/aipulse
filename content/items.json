@@ -2244,5 +2244,34 @@
       "research",
       "funding"
     ]
+  },
+  {
+    "id": "anthropic-claude-drc-ebola-response",
+    "date": "2026-09-19",
+    "added": "2026-09-25",
+    "src": "Anthropic",
+    "fam": "lab",
+    "title": "Claude מסייע ל-WHO ולצוותי הבריאות בקונגו במעקב אחר התפרצות אבולה",
+    "titleSrc": "The Situation Report: Claude in DRC Ebola Response",
+    "summary": "אנתרופיק מדווחת כי ארגון הבריאות העולמי (WHO AFRO), CEPI ומכון המחקר INRB בקינשאסה משתמשים ב-Claude במענה להתפרצות נגיף אבולה (זן בונדיבוג'יו) בקונגו, שכללה עד כה 7,672 מקרים מאומתים ו-3,699 מקרי מוות (שיעור תמותה של 48.2%) בשבע פרובינציות. המודל מפיק דוחות מצב שטח מנתוני אזורי בריאות תוך פחות משעה במקום יום שלם, ומריץ כמה מודלים לחיזוי התפשטות המחלה במקביל לתכנון לוגיסטי של מרכזי טיפול; Claude Science משמש גם להרכבת גנום הנגיף ולבניית עצי העברה מנתוני ריצוף. מדובר בדיווח שמפרסמת אנתרופיק עצמה על מוצריה.",
+    "url": "https://www.anthropic.com/features/ebola-response",
+    "topics": [
+      "ops",
+      "research"
+    ]
+  },
+  {
+    "id": "microsoft-retrochimera-drug-synthesis-ai",
+    "date": "2026-09-21",
+    "added": "2026-09-25",
+    "src": "Microsoft Research",
+    "fam": "lab",
+    "title": "מיקרוסופט חושפת את RetroChimera, מודל AI לתכנון מסלולי סינתזה כימית שמכוון לקצר את עלויות פיתוח תרופות",
+    "titleSrc": "Improving synthesis prediction of small molecules at scale with RetroChimera",
+    "summary": "חוקרי מיקרוסופט הציגו את RetroChimera, מודל שמשלב שתי גישות למידה עמוקה לחיזוי מסלולי סינתזה כימית עם דירוג משוקלל של התוצאות, במטרה לצמצם את העלות והזמן של תכנון סינתזה — גורם מרכזי בעלויות פיתוח תרופות. במבחן עיוור, כימאים בדרגת דוקטורט אישרו 90% מהמסלולים המלאים שהמודל הציע, לעומת 20%–50% אצל מודלי הבסיס שלו, והמודל הצליח ב-9 מתוך 10 יעדים מולקולריים מאתגרים. המודל פורסם בקוד פתוח תחת רישיון MIT וזמין ב-Microsoft Foundry; זהו כלי לכימיה ולגילוי תרופות, לא מערכת קלינית ישירה.",
+    "url": "https://www.microsoft.com/en-us/research/blog/improving-synthesis-prediction-of-small-molecules-at-scale-with-retrochimera/",
+    "topics": [
+      "research"
+    ]
   }
 ]
