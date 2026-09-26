@@ -2273,5 +2273,126 @@
     "topics": [
       "research"
     ]
+  },
+  {
+    "id": "science-virtual-biotech-ai-agents-drug-discovery",
+    "date": "2026-09-17",
+    "added": "2026-09-26",
+    "src": "Science",
+    "fam": "journal",
+    "title": "'הביוטק הווירטואלי': מסגרת בינה מלאכותית רב-סוכנית מריצה כ-37,000 סוכני AI בתפקידי חברת תרופות",
+    "titleSrc": "The Virtual Biotech: A multi-agent AI framework for therapeutic discovery and development",
+    "summary": "חוקרים מסטנפורד בראשות פרופ' ג'יימס זו בנו \"ביוטק וירטואלי\" המורכב מכ-37,000 סוכני בינה מלאכותית המאורגנים במחלקות (זיהוי מטרות, בטיחות, פיתוח קליני) בפיקוד סוכן \"מנהל מדע ראשי\". המערכת סרקה כמעט 56,000 ניסויים קליניים אמיתיים תוך פחות משבוע וזיהתה שמטרות תרופה ספציפיות לסוג תא נוטות ב-48% יותר להגיע לשוק עם 32% פחות תופעות לוואי, ואף הציעה עצמאית אסטרטגיית תרופה לסרטן ריאה שחברת תרופות גדולה הגיעה אליה במקביל. מדובר בהדגמת מחקר בשלב מוקדם ולא בתרופה מאושרת - המועמדת שהמערכת זיהתה עדיין דורשת אימות קליני מלא.",
+    "url": "https://www.science.org/doi/10.1126/science.aeg6779",
+    "topics": [
+      "research",
+      "ops"
+    ]
+  },
+  {
+    "id": "nature-aging-ramanomics-senescent-cells-ai",
+    "date": "2026-09-21",
+    "added": "2026-09-26",
+    "src": "Nature Aging",
+    "fam": "journal",
+    "title": "חוקרי MIT מפתחים 'ברקוד' מבוסס בינה מלאכותית לאיתור תאי 'זומבי' מזדקנים ברקמה בלי לפגוע בהם",
+    "titleSrc": "Unmasking \"zombie cells\" in aging tissue with an AI-powered barcode",
+    "summary": "צוות מ-MIT שילב מיקרוסקופיית רמאן עם ריצוף ביטוי גנים חד-תאי ולמידת מכונה כדי לבנות \"ברקוד\" ביוכימי המזהה תאים סנסנטיים (\"זומבי\") ברקמת ריאה ועור של עכברים, בלי להרוס את התאים. השיטה זיהתה שיאי ספקטרום רמאן ספציפיים המצביעים על סנסנציה בעקביות בשני סוגי הרקמה, כאשר רקמת ריאה מזדקנת הראתה עלייה בפעילות דלקתית ורקמת עור סנסנטית הראתה שינויים בנתיבי שיפוץ קולגן. מדובר במחקר בשלב תאים/רקמות בעכברים בלבד - אין עדיין כלי אבחוני קליני לבני אדם, אך החוקרים כבר עובדים על התאמה לרקמת אדם.",
+    "url": "https://news.mit.edu/2026/unmasking-zombie-cells-aging-tissue-ai-powered-barcode-0921",
+    "topics": [
+      "research",
+      "imaging"
+    ]
+  },
+  {
+    "id": "arxiv-rethinking-evaluation-health-ai",
+    "date": "2026-09-16",
+    "added": "2026-09-26",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "מחקר מתודולוגי: השוואת 12 אלגוריתמים לחיזוי מבוסס רשומה רפואית מערערת על האופן שבו מודדים 'התקדמות' בבינה מלאכותית לבריאות",
+    "titleSrc": "Rethinking How We Evaluate Methodological Progress in Health AI",
+    "summary": "חוקרים בנו מחדש 12 אלגוריתמים היסטוריים וחדשים לחיזוי מבוסס רשומה רפואית אלקטרונית בתוך מסגרת הערכה משותפת אחת, ובדקו אותם על שני מאגרי נתונים קליניים אמיתיים (MIMIC-IV ו-NWICU), תוך השוואת משימות שהוגדרו קלינית מול משימות שנוצרו אקראית. הממצא המרכזי: המסקנות ההשוואתיות לגבי איזה אלגוריתם עדיף היו דומות סטטיסטית בין שתי קבוצות המשימות, ומודל עצי-הכרעה מוגברי-שיפוע בשילוב ייצוג טבלאי רחב ודליל היה החזק ביותר - אף לפני שיטות למידה עמוקה חדשות יותר. זהו פרה-פרינט שטרם עבר ביקורת עמיתים, והוא מחקר מתודולוגי-השוואתי ולא פריסה קלינית.",
+    "url": "https://arxiv.org/abs/2609.18134",
+    "topics": [
+      "research",
+      "ethics"
+    ]
+  },
+  {
+    "id": "fierce-healthcare-august-ai-telehealth-launch",
+    "date": "2026-09-23",
+    "added": "2026-09-26",
+    "src": "Fierce Healthcare",
+    "fam": "press",
+    "title": "צ'אטבוט הבריאות הגלובלי August AI יוצא ממצב סמוי ומשיק שירותי טלה-רפואה בארה\"ב תמורת 39 דולר לחודש",
+    "titleSrc": "August AI, operating global chatbot in stealth mode, rolls out U.S. telehealth services",
+    "summary": "חברת August AI, שהצ'אטבוט החינמי שלה לשאלות בריאות משמש כ-9 מיליון משתמשים ב-160 מדינות, השיקה מנוי בשם August Care תמורת 39 דולר לחודש הכולל ביקור אצל רופא מוסמך, בדיקות מעבדה מוזלות, מרשמים המגיעים לטענתה תוך כ-10 דקות, שנת מעקב רפואי לאחר הביקור וסיוע בהבנת כיסוי הביטוח. החברה, שגייסה עד כה 3 מיליון דולר בגיבוי Accel, שומרת את הצ'אטבוט הבסיסי חינמי וגלובלי - שכבת הטיפול הקלינית החדשה בתשלום מוגבלת לארה\"ב בלבד.",
+    "url": "https://www.fiercehealthcare.com/digital-health/august-ai-chatbot-answering-health-questions-rolls-out-us-telehealth-services",
+    "topics": [
+      "adoption",
+      "ops"
+    ]
+  },
+  {
+    "id": "fierce-healthcare-ai-procurement-environmental-guide",
+    "date": "2026-09-23",
+    "added": "2026-09-26",
+    "src": "Fierce Healthcare",
+    "fam": "press",
+    "title": "מדריך רכש חדש לבתי חולים וחברות ביטוח בארה\"ב מכוון לטביעת הרגל הסביבתית של בינה מלאכותית",
+    "titleSrc": "New procurement guide for hospitals, payers takes aim at AI's environmental impact",
+    "summary": "הארגון Health Care Without Harm פרסם \"מדריך רכש לבינה מלאכותית\" לבקשת שותפיו ממערכות בריאות וחברות ביטוח, שנועד לעזור לרוכשים לבחון את הטביעה הסביבתית של ספקי AI. המדריך דורש מספקים לגלות פליטות גזי חממה, תמהיל האנרגיה ושימוש באנרגיה מתחדשת, ולהתחשב בהשפעות על קהילות מרכזי הנתונים כמו זיהום אוויר, רעש וצריכת מים. מדובר בהנחיה וולונטרית לרכש ולא בדרישה רגולטורית, שמגיעה על רקע אימוץ AI המואץ מהר יותר מהפיקוח הסביבתי עליו.",
+    "url": "https://www.fiercehealthcare.com/health-tech/health-care-without-harm-ai-procurement-guide-focuses-environment",
+    "topics": [
+      "ethics",
+      "policy"
+    ]
+  },
+  {
+    "id": "medcity-ai-nursing-ambient-charting",
+    "date": "2026-09-25",
+    "added": "2026-09-26",
+    "src": "MedCity News",
+    "fam": "press",
+    "title": "טור דעה ב-MedCity News: בינה מלאכותית אמביינטית לתיעוד סיעודי היא רק ההתחלה",
+    "titleSrc": "AI Goes All In To Support Nursing Teams: Ambient Charting is Just the Start",
+    "summary": "מאמר דעה מאת מנהלת אינפורמטיקה קלינית בחברת Aiva Health (ספקית כלי קול-AI לסיעוד) טוען שהיעד הבא של AI אמביינטי הוא תיעוד סיעודי, ומצטט סקר Black Book Research מ-2025 שבו 92% מהאחיות דיווחו שמערכות הרשומה הרפואית האלקטרונית פוגעות בשביעות רצונן מהעבודה, ושאחיות מבזבזות כ-40% ממשמרת על תיעוד במקום טיפול ישיר. המאמר טוען שאחיות זקוקות לממשק שיחה אחד המשתרע על פני כמה מערכות (כגון Epic ו-ServiceNow) ולא רק לתיעוד אמביינטי - יש לציין שהכותבת מייצגת ספקית פתרון בתחום, כך שמדובר בפרספקטיבה תעשייתית ולא במחקר עצמאי.",
+    "url": "https://medcitynews.com/2026/09/ai-goes-all-in-to-support-nursing-teams-ambient-charting-is-just-the-start/",
+    "topics": [
+      "ambient",
+      "ops"
+    ]
+  },
+  {
+    "id": "india-nha-secure-data-environment-ai",
+    "date": "2026-09-25",
+    "added": "2026-09-26",
+    "src": "National Health Authority, India",
+    "fam": "regulator",
+    "title": "רשות הבריאות הלאומית של הודו משיקה 'סביבת נתונים מאובטחת' המאפשרת ניתוח AI על נתוני בריאות של מאות מיליוני אזרחים בלי לייצא אותם",
+    "titleSrc": "JP Nadda inaugurates Aarogya Manthan 2026, marking 8 years of PM-JAY scheme",
+    "summary": "לרגל 8 שנים לתוכנית הביטוח הלאומית AB PM-JAY ו-5 שנים למשימת הבריאות הדיגיטלית ABDM, השיקה רשות הבריאות הלאומית של הודו יחד עם המכון ההודי למדעים \"סביבת נתונים מאובטחת\" המאפשרת לחוקרים מאושרים להריץ ניתוחי בינה מלאכותית על נתונים מזוהים-חלקית בתוך סביבה מבודדת של הרשות, כשהפלט נבדק לפני שחרור - במקום ייצוא נתוני מטופלים גולמיים. נכון ל-1 בספטמבר 2026 דווח על כ-978 מיליון תעודות בריאות דיגיטליות שהונפקו וכ-1.21 מיליארד רשומות רפואיות מקושרות במסגרת ABDM, על רקע אסטרטגיית ה-AI הלאומית לבריאות של הודו.",
+    "url": "https://aninews.in/news/national/general-news/jp-nadda-inaugurates-aarogya-manthan-2026-marking-8-years-of-pm-jay-scheme20260925161854/",
+    "topics": [
+      "policy",
+      "interop",
+      "adoption"
+    ]
+  },
+  {
+    "id": "adelaide-imagendo-endofusion-ai-endometriosis",
+    "date": "2026-09-16",
+    "added": "2026-09-26",
+    "src": "University of Adelaide (IMAGENDO)",
+    "fam": "provider",
+    "title": "אוניברסיטת אדלייד: כלי בינה מלאכותית מזהה סימני אנדומטריוזיס מתקדם מסריקה בודדת תוך 18 מילישניות",
+    "titleSrc": "Promising AI tool to speed up endometriosis diagnosis",
+    "summary": "חוקרים ממחקר IMAGENDO באוניברסיטת אדלייד פיתחו את EndoFusion, מסגרת בינה מלאכותית המזהה שני סימנים הדמייתיים לאנדומטריוזיס מתקדם (הידבקות בחלל דאגלס וקשריות מעי) מסריקת MRI אגנית בודדת או אולטרסאונד וגינלי, בלי לדרוש את שתי הבדיקות יחד. המערכת אומנה על יותר מ-9,000 סריקות MRI אגניות ו-800 סריקות אולטרסאונד מארבעה מאגרי נתונים, סיפקה תוצאה תוך 18 מילישניות וסיווגה נכון 83% מהמקרים במבחנים האחרונים. מדובר בכלי בשלב מחקרי בשיתוף כמה מוסדות בינלאומיים - החוקרים מציינים שהצעד הבא הוא הרחבת מאגר הנתונים לשיפור הדיוק, וטרם מדובר בפריסה קלינית שגרתית.",
+    "url": "https://www.news-medical.net/news/20260916/Promising-AI-tool-to-speed-up-endometriosis-diagnosis.aspx",
+    "topics": [
+      "imaging",
+      "research"
+    ]
   }
 ]
