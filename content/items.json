@@ -2590,5 +2590,155 @@
       "research",
       "adoption"
     ]
+  },
+  {
+    "id": "statnews-epic-mortality-model-eolci",
+    "date": "2026-09-22",
+    "added": "2026-09-28",
+    "src": "STAT News",
+    "fam": "press",
+    "title": "העיתונות הרפואית מזהירה: מודל התמותה של Epic עלול להטעות בהחלטות קליניות",
+    "titleSrc": "STAT Health Tech: Epic's mortality model, and Omada's future products",
+    "summary": "ניתוח ב-STAT News מצביע על כך שמודל התחזית לתמותה תוך שנה המובנה במערכת הרשומות הרפואיות של Epic (EOLCI) פותח ואומת בעיקר על חולי חוץ שלעיתים רחוקות נפטרים, אך מופעל בפועל גם על חולים מאושפזים - אוכלוסייה עם סיכון תמותה גבוה בהרבה. לפי הכתבה, אין מידע פומבי על בדיקת אימות עצמאית של המודל, מה שמעורר חשש שהוא עלול להטות שיחות על טיפול סוף החיים על בסיס תחזיות לא מדויקות.",
+    "url": "https://www.statnews.com/2026/09/22/epics-mortality-model-omadas-future-products-health-tech/",
+    "topics": [
+      "ethics",
+      "ops"
+    ]
+  },
+  {
+    "id": "statnews-ai-native-radiology-practice",
+    "date": "2026-09-24",
+    "added": "2026-09-28",
+    "src": "STAT News",
+    "fam": "press",
+    "title": "כשה-AI מוחק את הגבול: מרפאות רדיולוגיה הופכות בעצמן למפתחות טכנולוגיה",
+    "titleSrc": "In radiology, AI is blurring the line between technology development and clinical practice",
+    "summary": "כתבה ב-STAT News מתעדת מגמה גוברת של קבוצות רדיולוגיה חוץ-אשפוזיות וטלה-רדיולוגיה בארה\"ב שמפתחות ורוכשות בעצמן כלי AI, במקום לרכוש אלגוריתמים ממפתחים חיצוניים, ומשווקות עצמן כ'AI-native'. הכתבה מציינת כדוגמה את Epsilon Health, סטארט-אפ מסן פרנסיסקו שגייס כ-27.6 מיליון דולר במטרה להתמודד עם מחסור ברדיולוגים על ידי הפעלת מרפאה משלו במקום מכירת תוכנה למרפאות קיימות.",
+    "url": "https://www.statnews.com/2026/09/24/radiology-ai-blurred-line-between-tech-development-clinical-practice/",
+    "topics": [
+      "imaging",
+      "adoption"
+    ]
+  },
+  {
+    "id": "medcity-ai-not-therapist-teens",
+    "date": "2026-09-16",
+    "added": "2026-09-28",
+    "src": "MedCity News",
+    "fam": "press",
+    "title": "AI זה לא מטפל, אבל בני נוער רבים מתייחסים אליו ככזה",
+    "titleSrc": "AI Isn't a Therapist, but Many Teens Are Treating It Like One",
+    "summary": "כתבה ב-MedCity News מתריעה כי בני נוער רבים פונים לצ'אטבוטים מבוססי AI כתחליף לטיפול נפשי וחברות, על רקע מחסור באנשי מקצוע זמינים. הכותב מזהיר שצ'אטבוט המתוכנת לשמר מעורבות נוטה לאמת דחפים ואמונות לא בריאים במקום לאתגר אותם כפי שמטפל טוב היה עושה, מה שעלול לעודד המשך אחיזה באמונות מזיקות ואף לתקף החלטות מסוכנות.",
+    "url": "https://medcitynews.com/2026/09/ai-isnt-a-therapist-but-many-teens-are-treating-it-like-one/",
+    "topics": [
+      "mental",
+      "ethics"
+    ]
+  },
+  {
+    "id": "mayo-astro-2026-ai-radiation-oncology",
+    "date": "2026-09-25",
+    "added": "2026-09-28",
+    "src": "Mayo Clinic News Network",
+    "fam": "provider",
+    "title": "מיו קליניק מציגה מחקרי AI ברדיותרפיה בכנס ASTRO 2026",
+    "titleSrc": "Mayo Clinic experts present radiation oncology research at ASTRO 2026",
+    "summary": "צוותי מיו קליניק משתתפים בכ-65 מושבים ומציגים למעלה מ-45 תקצירים בכנס השנתי של האגודה האמריקאית לאונקולוגיה בקרינה (ASTRO), שהתקיים ב-26-30 בספטמבר 2026 בבוסטון. בין המושבים: הרצאת חינוך על בינה מלאכותית ורובוטיקה ברדיותרפיה גינקולוגית, והצגת עבודה על מערכת AI שמנתחת בזמן אמת שינויים אנטומיים אצל המטופל כדי לכייל מחדש את מינון הקרינה במהלך הטיפול.",
+    "url": "https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-experts-present-radiation-oncology-research-at-astro-2026/",
+    "topics": [
+      "imaging",
+      "research"
+    ]
+  },
+  {
+    "id": "arxiv-living-benchmark-ehr-retrieval-brie",
+    "date": "2026-09-24",
+    "added": "2026-09-28",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "מבחן-מידה 'חי' לאחזור מידע מתוך רשומות רפואיות אלקטרוניות",
+    "titleSrc": "A Living Benchmark for Information Retrieval from Electronic Health Records",
+    "summary": "חוקרים מסטנפורד מציגים מסגרת אוטומטית שמייצרת שאלות-ותשובות מתוך רשומות רפואיות אלקטרוניות אורכיות, ולאחר אימות ידני של 19 רופאים הפכו אותה למבחן-מידה מתעדכן בשם BRIE. בבדיקה מול תשע מערכות שפה גדולות (LLM) וחמש אסטרטגיות הסקה נמצא שגם המערכות המתקדמות ביותר משמיטות לעיתים קרובות מידע קליני חשוב, בעיקר בשאלות המחייבות סינתזה בין כמה מסמכים וביקורים.",
+    "url": "https://arxiv.org/abs/2609.30205",
+    "topics": [
+      "research",
+      "ops"
+    ]
+  },
+  {
+    "id": "arxiv-radiology-ai-calibration-tta",
+    "date": "2026-09-24",
+    "added": "2026-09-28",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "שיפור כיול מודלי AI רדיולוגיים 'קופסה שחורה' באמצעות הגברת נתונים בזמן ריצה",
+    "titleSrc": "Improving Calibration of Black-Box Radiology AI Using Test-Time Augmentation",
+    "summary": "צוות מאוניברסיטת סטנפורד מציע שיטה (DualTTA) לשיפור הכיול של מודלי AI רדיולוגיים מסחריים שאין גישה לפרמטרים הפנימיים שלהם, על ידי הפעלת עיוותים תלת-ממדיים גיאומטריים ופיזיקליים על סריקות CT בזמן הריצה. בבדיקה על משימות זיהוי תסחיף ריאתי ודימום תוך-גולגולתי השיטה השיגה את הכיול הטוב ביותר מבין שיטות ההגברה שנבדקו, ללא צורך באימון מחדש של המודל.",
+    "url": "https://arxiv.org/abs/2609.29931",
+    "topics": [
+      "imaging",
+      "research"
+    ]
+  },
+  {
+    "id": "arxiv-libretto-clinical-abstraction-gap",
+    "date": "2026-09-16",
+    "added": "2026-09-28",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "\"אני יודע איפה לחפש\" - אבל האם ה-LLM יודע? הפער בין צורכי רופאים לכלי חילוץ מידע מרשומות",
+    "titleSrc": "\"I Know Where to Look,\" But Does the LLM? Charting the Gaps Between Clinical Expert Needs and Unstructured Data Abstraction Tools",
+    "summary": "חוקרים פיתחו יחד עם שבע קבוצות מחקר אונקולוגיות כלי חילוץ מידע מבוסס-LLM בשם Libretto, ובדקו את יכולתו לסייע לחוקרים קליניים לענות על שאלות מחקר אמיתיות מתוך רשומות מטופלים. נמצא שבשנים-עשר מתוך ארבע-עשר משימות נתקלו הרופאים בקשיים לשחזר את האינטואיציה שלהם דרך ה-LLM, ובהן קושי בשיפוט אמינות הערות חופשיות וצורך בשינויים מהותיים בתהליך העבודה כדי להתאימו לכלי.",
+    "url": "https://arxiv.org/abs/2609.19318",
+    "topics": [
+      "research",
+      "ops"
+    ]
+  },
+  {
+    "id": "arxiv-brainvlm-brain-tumor-diagnosis",
+    "date": "2026-09-15",
+    "added": "2026-09-28",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "מודל יסוד רב-מודלי לאבחון מקיף ומדויק של גידולי מוח לפני ניתוח",
+    "titleSrc": "A Vision-Language Foundation Model for Precise and Comprehensive Brain Tumor Diagnosis from Preoperative Multimodal Data",
+    "summary": "חוקרים מציגים את BrainVLM, מודל יסוד רב-מודלי (חזון-שפה) המאומן על נתונים מ-40,043 מטופלים לסיווג כל שנים-עשר סוגי גידולי המוח לפי הגדרת ארגון הבריאות העולמי משנת 2021. המודל משלב מנגנון להערכת רמת הוודאות בתחזית ומודול ליצירת דוח רדיולוגי שמסביר את הרציונל הקליני מאחורי האבחנה, מתוך שילוב של סריקות MRI, נתונים דמוגרפיים ודוחות רדיולוגיה.",
+    "url": "https://arxiv.org/abs/2609.16597",
+    "topics": [
+      "imaging",
+      "research"
+    ]
+  },
+  {
+    "id": "arxiv-peerpen-mental-health-peer-support",
+    "date": "2026-09-14",
+    "added": "2026-09-28",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "PeerPen: כלי כתיבה מבוסס-AI לתמיכת עמיתים מקוונת בבריאות הנפש",
+    "titleSrc": "PeerPen: AI-Assisted Writing for Online Mental Health Peer Support",
+    "summary": "חוקרים מציגים את PeerPen, כלי כתיבה בסיוע בינה מלאכותית המוטמע בממשק דמוי-Reddit ותומך בכתיבה ועריכה של תגובות תמיכה בין עמיתים בפורומי בריאות הנפש. הכלי נועד לסייע למשתמשים לא-מקצועיים לנסח תגובות תומכות ואמפתיות יותר, מבלי להחליף את הכותב האנושי בתהליך הכתיבה.",
+    "url": "https://arxiv.org/abs/2609.14886",
+    "topics": [
+      "mental",
+      "research"
+    ]
+  },
+  {
+    "id": "halamka-care-risk-score-readmission",
+    "date": "2026-09-25",
+    "added": "2026-09-28",
+    "src": "Mayo Clinic Platform (John Halamka)",
+    "fam": "people",
+    "title": "ג'ון הלמקה: כלי חיזוי חדש של מיו קליניק מתמודד עם בעיית האשפוזים החוזרים",
+    "titleSrc": "A Predictive Tool to Fix the Hospital Readmission Problem",
+    "summary": "בפוסט חדש ב-Mayo Clinic Platform, ג'ון הלמקה ופול סראטו מציגים את ה-CARE Risk Score (Clinical Assessment of REadmission Risk Score) - כלי חיזוי שמיו קליניק מפתחת לשילוב עם Epic ועם Mayo Clinic Platform. הציון משלב נתוני היסטוריה רפואית (כגון ביקורים במיון וימים מאז השחרור האחרון), מדדי מורכבות טיפולית (כמו ציוני Braden לניידות וסיכון נפילה) ומדדים סוציו-אקונומיים כגון ביטחון תזונתי, יציבות דיור ובידוד חברתי, במטרה להטמיע תובנות חיזוי ישירות בזרימת העבודה הקלינית.",
+    "url": "https://www.mayoclinicplatform.org/2026/09/25/readmission-predictive-tool/",
+    "topics": [
+      "ops",
+      "adoption"
+    ]
   }
 ]
