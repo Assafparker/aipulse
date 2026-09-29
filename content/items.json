@@ -2740,5 +2740,188 @@
       "ops",
       "adoption"
     ]
+  },
+  {
+    "id": "nature-medicine-pathfinder2-galleri-mced",
+    "date": "2026-09-22",
+    "added": "2026-09-29",
+    "src": "Nature Medicine",
+    "fam": "journal",
+    "title": "PATHFINDER 2: תוצאות בדיקת הדם הרב-סרטנית Galleri של GRAIL ב-35,000 משתתפים",
+    "titleSrc": "Performance and safety of a multi-cancer early detection test: the PATHFINDER 2 study",
+    "summary": "מחקר PATHFINDER 2, שכלל למעלה מ-35,000 משתתפים בני 50 ומעלה ללא חשד קליני לסרטן, מצא כי שילוב בדיקת הדם מבוססת-אלגוריתם Galleri עם סקירות הסטנדרט (שד, מעי גס, צוואר הרחם וריאה) הגדיל את שיעור הגילוי פי 6.5, עם סגוליות של 99.64% (שיעור חיובי-כוזב של 0.36% בלבד) וניחוש נכון של מקור הסרטן ב-91.3% מהמקרים, תוך הפניה לבירור פולשני ב-0.6% מהמקרים החיוביים בלבד. לעומת זאת, ניסוי מקביל בבריטניה (NHS-Galleri, למעלה מ-140,000 משתתפים) לא מצא ירידה מובהקת סטטיסטית במספר האבחנות בשלב מתקדם (3-4) — אף שהסתמנה מגמה חיובית לאורך זמן — ומדגים עד כמה התוצאות עדיין שנויות במחלוקת.",
+    "url": "https://www.nature.com/articles/s41591-026-04618-w",
+    "topics": [
+      "research",
+      "policy"
+    ]
+  },
+  {
+    "id": "who-ai-health-research-ethics-oversight-report",
+    "date": "2026-09-21",
+    "added": "2026-09-29",
+    "src": "WHO",
+    "fam": "regulator",
+    "title": "ארגון הבריאות העולמי משיק דוח חדש על פיקוח אתי במחקרי בריאות מבוססי בינה מלאכותית",
+    "titleSrc": "Virtual launch: New report on ethics oversight of AI-related health research",
+    "summary": "ארגון הבריאות העולמי (WHO) השיק דוח חדש, \"Artificial Intelligence-related Health Research: Ethics Review and Oversight\", המציע המלצות מעשיות לחוקרים, ועדות אתיקה, רגולטורים וגופי מימון לגבי ניהול אחראי של מחקרי בריאות מבוססי-AI. הדוח עוסק בין השאר בהסכמה מדעת, בהטיה (bias) במחקרי AI רפואיים, בבניית יכולת של ועדות אתיקה מוסדיות ובסיכונים הייחודיים של מחקר AI במדינות בעלות הכנסה נמוכה.",
+    "url": "https://www.who.int/news-room/events/detail/2026/09/21/default-calendar/virtual-launch-new-report-on-ethics-oversight-of-ai-related-health-research",
+    "topics": [
+      "policy",
+      "ethics"
+    ]
+  },
+  {
+    "id": "fda-panel-vote-galleri-mced-test",
+    "date": "2026-09-23",
+    "added": "2026-09-29",
+    "src": "FDA (Molecular and Clinical Genetics Panel)",
+    "fam": "regulator",
+    "title": "ועדה מייעצת של ה-FDA ממליצה לאשר את בדיקת הדם הרב-סרטנית Galleri של GRAIL",
+    "titleSrc": "FDA Advisory Committee Votes In Favor of Approval of GRAIL's Galleri® Multi-Cancer Early Detection Test",
+    "summary": "הוועדה המייעצת למכשור גנטי מולקולרי וקליני של ה-FDA הצביעה 7 מול 2 (עם נמנע אחד) בעד הקביעה שיתרונות בדיקת Galleri עולים על הסיכונים, פה אחד בעד בטיחותה, ו-6 מול 4 בעד יעילותה — לבדיקת דם המיועדת לאיתור מוקדם של סוגי סרטן מרובים במבוגרים בני 50 ומעלה. ה-FDA צפוי לקבל החלטה סופית לגבי אישור המכשור (PMA) בחודשים הקרובים; ההצבעה אינה מהווה אישור רגולטורי סופי אלא המלצה בלבד.",
+    "url": "https://investors.grail.com/news-releases/news-release-details/fda-advisory-committee-votes-favor-approval-grails-gallerir",
+    "topics": [
+      "policy",
+      "adoption"
+    ]
+  },
+  {
+    "id": "heidi-health-340m-raise-ai-care-partner",
+    "date": "2026-09-22",
+    "added": "2026-09-29",
+    "src": "Fierce Healthcare",
+    "fam": "press",
+    "title": "Heidi Health גייסה 340 מיליון דולר לבניית \"שותף טיפול\" מבוסס-AI לרופאים",
+    "titleSrc": "Heidi lands $340M to build 'AI care partner' for clinicians",
+    "summary": "חברת התיעוד הרפואי מבוסס-AI Heidi Health גייסה סך של 340 מיליון דולר: סבב Series C בגובה 100 מיליון דולר בהובלת Blackbird (בהשתתפות Phoenix Court, Point72 Private Investments ו-Headline), לצד השקעת צמיחה של 240 מיליון דולר מקרן Customer Value Fund של General Catalyst. שווי החברה נאמד בכ-900 מיליון דולר, כשהיא ממצבת עצמה כמעבר מתיעוד רפואי בלבד לזרימות עבודה קליניות אגנטיות בפיקוח אנושי עבור מערכות בריאות בעולם.",
+    "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/heidi-lands-340m-build-ai-care-partner-clinicians",
+    "topics": [
+      "funding",
+      "ambient"
+    ]
+  },
+  {
+    "id": "abridge-va-enterprise-contract-ambient-ai",
+    "date": "2026-09-22",
+    "added": "2026-09-29",
+    "src": "HIT Consultant",
+    "fam": "press",
+    "title": "Abridge זכתה במקום בחוזה מסגרת של 775.7 מיליון דולר עם משרד ותיקי הצבא האמריקאי להטמעת AI אמביינטי",
+    "titleSrc": "Abridge Wins Seat on $775.7M VA Enterprise Contract to Power Ambient Clinical AI",
+    "summary": "חברת התיעוד הקליני האמביינטי Abridge נבחרה כאחד הספקים בחוזה מסגרת (IDIQ) חדש של משרד ותיקי הצבא האמריקאי (VA) בתקרה כוללת של 775.72 מיליון דולר לחמש שנים, המחולקת בין כלל הספקים הזכאים — לא סכום מובטח ל-Abridge לבדה, שכן הזמנות עבודה בפועל ניתנות בנפרד על ידי כל מרכז רפואי או רשת VA. הצעד בונה על פיילוט קיים שכבר פועל ב-75 מרכזים רפואיים של ה-VA, הפרוס הן על מערכת ה-EHR הפדרלית החדשה (מבוססת Oracle) והן על מערכת VistA/CPRS הוותיקה, ברשת המשרתת למעלה מ-9 מיליון ותיקים ב-1,380 מתקנים.",
+    "url": "https://hitconsultant.net/2026/09/22/abridge-awarded-va-enterprise-contract-ambient-ai-veterans-health-administration/",
+    "topics": [
+      "adoption",
+      "ambient",
+      "policy"
+    ]
+  },
+  {
+    "id": "cigna-openai-complex-care-oncology",
+    "date": "2026-09-23",
+    "added": "2026-09-29",
+    "src": "Modern Healthcare",
+    "fam": "press",
+    "title": "Cigna Group ו-OpenAI משיקות שיתוף פעולה לטיפול במטופלים מורכבים, החל מאונקולוגיה",
+    "titleSrc": "Cigna Group, OpenAI partner to expand complex care offerings",
+    "summary": "חברת הביטוח Cigna Group ו-OpenAI הודיעו על שיתוף פעולה לפיתוח כלי AI עבור מטופלים במצבים מורכבים, כשהיוזמה הראשונה מתמקדת בטיפול אונקולוגי: כלים המאחדים נתונים קליניים, נתוני בתי מרקחת, נתונים התנהגותיים ונתוני זכאות לביטוח למבט מטופל אחיד עבור אחיות ומנהלי טיפול ב-Cigna Healthcare וב-Accredo Specialty Pharmacy. החברות ציינו כוונה להרחיב את השימוש מעבר לאונקולוגיה בעתיד, אך לא פורסם לוח זמנים מפורט או נתוני ביצוע שיאמתו את יעילות הכלי בפועל.",
+    "url": "https://www.modernhealthcare.com/health-tech/ai/mh-cigna-group-openai-complex-care/",
+    "topics": [
+      "adoption",
+      "ops"
+    ]
+  },
+  {
+    "id": "bcbsa-ai-coding-tools-cost-analysis",
+    "date": "2026-09-24",
+    "added": "2026-09-29",
+    "src": "Fierce Healthcare",
+    "fam": "press",
+    "title": "ניתוח: כלי קידוד רפואי מבוססי-AI בבתי חולים עלו לתוכניות BCBSA 942 מיליון דולר נוספים",
+    "titleSrc": "Hospitals' use of AI coding tools cost BCBSA plans $942M more for similar care: analysis",
+    "summary": "ניתוח תביעות של איגוד Blue Cross Blue Shield (BCBSA) מצא כי השימוש הגובר בכלי קידוד רפואי מבוססי-AI בבתי חולים הוסיף כ-942 מיליון דולר בעלויות לתוכניות החברות בין 2023 ל-2025, מתוכם כ-653 מיליון דולר משויכים לאבחנות משניות (בעלות ממוצעת של כ-11,000 דולר למקרה \"מורכב\" עודף). שיעור האשפוזים המקודדים כ\"מורכבים רפואית\" עלה מ-37% (תחילת 2023) ל-40% (סוף 2025) ללא עלייה מקבילה בעצימות הטיפול בפועל — פער ש-BCBSA טוען כי מצביע על כך שה-AI חושף יותר קודי חיוב ולא בהכרח מטופלים חולים יותר; 70% מתוכניות הביטוח שנסקרו מדרגות כלי AI בצד הספקים כאחד משלושת גורמי העלות המובילים.",
+    "url": "https://www.fiercehealthcare.com/finance/hospitals-use-ai-coding-tools-cost-bcbsa-plans-942m-more-similar-care-analysis",
+    "topics": [
+      "ethics",
+      "ops",
+      "policy"
+    ]
+  },
+  {
+    "id": "clalit-checkpoint-ai-security-partnership",
+    "date": "2026-09-28",
+    "added": "2026-09-29",
+    "src": "CTech (Calcalist)",
+    "fam": "press",
+    "title": "כללית ו-Check Point בשיתוף פעולה לאבטחת השימוש בבינה מלאכותית בקופת החולים הגדולה בישראל",
+    "titleSrc": "Clalit and Check Point team up to secure AI use across Israel's largest HMO",
+    "summary": "שירותי בריאות כללית, קופת החולים הגדולה בישראל עם כ-5 מיליון מבוטחים, חתמה על שותפות אסטרטגית רב-שנתית בהיקף מיליוני שקלים עם חברת האבטחה Check Point Software להקמת מסגרת אבטחה הכוללת יישומי בינה מלאכותית, נתונים רפואיים, נכסים דיגיטליים ותשתיות קריטיות. הצעד מגיע על רקע התרחבות השימוש בכללית בכלי AI וגידול במתקפות סייבר נגד מגזר הבריאות, ואושש באותו היום גם בדיווחי Times of Israel ו-Jerusalem Post.",
+    "url": "https://www.calcalistech.com/ctechnews/article/s19s2ricfx",
+    "topics": [
+      "israel",
+      "ethics",
+      "ops"
+    ]
+  },
+  {
+    "id": "arxiv-wilson-pathology-foundation-model",
+    "date": "2026-09-20",
+    "added": "2026-09-29",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "WILSON: מודל יסוד פתולוגי לניתוח ברמת המטופל וליצירת טקסט דיאגנוסטי",
+    "titleSrc": "WILSON - a pathology foundation model framework for patient-level analysis and diagnostic text generation",
+    "summary": "חוקרים מציגים את WILSON, מודל יסוד מסוג חזון-שפה המייצג תמונות שקופית מלאה (Whole-Slide) ומקרים מרובי-שקופיות כתמונה מורכבת יחידה רבת-הגדלות, ואומן על כ-189,000 שקופיות ממיו קליניק על פני 42 איברים ו-829 ישויות אבחנתיות תוך שימוש בדוחות פתולוגיה כאות פיקוח במקום תיוג ידני. ללא כוונון ייעודי למשימה, המודל עלה על מודל ברמת-מקרה ייעודי בכל הקוהורטות הפנימיות (F1 מאקרו של 0.52 מול 0.38) והשתווה למודלים ברמת-שקופית גדולים פי 9.4 תוך שימוש בפחות 272-2,155 פי כוח חישוב. מגבלה מהותית: נתוני האימון מגיעים ממוסד יחיד (מיו קליניק), כך שההכללה לאוכלוסיות, סורקים ופרוטוקולי מעבדה אחרים לא נבדקה בתקציר.",
+    "url": "https://arxiv.org/abs/2609.25123",
+    "topics": [
+      "imaging",
+      "research"
+    ]
+  },
+  {
+    "id": "medrxiv-depression-prediction-social-media-llm",
+    "date": "2026-09-21",
+    "added": "2026-09-29",
+    "src": "medRxiv",
+    "fam": "preprint",
+    "title": "\"חושפים ייאוש דיגיטלי\": מסגרת מבוססת מודל שפה לחיזוי דיכאון מתוך רשתות חברתיות",
+    "titleSrc": "Unmasking digital despair: A language model framework for predicting depression on social media",
+    "summary": "חוקרים בנו מסווג מבוסס RoBERTa לחיזוי דיכאון מתוך פוסטים ב-X/טוויטר שאינם מתייחסים במפורש לדיכאון, תוך שימוש בפוסטים שנאספו בין אפריל 2023 ליולי 2024. לאחר ניקוי נתונים ותיוג בסיוע GPT-4o, קוהורט המחקר כלל 2,275 משתמשים שסומנו כבעלי נטייה דיכאונית ו-1,661 משתמשי ביקורת ללא נטייה כזו. מגבלה מהותית: תוויות האמת-לאמת מבוססות על סיווג GPT-4o ולא על אבחנה קלינית, וקבוצת הביקורת הוגדרה על בסיס היוריסטיקת מילות-מפתח פשוטה בלבד — מגבלות שיש להביא בחשבון בעת פירוש נתוני הדיוק שדווחו.",
+    "url": "https://www.medrxiv.org/content/10.64898/2026.09.21.26363552v1",
+    "topics": [
+      "mental",
+      "research"
+    ]
+  },
+  {
+    "id": "arxiv-llm-ed-triage-anchoring-chief-complaint",
+    "date": "2026-09-19",
+    "added": "2026-09-29",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "מודלי שפה \"נתקעים\" על התלונה הראשונית וכושלים בשילוב מידע חדש במיון קליני רציף",
+    "titleSrc": "LLMs Anchor on Chief Complaint and Fail to Integrate Evidence in Sequential Clinical Triage",
+    "summary": "המחקר בוחן שישה מודלי שפה גדולים במשימת מיון מחלקת חירום רציפה — חיזוי דרגת דחיפות (ESI) מתוך קידומת הולכת וגדלה של שיחת אחות-מטופל, בניגוד למחקרים קודמים שהתבססו על רשומה שלמה בדיעבד. בשני קורפוסים (425 שיחות מדומות ו-50 שיחות אמיתיות שתועדו בידי רופאים) נמצא שההסכמה של כל המודלים עם דרגת ה-ESI האמיתית (מדד קאפא) צנחה מרמה בינונית-עד-משמעותית ברשומה השלמה לרמה חלשה-עד-בינונית בכל נקודת זמן מוקדמת יותר. ניסויי הפרעה מבוקרים הראו שהחיזויים מעוגנים כמעט לחלוטין בחילופי הדברים הראשוניים על התלונה, וכי התערבויות בניסוח ההנחיות לא תיקנו את התופעה — ממצא בעל השלכות ישירות על בטיחות שימוש ב-LLM למיון בזמן אמת.",
+    "url": "https://arxiv.org/abs/2609.22904",
+    "topics": [
+      "ops",
+      "ethics"
+    ]
+  },
+  {
+    "id": "arxiv-basecamp-agentic-dna-sequencing-pipelines",
+    "date": "2026-09-23",
+    "added": "2026-09-29",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "BaseCamp: מסגרת AI אגנטית לאוטומציה של צינורות עיבוד נתוני ריצוף DNA",
+    "titleSrc": "BaseCamp --- An Agentic AI Framework for Automating DNA Sequencing Data Pipelines",
+    "summary": "צינורות עיבוד נתוני ריצוף DNA (בקרת איכות, יישור לרפרנס, זיהוי וריאנטים, הערה תפקודית) כבר מנוהלים באוטומציה אמינה בידי מערכות ניהול זרימת עבודה, אך \"שכבת ההחלטה\" סביבם — קביעת ספי איכות מותאמים לדגימה ולפלטפורמה, פרשנות דוחות בקרת איכות, הכרעה בזיהויי וריאנטים גבוליים, אבחון חריגות והחלטה מתי נדרשת בדיקת מומחה — נותרה ידנית. BaseCamp מציגה מסגרת סוכני AI המפרקת את שכבת ההחלטה הזו לשישה סוכנים מתמחים (קליטה/בקרת איכות, יישור, זיהוי וריאנטים, הערה, ניטור בין-שלבי ודיווח) לצורך אוטומציה מקצה לקצה. מגבלה מהותית: כמאמר מסגרת/מערכת, התקציר אינו מדווח על מדדי דיוק או הסכמה ישירים מול גנטיקאים קליניים מומחים, כך שאימות בעולם האמיתי נותר שאלה פתוחה.",
+    "url": "https://arxiv.org/abs/2609.28557",
+    "topics": [
+      "research",
+      "ops"
+    ]
   }
 ]
