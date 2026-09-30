@@ -2923,5 +2923,47 @@
       "research",
       "ops"
     ]
+  },
+  {
+    "id": "axios-openevidence-250m-15b-valuation",
+    "date": "2026-09-25",
+    "added": "2026-09-30",
+    "src": "Axios",
+    "fam": "press",
+    "title": "OpenEvidence גייסה 250 מיליון דולר לפי שווי של 15 מיליארד דולר",
+    "titleSrc": "OpenEvidence reportedly raises $250M at $15B valuation",
+    "summary": "OpenEvidence, מנוע חיפוש קליני מבוסס בינה מלאכותית המשמש לפי הערכות כ-40% מהרופאים בארה\"ב, גייסה 250 מיליון דולר לפי שווי של 15 מיליארד דולר - עלייה של 25% משווי 12 מיליארד הדולר שנקבע בסבב ינואר 2026, פחות מתשעה חודשים קודם לכן. בין המשקיעים בסבב מערכות בתי חולים ו-Andreessen Horowitz; לפי הדיווח, מנכ\"ל החברה מקדם גם כניסה לפיתוח תרופות אונקולוגיות.",
+    "url": "https://www.axios.com/pro/health-tech-deals/2026/09/25/openevidence-250m-raise-15b-valuation-a16z",
+    "topics": [
+      "funding"
+    ]
+  },
+  {
+    "id": "ecancer-npj-breast-cancer-iicm-ai-recurrence",
+    "date": "2026-09-18",
+    "added": "2026-09-30",
+    "src": "ecancer.org",
+    "fam": "press",
+    "title": "מודל AI רב-מודלי (IICM+) חוזה סיכון להישנות סרטן שד ביתר דיוק מבדיקת הגנים הגנומית הנפוצה",
+    "titleSrc": "A new AI-powered test offers more accurate prediction of breast cancer recurrence risk",
+    "summary": "מודל בינה מלאכותית בשם IICM+, המשלב תמונות פתולוגיה דיגיטליות עם נתונים קליניים (גיל, גודל הגידול ודרגתו) ופאנל גנים מורחב, ניבא סיכון להישנות מרוחקת של סרטן שד מוקדם ביתר דיוק מבדיקת ה-21-Gene Recurrence Score (Oncotype DX) הנפוצה. המודל פותח ואומת באופן עצמאי על נתוני יותר מ-4,400 משתתפות במחקר TAILORx של ECOG-ACRIN, עם יותר מעשור של מעקב קליני. המחקר פורסם בכתב העת npj Breast Cancer.",
+    "url": "https://ecancer.org/en/news/28936-a-new-ai-powered-test-offers-more-accurate-prediction-of-breast-cancer-recurrence-risk",
+    "topics": [
+      "research"
+    ]
+  },
+  {
+    "id": "itn-aidoc-northwell-aneurysm-detection-cta",
+    "date": "2026-09-15",
+    "added": "2026-09-30",
+    "src": "ITN (Imaging Technology News)",
+    "fam": "press",
+    "title": "מחקר בכתב העת JACR: אלגוריתם AI של Aidoc זיהה 39% יותר מקרי מפרצת מוחית לצד רדיולוגים ברשת הבריאות Northwell",
+    "summary": "מחקר פרוספקטיבי שפורסם בכתב העת Journal of the American College of Radiology (JACR) ונערך ברשת הבריאות Northwell בדק אלגוריתם AI מאושר FDA של חברת Aidoc לזיהוי מפרצות תוך-גולגולתיות ב-3,856 בדיקות אנגיוגרפיית CT (CTA). ה-AI זיהה 55 מקרים אמיתיים-חיוביים נוספים שהרדיולוגים לא דיווחו עליהם - עלייה יחסית של 39% בזיהוי, כשהרגישות הכוללת עלתה מ-71.8% (רדיולוגים בלבד) ל-84.6% (עם סיוע AI) - אך לצד ירידה בדיוק החיובי (92.7% מול 78.2%), כלומר יותר אזעקות שווא.",
+    "url": "https://www.itnonline.com/node/91242",
+    "topics": [
+      "imaging",
+      "research"
+    ]
   }
 ]
