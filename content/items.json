@@ -2965,5 +2965,50 @@
       "imaging",
       "research"
     ]
+  },
+  {
+    "id": "tempus-ecg-mr-fda-clearance-mitral-regurgitation",
+    "date": "2026-09-28",
+    "added": "2026-10-01",
+    "src": "FDA (הודעת Tempus AI)",
+    "fam": "regulator",
+    "title": "ה-FDA מעניק ל-Tempus AI אישור לכלי ECG-MR לזיהוי אי-ספיקת מסתם מיטרלי בלתי מאובחנת מתוך א.ק.ג רגיל",
+    "titleSrc": "Tempus Receives FDA Clearance for its ECG-MR AI Product Designed to Identify Undiagnosed Mitral Regurgitation",
+    "summary": "ה-FDA אישר (510(k מכשיר תוכנה בשם Tempus ECG-MR, המנתח א.ק.ג 12-לידים רגיל כדי לזהות סימנים לאי-ספיקת מסתם מיטרלי (MR) בינונית עד קשה שטרם אובחנה, ולסמן לרופא צורך בהדמיה להמשך בירור. זהו האלגוריתם הרביעי מבוסס-א.ק.ג של Tempus שמקבל אישור FDA, אחרי כלים קודמים לזיהוי פרפור פרוזדורים ותפקוד חדרי ירוד. הכלי משמש ככלי סינון בלבד - אבחנה סופית עדיין מחייבת אקו-לב או הדמיה נוספת.",
+    "url": "https://investors.tempus.com/news-releases/news-release-details/tempus-receives-fda-clearance-its-ecg-mr-ai-product-designed",
+    "topics": [
+      "research",
+      "adoption"
+    ]
+  },
+  {
+    "id": "ge-healthcare-mgb-generative-ai-radiotherapy",
+    "date": "2026-09-23",
+    "added": "2026-10-01",
+    "src": "GE HealthCare (הודעה רשמית)",
+    "fam": "provider",
+    "title": "GE HealthCare ו-Mass General Brigham מרחיבות שיתוף פעולה למחקר בינה מלאכותית גנרטיבית לאיחוד נתוני טיפול בקרינה",
+    "titleSrc": "GE HealthCare Expands Research Collaboration To Explore Using Generative AI For More Personalized Radiation Therapy",
+    "summary": "GE HealthCare הודיעה על הרחבת שיתוף הפעולה המחקרי עם צוות ב-Mass General Brigham לפיתוח כלי בינה מלאכותית גנרטיבית שיאפשר לצוותי רדיותרפיה לשאול שאלות ולאחזר במהירות מידע קליני מובנה ובלתי-מובנה המפוזר בין מערכות שונות, לקראת שילובו בפלטפורמת Intelligent Radiation Therapy (iRT) של החברה. הצדדים מציינים כי שיתוף פעולה קודם ביניהם כבר תרם לקיצור הזמן מקליטת מטופל ועד תחילת טיפול בקרינה מכ-30 ימים לכ-8 ימים בלבד. בשלב הנוכחי מדובר במחקר מוקדם - טרם פורסמו תוצאות או נתוני ביצוע לכלי הגנרטיבי החדש עצמו.",
+    "url": "https://www.gehealthcare.com/en/about/newsroom/press-releases/ge-healthcare-expands-research-collaboration-to-explore-using-generative-ai-for-more-personalized-radiation-therapy",
+    "topics": [
+      "ops",
+      "research"
+    ]
+  },
+  {
+    "id": "angle-health-600m-series-c-ai-native-benefits",
+    "date": "2026-09-21",
+    "added": "2026-10-01",
+    "src": "TheNextWeb",
+    "fam": "press",
+    "title": "Angle Health, פלטפורמת הטבות בריאות ילידת-AI, גייסה 600 מיליון דולר לפי שווי של 2.7 מיליארד דולר",
+    "titleSrc": "Ex-Palantir engineers raise $600m to take on US health insurers",
+    "summary": "Angle Health, חברת הטבות בריאות שהוקמה בידי שני מהנדסים לשעבר ב-Palantir ומתארת עצמה כ'ילידת-AI', גייסה 600 מיליון דולר - 200 מיליון דולר בסבב Series C ועוד 400 מיליון דולר בהצעת רכש למשקיעים קיימים - בהובלת Vitruvian Partners, לפי שווי של 2.7 מיליארד דולר. החברה טוענת שהיא משתמשת בבינה מלאכותית לחיתום ולניהול תביעות והטבות, וגדלה מכ-3,000 ללמעלה מ-5,000 מעסיקים לקוחות בין דצמבר 2025 לספטמבר 2026, עם צמיחת הכנסות שנתית של כ-120% לפי דיווחי החברה. מדובר בטכנולוגיית AI לניהול ביטוח והטבות ולא בטיפול קליני ישיר, והנתונים מבוססים על דיווח עצמי של החברה.",
+    "url": "https://thenextweb.com/news/angle-health-600m-vitruvian-partners-2-7bn-valuation",
+    "topics": [
+      "funding",
+      "ops"
+    ]
   }
 ]
