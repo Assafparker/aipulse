@@ -3010,5 +3010,156 @@
       "funding",
       "ops"
     ]
+  },
+  {
+    "id": "npj-llm-preop-communication-prostate-cancer-anxiety",
+    "date": "2026-09-26",
+    "added": "2026-10-03",
+    "src": "npj Digital Medicine",
+    "fam": "journal",
+    "title": "תקשורת טרום-ניתוחית בעזרת מודל שפה מפחיתה חרדת מטופלים ועומס על רופאים בסרטן הערמונית - ניסוי אקראי",
+    "titleSrc": "Large language model–assisted preoperative communication reduces patient anxiety and physician workload in prostate cancer: a prospective randomized phase II trial",
+    "summary": "בניסוי אקראי, מבוקר וחד-סמיות בשלב II, 268 חולי סרטן ערמונית שעתידים לעבור כריתת ערמונית רדיקלית חולקו לקבוצת תקשורת רגילה (130) וקבוצה שקיבלה מענה ממודל שפה מקומי לשאלותיהם לפני הפגישה עם הרופא (138), מתוך 3,507 שאלות שנאספו (בממוצע 13.1 לחולה). בקבוצת ה-AI נרשמה חרדה נמוכה יותר אחרי התקשורת (GAD-7: 3.2 לעומת 5.7, p<0.001) ועומס עבודה נמוך יותר לרופאים (NASA-TLX: 39.9 לעומת 56.8; זמן תקשורת 11.3 לעומת 19.9 דקות, p<0.001 בשניהם). הרופאים לא ידעו לאיזו קבוצה שויך כל מטופל, אך המודל פעל באופן מקומי בלבד ולא החליף שיחה ישירה עם הרופא.",
+    "url": "https://www.nature.com/articles/s41746-026-03309-7",
+    "topics": [
+      "research",
+      "adoption"
+    ]
+  },
+  {
+    "id": "npj-simple-hf-mortality-risk-score-transformer",
+    "date": "2026-09-26",
+    "added": "2026-10-03",
+    "src": "npj Digital Medicine",
+    "fam": "journal",
+    "title": "ציון סיכון תמותה מבוסס-AI בן 11 משתנים לאי-ספיקת לב עוקף את כלי החיזוי הקליני המקובל",
+    "titleSrc": "Development and validation of a parsimonious AI-based mortality risk score for heart failure",
+    "summary": "על בסיס נתוני 373,389 חולי אי-ספיקת לב במאגר ה-CPRD Aurum הבריטי, חולצו 11 משתנים נגישים מתוך מודל Transformer מורכב כדי לבנות ציון חיזוי תמותה פשוט בשם SIMPLE-HF. הציון החדש השיג יכולת אבחנה גבוהה יותר מכלי הייחוס הקליני MAGGIC-EHR (מדד C: 0.801 לעומת 0.735), ובסף סיכון של 0.60 איתר 177 מקרי מוות אמיתיים מתוך כל 1,000 מטופלים שנבדקו, לעומת 89 בלבד בכלי הישן. כל המשתנים נאספים באופן שגרתי בנקודת הטיפול ולא נדרשות בדיקות מיוחדות, מה שמקל על יישום בפועל.",
+    "url": "https://www.nature.com/articles/s41746-026-03258-1",
+    "topics": [
+      "research"
+    ]
+  },
+  {
+    "id": "klinikebench-arxiv-llm-clinical-encounter-benchmark",
+    "date": "2026-09-29",
+    "added": "2026-10-03",
+    "src": "arXiv (cs.CL)",
+    "fam": "preprint",
+    "title": "KlinikeBench: בנצ'מרק חדש שבוחן מודלי שפה מעבר לדיוק אבחנתי, בתפקידי רופא אינטראקטיביים",
+    "titleSrc": "KlinikeBench: Evaluating Language Models Beyond Diagnostic Accuracy",
+    "summary": "הבנצ'מרק כולל 333 משימות שחיברו קלינאים, שבהן על המודל לשחק תפקיד של רופא הנדרש לתשאל \"מטופל וירטואלי\" (מודל שפה אחר), להזמין בדיקות ולקבוע אבחנה במסגרת תקציב פניות מוגבל - ולא רק לקרוא תיק רפואי מלא ולענות. מתוך 31 מודלים בשבע משפחות, אפילו המודלים הטובים ביותר (למשל GPT-6-astra ו-Claude Opus 5) הצליחו במשימה המלאה בפחות מ-30% מהמקרים, זאת לעומת דיוק אבחנתי של 90.7% כאשר ניתן להם התיק הרפואי המלא מראש - פער גדול בין ביצועים בבנצ'מרק סטטי לבין הפעלה קלינית אינטראקטיבית אמיתית.",
+    "url": "https://arxiv.org/abs/2609.38480",
+    "topics": [
+      "research",
+      "ethics"
+    ]
+  },
+  {
+    "id": "anthropic-life-sciences-verification-program-beta",
+    "date": "2026-09-17",
+    "added": "2026-10-03",
+    "src": "Anthropic",
+    "fam": "lab",
+    "title": "Anthropic משיקה בבטא תוכנית אימות למדעי החיים - גישה גמישה יותר ל-Claude לעבודה ביולוגית מתחת לפיקוח מותאם",
+    "titleSrc": "Introducing the Life Sciences Verification Program",
+    "summary": "Anthropic השיקה את Life Sciences Verification Program (LSVP) - תוכנית בטא שמעניקה לגופי מדעי חיים מאומתים גישה גמישה יותר למודלים Mythos, Opus ו-Sonnet לעבודה ביולוגית, תחת אמצעי בטיחות מותאמים. הגישה מתחלקת לשני מסלולים - \"שימוש סטנדרטי\" לצוות כולו ו\"שימוש בסיכון גבוה\" לפרויקט בודד ומוגדר - ולדברי החברה כבר צורפו עשרות גופים בגישה מוקדמת, עם כוונה לצרף מאות נוספים בשבוע הראשון של הפתיחה הרחבה יותר.",
+    "url": "https://anthropic.com/news/life-sciences-verification-program",
+    "topics": [
+      "policy",
+      "ethics"
+    ]
+  },
+  {
+    "id": "anthropic-claude-discovers-novel-enzyme-crispr-like",
+    "date": "2026-09-23",
+    "added": "2026-10-03",
+    "src": "Anthropic",
+    "fam": "lab",
+    "title": "סוכני Claude מזהים באופן אוטונומי מערכת אנזימים לא-מוכרת עם חזרות דמויות-CRISPR",
+    "titleSrc": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+    "summary": "כ-950 סוכני Claude, שפעלו כ-21 שעות וצרכו כ-210 מיליון טוקנים על נתוני רצפי DNA, איתרו מערכת אנזימים חדשה ולא-מוכרת שהתגלתה בחיידקופאג'ים (כונתה \"ART\") המזכירה במבנה שלה מערכות CRISPR. פרופ' פנג ג'אנג, ממובילי פיתוח CRISPR, בחן את ממצאי המחקר המקדים ותיאר אותם כ\"מעניינים באמת ומצדיקים בדיקה נוספת\" - אך הפונקציה הביולוגית המדויקת ויכולת השימוש בעריכה גנטית עדיין לא אושרו, וצוות Anthropic ביצע ניסויי מעבדה לאימות הממצא המחשובי בלבד.",
+    "url": "https://www.anthropic.com/research/claude-discovers-novel-enzyme-system",
+    "topics": [
+      "research"
+    ]
+  },
+  {
+    "id": "hhs-arpa-h-surpass-clinical-trials-ai-simulation",
+    "date": "2026-09-30",
+    "added": "2026-10-03",
+    "src": "STAT News",
+    "fam": "press",
+    "title": "משרד הבריאות האמריקני (HHS) משיק את SURPASS - תוכנית חמש-שנים להאצת ניסויים קליניים בעזרת סימולציית AI",
+    "titleSrc": "HHS announces new efforts to speed up, expand clinical trials with AI",
+    "summary": "ה-HHS, באמצעות סוכנות ARPA-H, הכריז על SURPASS (\"Simulation-augmented, Real-time Platform Adaptive Seamless Trials\") - תוכנית בת חמש שנים שתצא לדרך בסתיו 2026 ותשלב AI, מודלים חישוביים מנבאים ותשתית ניסויים משותפת כדי להעריך תרופות וטיפולים ביולוגיים מהר יותר, בעלות נמוכה יותר ועם פחות משתתפים מהגישה המסורתית. התוכנית מלווה בתוכניות משלימות (STACK, COMMONS, CINCH) לאימוץ אתרי מחקר, פרטיות נתונים וגיוס מטופלים; הגשת רעיונות והצעות רק תיפתח בנובמבר 2026, כך שההשפעה המעשית תלויה בביצוע בפועל בהמשך.",
+    "url": "https://www.statnews.com/2026/09/30/hhs-arpa-h-clinical-trials-artificial-intelligence-surpass-program/",
+    "topics": [
+      "policy",
+      "research"
+    ]
+  },
+  {
+    "id": "stat-claude-genome-analysis-standards-ethics",
+    "date": "2026-10-01",
+    "added": "2026-10-03",
+    "src": "STAT News",
+    "fam": "press",
+    "title": "טור ב-STAT: Claude ניתח גנום שלם בכ-30 דקות - והכותב קורא לקבוע תקנים לפרשנות גנומית בעזרת AI לצרכנים",
+    "titleSrc": "Claude analyzed my genome in 30 minutes. Now we need standards for the results",
+    "summary": "במאמר דעה אישי, החוקר יואן אשלי מתאר כיצד Claude של Anthropic ניתח את הגנום המלא שלו בכ-30 דקות ובעלות זניחה, לפי אותה מתודולוגיה שדרשה ב-2009 כ-30 אנשים וכשנת עבודה. הכותב מדגיש כי ניתוח גנומי צרכני מבוסס-AI כבר נגיש כיום אך פועל ללא תקני אימות ופיקוח רגולטורי קליניים מקבילים לאלה הנדרשים מבדיקות גנטיות מאושרות, וקורא לקבוע סטנדרטים כאלה בטרם השימוש יתרחב.",
+    "url": "https://www.statnews.com/2026/10/01/claude-ai-genome-analysis-standards-ethics/",
+    "topics": [
+      "ethics",
+      "research"
+    ]
+  },
+  {
+    "id": "heidi-health-heidi-ii-ai-agents-clinical-admin",
+    "date": "2026-09-28",
+    "added": "2026-10-03",
+    "src": "Fierce Healthcare",
+    "fam": "press",
+    "title": "Heidi Health משיקה את Heidi II - סוכני AI שמבצעים בפועל את העבודה המנהלית שאחרי הביקור הקליני",
+    "titleSrc": "Heidi launches new platform to tackle administrative work with AI agents",
+    "summary": "חברת ה-AI הרפואי Heidi Health הכריזה על Heidi II, גרסה חדשה הכוללת שלוש יכולות - Agents, Memory ו-Peer-reviewed research - שמאפשרות לסוכני AI לפעול בפועל (בפיקוח רופא) על כ-10 מיליון משימות מעקב בשבוע שנוצרות מביקורים קליניים, כגון הכנת הפניות, תיאום מעקב וזיהוי מטופלים שזקוקים לבדיקות סינון. לפי החברה, הפלטפורמה תומכת כיום בכ-2.8 מיליון ביקורי מטופלים בשבוע ברחבי העולם; ההודעה אינה כוללת נתוני ביצוע עצמאיים או בדיקת שיעור שגיאות של הסוכנים עצמם.",
+    "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/heidi-launches-new-platform-tackle-administrative-work-ai-agents",
+    "topics": [
+      "ambient",
+      "ops",
+      "adoption"
+    ]
+  },
+  {
+    "id": "california-newsom-signs-3-ai-healthcare-bills",
+    "date": "2026-09-28",
+    "added": "2026-10-03",
+    "src": "Healthcare IT News",
+    "fam": "regulator",
+    "title": "מושל קליפורניה ניוסום חותם על 3 חוקים להסדרת AI בבריאות, ומטיל וטו על שניים נוספים",
+    "titleSrc": "California Gov. Newsom signs 3 bills to govern healthcare AI",
+    "summary": "מושל קליפורניה גאווין ניוסום חתם ב-28 בספטמבר 2026 על שלושה חוקים המגבילים את תפקיד ה-AI בבריאות לייעוץ בלבד בהחלטות מסוימות, מחייבים גילוי נאות כשמשתמשים בבינה מלאכותית גנרטיבית בתקשורת עם מטופלים, ומסדירים דרישת זיהוי-עצמי לצ'אטבוטים. באותו מעמד הטיל ניוסום וטו על שתי הצעות חוק קשורות, בהן הצעה שהייתה מגבילה שימוש ב-AI בטיפול בבריאות הנפש. קליפורניה הופכת כך לאחת המדינות הראשונות בארה\"ב שמעגנת בחוק מסגרת הגנות ספציפית ל-AI בבריאות.",
+    "url": "https://www.healthcareitnews.com/news/california-gov-newsom-signs-3-bills-govern-healthcare-ai",
+    "topics": [
+      "policy",
+      "ethics",
+      "mental"
+    ]
+  },
+  {
+    "id": "dreamed-modi-fda-clearance-type2-diabetes-insulin",
+    "date": "2026-09-28",
+    "added": "2026-10-03",
+    "src": "MedCity News",
+    "fam": "regulator",
+    "title": "ה-FDA מאשר לחברה הישראלית DreaMed את MODI - כלי מבוסס-CGM להמלצות מינון אינסולין בסוכרת סוג 2",
+    "titleSrc": "DreaMed Wins FDA Clearance for CGM-Driven Insulin Automation Tool for Both Type 2 Injection Regimens",
+    "summary": "ה-FDA העניק לחברה הישראלית DreaMed Diabetes (פתח תקווה) אישור 510(k) לכלי התוכנה MODI, המנתח נתוני חיישן גלוקוז רציף (CGM) ונתוני אינסולין כדי לספק המלצות מינון מותאמות אישית למטופלי סוכרת סוג 2 - גם למי שמשתמש באינסולין בזאלי בלבד וגם למי שמזריק גם מנות מהירות לפני ארוחות. לפי החברה, זהו הכלי המאושר הראשון שמטפל בשני סוגי המשטרים גם יחד; נדרש מרשם רופא לפני השימוש, וההמלצות דורשות פעולה אקטיבית של המטופל ואינן מינון אוטומטי בלוח סגור.",
+    "url": "https://medcitynews.com/2026/09/dreamed-wins-fda-clearance-for-cgm-driven-insulin-automation-tool-for-both-type-2-injection-regimens/",
+    "topics": [
+      "israel",
+      "research",
+      "adoption"
+    ]
   }
 ]
