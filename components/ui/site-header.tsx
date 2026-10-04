@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Logo } from "@/components/brand/logo";
+import { SearchBox } from "./search-box";
 import { ThemeToggle } from "./theme-toggle";
 
 /**
@@ -43,6 +44,8 @@ export function SiteHeader() {
             </li>
           </ul>
         </nav>
+
+        <SearchBox />
 
         <ThemeToggle />
       </div>
