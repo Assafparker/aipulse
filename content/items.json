@@ -3161,5 +3161,63 @@
       "research",
       "adoption"
     ]
+  },
+  {
+    "id": "ucl-uclh-live-ai-pituitary-surgery-first-patient",
+    "date": "2026-08-27",
+    "added": "2026-10-04",
+    "src": "UCL News",
+    "fam": "provider",
+    "title": "ניתוח מוח ראשון בעולם בהנחיית AI בזמן אמת הגן על ראייתו של מטופל ב-UCLH",
+    "titleSrc": "First Patient in Live AI-Assisted Sight-Saving Brain Surgery",
+    "summary": "ב-25 באוגוסט 2026 ביצעו מנתחים ב-National Hospital for Neurology and Neurosurgery של UCLH ניתוח להסרת גידול באזור בלוטת יותרת המוח, כשמערכת AI שפותחה ב-UCL Hawkes Institute ניתחה בזמן אמת את הזרם החי של וידאו האנדוסקופיה — ולא רק סקרי הדמיה שצולמו מראש — כדי להתריע על מבנים קריטיים כמו עצבי הראייה וכלי דם. רייס היברט, בן 48, היה המטופל הראשון שעבר ניתוח כזה במסגרת ניסוי קליני בחסות NIHR, וראייתו נשמרה בהצלחה. מדובר במקרה בודד בשלב מוקדם של ניסוי קליני; המערכת עדיין לא אושרה לשימוש קליני רחב.",
+    "url": "https://www.ucl.ac.uk/news/2026/aug/first-patient-live-ai-assisted-sight-saving-brain-surgery",
+    "topics": [
+      "research",
+      "adoption"
+    ]
+  },
+  {
+    "id": "synapxe-agentsea-singapore-public-healthcare-ai",
+    "date": "2026-08-24",
+    "added": "2026-10-04",
+    "src": "Synapxe",
+    "fam": "provider",
+    "title": "סינגפור משיקה AgentSea — פלטפורמת AI סוכנותית רחבת-מגזר לכל עובדי מערכת הבריאות הציבורית",
+    "titleSrc": "Singapore Empowers Public Healthcare Professionals with Sector-Wide Agentic AI Platform",
+    "summary": "סוכנות הטכנולוגיה הדיגיטלית של משרד הבריאות הסינגפורי, Synapxe, חשפה פומבית את AgentSea — פלטפורמה שמאפשרת לכל עובד במערכת הבריאות הציבורית לבנות, להשתמש ולשתף סוכני AI משלו בשפה טבעית, בלי ידע טכני. מאז השקתה השקטה במאי-יוני 2026 נבנו למעלה מ-12,000 סוכנים, כ-300 מהם שותפו לשימוש חוזר על ידי עובדים אחרים, לצרכים כמו סיכום רשומות קליניות, בדיקת רכש ותזמון סידורי עבודה. ההכרזה נעשתה בכנס HIMSS APAC בסינגפור; ההיקף בפועל של השימוש היומיומי ואיכות הסוכנים שנבנו על ידי משתמשים לא-טכניים לא פורטו במקור.",
+    "url": "https://www.synapxe.sg/media-releases/artificial-intelligence/public-healthcare-agentic-ai-platform",
+    "topics": [
+      "adoption",
+      "ops"
+    ]
+  },
+  {
+    "id": "alabama-sb63-ai-health-coverage-act-effective",
+    "date": "2026-10-01",
+    "added": "2026-10-04",
+    "src": "Alabama Legislature",
+    "fam": "regulator",
+    "title": "אלבמה: חוק \"כיסוי בריאות בעזרת AI\" נכנס לתוקף ומגביל שימוש בבינה מלאכותית באישורים מקדימים של מבטחים",
+    "summary": "ב-1 באוקטובר 2026 נכנס לתוקף באלבמה חוק SB 63, המחייב מבטחי בריאות המשתמשים ב-AI בקבלת החלטות על אישורים מקדימים (prior authorization) לבסס את ההחלטה על ההיסטוריה הרפואית והנסיבות הקליניות הייחודיות של המטופל כפי שהוצגו על ידי הרופא המטפל — ולא על אלגוריתם בלבד. החוק מחייב מבטחים להצהיר אחת לשנה כי מערכות ה-AI שלהם אינן מתבססות על נתוני קבוצה גנרית, אינן מפלות בין קבוצות מבוטחים, ועוברות ביקורת תקופתית לדיוק. מדובר באחד משבעה חוקי מדינה בנושא AI וביטוח בריאות שהתקבלו בארה״ב ב-2026; אופן האכיפה בפועל על ידי מחלקת הביטוח של המדינה עדיין לא נבחן בשטח.",
+    "url": "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/SB63-eng.pdf",
+    "topics": [
+      "policy",
+      "ethics"
+    ]
+  },
+  {
+    "id": "uvm-larner-arpa-h-digital-twin-critical-care",
+    "date": "2026-09-30",
+    "added": "2026-10-04",
+    "src": "UVM News",
+    "fam": "provider",
+    "title": "אוניברסיטת ורמונט מקבלת מענק של עד 38 מיליון דולר מ-ARPA-H לפיתוח \"תאומים דיגיטליים\" מבוססי AI לטיפול נמרץ",
+    "summary": "ד\"ר גארי אן, מנתח טראומה וחוקר ב-Larner College of Medicine של אוניברסיטת ורמונט (UVM), קיבל מענק מחקר ופיתוח של עד 38 מיליון דולר מ-ARPA-H — המענק המחקרי הגדול בהיסטוריה של UVM — לפיתוח \"תאומים דיגיטליים\" מבוססי AI הממדלים בזמן אמת את התגובה החיסונית של מטופלים במצב קריטי, על בסיס בדיקות דם כל שש שעות. הפרויקט, בן חמש שנים במסגרת תוכנית CIRCLE של ARPA-H, נועד לאפשר לרופאים לבחון אסטרטגיות טיפול באופן וירטואלי לפני הפעלתן על המטופל בפועל, עם יעד להפחית את משך האשפוז בטיפול נמרץ בלפחות 25%. מדובר בפרויקט בשלב התחלתי בלבד — המטרות הן תחזיות, וטרם הודגמו בפועל במטופלים.",
+    "url": "https://www.uvm.edu/uvmnews/news/your-ai-twin-could-save-your-life-uvm-awarded-38m-build-digital-twins-treating",
+    "topics": [
+      "research",
+      "funding"
+    ]
   }
 ]
