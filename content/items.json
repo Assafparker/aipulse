@@ -3219,5 +3219,94 @@
       "research",
       "funding"
     ]
+  },
+  {
+    "id": "nejm-ai-ntap-repeal-policy-corner",
+    "date": "2026-09-08",
+    "added": "2026-10-05",
+    "src": "NEJM AI",
+    "fam": "journal",
+    "title": "NEJM AI: ביטול מסלול המימון NTAP האלטרנטיבי עלול לפגוע בתחרות בשוק ה-AI הקליני בארה\"ב",
+    "titleSrc": "How Repeal of the NTAP Alternative Pathway will Impact U.S. Clinical AI Innovation",
+    "summary": "טור Policy Corner ב-NEJM AI מתריע כי ביטול מסלול התשלום הנוסף NTAP האלטרנטיבי על ידי Medicare & Medicaid Services (CMS) עלול להחריף חוסר איזון קיים בשוק הבינה המלאכותית הקלינית בארה\"ב, ולדחוף בתי חולים לאמץ כלי AI המגיעים מובנים בתוך ספקי הרשומה הרפואית (EHR) — גם אם הם נחותים קלינית — על פני כלים עצמאיים ייעודיים. הכותבים קוראים לפעולה מתואמת בין CMS ל-FDA לאיזון בין תמריצי תשלום אחראיים לשמירה על תחרות ומגוון בשוק; מדובר בטור דעה ולא במחקר אמפירי.",
+    "url": "https://ai.nejm.org/doi/full/10.1056/AIpc2600711",
+    "topics": [
+      "policy",
+      "funding"
+    ]
+  },
+  {
+    "id": "oracle-health-oncology-ehr-ai-launch",
+    "date": "2026-09-23",
+    "added": "2026-10-05",
+    "src": "Oracle Health",
+    "fam": "press",
+    "title": "אורקל חושפת רשומה אלקטרונית חדשה לאונקולוגיה עם עוזר בינה מלאכותית למטפלים",
+    "titleSrc": "Oracle to Advance Cancer Care with New Oncology EHR",
+    "summary": "אורקל הכריזה בכנס Oracle Health and Life Sciences Summit על Oracle Health Oncology EHR — רשומה אלקטרונית המיועדת לתהליכי טיפול אונקולוגיים, עם עוזר AI למרכזי אונקולוגיה שמסייע בהכנת תקצירי מטופל, הכנה לוועדת גידולים (Tumor Board) ותכנון טיפול מבוסס-גיידליינים. החברה לא פרסמה תאריך השקה מסחרי מדויק לציבור הרחב, והיכולות שהוצגו הן בשלב תכנון ועדיין לא עברו אימוץ רחב בשטח.",
+    "url": "https://www.oracle.com/news/announcement/oracle-to-advance-cancer-care-with-new-oncology-ehr-2026-09-23/",
+    "topics": [
+      "adoption",
+      "ops"
+    ]
+  },
+  {
+    "id": "capsovision-ai-highlights-fda-clearance",
+    "date": "2026-09-25",
+    "added": "2026-10-05",
+    "src": "CapsoVision (הודעה רשמית)",
+    "fam": "regulator",
+    "title": "ה-FDA מאשר ל-CapsoVision כלי AI המסמן חשד לדימום במעי הדק בבדיקות קפסולה נבלעת",
+    "titleSrc": "CapsoVision Announces FDA Clearance of AI Highlights for CapsoCam Plus",
+    "summary": "ה-FDA אישר ל-CapsoVision את AI Highlights — כלי תוכנה מבוסס-AI למערכת הקפסולה הנבלעת CapsoCam Plus, המסייע לרופאים בסקירת בדיקות מעי דק על ידי סימון ותיעדוף תמונות עם חשד ללזיות חריגות, במטופלים מבוגרים וילדים מגיל שנתיים עם חשד לדימום במעי הדק. הכלי משתלב בתוכנת הסקירה CapsoView ובפלטפורמת העננית CapsoCloud של החברה; האישור נוגע לסיוע בסינון ותיעדוף ולא לאבחון עצמאי, והחברה לא פרסמה נתוני דיוק (רגישות/סגוליות) של הכלי.",
+    "url": "https://www.globenewswire.com/news-release/2026/09/28/3369900/0/en/capsovision-announces-fda-clearance-of-ai-highlights-for-capsocam-plus.html",
+    "topics": [
+      "imaging",
+      "adoption"
+    ]
+  },
+  {
+    "id": "microsoft-research-quine-biology-world-model",
+    "date": "2026-09-29",
+    "added": "2026-10-05",
+    "src": "Microsoft Research",
+    "fam": "lab",
+    "title": "מיקרוסופט חושפת את Quine — \"מודל עולם\" מולטימודלי לביולוגיה, שסרק אלפי תרכובות לסרטן הלבלב בתוך סוף שבוע",
+    "titleSrc": "Introducing Quine: An AI research system designed for the complexity of biology",
+    "summary": "מיקרוסופט ריסרץ' הציגה את Quine, מערכת מחקר נסיונית המשלבת \"מודל עולם\" ביולוגי (גנומיקה, חלבונים, כימיה, מצב תאי והדמיית תאים) עם רתמת סוכני AI לניתוח ותכנון ניסויים. בשיתוף עם הרווארד ומכון Broad, המערכת דירגה אלפי תרכובות מועמדות לשינוי מצב תאי בסרטן הלבלב, ומספר תרכובות מובילות אושרו בבדיקות מעבדה — מתחילת הסינון הממוחשב ועד אימות ראשוני במעבדה בתוך סוף שבוע אחד. מיקרוסופט מדגישה כי Quine הוא כלי מחקר נסיוני בשלב מוקדם ואינו כלי קליני.",
+    "url": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/",
+    "topics": [
+      "research"
+    ]
+  },
+  {
+    "id": "stanford-arpah-steward-immune-digital-twin",
+    "date": "2026-09-30",
+    "added": "2026-10-05",
+    "src": "Stanford Medicine",
+    "fam": "provider",
+    "title": "סטנפורד מדיסין מקבלת מימון ARPA-H לפיקוח על סוכני AI אוטונומיים ול\"תאום דיגיטלי\" של מערכת החיסון",
+    "titleSrc": "Stanford Medicine researchers awarded ARPA-H funding for AI projects",
+    "summary": "שני צוותים בסטנפורד מדיסין קיבלו חוזי ARPA-H לפרויקטי AI: צוות בהובלת רוקסנה דנשג'ו, יואן אשלי ואקשיי צ'אודרי קיבל עד 14.9 מיליון דולר לבניית STEWARD — מערכת פיקוח תלת-שכבתית (בטיחות, אמון, הערכה ו\"שומר\") על סוכני AI אוטונומיים הפועלים בטיפול קרדיווסקולרי; צוות בהובלת פורווש חאטרי יפתח \"תאום דיגיטלי\" מבוסס-AI לחיזוי תגובת מערכת החיסון של מטופלים בטיפול נמרץ. שני הפרויקטים בשלב פיתוח מוקדם; סכום המימון לפרויקט השני לא פורסם.",
+    "url": "https://med.stanford.edu/news/all-news/2026/09/arpa-h-awards.html",
+    "topics": [
+      "funding",
+      "research"
+    ]
+  },
+  {
+    "id": "lancet-clinician-ai-scientist-career-pathway",
+    "date": "2026-09-29",
+    "added": "2026-10-05",
+    "src": "Lancet Digital Health",
+    "fam": "journal",
+    "title": "הלאנסט דיגיטל הלת' מציע מסלול קריירה חדש: \"קלינאי-מדען בינה מלאכותית\"",
+    "titleSrc": "The clinician–artificial intelligence scientist: a proposed career pathway in medicine",
+    "summary": "מאמר Viewpoint ב-Lancet Digital Health מציע מסלול קריירה אקדמי-קליני חדש בשם \"קלינאי-מדען בינה מלאכותית\" — רופא הממשיך לשאת באחריות קלינית שוטפת בבית חולים, אך מפתח גם מומחיות ב-AI, דאטה והנדסה כדי לנסח שאלות מחקר קליניות ולזהות בעיות שבינה מלאכותית יכולה לפתור. המאמר הוא טור דעה ואינו מציג נתוני הטמעה בשטח — הוא מתמקד בצורך בהכשרה ובמסלולי קידום מותאמים, בלי לפרט מודל תקצוב או הכרה פורמלית מצד מערכות הבריאות.",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2589750026001007",
+    "topics": [
+      "adoption",
+      "research"
+    ]
   }
 ]
