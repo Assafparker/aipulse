@@ -3308,5 +3308,94 @@
       "adoption",
       "research"
     ]
+  },
+  {
+    "id": "ortet-frontier-ai-health-lab-500m-thoreau",
+    "date": "2026-09-30",
+    "added": "2026-10-06",
+    "src": "HIT Consultant",
+    "fam": "lab",
+    "title": "חברת Ortet משיקה מעבדת AI חזיתית לבריאות בגיבוי של 500 מיליון דולר מ-Thoreau",
+    "titleSrc": "Ortet Launches with $500M from Thoreau to Build Frontier AI Lab for Healthcare",
+    "summary": "Ortet, מעבדת AI חזיתית חדשה לתחום הבריאות בהובלת חוקר ה-AI קיונג-יון צ'ו (ממפתחי מנגנון ה-attention ויחידת ה-GRU), השיקה את פעילותה עם מחויבות השקעה של 500 מיליון דולר מצד Thoreau, חברה המקימה תשתית מחשוב, נתונים ומחקר ייעודית לבריאות. המימון מיועד לבניית אשכול GPU ראשוני, פיתוח מודל יסוד ממוקד-מטופל וגיוס מחקר וטאלנט, בכוונה להקיף את הבריאות בהיבטיה הביולוגי, הקליני, התפעולי והפיננסי יחד. בשלב זה מדובר בהשקה ובמחויבות השקעה - אין עדיין מודל פרוס או תוצאות קליניות לבחון.",
+    "url": "https://hitconsultant.net/2026/09/30/ortet-launches-frontier-health-ai-lab-500m-commitment-thoreau-kyunghyun-cho/",
+    "topics": [
+      "funding",
+      "research"
+    ]
+  },
+  {
+    "id": "uva-health-k-health-virtual-primary-care-partnership",
+    "date": "2026-09-30",
+    "added": "2026-10-06",
+    "src": "K Health / UVA Health (דיווח 29 News)",
+    "fam": "provider",
+    "title": "UVA Health ו-K Health משיקות שותפות להרחבת רפואה ראשונית ובריאות הנפש מבוססות-AI בווירג׳יניה",
+    "titleSrc": "UVA Health partners with K Health to use AI before virtual appointments, helping providers focus on patients",
+    "summary": "UVA Health, מערכת הבריאות האקדמית של אוניברסיטת וירג׳יניה, הודיעה ב-30 בספטמבר 2026 על שותפות עם חברת ה-AI הקלינית K Health להרחבת רפואה ראשונית מרחוק ושירותי בריאות הנפש באמצעות פורטל המטופלים של UVA Health, בהשקה מתוכננת ל-2 בנובמבר. תשתית ה-AI הקלינית של K Health תשמש לקליטת מטופלים ולהכנת הביקור כדי לפנות זמן לצוות הקליני, ומטרת השותפות המוצהרת היא הרחבת גישה לטיפול - בפרט לתושבי אזורים כפריים המתמודדים עם זמני המתנה ממושכים. לא פורסמו נתוני מדידה עצמאיים על זמן או היקף החיסכון בפועל; אלו יעד והצהרת כוונות של הצדדים.",
+    "url": "https://www.29news.com/2026/09/30/uva-health-partners-with-k-health-use-ai-before-virtual-appointments-helping-providers-focus-patients/",
+    "topics": [
+      "adoption",
+      "mental"
+    ]
+  },
+  {
+    "id": "akasa-autonomous-inpatient-coding-launch",
+    "date": "2026-10-02",
+    "added": "2026-10-06",
+    "src": "Fierce Healthcare",
+    "fam": "press",
+    "title": "AKASA משיקה פלטפורמת AI אוטונומית לקידוד אשפוזים מורכבים בתוך כ-90 שניות מהשחרור",
+    "titleSrc": "AKASA debuts autonomous AI platform for inpatient medical coding and clinical documentation",
+    "summary": "AKASA הכריזה על השקה מסחרית של פלטפורמת AI אוטונומית המקודדת תיקי אשפוז מורכבים ומבצעת בדיקת שלמות תיעוד קליני (CDI) בתוך כ-90 שניות מהשחרור, לעומת 30-60 דקות הנדרשות לקודד אנושי מנוסה. לפי החברה, הערכות השוואתיות עיוורות של צד שלישי שבדקו מקרים המהווים 65%-85% מנפח האשפוזים הארצי מצאו שהפלטפורמה משתווה או עולה על דיוק קודדים אנושיים מומחים במדדי התאימות המרכזיים. מוצרי AKASA תומכים כיום ביותר מ-180 מיליארד דולר בהכנסת מטופלים נטו וכ-10% מהשחרורים מבתי חולים בארה\"ב; הנתונים מבוססים על דיווח עצמי של החברה.",
+    "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/akasa-debuts-autonomous-ai-platform-inpatient-medical-coding-cdi",
+    "topics": [
+      "ops",
+      "adoption"
+    ]
+  },
+  {
+    "id": "ut-system-real-health-ai-governance-inventory",
+    "date": "2026-10-02",
+    "added": "2026-10-06",
+    "src": "Houston Chronicle",
+    "fam": "press",
+    "title": "יוסטון כרוניקל: מערכת UT בטקסס משיקה תשתית ממשל AI בהיקף 25 מיליון דולר ל-13 קמפוסים, עם 571 יישומי AI במצאי",
+    "titleSrc": "UT's $25 million health AI project has big ambitions and unanswered questions",
+    "summary": "מערכת UT בטקסס (UT REAL Health AI) בנתה תשתית ממשל AI בהיקף 25 מיליון דולר - 15 מיליון מהמחוקקה הטקסנית ו-10 מיליון מדירקטוריון המערכת - הפרושה על פני 13 קמפוסים, בהם שמונה מוסדות בריאות ושבעה בתי ספר לרפואה, ומשרתת למעלה מ-130,000 אנשי צוות קליני וסגל. מצאי ראשוני העלה 571 יישומי AI פעילים או בבדיקה בשמונה מוסדות הבריאות, חלקם כלים לאיתור מוקדם של סרטן, תיעוד, איתור סיכון לספסיס וחיזוי קבלות חוזרות. הכתבה מציינת ששאלות מרכזיות - חוזי ספקים, הגנת מידע ודרכי תיקון טעויות - נותרו ללא מענה בשלב זה.",
+    "url": "https://www.houstonchronicle.com/health/article/ut-launches-25m-healthcare-ai-initiative-public-22402636.php",
+    "topics": [
+      "ethics",
+      "adoption"
+    ]
+  },
+  {
+    "id": "fda-fy2027-device-guidance-agenda-ai-surgical-robots",
+    "date": "2026-10-02",
+    "added": "2026-10-06",
+    "src": "MedTech Dive",
+    "fam": "regulator",
+    "title": "ה-FDA מפרסם את סדר העדיפויות להנחיות לשנת הכספים 2027: בינה מלאכותית ורובוטים כירורגיים בראש הרשימה",
+    "titleSrc": "FDA to prioritize guidance on AI, surgical robots next year",
+    "summary": "מרכז המכשור הרפואי של ה-FDA (CDRH) פרסם ב-2 באוקטובר 2026 את סדר עדיפויות ההנחיות לשנת הכספים 2027, ובו מתכנן לפרסם 11 מסמכי הנחיה סופיים ו-3 מסמכי הנחיה בטיוטה. בראש סדר העדיפויות: גיבוש הנחיות סופיות להגשות שיווק ולניהול מחזור חיים של מכשירים מבוססי AI, טיוטת הנחיות להוכחות ראייתיות למכשירים שיחתיים מבוססי AI גנרטיבי לבריאות הנפש, והשלמה מהירה של הנחיות להגשות טרום-שיווק של מכשירי ניתוח רובוטיים, שפורסמו בטיוטה כשבוע לפני כן. הסוכנות פותחת את סדר העדיפויות להערות הציבור עד 30 בנובמבר; מדובר ברשימת כוונות ותעדוף ולא בהנחיות מחייבות בפועל.",
+    "url": "https://www.medtechdive.com/news/fda-to-prioritize-guidance-on-ai-surgical-robots-next-year/831984/",
+    "topics": [
+      "policy"
+    ]
+  },
+  {
+    "id": "nolla-health-utah-ai-acne-prescription-pilot",
+    "date": "2026-10-05",
+    "added": "2026-10-06",
+    "src": "MobiHealthNews",
+    "fam": "regulator",
+    "title": "יוטה מאשרת לחברת Nolla Health פיילוט ראשון בארה״ב להוצאת מרשמים ראשוניים לאקנה על ידי AI",
+    "titleSrc": "Nolla Health launches Utah pilot for AI acne prescriptions",
+    "summary": "מדינת יוטה אישרה ל-Nolla Health להפעיל פיילוט רגולטורי - שנחתם ב-22 בספטמבר 2026 - שבו אפליקציית Nolla Derm מנפיקה מרשמים ראשוניים לטיפול אקנה מקומי עבור תושבי יוטה בני 18 ומעלה, בתשלום מוזל של 4.99 דולר לחודש. בשלב הראשוני, הנמשך לפחות ארבעה שבועות ומכיל לפחות 100 מטופלים, שני רופאים בעלי רישיון ביוטה חייבים לבדוק כל מרשם בנפרד לפני הגשתו, והפיילוט מוגבל למבוגרים עם אקנה קל עד בינוני המתאימים לרשימת טיפולים מוגדרת מראש. מדובר בפיילוט מוגבל בפיקוח רפואי הדרגתי ולא באישור גורף להוצאת מרשמים ללא מעורבות אדם.",
+    "url": "https://www.mobihealthnews.com/news/nolla-health-launches-utah-pilot-ai-acne-prescriptions",
+    "topics": [
+      "policy",
+      "adoption"
+    ]
   }
 ]
