@@ -3397,5 +3397,20 @@
       "policy",
       "adoption"
     ]
+  },
+  {
+    "id": "npj-ai-use-penalty-primary-care-disclosure",
+    "date": "2026-10-01",
+    "added": "2026-10-07",
+    "src": "npj Digital Medicine",
+    "fam": "journal",
+    "title": "מחקר: רופאים שחושפים שימוש ב-AI נתפסים כפחות מוכשרים וחמים",
+    "titleSrc": "Influence of physician and consumer demographics on AI-use penalties in primary care: a vignette-based study",
+    "summary": "מחקר מבוסס-תרחישים בקרב 1,030 מבוגרים אמריקאים מצא שרופאי משפחה פיקטיביים שגילו שהם משתמשים ב-AI בניהול סוכרת נתפסו כפחות חמים ומוכשרים, עם נכונות נמוכה יותר לבחור בהם, להמליץ עליהם או לעקוב אחר ההמלצות שלהם. ה\"עונש\" היה חד יותר בקרב נשאלים צעירים, ונותר דומה ללא קשר למגדר או לגיל הרופא עצמו — מה שמרמז שהתפיסה השלילית קשורה לאובדן תחושת מיומנות קלינית נראית לעין.",
+    "url": "https://www.nature.com/articles/s41746-026-03361-3",
+    "topics": [
+      "ethics",
+      "adoption"
+    ]
   }
 ]
