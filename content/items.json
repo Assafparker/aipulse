@@ -3397,5 +3397,63 @@
       "policy",
       "adoption"
     ]
+  },
+  {
+    "id": "thymia-rmit-voice-ai-type2-diabetes-screening-easd",
+    "date": "2026-09-29",
+    "added": "2026-10-08",
+    "src": "News-Medical",
+    "fam": "press",
+    "title": "מחקר שהוצג בכנס EASD 2026: הקלטת קול של 20 שניות יכולה לסנן לסיכון לסוכרת סוג 2 בעזרת AI",
+    "titleSrc": "Short voice recordings could screen patients for type 2 diabetes",
+    "summary": "חברת thymia ואוניברסיטת RMIT באוסטרליה הציגו בכנס EASD 2026 במילאנו מודל AI שאומן על 63,283 הקלטות קול מ-21,129 אנשים בבריטניה ובארה\"ב, ומזהה שינויים בדיבור - כגון צרידות וקשיי שליטה בנשימה - הקשורים לסוכרת סוג 2. בהערכה ראשונה על 7,319 מבוגרים בבריטניה שהתבססה על הקלטות של 20 שניות, המודל נתן ציון סיכון גבוה יותר ל-80% מהנבדקים שדיווחו שיש להם סוכרת סוג 2; בקבוצת משנה של 801 אנשים שעברו בדיקת דם בתוך שלושה חודשים מההקלטה, השיעור היה 75%. החוקרים מציינים כי דיוק הכלי היה נמוך יותר במשתתפים שחורים ובאנשים עם מחלת לב, יתר לחץ דם או השמנה, וכי מדובר במחקר ראשוני שהוצג בכנס ולא פורסם עדיין בכתב עת שפוט.",
+    "url": "https://www.news-medical.net/news/20260929/Short-voice-recordings-could-screen-patients-for-type-2-diabetes.aspx",
+    "topics": [
+      "research"
+    ]
+  },
+  {
+    "id": "mount-sinai-wearable-ai-pelvic-pain-sitting-forecast",
+    "date": "2026-09-30",
+    "added": "2026-10-08",
+    "src": "Mount Sinai",
+    "fam": "provider",
+    "title": "חוקרי Mount Sinai: AI לבישה מנבא שעה מראש ישיבה ממושכת בנשים עם כאב אגן כרוני",
+    "titleSrc": "Wearable AI Forecasts Prolonged Sitting in Women With Chronic Pelvic Pain",
+    "summary": "חוקרים מבית הספר לרפואה Icahn ב-Mount Sinai פיתחו מודל חיזוי המבוסס על נתוני שעון חכם (Fitbit) ומזהה כשעה מראש פרקי ישיבה ממושכים בנשים עם כאב אגן כרוני, בעיקר על רקע אנדומטריוזיס. המחקר כלל 134 נשים עם כאב אגן כרוני ו-61 משתתפות בריאות שחבשו Fitbit עד 90 יום, ומצא שמודלים פשוטים וניתנים לפרשנות ניבאו ישיבה ממושכת בדיוק הדומה לשיטות למידה עמוקה מורכבות יותר. המטרה היא לאפשר בעתיד תזכורת דיגיטלית לקום ולהתהלך לפני שמתחיל פרק ישיבה ארוך; מדובר במחקר חיזוי בשלב מחקרי בלבד, לא בכלי קליני מאושר, שפורסם ב-npj Women's Health ב-30 בספטמבר 2026.",
+    "url": "https://www.mountsinai.org/about/newsroom/2026/wearable-ai-forecasts-prolonged-sitting-in-women-with-chronic-pelvic-pain",
+    "topics": [
+      "research"
+    ]
+  },
+  {
+    "id": "nhs-chelsea-westminster-derm-ai-skin-cancer-eadv-2026",
+    "date": "2026-10-06",
+    "added": "2026-10-08",
+    "src": "Karmactive",
+    "fam": "provider",
+    "title": "מחקר שהוצג ב-EADV 2026: מערכת AI אוטונומית למיון סרטן עור ב-NHS חסכה קיבולת השווה לכ-8,500 ביקורים דרמטולוגיים תוך 16 חודשים",
+    "titleSrc": "AI Skin Cancer Triage Freed the Equivalent of 8,500 NHS Dermatology Appointments in 16 Months",
+    "summary": "מערכת AI אוטונומית למיון נגעי עור מיינה 8,391 מטופלים בשני בתי חולים בבריטניה (NHS) במהלך 16 חודשים, לפי מחקר שהוצג בכנס EADV 2026. החוקרים העריכו שזמן המומחים שנחסך מספיק לכ-8,500 ביקורים דרמטולוגיים נוספים - הערכת קיבולת פוטנציאלית, לא ביקורים שכבר התקיימו בפועל. תפקיד המערכת המרכזי הוא שחרור מטופלים בסיכון נמוך בלבד והפניית מקרים מורכבים יותר לרופא מומחה, ולצד הנתונים המדווחים צוינו גם שישה מקרים של שחרור שגוי (false negative) שפרטיהם המלאים לא פורסמו.",
+    "url": "https://www.karmactive.com/ai-skin-cancer-triage-8500-nhs-appointments-uk-eadv-study-2026/",
+    "topics": [
+      "imaging",
+      "adoption"
+    ]
+  },
+  {
+    "id": "airs-medical-swiftsight-fda-clearance-body-composition",
+    "date": "2026-10-05",
+    "added": "2026-10-08",
+    "src": "Radiology Business",
+    "fam": "regulator",
+    "title": "ה-FDA מאשר את SwiftSight Body Composition של AIRS Medical - תוכנת AI לניתוח הרכב גוף מתמונות MRI",
+    "titleSrc": "FDA clears AI solution for aiding with MRI body-composition assessments",
+    "summary": "ה-FDA העניק אישור 510(k) ל-SwiftSight Body Composition, תוכנת AI של חברת AIRS Medical הקוריאנית המנתחת תמונות MRI לכימות רקמת שריר ורקמת שומן, ובכלל זה שומן ויסצרלי ותת-עורי. מרכז ההדמיה האמריקאי SimonMed Imaging צפוי להיות הלקוח הראשון שיפעיל את התוכנה. האישור מצטרף לרשימת המכשירים הרפואיים מבוססי ה-AI של ה-FDA, שלפי הודעת הסוכנות מנתה למעלה מ-1,600 מכשירים מאושרים נכון לספטמבר 2026 - נתון שאינו תמיד עולה בקנה אחד עם ספירות של גורמים אחרים, בהתאם לתאריך שליפת הנתונים.",
+    "url": "https://radiologybusiness.com/topics/artificial-intelligence/fda-clears-ai-solution-aiding-mri-body-composition-assessments",
+    "topics": [
+      "imaging",
+      "policy"
+    ]
   }
 ]
