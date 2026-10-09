@@ -3455,5 +3455,49 @@
       "imaging",
       "policy"
     ]
+  },
+  {
+    "id": "healthleap-38m-funding-hospital-patient-screening",
+    "date": "2026-10-07",
+    "added": "2026-10-09",
+    "src": "TechCrunch",
+    "fam": "press",
+    "title": "הלת'ליפ גייסה 38 מיליון דולר ל-AI שמאתר בבתי חולים מטופלים הדורשים בדיקה נוספת",
+    "titleSrc": "Healthleap raises $38M for its AI that flags hospital patients who may need a closer look",
+    "summary": "סטארטאפ הבריאות הלת'ליפ גייס 38 מיליון דולר - סבב זרע של 8 מיליון דולר בהובלת Sequoia Capital ו-First Round Capital, וסבב A של 30 מיליון דולר בהובלת Hummingbird Ventures. הפלטפורמה, הקוראת רשומות רפואיות כדי לאתר מטופלים בסיכון למצבים לא-מאובחנים כגון תת-תזונה ודליריום, פועלת כיום ביותר מ-50 בתי חולים; שווי החברה לא פורסם.",
+    "url": "https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look/",
+    "topics": [
+      "funding",
+      "adoption"
+    ]
+  },
+  {
+    "id": "parakeet-health-10m-series-a-patient-engagement",
+    "date": "2026-10-01",
+    "added": "2026-10-09",
+    "src": "MobiHealthNews",
+    "fam": "press",
+    "title": "Parakeet Health גייסה 10 מיליון דולר בסבב A להרחבת פלטפורמת AI לתקשורת עם מטופלים",
+    "summary": "חברת הבריאות הדיגיטלית Parakeet Health מסן פרנסיסקו גייסה סבב A בהיקף 10 מיליון דולר בהובלת Canvas Ventures, עם השתתפות Blank Space Ventures, StoryHouse Ventures ו-HMC INQ - והעלתה את הגיוס המצטבר שלה ל-13 מיליון דולר. הפלטפורמה, המנהלת תקשורת עם מטופלים בטלפון, SMS, אימייל ופקס ומטפלת בתיאום תורים ובזכאות ביטוחית, פועלת כיום ב-1,100 מרפאות ומעל 2,800 נותני טיפול; נתוני הצמיחה שהחברה מדווחת (גידול של פי 10 בהכנסות השנתיות) לא אומתו באופן עצמאי.",
+    "url": "https://www.mobihealthnews.com/news/parakeet-health-raises-10m-expand-ai-patient-engagement",
+    "topics": [
+      "funding",
+      "ops"
+    ]
+  },
+  {
+    "id": "utah-ai-office-master-agreement-intermountain-university-utah-health",
+    "date": "2026-10-05",
+    "added": "2026-10-09",
+    "src": "Deseret News",
+    "fam": "regulator",
+    "title": "יוטה חותמת הסכם-מסגרת עם Intermountain Health ו-University of Utah Health להרצת פיילוטי AI קליניים",
+    "titleSrc": "Utah announces partnership with major healthcare providers to create artificial intelligence clinical pilot programs",
+    "summary": "משרד מדיניות ה-AI של מדינת יוטה הרחיב את ארגז החול הרגולטורי שלו וחתם על הסכם-מסגרת עם שתי ממערכות הבריאות הגדולות במערב ארה״ב, Intermountain Health ו-University of Utah Health, ועם חמש חברות נוספות, לבדיקת כלי AI במצבים המחייבים בדרך כלל רישוי מדינתי - בהם חידוש מרשמים כרוניים, הערכה חזותית לתרופות אקנה והמלצות ראשוניות לפיזיותרפיה. חברי מועצת הרישוי הרפואי של יוטה מתחו ביקורת על כך שלא נשאלו לפני השקת התוכנית.",
+    "url": "https://deseret.com/politics/2026/10/05/utah-announces-partnership-with-major-healthcare-providers-to-create-artificial-intelligence-clinical-pilot-programs",
+    "topics": [
+      "policy",
+      "adoption"
+    ]
   }
 ]
