@@ -3499,5 +3499,124 @@
       "policy",
       "adoption"
     ]
+  },
+  {
+    "id": "mount-sinai-safety-prompts-ai-clinical-choices",
+    "date": "2026-10-08",
+    "added": "2026-10-10",
+    "src": "Mount Sinai",
+    "fam": "provider",
+    "title": "מחקר של Mount Sinai: תזכורת בטיחות קצרה מפחיתה בחירות מזיקות של מודלי AI בתרחישים קליניים",
+    "titleSrc": "Mount Sinai Study Finds Safety Prompts Can Help AI Models Make Safer Clinical Choices",
+    "summary": "מחקר של בית הספר לרפואה Icahn ב-Mount Sinai, שפורסם ב-Communications Medicine ב-26 בספטמבר 2026, בדק 20 מודלי AI על יותר מ-10 מיליון תגובות ב-501 גרסאות של 50 תרחישים קליניים ו-100 מקרים שמקורם ברשומות אשפוז מזוהות. הוספת תזכורת בטיחות קצרה לפרומפט הפחיתה את שיעור הבחירות המזיקות (כגון דילוג על בדיקת דם למעקב או הפסקת אנטיביוטיקה מוקדם מדי) מ-16.6% ל-10.1% מהתגובות, ושיפרה את הביצועים ב-19 מתוך 20 המודלים. החוקרים מדגישים שהתזכורת לא ביטלה את הבחירות המזיקות ואינה תחליף לפיקוח קליני, אלא שכבת הגנה נוספת שיש לבדוק אוטומטית לפני פריסה ועם כל עדכון מודל.",
+    "url": "https://www.mountsinai.org/about/newsroom/2026/mount-sinai-study-finds-safety-prompts-can-help-ai-models-make-safer-clinical-choices",
+    "topics": [
+      "research",
+      "ethics"
+    ]
+  },
+  {
+    "id": "onc-leap-2026-agentic-ai-lab-interoperability-awards",
+    "date": "2026-10-06",
+    "added": "2026-10-10",
+    "src": "ONC (HHS)",
+    "fam": "regulator",
+    "title": "ONC מכריז על פרסי LEAP בסך 1.5 מיליון דולר ל-AI אגנטי בטיפול קליני ולסגירת פערי אינטראופרביליות במעבדות",
+    "titleSrc": "HHS Announces 2026 LEAP in Health IT Awardees to Accelerate the Use of Agentic AI in Clinical Care and Close Gaps in Laboratory Interoperability",
+    "summary": "המשרד הלאומי לקידום טכנולוגיית מידע בריאותי בארה\"ב (ONC), תחת HHS, הכריז ב-6 באוקטובר 2026 על שני פרסי מענק בסך כולל של כ-1.5 מיליון דולר במסגרת תוכנית LEAP in Health IT. MedStar Health Research Institute יפתח \"Sovereign Execution\" - פלטפורמת middleware בקוד פתוח לתיאום תהליכי מעקב קליני ארוכי-טווח מבוססי AI אגנטי; Regenstrief Institute יבחן פערים בסטנדרטיזציה אצל מעבדות עצמאיות קטנות. שני הפרויקטים נמצאים בשלב תכנון בלבד וטרם הניבו תוצאות מודגמות.",
+    "url": "https://healthit.gov/news/hhs-announces-2026-leap-in-health-it-awardees-to-accelerate-the-use-of-agentic-ai-in-clinical-care-and-close-gaps-in-laboratory-interoperability",
+    "topics": [
+      "policy",
+      "interop"
+    ]
+  },
+  {
+    "id": "mri2ct-nextmr-fda-clearance-spine-imaging",
+    "date": "2026-10-07",
+    "added": "2026-10-10",
+    "src": "Diagnostic Imaging",
+    "fam": "regulator",
+    "title": "ה-FDA מאשר את NextMR של MRI2CT - תוכנת AI שמייצרת הדמיה תלת-מימדית של עמוד השדרה מתוך MRI רגיל",
+    "summary": "ה-FDA העניק אישור 510(k) ל-NextMR Spine של חברת MRI2CT - תוכנה מבוססת AI שמייצרת הדמיה תלת-מימדית של עצם עמוד השדרה המותני והעצה הקדושה מתוך סריקת MRI סטנדרטית בתוך פחות מ-60 שניות, בלי צורך בהתקנה מקומית, לפי הודעת החברה מה-7 באוקטובר 2026. לפי הדיווחים, התוכנה אומתה על מדגם רטרוספקטיבי של 145 מבוגרים עם זוגות סריקות MRI ו-CT ממקורות בארה\"ב ובישראל, והחברה טוענת לדיוק תת-מילימטרי במיפוי העצם הקורטיקלית - נתון שמקורו בחברה ולא אומת באופן עצמאי.",
+    "url": "https://www.diagnosticimaging.com/view/fda-clears-ai-powered-platform-converting-spine-mris-to-3d-visualizations",
+    "topics": [
+      "imaging",
+      "policy"
+    ]
+  },
+  {
+    "id": "nature-medicine-ai-code-sharing-scoping-review",
+    "date": "2026-10-09",
+    "added": "2026-10-10",
+    "src": "Nature Medicine",
+    "fam": "journal",
+    "title": "סקירת-היקף ב-Nature Medicine: רק כמאמר אחד מתוך שמונה על מודלי חזוי קליני משתף קוד",
+    "titleSrc": "AI-assisted scoping review of code sharing in clinical prediction model research",
+    "summary": "סקירת-היקף שפורסמה ב-Nature Medicine ב-9 באוקטובר 2026 השתמשה בצנרת מבוססת מודלי שפה כדי לסרוק כ-4,000 מאמרים המצטטים את הנחיות הדיווח TRIPOD או TRIPOD+AI, ומצאה ששיתוף קוד מופיע רק בכ-1 מכל 8 מאמרים על מודלי חזוי קליני. שיעור השיתוף השתנה מאוד בין כתבי עת ומדינות, ורפוזיטוריות הקוד שבדקו החוקרים נבדלו מאוד ביניהן במידת התכונות שתומכות בשכפול המחקר. הממצאים נועדו להזין הנחיית דיווח חדשה בשם TRIPOD-Code לשיתוף קוד בתחום.",
+    "url": "https://www.nature.com/articles/s41591-026-04691-1",
+    "topics": [
+      "research",
+      "ethics"
+    ]
+  },
+  {
+    "id": "cori-clinical-4m-seed-trial-design",
+    "date": "2026-10-07",
+    "added": "2026-10-10",
+    "src": "tech.eu",
+    "fam": "press",
+    "title": "Cori Clinical הלונדונית גייסה כ-4 מיליון דולר לפלטפורמת AI לעיצוב ותכנון ניסויים קליניים",
+    "titleSrc": "Cori Clinical secures $4M seed to improve clinical trial design and cut delays",
+    "summary": "סטארטאפ הבריאות הלונדוני Cori Clinical גייס ב-7 באוקטובר 2026 סבב זרע בהיקף של כ-4 מיליון דולר (דיווחים אחרים נותנים 3 מיליון ליש\"ט או 3.56 מיליון יורו) בהובלת Breega, עם השתתפות Enzo, Heartfelt, Together Ventures ו-Bynd. הפלטפורמה משלבת נתוני ניסויים קליניים קודמים של חברה נתונה עם הנחיות רגולטוריות מה-FDA, ה-MHRA וה-EMA כדי להפוך תקציר ניסוי לפרוטוקול ותוכנית תפעולית; הערכת החברה לקיצוץ של כ-33% בעלויות הקמת ניסוי מבוססת על מודל פנימי שלה ולא אומתה באופן חיצוני.",
+    "url": "https://tech.eu/2026/10/07/cori-clinical-secures-4m-seed-to-improve-clinical-trial-design-and-cut-delays/",
+    "topics": [
+      "funding",
+      "research"
+    ]
+  },
+  {
+    "id": "elsevier-jama-network-clinicalkey-ai-content-deal",
+    "date": "2026-10-07",
+    "added": "2026-10-10",
+    "src": "Elsevier",
+    "fam": "press",
+    "title": "אלסבייר ו-JAMA Network חותמות הסכם תוכן אסטרטגי להזנת ClinicalKey AI בתוכן שפוט עמיתים",
+    "titleSrc": "Elsevier and JAMA Network Sign Strategic Content Agreement for ClinicalKey AI",
+    "summary": "אלסבייר (Elsevier) ו-JAMA Network הודיעו ב-7 באוקטובר 2026 על הסכם תוכן אסטרטגי שמכניס את הטקסט המלא והאיורים מ-13 כתבי עת של JAMA Network - כולל JAMA ו-JAMA Network Open - לכלי הבינה המלאכותית הקליני ClinicalKey AI של אלסבייר, שנבנה בשיתוף עם OpenEvidence. המטרה המוצהרת היא לבסס את תשובות הכלי על מקורות שפוטי עמיתים ולקשר רופאים ישירות למאמרים המלאים; החברה מציינת תאימות ל-HIPAA בצפון אמריקה, אך תנאים כספיים ופרטי ההסכם לא פורסמו.",
+    "url": "https://www.elsevier.com/about/press-releases/elsevier-and-jama-network-sign-strategic-content-agreement-for-clinicalkey-ai",
+    "topics": [
+      "research",
+      "adoption"
+    ]
+  },
+  {
+    "id": "mayo-clinic-pilothosis-300-ai-solutions",
+    "date": "2026-10-10",
+    "added": "2026-10-10",
+    "src": "Becker's Hospital Review",
+    "fam": "press",
+    "title": "מנהל הדיגיטל של Mayo Clinic: מ\"אלפי פיילוטים\" מבוזרים ל-300 פתרונות AI מאושרים בקנה מידה ארגוני",
+    "titleSrc": "Mayo Clinic's fix for 'pilothosis'",
+    "summary": "לפי כתבה ב-Becker's Hospital Review מה-10 באוקטובר 2026, מנהל הדיגיטל הראשי של Mayo Clinic, נארי גופאלה, מתאר כיצד הארגון עבר מ\"שלב של פיילוטוזיס\" - אלפי פיילוטים מבוזרים ברחבי הארגון - למודל שבו מתמנה בכיר שמתווך בין חדשנות ליישום ארגוני, ומעביר כל כלי בבדיקת יישום, ממשל קליני ובקרה רגולטורית. התוצאה המוצהרת היא כ-300 פתרונות AI מאושרים בקנה מידה ארגוני לעומת \"אלפי פיילוטים\" בעבר - נתון שמקורו בריאיון עם גופאלה ולא פורט בשיטת ספירה עצמאית.",
+    "url": "https://www.beckershospitalreview.com/healthcare-information-technology/innovation/mayo-clinics-fix-for-pilothosis/",
+    "topics": [
+      "adoption",
+      "ops"
+    ]
+  },
+  {
+    "id": "kff-monitor-ai-autonomous-roles-federal-health",
+    "date": "2026-10-08",
+    "added": "2026-10-10",
+    "src": "KFF",
+    "fam": "press",
+    "title": "KFF: סוכנויות בריאות פדרליות בארה\"ב מרחיבות פיילוטים של AI לתפקידים אוטונומיים יותר בטיפול ישיר",
+    "titleSrc": "AI in Health Care Moves Toward More Autonomous Roles",
+    "summary": "ניתוח של KFF (The Monitor) מה-8 באוקטובר 2026 מתאר כיצד סוכנויות בריאות פדרליות בארה\"ב מרחיבות פיילוטים של AI שחוצים ממשימות תמיכה מצומצמות (כגון קריאת סריקות) לתפקידים קרובים יותר לטיפול ישיר - שיח עם מטופלים, תמיכה טיפולית ואבחון עם מעורבות רפואית מצומצמת יותר. בהתבסס על דיווחי ה-New York Times, הכתבה מציינת שמעל 200 חברות קיבלו אישור מ-CMS לבדוק כלים כאלה, וש-FDA התיר לארבע מהן שימוש עם מטופלי מדיקר מחוץ למסלול האישור הרגיל - נתונים שה-KFF מציין שלא אומתו באופן עצמאי מול הדיווח המקורי. הכתבה מזהירה שסוגיות דיוק ואמינות של התפוקה נותרות פתוחות.",
+    "url": "https://www.kff.org/health-information-trust/ai-in-health-care-moves-toward-more-autonomous-roles/",
+    "topics": [
+      "policy",
+      "ethics"
+    ]
   }
 ]
