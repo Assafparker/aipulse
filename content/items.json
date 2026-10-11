@@ -3618,5 +3618,80 @@
       "policy",
       "ethics"
     ]
+  },
+  {
+    "id": "uk-gov-accepts-44-ai-healthcare-recommendations",
+    "date": "2026-10-06",
+    "added": "2026-10-11",
+    "src": "MHRA / ממשלת בריטניה",
+    "fam": "regulator",
+    "title": "ממשלת בריטניה מאמצת רשמית את כל 44 ההמלצות של הוועדה הלאומית לרגולציה של AI בבריאות",
+    "titleSrc": "Government backs recommendations of NHS doctors-led AI Commission",
+    "summary": "ה-MHRA והממשלה הבריטית הודיעו ב-6 באוקטובר 2026 כי הן מקבלות את כל 44 ההמלצות שפרסמה בספטמבר הוועדה הלאומית לרגולציה של בינה מלאכותית בבריאות, ובכך מתחייבות למעבר ממודל אישור חד-פעמי טרום-שיווקי לפיקוח לאורך מחזור חיים עם ניטור מתמשך. באותו יום פתח ה-MHRA את שלב ההגשות לפאזה השלישית של ארגז החול הרגולטורי AI Airlock, שמתמקד בניטור פוסט-שיווקי. רוב הצעדים נותרו ברמת כוונה בלבד - 43 מתוך 44 מתוכננים לאביב 2027, ורק אחד (הנחיית טיוטה למתווה שינוי מתוכנן) נקבע לדצמבר 2026.",
+    "url": "https://www.gov.uk/government/news/government-backs-recommendations-of-nhs-doctors-led-ai-commission",
+    "topics": [
+      "policy",
+      "adoption"
+    ]
+  },
+  {
+    "id": "fda-warning-letter-on-diagnostics-virtuost-vfa",
+    "date": "2026-09-01",
+    "added": "2026-10-11",
+    "src": "AuntMinnie",
+    "fam": "regulator",
+    "title": "ה-FDA שולח מכתב אזהרה ל-O.N. Diagnostics על עדכון AI לא מאושר בתוכנת VirtuOst VFA",
+    "titleSrc": "O.N. Diagnostics hit with FDA warning letter",
+    "summary": "ה-FDA פרסם מכתב אזהרה, מתוארך 1 בספטמבר, ל-O.N. Diagnostics בגין עדכון לגרסה 3.0.0 של תוכנת VirtuOst VFA - המעריכה שברי חוליות מסריקות CT - שהוסיף אלגוריתם מיפוי (landmarking) מבוסס למידת-מכונה והעביר את התוכנה לארכיטקטורה מבוססת-web, בלי לקבל אישור 510(k) חדש לשינויים אלה. הסוכנות דרשה מהחברה להפסיק את שיווק הגרסה עד לפתרון הסוגיות שבמכתב; התוכנה המקורית (K220402) אושרה ב-2023 להערכת צפיפות עצם וחוזק בעצם הירך הפרוקסימלית ובחוליות.",
+    "url": "https://www.auntminnie.com/clinical-news/ct/news/15836896/on-diagnostics-hit-with-fda-warning-letter",
+    "topics": [
+      "policy",
+      "imaging"
+    ]
+  },
+  {
+    "id": "anthropic-cyber-verification-program-hospitals",
+    "date": "2026-10-06",
+    "added": "2026-10-11",
+    "src": "Healthcare IT News",
+    "fam": "lab",
+    "title": "Anthropic מרחיבה את תוכנית אימות הסייבר שלה ומזמינה בתי חולים אזוריים להצטרף",
+    "titleSrc": "Anthropic expands cybersecurity verification tools, invites hospitals to apply",
+    "summary": "Anthropic הודיעה ב-6 באוקטובר 2026 על הרחבת תוכנית אימות הסייבר שלה (Cyber Verification Program) לשלושה מסלולים - Defense Access, Red Team Access ו-Specialized Access - והטמיעה בתוכה את Project Glasswing הקודם. מסלול ה-Defense Access פתוח במפורש לצוותי אבטחה בגופי תשתית קריטית מכל גודל, ובהם \"בתי חולים אזוריים\", ומעניק גישה למודלים Opus 5.5, Sonnet 5.5 ו-Mythos 5.1. החברה אומרת שחסימות בזמן אמת על פעולות שעלולות לגרום נזק פיזי או שיבוש נרחב יישארו בתוקף גם למשתמשים מאומתים, אך לא פרסמה פרטים על קריטריוני הסינון או היקף היישום בפועל בבתי חולים.",
+    "url": "https://www.healthcareitnews.com/news/anthropic-expands-cybersecurity-verification-tools-invites-hospitals-apply",
+    "topics": [
+      "ops",
+      "ethics"
+    ]
+  },
+  {
+    "id": "teladoc-solo-soloscribe-solovitals",
+    "date": "2026-10-07",
+    "added": "2026-10-11",
+    "src": "MedCity News",
+    "fam": "press",
+    "title": "Teladoc Health משיקה שתי יכולות AI לפלטפורמת Solo: תיעוד אמביינטי וניטור חיוני ללא מגע",
+    "titleSrc": "Teladoc Health adds contactless vitals and ambient AI scribe to virtual visit platform",
+    "summary": "Teladoc Health הכריזה ב-7 באוקטובר 2026 על שני כלי AI חדשים בפלטפורמת Solo לבתי חולים: SoloScribe - כלי תיעוד אמביינטי המשתלב ב-EHR ומיועד לביקורים פרונטליים וטלמדיסין, שכבר נגיש באופן כללי; ו-SoloVitals, שמעריך קצב לב ונשימה מהמצלמה במכשיר המטופל באמצעות טכנולוגיית rPPG. SoloVitals נמצא בתצוגה מקדימה מוגבלת ללקוחות נבחרים שלא זוהו, עם זמינות רחבה יותר המתוכננת לדצמבר 2026; לדברי החברה הפלטפורמה פרושה ביותר מ-15,000 מוקדים בעולם, אך נתון זה מקורו בחברה עצמה.",
+    "url": "https://medcitynews.com/2026/10/teladoc-health-adds-contactless-vitals-and-ambient-ai-scribe-to-virtual-visit-platform/",
+    "topics": [
+      "ambient",
+      "adoption"
+    ]
+  },
+  {
+    "id": "lancet-amie-primary-care-feasibility-study",
+    "date": "2026-10-08",
+    "added": "2026-10-11",
+    "src": "The Lancet",
+    "fam": "journal",
+    "title": "מחקר היתכנות פרוספקטיבי: AMIE של גוגל במרפאת רפואת משפחה אמיתית - ללא עצירות בטיחות ותוצאות דומות לרופאים ברוב המדדים",
+    "titleSrc": "Conversational diagnostic artificial intelligence in ambulatory primary care: a prospective feasibility study",
+    "summary": "מחקר היתכנות חד-זרועי שפורסם ב-The Lancet בחן את AMIE, מערכת הבינה המלאכותית השיחתית של גוגל, על 100 מטופלים מבוגרים שקיימו צ'אט טקסטואלי עם המערכת עד חמישה ימים לפני ביקור דחוף במרפאת רפואת משפחה אקדמית. לא נדרשה אף עצירת בטיחות אחת; בבדיקה מול התיק הרפואי שמונה שבועות לאחר מכן, האבחנה הסופית הופיעה ברשימת האבחנות המבדלות של AMIE ב-90% מהמקרים (דיוק Top-3: 75%). בהשוואה לרופאי המשפחה לא נמצא הבדל מובהק בטיב האבחנות ובבטיחות תוכנית הטיפול (p=0.6; p=0.1/1.0), אך הרופאים עדיפים על AMIE בפרקטיות ובעלות-תועלת של התוכנית (p=0.003; p=0.004); הממצאים, כולל שיפור בעמדת המטופלים כלפי AI (p<0.001), מבוססים על אתר יחיד ומדגם קטן, בלי קבוצת בקרה אקראית.",
+    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01535-7/abstract",
+    "topics": [
+      "research",
+      "adoption"
+    ]
   }
 ]
