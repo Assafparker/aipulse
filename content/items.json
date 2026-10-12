@@ -3693,5 +3693,81 @@
       "research",
       "adoption"
     ]
+  },
+  {
+    "id": "mhra-ai-airlock-phase-3-application",
+    "date": "2026-10-06",
+    "added": "2026-10-12",
+    "src": "MHRA",
+    "fam": "regulator",
+    "title": "ה-MHRA הבריטית פותחת קול קורא לשלב השלישי של ארגז החול הרגולטורי AI Airlock",
+    "titleSrc": "AI Airlock Phase 3 application",
+    "summary": "לצד קבלת 44 ההמלצות של הוועדה הלאומית לרגולציית AI בבריאות, פתח ה-MHRA ב-6 באוקטובר 2026 קול קורא לשלב השלישי של תוכנית ה'איירלוק' - ארגז חול רגולטורי לבדיקת מכשירים רפואיים מבוססי בינה מלאכותית בתנאי עולם אמיתי. הגל הנוכחי מתמקד בפיקוח לאחר שיווק ובניהול המכשיר על פני מחזור חייו, עם מועד הגשה ל-31 באוקטובר 2026 ובחירת החברות המשתתפות בנובמבר 2026; התוכנית מקבלת תקצוב ממשלתי נוסף לשלוש שנים לאחר הצלחת הפיילוט ושלב ב'.",
+    "url": "https://www.gov.uk/government/publications/ai-airlock-phase-3-application",
+    "topics": [
+      "policy",
+      "adoption"
+    ]
+  },
+  {
+    "id": "ahrq-super-intelligence-healthcare-prize",
+    "date": "2026-10-07",
+    "added": "2026-10-12",
+    "src": "AHRQ (HHS)",
+    "fam": "regulator",
+    "title": "AHRQ האמריקאית משיקה תחרות פרסים של כ-8 מיליון דולר ל'בינה-על' בבריאות",
+    "titleSrc": "AHRQ Launches Super Intelligence Prize Competition to Transform Healthcare Evidence and Data",
+    "summary": "סוכנות המחקר ואיכות הבריאות האמריקאית (AHRQ) השיקה ב-7 באוקטובר 2026 תחרות פרסים דו-חלקית בסך כולל של כ-7.95 מיליון דולר, בהמשך לצו נשיאותי של טראמפ מ-29 בספטמבר 2026. החלק המרכזי מציע פרס ראשי של 5.35 מיליון דולר לפתרון שיקצר בחינת עדויות קליניות שאורכת כיום שנה ומעלה לכמה שעות באמצעות AI, עם הגשות בין 11 בינואר ל-12 במרץ 2027 וחמישה גמר שיקבלו 100 אלף דולר כל אחד; החלק השני, בתקציב של 2.1 מיליון דולר, ישתמש במסדי הנתונים של הסוכנות לבניית מערך יישומי AI לשיפור איכות וציבור.",
+    "url": "https://www.ahrq.gov/news/newsroom/press-releases/si-challenge.html",
+    "topics": [
+      "policy",
+      "research",
+      "funding"
+    ]
+  },
+  {
+    "id": "whitelab-genomics-26m-series-b-ai",
+    "date": "2026-10-05",
+    "added": "2026-10-12",
+    "src": "Axios Pro",
+    "fam": "press",
+    "title": "חברת הביוטק WhiteLab Genomics גייסה 26 מיליון דולר לתכנון תרפיות גנטיות בעזרת AI",
+    "titleSrc": "Exclusive: WhiteLab Genomics raises $26M Series B for AI-designed genomic medicines",
+    "summary": "חברת הביוטק הפריזאית WhiteLab Genomics גייסה סבב B בגובה 26 מיליון דולר בהובלת AVP, עם השתתפות Omnes Capital, Yaday Health, Blast Club ו-Debiopharm Innovation Fund, כך דיווח Axios ב-5 באוקטובר 2026. החברה משתמשת בפלטפורמת ה-AI שלה, ALFRED, לתכנון נשאי מסירה גנטיים ומטענים גנטיים לתרפיות גנטיות, ומדווחת על כ-15 שותפויות מניבות הכנסה עם חברות תרופות כגון סאנופי; סך גיוסי החברה מגיע כה לכ-37 מיליון דולר.",
+    "url": "https://www.axios.com/pro/biotech-deals/2026/10/05/whitelab-genomics-raises-26m-ai-designed-genomic-medicines",
+    "topics": [
+      "funding",
+      "research"
+    ]
+  },
+  {
+    "id": "general-medicine-120m-series-b-ai-marketplace",
+    "date": "2026-10-06",
+    "added": "2026-10-12",
+    "src": "Fierce Healthcare",
+    "fam": "press",
+    "title": "General Medicine מגייסת 120 מיליון דולר להקמת מרקטפלייס בריאות עם עוזר AI",
+    "titleSrc": "General Medicine banks $120M backed by a16z, Eli Lilly and Mercy Health to build out healthcare storefront",
+    "summary": "General Medicine, המפעילה מרקטפלייס מקוון להשוואת מחירים ורכישת תרופות, בדיקות וטיפולים, גייסה סבב B בגובה 120 מיליון דולר בהובלת Andreessen Horowitz, בהשתתפות אלי לילי ומערכת הבריאות Mercy Health, כך דיווח Fierce Healthcare ב-6 באוקטובר 2026. סך גיוסי החברה הגיע ל-152 מיליון דולר; הקטלוג כולל יותר מ-2,900 מוצרים ושירותים, והחברה - שהוקמה בידי מקימי PillPack ו-Amazon Pharmacy - משלבת בפלטפורמה עוזר AI שמלווה מטופלים בבחירת טיפול.",
+    "url": "https://www.fiercehealthcare.com/health-tech/general-medicine-banks-120m-backed-a16z-eli-lilly-and-mercy-health",
+    "topics": [
+      "funding",
+      "marketplace"
+    ]
+  },
+  {
+    "id": "vitalize-31m-series-a-ai-hospital-staffing",
+    "date": "2026-10-07",
+    "added": "2026-10-12",
+    "src": "Fierce Healthcare",
+    "fam": "press",
+    "title": "Vitalize מגייסת 31 מיליון דולר למערכת AI לניהול כוח אדם בבתי חולים",
+    "titleSrc": "Vitalize secures $31M to scale AI-powered operating system for hospital staffing and scheduling",
+    "summary": "סטארט-אפ Vitalize מסן פרנסיסקו השלים סבב A בגובה 31 מיליון דולר בהובלת Oak HC/FT, בהשתתפות קרנות נוספות כגון Y Combinator ו-Rock Health Capital, כך דיווח Fierce Healthcare ב-7 באוקטובר 2026. הפלטפורמה, המתוארת כ'בקרת תעבורה אווירית' לתפעול בתי חולים, מנהלת לטענת החברה מיליוני משמרות בשבוע במערכות בריאות רבות; הכספים מיועדים לפיתוח מודלי AI לחיזוי עומסים ותזרים מטופלים, בעת שהחברה מעריכה שכוח אדם מהווה 50%-60% מהוצאות התפעול של בתי חולים בארה״ב.",
+    "url": "https://www.fiercehealthcare.com/health-tech/vitalize-secures-31m-scale-ai-powered-operating-system-hospital-staffing-and-scheduling",
+    "topics": [
+      "funding",
+      "ops"
+    ]
   }
 ]
