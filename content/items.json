@@ -3784,5 +3784,50 @@
       "ethics",
       "adoption"
     ]
+  },
+  {
+    "id": "airs-medical-swiftsight-body-composition-fda-clearance",
+    "date": "2026-10-06",
+    "added": "2026-10-13",
+    "src": "FDA (הודעת AIRS Medical)",
+    "fam": "regulator",
+    "title": "ה-FDA מאשר תוכנת AI של AIRS Medical לניתוח הרכב גוף מתוך סריקת MRI",
+    "titleSrc": "FDA Clears MRI-Based AI Software for Body Composition Analysis",
+    "summary": "ה-FDA העניק אישור 510(k) ל-SwiftSight Body Composition של החברה הקוריאנית AIRS Medical, המכמתת אוטומטית שומן קרבי ותת-עורי, מסת שריר ואיזון שרירים דו-צדדי מתוך סריקת MRI שאורכה פחות מחמש דקות, ומשווה את התוצאות לאוכלוסיית ייחוס לפי גיל ומגדר. SimonMed Imaging תהיה הלקוחה הראשונה שתפעיל את התוכנה בפועל.",
+    "url": "https://www.diagnosticimaging.com/view/fda-clears-mri-based-ai-software-for-body-composition-analysis",
+    "topics": [
+      "imaging",
+      "adoption"
+    ]
+  },
+  {
+    "id": "riverain-clearread-chest-rapidai-platform-marketplace",
+    "date": "2026-10-06",
+    "added": "2026-10-13",
+    "src": "Cardiovascular Business",
+    "fam": "press",
+    "title": "Riverain Technologies משלבת את בינת ה-AI שלה לצילומי חזה בפלטפורמת RapidAI",
+    "titleSrc": "FDA-cleared cardiothoracic imaging tools being added to popular AI platform",
+    "summary": "חברת Riverain הודיעה כי חבילת ClearRead Chest שלה, המאושרת ע\"י ה-FDA לאיתור גושים בריאה, פנאומותורקס והסתיידות עורקים כליליים בצילומי CT ורנטגן של החזה, תשתלב בפלטפורמת Rapid Enterprise של RapidAI. המהלך מעניק גישה לכלי ה-AI של Riverain לכ-2,500 בתי החולים המחוברים לפלטפורמה, כחלק ממגמה של ריכוז אלגוריתמי הדמיה מספקים שונים תחת שכבת תוכנה אחת.",
+    "url": "https://cardiovascularbusiness.com/topics/artificial-intelligence/fda-cleared-cardiothoracic-imaging-tools-being-added-popular-ai-platform",
+    "topics": [
+      "imaging",
+      "marketplace"
+    ]
+  },
+  {
+    "id": "nhs-skin-analytics-derm-rollout-18-trusts-south-east",
+    "date": "2026-10-09",
+    "added": "2026-10-13",
+    "src": "NHS England South East / Skin Analytics",
+    "fam": "provider",
+    "title": "ה-NHS מרחיב את מערכת ה-AI האוטונומית DERM לכל 18 בתי החולים באזור הדרום-מזרח של אנגליה",
+    "titleSrc": "NHS South East rolls out skin cancer AI that can discharge patients alone",
+    "summary": "שירות הבריאות הבריטי החל בפריסת DERM של Skin Analytics, מערכת AI אוטונומית עם סיווג CE מסוג III, בכל 18 הטרסטים (אשכולות בתי חולים) באזור הדרום-מזרח של אנגליה, ותעניק גישה לכ-9 מיליון תושבים נוספים. המערכת סורקת תמונות נגעי עור ומשחררת באופן אוטונומי חולים שסווגו כבעלי סיכון נמוך, ולדברי החברה כבר אבחנה למעלה מ-250,000 חולים וזיהתה למעלה מ-25,000 מקרי סרטן ב-25 הטרסטים הקודמים בהם נפרסה.",
+    "url": "https://thenextweb.com/news/skin-cancer-ai-nhs-south-east-skin-analytics-derm",
+    "topics": [
+      "imaging",
+      "adoption"
+    ]
   }
 ]
