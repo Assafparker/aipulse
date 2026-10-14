@@ -3784,5 +3784,91 @@
       "ethics",
       "adoption"
     ]
+  },
+  {
+    "id": "npj-gpt5-complexity-paradox",
+    "date": "2026-10-09",
+    "added": "2026-10-14",
+    "src": "npj Digital Medicine",
+    "fam": "journal",
+    "title": "'פרדוקס המורכבות' של GPT-5 באבחון רפואי: עשר גרסאות נבדקו על 161 מקרים אמיתיים",
+    "titleSrc": "The complexity paradox of generalist AI agents in medicine: exploring GPT-5 for real-world multimodal medical diagnosis",
+    "summary": "חוקרים בדקו עשרה סוכני AI מבוססי GPT-5 על 161 מקרי אבחון רב-מודאליים אמיתיים שאושרו על ידי קלינאים. ביצועי הסוכנים הכלליים נשחקו ככל שמורכבות המקרה עלתה — תופעה שהמחברים מכנים 'פרדוקס המורכבות' — והם קוראים למודלים מותאמי-היגיון ולסטנדרטים מחמירים יותר לאיכות התמונה. מדובר בסט מקרים ממוסד בודד ולא בניסוי פרוספקטיבי, כך שההכללה למערכות אחרות טרם נבדקה.",
+    "url": "https://www.nature.com/articles/s41746-026-03325-7",
+    "topics": [
+      "research",
+      "imaging"
+    ]
+  },
+  {
+    "id": "onc-leap-agentic-ai-interop-2026",
+    "date": "2026-10-06",
+    "added": "2026-10-14",
+    "src": "ONC (HHS)",
+    "fam": "regulator",
+    "title": "ה-ONC האמריקאי מעניק 1.5 מיליון דולר לשני פרויקטים: AI אג'נטי בטיפול קליני ואינטראופרביליות במעבדות",
+    "summary": "המשרד הלאומי לתיאום מידע בריאותי (ONC) שבמשרד הבריאות האמריקאי הודיע על שני מענקי LEAP בסך כולל של 1.5 מיליון דולר. MedStar Health Research Institute יפתח 'Sovereign Execution Bridge' — מסגרת קוד-פתוח שמאפשרת למטופלים לפקח על סוכני AI המתאמים טיפול מורכב ולשמר רישום מאומת של פעולותיהם; Regenstrief Institute יבחן פערי אינטראופרביליות באימוץ טרמינולוגיה סטנדרטית במעבדות עצמאיות קטנות. התחרות נפתחה ביוני 2026 וזכתה למענה רק בשני מתוך שלושת תחומי העניין שהוגדרו בה.",
+    "url": "https://healthit.gov/?p=217574",
+    "topics": [
+      "interop",
+      "policy"
+    ]
+  },
+  {
+    "id": "teladoc-solovitals-soloscribe",
+    "date": "2026-10-07",
+    "added": "2026-10-14",
+    "src": "Fierce Healthcare",
+    "fam": "press",
+    "title": "Teladoc Health משיקה כלי ניטור ללא מגע וסקרייב אמביינטי לפלטפורמת Solo לבתי חולים",
+    "titleSrc": "Teladoc Health unveils new AI capabilities within Solo platform for hospitals",
+    "summary": "Teladoc Health הציגה שתי יכולות AI חדשות בפלטפורמת Solo שלה: SoloVitals, המודד קצב לב ונשימה ללא מגע באמצעות מצלמת המכשיר של המטופל ופוטופלתיסמוגרפיה מרחוק, ו-SoloScribe, כלי תיעוד אמביינטי שמפיק סיכום קליני ומעביר אותו לרשומה האלקטרונית. SoloScribe זמין כעת באופן גורף, בעוד SoloVitals נמצא בתצוגה מקדימה פרטית עם לקוחות נבחרים וצפוי להיפתח יותר בדצמבר 2026. החברה מציגה את שני הכלים כמשולבים בפלטפורמה אחת כדי להפחית פיזור כלים בבתי חולים — ניסוח שמקורו בחברה עצמה וטרם אומת באופן עצמאי.",
+    "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/teladoc-health-unveils-2-new-ai-capabilities-within-solo-platform",
+    "topics": [
+      "ambient",
+      "adoption"
+    ]
+  },
+  {
+    "id": "sopris-blackford-analysis-acquisition",
+    "date": "2026-10-09",
+    "added": "2026-10-14",
+    "src": "AuntMinnie",
+    "fam": "press",
+    "title": "Sopris Capital קונה מ-Bayer את Blackford Analysis — מיזוג מתוכנן עם Azra AI",
+    "titleSrc": "Sopris Capital buys Blackford Analysis from Bayer",
+    "summary": "Sopris Capital רכשה את Blackford Analysis, חברת אורקסטרציית AI להדמיה מאדינבורו, מידי Bayer; תנאי העסקה לא פורסמו. פלטפורמת Blackford מצרפת למעלה מ-130 יישומי AI מ-45 ספקים שונים תחת ממשק אחד, ו-Sopris מתכוונת למזג אותה עם חברת הפורטפוליו שלה Azra AI בתוך מספר שבועות מסגירת העסקה. לפי ההודעה לא צפויה הפרעה לפריסות או לפעילות הלקוחות הקיימים — זו הצהרת הרוכשת, ולא אימות עצמאי.",
+    "url": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15837131/blackford-sopris-capital-buys-blackford-analysis-from-bayer",
+    "topics": [
+      "marketplace",
+      "funding"
+    ]
+  },
+  {
+    "id": "mri2ct-nextmr-fda-clearance",
+    "date": "2026-10-07",
+    "added": "2026-10-14",
+    "src": "AuntMinnie",
+    "fam": "regulator",
+    "title": "ה-FDA מאשר תוכנת AI שבונה הדמיית עצם תלת-מימדית של עמוד השדרה המותני מ-MRI רגיל",
+    "summary": "MRI2CT קיבלה אישור 510(k) מה-FDA לתוכנת NextMR, שמייצרת תוך פחות מ-60 שניות הדמיית עצם קורטיקלית תלת-מימדית של עמוד השדרה המותני והעצה מתוך סריקות MRI רגילות (1.5T ו-3T), ללא צורך ב-CT. לפי החברה, האימות נעשה על קבוצה רטרוספקטיבית של 145 מבוגרים עם זוגות סריקות MRI ו-CT ממרכזים בארה״ב ובישראל. התוכנה אינה מיועדת להחליף CT באופן גורף, וההחלטה הקלינית הסופית נותרת בידי הרופא המטפל.",
+    "url": "https://www.auntminnie.com/clinical-news/mri/news/15836912/mri2ct-gets-fda-clearance-for-mribased-spine-imaging-software",
+    "topics": [
+      "imaging"
+    ]
+  },
+  {
+    "id": "elsevier-clinicalkey-nursing-ai",
+    "date": "2026-09-29",
+    "added": "2026-10-14",
+    "src": "Elsevier",
+    "fam": "press",
+    "title": "Elsevier משיקה ClinicalKey Nursing AI — כלי AI קליני שנבנה במיוחד לאחיות",
+    "titleSrc": "Elsevier launches ClinicalKey Nursing AI, a new evidenced-based clinical AI solution built specifically for nurses",
+    "summary": "Elsevier השיקה את ClinicalKey Nursing AI, כלי המאפשר לאחיות לשאול שאלות קליניות בשפה חופשית על פרוצדורות, תרופות ותכנון שחרור, עם תשובות המצוטטות למקורות התוכן של החברה ושל ארגוני סיעוד. דוח 'Clinician of the Future 2026 — Nurses Edition' של החברה מצא ש-41% מהאחיות משתמשות ב-AI לעבודה, בהשוואה ל-57% מהרופאים — פער שהכלי נועד לסגור. פתרונות הסיעוד של Elsevier משמשים, לפי החברה, למעלה מ-2,800 בתי חולים בעולם; הנתון הזה ונתוני הפיילוט המדווחים מגיעים מהודעת החברה עצמה.",
+    "url": "https://www.elsevier.com/about/press-releases/elsevier-launches-clinicalkey-nursing-ai-a-new-evidenced-based-clinical-ai-solution-built-specifically-for-nurses",
+    "topics": [
+      "adoption"
+    ]
   }
 ]
