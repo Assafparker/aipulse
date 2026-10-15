@@ -3870,5 +3870,94 @@
     "topics": [
       "adoption"
     ]
+  },
+  {
+    "id": "uk-gov-response-ai-healthcare-commission",
+    "date": "2026-10-06",
+    "added": "2026-10-15",
+    "src": "GOV.UK (MHRA)",
+    "fam": "regulator",
+    "title": "ממשלת בריטניה מאמצת את כל 44 ההמלצות לרגולציה חדשה של AI בבריאות",
+    "titleSrc": "Government response to the National Commission's recommendations on the regulation of AI in healthcare",
+    "summary": "ב-6 באוקטובר 2026 פרסמה ממשלת בריטניה, באמצעות ה-MHRA, תגובה רשמית שמקבלת את כל 44 ההמלצות של הוועדה הלאומית לרגולציה של בינה מלאכותית בבריאות, שדו\"ח שלה פורסם ב-10 בספטמבר 2026. התגובה מתווה מעבר הדרגתי מהערכה טרום-שיווקית בלבד לפיקוח מתמשך לאורך כל מחזור החיים של המוצר, וכוללת פתיחת שלב שלישי בארגז החול הרגולטורי AI Airlock שיתמקד בניטור לאחר אישור. מפת דרכים מלאה ליישום צפויה להתפרסם רק באביב 2027, כך שרוב הפרטים המעשיים — כולל חלוקת האחריות בין יצרנים לספקי שירותי בריאות — עדיין בפיתוח.",
+    "url": "https://www.gov.uk/government/publications/government-response-to-the-national-commissions-recommendations-on-the-regulation-of-ai-in-healthcare",
+    "topics": [
+      "policy",
+      "ethics"
+    ]
+  },
+  {
+    "id": "korea-mohw-genai-mental-health-guidelines",
+    "date": "2026-10-08",
+    "added": "2026-10-15",
+    "src": "משרד הבריאות והרווחה של קוריאה",
+    "fam": "regulator",
+    "title": "משרד הבריאות הקוריאני מפרסם הנחיות לשימוש ב-AI גנרטיבי לצרכי בריאות הנפש",
+    "titleSrc": "Ministry of Health and Welfare, Korean Neuropsychiatric Association release guidelines for mental health use of AI",
+    "summary": "ב-8 באוקטובר 2026, לקראת היום הבינלאומי לבריאות הנפש, פרסמו משרד הבריאות והרווחה הקוריאני ואיגוד הנוירופסיכיאטריה הקוריאני הנחיות משותפות לשימוש ב-AI גנרטיבי לצרכי בריאות הנפש, בשתי גרסאות נפרדות — לכלל הציבור ולבני נוער ולהוריהם. ההנחיות מתבססות על סקר בקרב 1,019 משתמשי AI גנרטיבי בגילי 15 עד 79, שבו 16.3% דיווחו כי התקשו להפסיק שיחה עם כלי AI, ומזהירות מפני הסתמכות על AI לאבחון או טיפול נפשי במקום פנייה לאיש מקצוע. המשרד הודיע על כוונה לפרסם ב-2027 הנחיות ייעודיות לאוכלוסיות בסיכון גבוה, כגון חולי נפש קשים.",
+    "url": "https://biz.heraldcorp.com/article/10897069",
+    "topics": [
+      "mental",
+      "policy"
+    ]
+  },
+  {
+    "id": "google-research-earth-ai-public-health",
+    "date": "2026-10-06",
+    "added": "2026-10-15",
+    "src": "Google Research",
+    "fam": "lab",
+    "title": "גוגל: מודלי יסוד גיאוגרפיים כלל-עולמיים לחיזוי בריאות הציבור",
+    "titleSrc": "Unlocking Earth AI's planetary geospatial foundation models for global public health",
+    "summary": "בפוסט בבלוג Google Research מ-6 באוקטובר 2026 מציגים חוקרי גוגל חמישה מקרי בוחן שבהם מודל היסוד הגיאוגרפי Population Dynamics Foundation Model, חלק מ-Earth AI, משולב במודלים אפידמיולוגיים קיימים כקלט מוכן-לשימוש. לדברי הפוסט הגישה נועדה להתמודד עם פערי דיווח רב-שנתיים, פיצול נתונים לפי גבולות מדיניים ודלילות נתונים האופייניים למעקב אפידמיולוגי מסורתי. הפוסט מפנה גם לעבודה קודמת של גוגל (מרץ 2026) שבה שילוב המודל הגיאוגרפי עם מודל סדרות הזמן TimesFM שיפר, לטענת החברה, את דיוק התחזית למקרי כולרה ביותר מ-35% לעומת קו בסיס; מדובר במספרי החברה עצמה וטרם אומתו באופן עצמאי.",
+    "url": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/",
+    "topics": [
+      "research",
+      "ops"
+    ]
+  },
+  {
+    "id": "google-blog-ai-disease-research-2026",
+    "date": "2026-10-12",
+    "added": "2026-10-15",
+    "src": "Google (The Keyword)",
+    "fam": "lab",
+    "title": "גוגל מסכמת כיצד היא משתמשת ב-AI כדי להבין ולטפל במחלות",
+    "titleSrc": "Applying technology to understand and treat disease",
+    "summary": "בפוסט מ-12 באוקטובר 2026, חתום בידי יוסי מתיאס (Google Research) ופושמיט קוהלי (Google DeepMind), מסכמת גוגל כיצד היא מיישמת בינה מלאכותית כדי להפוך מחלות לניתנות יותר לזיהוי, לטיפול ולמניעה — ממיפוי המוח האנושי ועד זיהוי מחלות גנטיות תוך פחות משמונה שעות. לדברי הפוסט, צוותי גוגל פרסמו בחמש השנים האחרונות 90 מאמרים שפוטים בנושאי הבנה וטיפול במחלות. מדובר בסיכום שיווקי מטעם החברה עצמה, ללא נתוני אימות חיצוניים לטענות אלה.",
+    "url": "https://blog.google/innovation-and-ai/technology/health/ai-health-research/",
+    "topics": [
+      "research",
+      "adoption"
+    ]
+  },
+  {
+    "id": "medrxiv-ai-screening-primary-aldosteronism-ehr",
+    "date": "2026-10-06",
+    "added": "2026-10-15",
+    "src": "medRxiv",
+    "fam": "preprint",
+    "title": "פרה-פרינט: מודל AI לסינון היפראלדוסטרוניזם ראשוני מתוך רשומות רפואיות אלקטרוניות אורכיות",
+    "titleSrc": "AI-Based Screening Approach for Primary Aldosteronism Using Longitudinal Electronic Health Records",
+    "summary": "פרה-פרינט שהועלה ל-medRxiv מציג מודל שמנסה לזהות היפראלדוסטרוניזם ראשוני — מצב שבדרך כלל מאובחן באיחור ניכר — מתוך נתוני גיל, מין, אבחנות, מדדים חיוניים, בדיקות מעבדה ותרופות ברשומה הרפואית האלקטרונית. הביצועים נמדדים לפי AUROC, שגיאת כיול וספציפיות, אך מדובר במחקר שטרם עבר ביקורת עמיתים ואין בו עדיין אימות פרוספקטיבי או קליני.",
+    "url": "https://www.medrxiv.org/content/10.64898/2026.10.06.26364909v1",
+    "topics": [
+      "research"
+    ]
+  },
+  {
+    "id": "medrxiv-esanjeevani-ai-cds-provider-experiences",
+    "date": "2026-10-12",
+    "added": "2026-10-15",
+    "src": "medRxiv",
+    "fam": "preprint",
+    "title": "פרה-פרינט: חוויות ספקי שירות עם תמיכת החלטה קלינית מבוססת AI במערכת הטלמדיסין הלאומית של הודו",
+    "titleSrc": "Provider Experiences with AI Clinical Decision Support in eSanjeevani",
+    "summary": "פרה-פרינט מ-medRxiv בוחן כיצד רופאים במערכת הטלמדיסין הלאומית של הודו, eSanjeevani, חווים כלי תמיכת החלטה המבוסס על מודל שפה גדול ברפואת המשפחה. מדובר במחקר יישומי המבוסס על סקרי ספקי שירות ולא על בדיקת דיוק אבחוני של הכלי — הבדל שהמחברים מדגישים במפורש. כמו כל פרה-פרינט, המאמר טרם עבר ביקורת עמיתים.",
+    "url": "https://www.medrxiv.org/content/10.64898/2026.10.12.26365316v1",
+    "topics": [
+      "adoption",
+      "ops"
+    ]
   }
 ]
