@@ -3959,5 +3959,64 @@
       "adoption",
       "ops"
     ]
+  },
+  {
+    "id": "mps-ai-generated-gp-complaints-uk",
+    "date": "2026-10-12",
+    "added": "2026-10-16",
+    "src": "Medical Protection Society (MPS)",
+    "fam": "press",
+    "title": "גוף הגנה רפואית בבריטניה מדווח על גל תלונות מטופלים שנכתבו בעזרת AI, חלקן באורך 20 עמוד",
+    "titleSrc": "Medics seeing surge in AI-generated complaints, says indemnity body",
+    "summary": "סקר של Medical Protection Society בקרב כ-160 מנהלי מרפאות רופאי משפחה בבריטניה מצא ש-45% מהם מדווחים שתלונות שנכתבו בעזרת AI מעמיסות על העומס התפעולי ופוגעות במורל הצוות, ורק 7% מעולם לא נתקלו בתלונה כזו. לדברי ד״ר שרה טאונלי מ-MPS, מכתבים אלה יכולים להשתרע על 20 עמודים ומעלה, כוללים לעיתים טיעונים משפטיים מפוקפקים ושרידי 'אימון' מהכלי שיצר אותם, ובירור מה המטופל מבקש בפועל גוזל זמן רב יותר. נשיאת ה-Royal College of GPs הגנה על זכות המטופלים להתלונן, אך הזהירה שמכתבי AI יכולים להיות מסורבלים או שגויים בעובדות שלא לצורך.",
+    "url": "https://www.medicalprotection.org/casebookplus/casebook-plus-article/medics-seeing-surge-in-ai-generated-complaints--says-indemnity-body",
+    "topics": [
+      "ethics",
+      "ops"
+    ]
+  },
+  {
+    "id": "penn-medicine-ai-text-epilepsy-monitor",
+    "date": "2026-10-13",
+    "added": "2026-10-16",
+    "src": "Penn Medicine (Perelman School of Medicine)",
+    "fam": "provider",
+    "title": "פן מדיסין: בניסוי היתכנות, מטופלים 'משוחחים' בטקסט בזמן אמת עם מוניטור האפילפסיה שמנטר אותם",
+    "titleSrc": "AI platform allows patients to text with their medical device",
+    "summary": "במחקר הוכחת-היתכנות ביחידת מעקב האפילפסיה של פן מדיסין, 13 מטופלים מבוגרים שעברו מעקב רציף באלקטרואנצפלוגרפיה (EEG) יכלו לשלוח הודעות טקסט מאפליקציית סמארטפון לסוכן AI שמחובר למוניטור, לשאול על פעילות המוח שלהם, לדווח על תסמינים ולעזור למערכת ללמוד דפוסים הקשורים להתקפים. לפי הודעת ה-NIH שמימן את העבודה במסגרת Pioneer Award, המטופלים החליפו למעלה מ-1,300 הודעות עם המערכת וזו ענתה בדיוק על יותר מ-92% מהשאלות על פעילות המוח; החוקרים, בראשות בריאן ליט, מציגים זאת כהוכחת היתכנות בלבד ולא כמוצר קליני מוכן.",
+    "url": "https://www.pennmedicine.org/news/ai-platform-allows-patients-to-text-with-their-medical-device",
+    "topics": [
+      "research",
+      "adoption"
+    ]
+  },
+  {
+    "id": "nextech-agentic-ai-assort-eliseai-partnership",
+    "date": "2026-10-13",
+    "added": "2026-10-16",
+    "src": "Nextech (הודעת GlobeNewswire)",
+    "fam": "press",
+    "title": "ספקית מערכת הרשומות הייעודית Nextech משיקה יכולות AI אגנטי בשיתוף Assort Health ו-EliseAI",
+    "titleSrc": "Nextech Unveils Agentic AI Capabilities for Patient Experience through Partnerships with Assort Health and EliseAI",
+    "summary": "ספקית הרשומות האלקטרוניות הייעודית לרפואה מתמחה Nextech הכריזה בכנס AAO 2026 בניו אורלינס על שני שיתופי פעולה מרובי-שנים להטמעת AI אגנטי בחוויית המטופל: עם Assort Health ועם EliseAI, שיאפשרו ללקוחות הנפציה לבחור בין הפלטפורמות לתיאום פגישות וקבלת מטופלים באופן אוטומטי מסביב לשעון. במסגרת השותפות עם Assort Health יפותח גם כלי AI אגנטי ייעודי לתחום רפואת העיניים, והחברות מדגישות מפות דרכים משותפות והשקעה הדדית, אך עוד לא פורסמו נתוני אימוץ או ביצועים בשטח.",
+    "url": "https://hlth.com/insights/news/nextech-partners-with-assort-health-and-eliseai-to-integrate-agentic-ai-into-specialty-practice-workflows",
+    "topics": [
+      "adoption",
+      "ops"
+    ]
+  },
+  {
+    "id": "topol-ground-truths-t-cell-aging-blood-test",
+    "date": "2026-10-11",
+    "added": "2026-10-16",
+    "src": "Eric Topol - Ground Truths (Substack)",
+    "fam": "people",
+    "title": "אריק טופול: מחקר על הזדקנות מערכת החיסון עשוי להוביל לבדיקת דם למצב 'גיל חיסוני'",
+    "titleSrc": "A Tale of Two T Cells",
+    "summary": "בגיליון של ניוזלטר Ground Truths, אריק טופול מפרק מחקר של צוות בראשות מקסים ארטיומוב על האופן שבו מערכת החיסון מזדקנת ברמת תאי ה-T, ומצביע על הפוטנציאל לבדיקת דם שתאפיין 'מצב גיל חיסוני' של אדם בנפרד מגילו הכרונולוגי. טופול מדגיש שמדובר בעבודת מחקר בסיסית שטרם תורגמה לבדיקה קלינית מאומתת, אך רואה בה כיוון מבטיח להערכת בריאות וסיכון עתידי.",
+    "url": "https://erictopol.substack.com/p/a-tale-of-two-t-cells",
+    "topics": [
+      "research"
+    ]
   }
 ]
