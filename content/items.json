@@ -4018,5 +4018,125 @@
     "topics": [
       "research"
     ]
+  },
+  {
+    "id": "jama-openevidence-clinician-usage-271m-queries",
+    "date": "2026-10-15",
+    "added": "2026-10-17",
+    "src": "JAMA",
+    "fam": "journal",
+    "title": "מחקר ב-JAMA: כ-952 אלף אנשי צוות רפואי בארה\"ב שלחו 271 מיליון שאילתות לפלטפורמת AI קלינית בתוך כ-2.5 שנים",
+    "titleSrc": "Clinician Use of an Artificial Intelligence–Enabled Clinical Information Platform",
+    "summary": "מחקר שפורסם ב-JAMA ב-15 באוקטובר 2026 ניתח שימוש של 952,008 אנשי צוות רפואי בעלי חשבון מאומת (NPI), מהם 556,200 רופאים, בפלטפורמת ה-AI הקלינית OpenEvidence, ומצא כ-271 מיליון שאילתות בין ינואר 2024 ליוני 2026 — בממוצע 37.1 שאילתות בחודש לרופא פעיל, לעומת 44.5 לאחיות מתמחות ועוזרי רופא. רוב השאילתות נגעו להחלטות טיפול וניהול ולא לאבחון, וקלינאים שאלו לעיתים קרובות מעבר להתמחותם; יש לציין שהחברה עצמה סיפקה את הנתונים וכי המנהל הרפואי הראשי של OpenEvidence וחוקרים נוספים הם עובדי החברה, כך שמדובר במחקר שימוש ואימוץ ולא בהוכחת השפעה על תוצאות מטופלים.",
+    "url": "https://jamanetwork.com/journals/jama/fullarticle/2855491",
+    "topics": [
+      "adoption",
+      "research"
+    ]
+  },
+  {
+    "id": "jama-network-open-public-perceptions-ai-timeliness",
+    "date": "2026-10-14",
+    "added": "2026-10-17",
+    "src": "JAMA Network Open",
+    "fam": "journal",
+    "title": "סקר ב-JAMA Network Open: הציבור האמריקאי מוכן להמתין לבדיקת רופא בהודעות רפואיות מ-AI, אך רוצה תשובה מהירה בנושאים לוגיסטיים",
+    "titleSrc": "Public Perceptions of Timeliness for AI Use and Human Oversight",
+    "summary": "סקר חתך בקרב כ-1,185 מבוגרים בארה\"ב, שפורסם ב-14 באוקטובר 2026 ב-JAMA Network Open, מצא כי 63.1% מהמשתתפים מעדיפים להמתין עד 48 שעות לתשובת AI שעברה בדיקת רופא או אחות על פני תשובה מיידית ולא מפוקחת, כשמדובר בהודעה רפואית. לעומת זאת, בהודעות לוגיסטיות כמו תיאום תורים ומרשמים חוזרים העדיפו רוב המשתתפים תשובה מהירה; החוקרים מסכמים שההקשר ואילוצי הזמן, ולא כלל אחיד אחד, הם שקובעים את רמת הפיקוח האנושי שהציבור דורש מ-AI.",
+    "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2855284",
+    "topics": [
+      "ethics",
+      "adoption"
+    ]
+  },
+  {
+    "id": "arxiv-small-llm-verification-routing-clinical-documentation",
+    "date": "2026-10-13",
+    "added": "2026-10-17",
+    "src": "arXiv (cs.AI)",
+    "fam": "preprint",
+    "title": "פרה-פרינט: שכבת אימות מאפשרת למודל שפה קטן שרץ במכשיר להתקרב לדיוק מודל \"חוד החנית\" בתיעוד קליני",
+    "titleSrc": "Verification Turns Capability Gaps into Routing Decisions: Small Language Models for Clinical Documentation",
+    "summary": "עבודת preprint ב-arXiv (טרם עברה ביקורת עמיתים, הועלתה ב-13 באוקטובר 2026) בוחנת ארכיטקטורת אימות שמאפשרת למודל שפה בגודל 4 מיליארד פרמטרים, הרץ מקומית במכשיר, לייצר תיעוד קליני משיחות רופא-מטופל: הוא הגיע לציון התאמה עובדתית (factual entailment) של 0.984 לעומת 0.992 במודל \"חוד החנית\" שאליו הושווה. במבחן מקצה-לקצה על 250 מפגשים קליניים, מדיניות ניתוב שמעבירה למודל הגדול רק מקרים שנפסלו באימות הגיעה ל-99.6% קבלה מאומתת (לעומת 98.4% במודל הגדול בלבד) תוך שליחת 62 מפגשים בלבד למודל הגדול; בלי לולאת האימות, שיעור הקבלה של המודל הקטן צנח ל-26.8%.",
+    "url": "https://arxiv.org/abs/2610.19169",
+    "topics": [
+      "research",
+      "ops"
+    ]
+  },
+  {
+    "id": "arxiv-clinician-queries-diverge-from-benchmarks-rcq-map",
+    "date": "2026-10-08",
+    "added": "2026-10-17",
+    "src": "arXiv (cs.CL)",
+    "fam": "preprint",
+    "title": "פרה-פרינט: ניתוח כ-128 אלף שאילתות אמיתיות של רופאים ל-AI חושף פער מהותי מהאופן שבו נבדקים מודלי שפה בבנצ'מרקים",
+    "titleSrc": "Clinician use of language models diverges from how the models are evaluated",
+    "summary": "עבודת preprint ב-arXiv (טרם עברה ביקורת עמיתים) מנתחת 127,833 שאילתות ששלחו 6,342 רופאים, אחיות מתמחות ואנשי צוות רפואי מ-35 תחומי התמחות לעוזר AI מוסדי במהלך שמונה חודשי הטמעה. בעזרת מסגרת סיווג חדשה בשם RCQ-Map החוקרים מצאו שתיעוד ואחזור מידע מהווים כ-65% מהשימוש האמיתי בקליניקה, לעומת כ-31% בלבד מתערובת המשימות ב-58 בנצ'מרקים ציבוריים נפוצים לבדיקת מודלי שפה — פער שמעלה שאלות על מידת הרלוונטיות של בנצ'מרקים אקדמיים להערכת כלים קליניים בשטח.",
+    "url": "https://arxiv.org/abs/2610.11069",
+    "topics": [
+      "research",
+      "adoption"
+    ]
+  },
+  {
+    "id": "mhra-strategy-2030-ai-personalised-medicines",
+    "date": "2026-10-14",
+    "added": "2026-10-17",
+    "src": "MHRA",
+    "fam": "regulator",
+    "title": "ה-MHRA הבריטית מפרסמת אסטרטגיית חומש שמציבה AI כציר מרכזי ברגולציית התרופות והמכשור הרפואי",
+    "titleSrc": "MHRA 2030 strategy to modernise patient-centred regulation for the era of AI and personalised medicines",
+    "summary": "רגולטור התרופות והמכשור הרפואי הבריטי (MHRA) פרסם ב-14 באוקטובר 2026 אסטרטגיית חומש (MHRA Strategy 2030) שמציינת AI ורפואה מותאמת-אישית כתחומי מפתח לבניית מומחיות רגולטורית, ומכוונת למעבר ליכולות הערכה מהירות יותר ולחיבוריות נתונים גלובלית. בין ההתחייבויות הקונקרטיות שמדווחת עיתונות הענף: קיצור הערכת שלב I הראשונית ל-14 יום, הפחתת זמני ייעוץ מדעי ליזמים מ-90 ל-45 יום, וכלי מבוסס-AI לבדיקת פרוטוקולי ניסויים קליניים; מדובר באסטרטגיית יעדים לטווח ארוך ולא בחוק מחייב, וחלק מהפרטים המספריים מגיעים מסיקור תקשורתי ולא ממסמך האסטרטגיה עצמו.",
+    "url": "https://www.gov.uk/government/news/mhra-2030-strategy-to-modernise-patient-centred-regulation-for-the-era-of-ai-and-personalised-medicines",
+    "topics": [
+      "policy",
+      "ops"
+    ]
+  },
+  {
+    "id": "johns-hopkins-openevidence-collaboration-medical-education",
+    "date": "2026-10-13",
+    "added": "2026-10-17",
+    "src": "Johns Hopkins Medicine",
+    "fam": "provider",
+    "title": "ג'ונס הופקינס מדיסין ו-OpenEvidence מכריזים על שיתוף פעולה אסטרטגי לעיצוב הוראת הרפואה והטיפול הקליני בעידן ה-AI",
+    "titleSrc": "OpenEvidence and Johns Hopkins Medicine Announce Landmark Collaboration to Design the Future of Medicine and Medical Education in the Age of AI",
+    "summary": "ג'ונס הופקינס מדיסין ו-OpenEvidence הכריזו ב-13 באוקטובר 2026 על שיתוף פעולה אסטרטגי שמטרתו לשלב AI גם בהכשרת רופאים עתידיים וגם בטיפול הקליני, מתוך הקפדה על הוראה של פיזיופתולוגיה, רפואה מבוססת-ראיות וחשיבה קלינית לצד בניית מערכות AI אדפטיביות להכשרת רופאים. ההודעה, שמקורה בהודעת ג'ונס הופקינס עצמה, אינה מפרטת עדיין יישומים או מוצרים קונקרטיים, ואין בה נתוני אימות חיצוניים.",
+    "url": "https://www.hopkinsmedicine.org/news/newsroom/news-releases/2026/10/openevidence-and-johns-hopkins-medicine-announce-landmark-collaboration-to-design-the-future-of-medicine-and-medical-education-in-the-age-of-ai",
+    "topics": [
+      "research",
+      "adoption"
+    ]
+  },
+  {
+    "id": "suki-90m-series-e-ambient-ai-agents",
+    "date": "2026-10-13",
+    "added": "2026-10-17",
+    "src": "Fierce Healthcare",
+    "fam": "press",
+    "title": "חברת ה-AI האמביינטי Suki גייסה 90 מיליון דולר בסבב Series E, עם 450 לקוחות ומעבר לשאיפת AI אגנטי",
+    "titleSrc": "Suki secures $90M in series E funding to accelerate growth, expand AI capabilities",
+    "summary": "חברת ה-AI האמביינטי לתיעוד קליני Suki גייסה 90 מיליון דולר בסבב Series E, עם הצטרפות משקיעים חדשים כמו Healthier Capital, Crosslink Capital ו-Hercules Capital לצד משקיעים קיימים. לפי החברה, הכלים שלה פועלים כיום ביותר מ-450 גופי בריאות, מספר המפגשים הקליניים הנתמכים צמח ביותר מ-190% בשנה האחרונה, והכספים ישמשו להרחבת יכולות AI אגנטי (agentic) ומערך שותפים טכנולוגיים; סכום הגיוס המצטבר הכולל של החברה עומד לדבריה על למעלה מ-250 מיליון דולר, אך שווי מעודכן לא פורסם.",
+    "url": "https://www.fiercehealthcare.com/finance/suki-secures-90m-series-e-funding-accelerate-growth-expand-ai-capabilities",
+    "topics": [
+      "funding",
+      "ambient"
+    ]
+  },
+  {
+    "id": "nhs-south-east-derm-skin-cancer-ai-rollout",
+    "date": "2026-10-09",
+    "added": "2026-10-17",
+    "src": "TheNextWeb",
+    "fam": "press",
+    "title": "NHS אנגליה מרחיב את AI הסינון האוטונומי לסרטן עור DERM לכל 18 קרנות הבריאות באזור הדרום-מזרח — הפריסה הגדולה ביותר מסוגה במערכת",
+    "titleSrc": "NHS South East rolls out skin cancer AI that can discharge patients alone",
+    "summary": "לפי דיווחי תקשורת מ-9 באוקטובר 2026, אזור הדרום-מזרח של NHS אנגליה מרחיב את פלטפורמת ה-AI האוטונומית DERM של חברת Skin Analytics לכל 18 קרנות הבריאות באזור, במה שמתואר כפריסת ה-AI האוטונומי הרפואי הגדולה ביותר במערכת הבריאות הציבורית הבריטית עד כה, עם גישה פוטנציאלית לכ-9 מיליון תושבים נוספים למשך שלוש שנים. המערכת, שמחזיקה בסיווג רגולטורי אירופי Class III לשימוש אוטונומי, יכולה לשחרר מהתור מטופלים שאובחנו כנגועים בנגע עורי שפיר בלי בדיקת רופא, ולהעביר מקרים בסיכון גבוה יותר למומחה מהר יותר; לפי נתוני החברה היא כבר סיננה מעל 250,000 מטופלים וזיהתה מעל 25,000 מקרי סרטן ברשתות NHS אחרות — אלו נתוני ספק ולא בדיקה עצמאית, ולא אותר דיווח רשמי מ-NHS England או מ-Skin Analytics עצמן, אלא סיקור תקשורתי בלבד.",
+    "url": "https://thenextweb.com/news/skin-cancer-ai-nhs-south-east-skin-analytics-derm",
+    "topics": [
+      "imaging",
+      "adoption"
+    ]
   }
 ]
