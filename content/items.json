@@ -4138,5 +4138,50 @@
       "imaging",
       "adoption"
     ]
+  },
+  {
+    "id": "simbiosys-tumorsight-risk-fda-clearance",
+    "date": "2026-10-15",
+    "added": "2026-10-18",
+    "src": "Medical Product Outsourcing",
+    "fam": "regulator",
+    "title": "ה-FDA מאשר כלי AI של SimBioSys שחוזה הישנות סרטן שד מתוך MRI, פתולוגיה ונתונים קליניים",
+    "titleSrc": "SimBioSys Earns FDA Clearance for AI Breast Cancer Recurrence Tool",
+    "summary": "ה-FDA אישר באישור 510(k) את TumorSight Risk של חברת SimBioSys - כלי AI שמעריך סיכון להישנות סרטן שד בטווח של 5 ו-10 שנים, על בסיס MRI, פתולוגיה ונתונים קליניים, ומניב ציון 0-100 המחלק מטופלות לסיכון נמוך/בינוני/גבוה. הכלי מיועד לנשים עם סרטן שד מסוג HR+/HER2-שלילי בשלבים I-IIIA, והחברה מתארת אותו כראשון מסוגו שמעריך סיכון הישנות מהדמיית MRI בלבד; אין עדיין נתוני תוצאה קליניים שמראים השפעה על החלטות טיפול בפועל.",
+    "url": "https://www.mpo-mag.com/breaking-news/simbiosys-earns-fda-clearance-for-ai-breast-cancer-recurrence-tool/",
+    "topics": [
+      "imaging",
+      "policy"
+    ]
+  },
+  {
+    "id": "utah-ai-healthcare-sandbox-expansion-pro-human",
+    "date": "2026-10-05",
+    "added": "2026-10-18",
+    "src": "Holland & Knight",
+    "fam": "regulator",
+    "title": "יוטה מרחיבה את ארגז החול הרגולטורי ל-AI ומוסיפה בריאות כנדבך ביזמת ה-\"Pro-Human AI\" שלה",
+    "titleSrc": "Utah Expands OAIP's Pro-Human AI Initiative",
+    "summary": "משרד מדיניות ה-AI של מדינת יוטה (OAIP) הכריז ב-5 באוקטובר 2026 על שלושה פיילוטים קליניים חדשים בארגז החול הרגולטורי שלו, והוסיף את תחום הבריאות כנדבך מרכזי ביזמת \"Pro-Human AI\". המדינה חתמה גם הסכם-מסגרת עם Intermountain Health ו-University of Utah Health לבדיקת כלי AI בפיקוח קליני מדורג, לצד שישה גופי הערכה חיצוניים כמו Stanford Clinical Excellence Research Center ו-CHAI; חברי מועצת הרישוי הרפואי של יוטה מתחו ביקורת על כך שהיזמה קודמה בלי התייעצות מוקדמת איתם.",
+    "url": "https://www.hklaw.com/en/insights/publications/2026/10/utah-expands-oaips-pro-human-ai-initiative",
+    "topics": [
+      "policy",
+      "adoption"
+    ]
+  },
+  {
+    "id": "umass-memorial-health-accenture-microsoft-unified-data-platform",
+    "date": "2026-10-15",
+    "added": "2026-10-18",
+    "src": "Accenture Newsroom",
+    "fam": "provider",
+    "title": "UMass Memorial Health משיקה פלטפורמת מידע מאוחדת מבוססת AI בשיתוף Accenture ו-Microsoft",
+    "titleSrc": "UMass Memorial Health Announces Unified Data Platform, Multi-Year Initiative & Investments in AI-Powered Innovation in Partnership with Accenture and Microsoft",
+    "summary": "מערכת הבריאות UMass Memorial Health הכריזה ב-15 באוקטובר 2026 על יזמה רב-שנתית להקמת פלטפורמת מידע מאוחדת על גבי Microsoft Azure, שתחליף מערכות דיווח מבודדות ותאחד נתונים קליניים, תפעוליים ומחקריים - כולל מעבר הרשומה הרפואית האלקטרונית לעננה. Accenture תטמיע כלי AI אגנטיים לאוטומציית תהליכי עבודה מורכבים; הצדדים לא פרסמו נתוני עלות או לוח זמנים מדויק להשלמת המעבר.",
+    "url": "https://newsroom.accenture.com/news/2026/umass-memorial-health-announces-unified-data-platform-multi-year-initiative-investments-in-ai-powered-innovation-in-partnership-with-accenture-and-microsoft",
+    "topics": [
+      "interop",
+      "ops"
+    ]
   }
 ]
