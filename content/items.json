@@ -4183,5 +4183,50 @@
       "interop",
       "ops"
     ]
+  },
+  {
+    "id": "sirona-medical-40m-series-d-radiology-ai",
+    "date": "2026-10-15",
+    "added": "2026-10-18",
+    "src": "BioSpace (הודעת Sirona Medical)",
+    "fam": "press",
+    "title": "Sirona Medical גייסה 40 מיליון דולר בסבב Series D להרחבת שכבת ה-AI האגנטית Cortex בהדמיה",
+    "titleSrc": "Sirona Medical Raises $40M Series D as Platform Usage Triples",
+    "summary": "חברת תוכנת ההדמיה הרדיולוגית Sirona Medical גייסה 40 מיליון דולר בסבב Series D בהובלת Avidity Partners, לצד 8VC ו-GreatPoint Ventures. החברה מדווחת כי נכון לסוף ספטמבר 2026 ההכנסות שלה צמחו פי 2.5 וה-ARR החוזי פי 2.7 משנה לשנה, עם למעלה מ-12 מיליון בדיקות הדמיה בשנה תחת חוזים; הכספים ישמשו להרחבת שכבת התזמור הסוכנית Cortex ולהקמת תוכנית בינלאומית. נתוני הצמיחה מגיעים מהחברה עצמה וטרם אומתו באופן עצמאי.",
+    "url": "https://www.biospace.com/press-releases/sirona-medical-raises-40m-series-d-as-platform-usage-triples",
+    "topics": [
+      "funding",
+      "imaging"
+    ]
+  },
+  {
+    "id": "confido-health-12-5m-series-a-extension-careos",
+    "date": "2026-10-14",
+    "added": "2026-10-18",
+    "src": "Fierce Healthcare",
+    "fam": "press",
+    "title": "Confido Health גייסה 12.5 מיליון דולר להרחבת פלטפורמת סוכני AI אדמיניסטרטיביים לקבוצות רפואיות",
+    "titleSrc": "Confido Health nabs $12.5M to scale agentic AI across PE-backed medical groups",
+    "summary": "חברת ה-AI ההודית Confido Health גייסה הרחבת סבב Series A בסך 12.5 מיליון דולר בהובלת Z47, המעלה את גיוס ה-Series A הכולל שלה ל-22.5 מיליון דולר. הכספים ישמשו להרחבת פלטפורמת CareOS, המשתלבת עם למעלה מ-50 מערכות קיימות (רשומות רפואיות, חיוב, פקס ועוד) ומריצה סוכני AI למשימות אדמיניסטרטיביות מעבר לאינטראקציה עם מטופלים, בעיקר בקבוצות רפואיות בבעלות הון פרטי. החברה מדווחת שהפלטפורמה פועלת ביותר מ-1,500 מרפאות ב-27 מדינות בארה״ב, אך נתוני הכנסות והחזר השקעה לא פורסמו באופן עצמאי.",
+    "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/confido-health-expands-beyond-voice-ai-agentic-platform-medical-practices",
+    "topics": [
+      "funding",
+      "ops"
+    ]
+  },
+  {
+    "id": "npj-mosaic-agentic-ai-communication-coding",
+    "date": "2026-10-11",
+    "added": "2026-10-18",
+    "src": "npj Digital Medicine",
+    "fam": "journal",
+    "title": "מערכת AI אגנטית לקידוד תמלילי תקשורת קלינית לפי כמה מסגרות קידוד במקביל",
+    "titleSrc": "An agentic AI system for multi-framework communication coding",
+    "summary": "חוקרים מאוניברסיטת דיוק (Duke) ושותפים הציגו ב-npj Digital Medicine את MOSAIC, מערכת AI אגנטית מבוססת LangGraph המשלבת סוכן תכנון, סוכן עדכון מסדי אחזור, סוכני annotation מבוססי RAG וסוכן אימות, לקידוד תמלילי שיחות קליניות (ראומטולוגיה ורפואת נשים) לפי כמה ספרי קוד במקביל. על סט בדיקה של 50 תמלילים (לאחר אימון על 26 תמלילים) המערכת הגיעה לציון F1 כולל של 0.928, עם השיא בתת-הקבוצה הראומטולוגית (F1=0.962); המחקר בוצע על מדגם קטן יחסית וטרם נבדק בפריסה קלינית רחבה.",
+    "url": "https://www.nature.com/articles/s41746-026-03314-w",
+    "topics": [
+      "research",
+      "ops"
+    ]
   }
 ]
