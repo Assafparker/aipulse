@@ -4361,5 +4361,49 @@
     "topics": [
       "policy"
     ]
+  },
+  {
+    "id": "ama-agentic-ai-governance-framework-clinical-functions",
+    "date": "2026-10-13",
+    "added": "2026-10-19",
+    "src": "Fierce Healthcare",
+    "fam": "press",
+    "title": "ה-AMA מפרסמת מסגרת ממשל חדשה ל-AI אגנטי הממלא תפקידים קליניים",
+    "titleSrc": "American Medical Association rolls out governance framework for agentic AI solutions",
+    "summary": "התאחדות הרופאים האמריקאית (AMA), באמצעות המרכז לבריאות דיגיטלית ו-AI שלה, פרסמה מסגרת ממשל ל-AI אגנטי שממלא תפקידים קליניים כמו תיעוד אמביינטי, אבחון ומעקב מטופלים. המסגרת בנויה על ארבע שאלות מרכזיות: אילו פעולות המערכת מבצעת, אילו ראיות מוכיחות שהיא יכולה לבצע אותן ומה קורה בכשל, מה היקף הסמכות המותר לה, ומי נושא באחריות לתוצאות. ה-AMA מדגישה שסמכות קלינית צריכה להיות מבוססת-ראיות ולהישמר תוך מעקב ביצועים מתמשך, ותשתמש במסגרת לעיצוב עמדותיה בנושאי רישוי ואחריות משפטית.",
+    "url": "https://www.fiercehealthcare.com/regulatory/american-medical-association-rolls-out-governance-framework-agentic-ai-solutions",
+    "topics": [
+      "ethics",
+      "policy"
+    ]
+  },
+  {
+    "id": "commure-orchestrator-compassus-home-care-ai-partnership",
+    "date": "2026-10-13",
+    "added": "2026-10-19",
+    "src": "Commure",
+    "fam": "press",
+    "title": "Commure ו-Compassus משיקות שכבת AI להפניות וקבלת מטופלים בטיפול בית, עם צמצום 64% בזמן ההחלטה",
+    "titleSrc": "Commure and Compassus Bring AI-Powered Referral Automation to Home-Based Care",
+    "summary": "Commure ו-Compassus, ספקית טיפול בית ארצית בארה״ב, הכריזו על שיתוף פעולה לפריסת פלטפורמת Orchestrator המבוססת AI לניהול הפניות וקבלת מטופלים, הפעילה כיום ב-79 תוכניות של Compassus ב-19 מדינות. החברות מדווחות על קיצור של 64% בזמן שבין קבלת ההפנייה להחלטה, וירידה של 22% בהפניות שהוחמצו במדינות שבהן המערכת פועלת הזמן הארוך ביותר, מתוך יותר מ-500 אלף הפניות בשנה. הנתונים מגיעים מהחברות עצמן ולא אומתו באופן עיתונאי עצמאי.",
+    "url": "https://www.commure.com/press-releases/commure-and-compassus-bring-ai-powered-referral-automation-to-home-based-care",
+    "topics": [
+      "ops",
+      "adoption"
+    ]
+  },
+  {
+    "id": "meta-ai-agentic-ehr-research-adc-breast-cancer",
+    "date": "2026-10-14",
+    "added": "2026-10-19",
+    "src": "Meta AI (FAIR)",
+    "fam": "lab",
+    "title": "Meta AI מפרסמת מחקר EHR אגנטי מודרך-אדם על רצפי טיפול בקוניוגטי נוגדן-תרופה בסרטן שד",
+    "titleSrc": "Human-Guided Agentic AI for End-to-End EHR Research: Sequential Antibody-Drug Conjugate Pathways in Breast Cancer",
+    "summary": "Meta AI הציגה מחקר שבו מערכת AI אגנטית בשם Muse Spark ביצעה, בהכוונת חוקר אדם, ניתוח רשומות רפואיות אלקטרוניות (ממאגר מיוני 2026 עם כ-4.95 מיליון מטופלים, מהם 156,051 עם קודי סרטן שד) כדי לבחון את סדר הטיפול ברצף קוניוגטי נוגדן-תרופה. מתוך 106 מטופלים שזוהו, ב-73 הוזמן תחילה T-DXd וב-33 הוזמן תחילה SG, עם הפרש חציוני של 14 יום בין הקבוצות (רווח בר-סמך 95% מבוטסטראפ: 41- עד 21, p=0.42). החוקרים מדגישים שהניתוח תיאורי ולא מתוקנן, ושהזמנת תרופה בפועל אינה מעידה בהכרח על מתן בפועל או על התקדמות המחלה.",
+    "url": "https://ai.meta.com/research/publications/human-guided-agentic-ai-for-end-to-end-ehr-research-sequential-antibody-drug-conjugate-pathways-in-breast-cancer",
+    "topics": [
+      "research"
+    ]
   }
 ]
