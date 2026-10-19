@@ -4228,5 +4228,138 @@
       "research",
       "ops"
     ]
+  },
+  {
+    "id": "abby-care-82m-series-c-family-caregivers",
+    "date": "2026-10-15",
+    "added": "2026-10-19",
+    "src": "Fortune",
+    "fam": "press",
+    "title": "Abby Care גייסה 82 מיליון דולר בסבב Series C להסמכת בני משפחה כמטפלים מתוגמלים",
+    "titleSrc": "Startup Abby Care raises $82 million to turn family members into paid caregivers",
+    "summary": "חברת הטכנולוגיה Abby Care, המפעילה פלטפורמת AI המכשירה קרובי משפחה להיות מטפלים מוסמכים ומתוגמלים במסגרת Medicaid, גייסה 82 מיליון דולר בסבב Series C בהובלת Transformation Capital. המשקיעים החדשים כוללים את CVS Health Ventures ו-Pivotal Ventures, לצד הגדלת החזקות של Khosla Ventures, Thrive Capital ו-Sequoia. החברה תלויה במידה רבה בתקציבי Medicaid הממלכתיים, מה שהופך אותה לרגישה לשינויי מדיניות ולקיצוצי תקציב.",
+    "url": "https://fortune.com/2026/10/15/startup-abby-care-raises-82-million-to-turn-family-members-into-paid-caregivers/",
+    "topics": [
+      "funding",
+      "ops"
+    ]
+  },
+  {
+    "id": "jama-announces-jama-ai-new-journal-2027",
+    "date": "2026-10-15",
+    "added": "2026-10-19",
+    "src": "JAMA",
+    "fam": "journal",
+    "title": "JAMA Network מכריזה על הקמת כתב עת חדש — JAMA AI — שיופעל ב-2027",
+    "titleSrc": "Announcing JAMA AI—A New Journal From the JAMA Network",
+    "summary": "רשת כתבי העת של JAMA הודיעה על השקת כתב עת מקוון ייעודי חדש, JAMA AI, שיעסוק בבינה מלאכותית בכל תחומי הרפואה ויתחיל לקבל כתבי יד מוקדם ב-2027 בעריכתו הראשית של Roy Perlis. לפי ההכרזה, כל כתב יד שיוגש יעבור גם הערכת AI משלימה לצד שיפוט עמיתים אנושי רגיל. ההכרזה עצמה אינה כוללת פרטים מלאים על תהליך ההערכה האוטומטית או היקפו המדויק.",
+    "url": "https://jamanetwork.com/journals/jama/fullarticle/2855493",
+    "topics": [
+      "policy",
+      "research"
+    ]
+  },
+  {
+    "id": "google-amie-lancet-primary-care-feasibility-study",
+    "date": "2026-10-08",
+    "added": "2026-10-19",
+    "src": "Google",
+    "fam": "lab",
+    "title": "מחקר חדש ב-Lancet: צ'אטבוט האבחון השיחתי AMIE של גוגל נבדק על מטופלים אמיתיים לפני ביקורי רפואה דחופה",
+    "titleSrc": "A clinical study of AMIE, our AI system for diagnostic conversations, in The Lancet",
+    "summary": "במחקר תכנות פרוספקטיבי שפורסם ב-Lancet, 98 מטופלים ב-Beth Israel Deaconess Medical Center השלימו שיחת טקסט עם AMIE, צ'אטבוט האבחון השיחתי של גוגל, בטרם ביקור דחוף במרפאה ראשונית, תחת פיקוח רופא בזמן אמת. באף אחת מהשיחות לא נדרשה עצירת בטיחות, ומפקחים זיהו הזיה אחת שחייבה הבהרה קלינית נוספת; הערכות רופאים את השיחות היו חיוביות ב-87%–100% מהמקרים. גוגל עצמה מציינת שנדרשים מחקרים גדולים יותר כדי להעריך AI פונה-מטופל בקנה מידה רחב, והמחקר לא הוכיח שיפור בתוצאות קליניות.",
+    "url": "https://blog.google/innovation-and-ai/technology/health/amie-clinical-study-lancet/",
+    "topics": [
+      "research",
+      "adoption"
+    ]
+  },
+  {
+    "id": "aya-rise-chatbot-cancer-risk-knowledge-rct",
+    "date": "2026-10-12",
+    "added": "2026-10-19",
+    "src": "News-Medical.Net",
+    "fam": "press",
+    "title": "מחקר אקראי מבוקר ב-JAMA Network Open: צ'אטבוט AYA-RISE משפר הבנת סיכון סרטני בקרב מתבגרים עם תסמונות נטייה תורשתית",
+    "titleSrc": "Chatbot Intervention and Cancer Risk Knowledge in AYAs With Cancer Predisposition",
+    "summary": "מחקר אקראי מבוקר שנערך בארבעה מרכזים אקדמיים בארה\"ב ופורסם ב-JAMA Network Open מצא ש-78% מהמשתתפים בגילי 12–24 עם תסמונות נטייה תורשתית לסרטן שקיבלו גם את הצ'אטבוט AYA-RISE לצד ביקור במרפאה ידעו נכון את סיכון הסרטן שלהם עד גיל 30, לעומת 37% בלבד בקבוצת הביקור בלבד. ירידה מסוימת במדדי מצוקה נפשית בקבוצת ההתערבות לא הגיעה לכדי משמעות סטטיסטית (יחס סיכויים 0.43, רווח בר-סמך 95% של 0.15–1.14).",
+    "url": "https://www.news-medical.net/news/20261012/Adding-a-chatbot-to-specialist-care-helped-young-people-make-sense-of-cancer-risk.aspx",
+    "topics": [
+      "research"
+    ]
+  },
+  {
+    "id": "wellysis-spatch-cardioai-fda-clearance",
+    "date": "2026-09-25",
+    "added": "2026-10-19",
+    "src": "FDA",
+    "fam": "regulator",
+    "title": "ה-FDA מאשר תוכנת AI מבית Wellysis הקוריאנית לניתוח אק\"ג ואיתור הפרעות קצב",
+    "titleSrc": "Wellysis Secures FDA 510(k) Clearance for AI-Powered ECG Analysis Software, S-Patch CardioAI",
+    "summary": "ה-FDA אישר ב-510(k) את S-Patch CardioAI, תוכנת AI של חברת Wellysis הקוריאנית (ספין-אוף של סמסונג) לניתוח נתוני אק\"ג והערכת הפרעות קצב, כמכשיר רפואי מסוג II. האישור מאפשר לחברות אחרות לשלב את התוכנה באפליקציות web ומובייל המיועדות לספקי מעקב מרחוק אחר מטופלים, מתקני בדיקה עצמאיים וחברות מחקר קליני; החברה לא גילתה נתוני דיוק קליני עצמאיים או היקף הפחתת זמן הסקירה.",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K254255",
+    "topics": [
+      "policy",
+      "adoption"
+    ]
+  },
+  {
+    "id": "sunbound-24m-series-a-richter-acquisition",
+    "date": "2026-10-15",
+    "added": "2026-10-19",
+    "src": "Senior Housing News",
+    "fam": "press",
+    "title": "Sunbound גייסה 24 מיליון דולר בסבב Series A ורכשה את חברת הייעוץ Richter Healthcare Consultants",
+    "titleSrc": "Sunbound Acquires Richter Healthcare, Seeks New Growth After $24M Funding Round",
+    "summary": "חברת הטכנולוגיה Sunbound, המפעילה פלטפורמת AI לניהול הכנסות עבור מתקני דיור מוגן וסיעוד, גייסה 24 מיליון דולר בסבב Series A בהובלת TTV Capital (סך הגיוס המצטבר עומד על 36 מיליון דולר), ובמקביל רכשה את Richter Healthcare Consultants, חברת ייעוץ חיובים ותפעול בעלת ותק של כ-25 שנה. מייסדת Richter, Jennifer Richter, תמשיך בתפקיד המתמקד בשותפויות ענפיות; לפי דיווחים, שתי החברות גם יחד מגיעות להיקף תשלומים שנתי מוערך של כ-3 מיליארד דולר, אך הנתון לא אומת באופן עצמאי.",
+    "url": "https://seniorhousingnews.com/2026/10/15/sunbound-acquires-richter-healthcare-seeks-new-growth-after-24m-funding-round/",
+    "topics": [
+      "funding",
+      "ops"
+    ]
+  },
+  {
+    "id": "nvidia-1b-us-science-healthcare-commitment",
+    "date": "2026-10-08",
+    "added": "2026-10-19",
+    "src": "NVIDIA",
+    "fam": "lab",
+    "title": "NVIDIA מתחייבת למיליארד דולר לחמש שנים לקידום מחקר מדעי בארה\"ב, ובריאות היא אחד משלושת תחומי הדגל",
+    "titleSrc": "NVIDIA Commits $1 Billion to Advance US Science Over the Next Five Years",
+    "summary": "NVIDIA הכריזה על התחייבות של מיליארד דולר על פני חמש שנים לתמיכה במחקר מדעי אמריקאי, במסגרת אירוע בוושינגטון ובקישור ליוזמת Genesis Mission של הממשל האמריקאי; בהודעתה מגדירה החברה בריאות, לצד מחשוב קוונטי וביטחון אנרגטי, כאחד משלושת תחומי המוקד. החברה לא פרסמה פירוט מלא של חלוקת הסכום בין התחומים או בין מוסדות המחקר, כך שהיקף התמיכה הישירה בפרויקטי בריאות ספציפיים אינו ידוע עדיין.",
+    "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Commits-1-Billion-to-Advance-US-Science-Over-the-Next-Five-Years/default.aspx",
+    "topics": [
+      "funding",
+      "policy"
+    ]
+  },
+  {
+    "id": "deephealth-radnet-prostate-mri-ai-european-radiology",
+    "date": "2026-10-08",
+    "added": "2026-10-19",
+    "src": "Radiology Business",
+    "fam": "press",
+    "title": "מחקר חדש ב-European Radiology: שילוב AI עם רדיולוג יכול לחסוך כחמישית מביופסיות הפרוסטטה",
+    "titleSrc": "AI solution can help nearly 1 in 5 patients avoid prostate biopsies, RadNet says",
+    "summary": "מחקר רטרוספקטיבי רב-מרכזי שפורסם ב-European Radiology ובדק 787 גברים שעברו MRI פרוסטטה ואימות היסטופתולוגי, מצא שאסטרטגיית טריאז' המשלבת את פתרון ה-AI של DeepHealth (חברת בת של RadNet) עם הערכת הרדיולוג יכולה לחסוך כ-18.9% מהביופסיות בעוד שרגישות האיתור של סרטן משמעותי קלינית נשמרת על 98.4%. ברמת הנגע הבודד, לעומת זאת, רגישות ה-AI (78.8%) הייתה נמוכה מזו של ציון PI-RADS הרדיולוגי (88.8%) ולא עמדה בקריטריון אי-הנחיתות של המחקר — נתון שההודעה הרשמית לא מדגישה.",
+    "url": "https://radiologybusiness.com/topics/artificial-intelligence/ai-solution-can-help-nearly-1-5-patients-avoid-prostate-biopsies-radnet-says",
+    "topics": [
+      "imaging",
+      "research"
+    ]
+  },
+  {
+    "id": "who-emro-rc73-ai-governance-health",
+    "date": "2026-10-15",
+    "added": "2026-10-19",
+    "src": "WHO EMRO",
+    "fam": "regulator",
+    "title": "WHO: דיאלוג טכני באזור המזרח התיכון (RC73) מתווה דרישות מינימום לממשל AI בבריאות",
+    "titleSrc": "WHO highlights responsible AI governance as a public health priority at RC73",
+    "summary": "בכינוס הוועדה האזורית ה-73 של ארגון הבריאות העולמי למזרח התיכון בקהיר, קיימו המדינות החברות דיאלוג טכני שמטרתו לבנות הסכמה סביב מדיניות ורגולציה של AI בבריאות ולהתוות דרישות מינימום להקמת ממשל AI במדינות החברות. ה-WHO לא פרסם עדיין מסגרת מחייבת, אלא קורא למדינות להתחיל לבנות יכולות ממשל מקומיות; הדיאלוג מתמקד באזור אחד בלבד ואינו מהווה החלטה גלובלית.",
+    "url": "https://www.emro.who.int/media/news/who-highlights-responsible-ai-governance-as-a-public-health-priority-at-rc73.html",
+    "topics": [
+      "policy"
+    ]
   }
 ]
