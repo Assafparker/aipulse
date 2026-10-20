@@ -4405,5 +4405,35 @@
     "topics": [
       "research"
     ]
+  },
+  {
+    "id": "readily-11m-series-a-ai-regulatory-compliance",
+    "date": "2026-10-13",
+    "added": "2026-10-20",
+    "src": "Fierce Healthcare",
+    "fam": "press",
+    "title": "Readily גייסה 11 מיליון דולר לפלטפורמת תאימות רגולטורית מבוססת AI לארגוני בריאות",
+    "titleSrc": "Readily secures $11M series A to continue building out AI regulatory compliance platform",
+    "summary": "חברת Readily, המפתחת פלטפורמת בינה מלאכותית לניהול תאימות רגולטורית בארגוני בריאות, גייסה 11 מיליון דולר בסיבוב השקעה A בהובלת Define Ventures, בהשתתפות Y Combinator וקרן ההשקעות של California Health Care Foundation. הפלטפורמה מקשרת דרישות רגולטוריות למדיניות הארגון, למשימות מוגדרות ולראיות תומכות, במטרה לקצר תהליכי מחקר ובדיקה ידניים. לפי הדיווח, קרן California Health Care Foundation השקיעה בחברה מיליון דולר נוסף עוד ביוני השנה.",
+    "url": "https://www.fiercehealthcare.com/finance/readily-secures-11m-series-continue-building-out-ai-regulatory-compliance-platform",
+    "topics": [
+      "funding",
+      "ops"
+    ]
+  },
+  {
+    "id": "probably-genetic-12m-series-a-rare-disease-ai",
+    "date": "2026-10-14",
+    "added": "2026-10-20",
+    "src": "Fierce Healthcare",
+    "fam": "press",
+    "title": "Probably Genetic גייסה 12 מיליון דולר להרחבת מסד נתוני מחלות גנטיות נדירות מבוסס AI",
+    "titleSrc": "Probably Genetic raises $12M to scale rare disease dataset, support drug discovery",
+    "summary": "הסטארט-אפ Probably Genetic, המפעיל פלטפורמת בינה מלאכותית לאיתור ולסיוע באבחון מחלות גנטיות נדירות, גייס 12 מיליון דולר בסיבוב השקעה A בהובלת Threshold, בהשתתפות Y Combinator ומשקיעים קיימים. הגיוס מעמיד את סך ההון שגייסה החברה על כ-14 מיליון דולר, וייועד להרחבת הפעילות העסקית, לגיוס עובדים ולכניסה לתחום גילוי התרופות. החברה מציינת שאספה נתונים מ-130,000 מטופלים לאימון מודלים לרפואה מותאמת-אישית — נתון שמקורו בחברה עצמה ולא אומת באופן עצמאי.",
+    "url": "https://www.fiercehealthcare.com/health-tech/probably-genetic-raises-12m-scale-rare-disease-dataset-support-drug-discovery",
+    "topics": [
+      "funding",
+      "research"
+    ]
   }
 ]
