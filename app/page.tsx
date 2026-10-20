@@ -3,7 +3,13 @@ import { HeroGraphic } from "@/components/brand/hero-graphic";
 import { Logo } from "@/components/brand/logo";
 import { ItemCard } from "@/components/feed/item-card";
 import { FAMILIES } from "@/lib/constants";
-import { ITEMS, LAST_SCAN, RECENT } from "@/lib/content";
+import {
+  ITEMS,
+  LAST_SCAN,
+  LAST_SCAN_IS_TODAY,
+  LATEST,
+  RECENT,
+} from "@/lib/content";
 import { itemCount } from "@/lib/format";
 
 /**
@@ -34,8 +40,6 @@ const PRINCIPLES = [
 ];
 
 export default function Home() {
-  const latest = ITEMS.slice(0, 4);
-
   return (
     <main>
       {/* 1 — Hero. The dot field is sparse on the right; in RTL the headline
@@ -114,18 +118,29 @@ export default function Home() {
         </dl>
       </section>
 
-      {/* 3 — Live preview: the four newest items, as real cards */}
+      {/* 3 — Live preview: what the latest scan added, as real cards */}
       <section className="mx-auto max-w-5xl px-6 py-14">
         <div className="flex flex-wrap items-baseline justify-between gap-3">
-          <h2 className="text-2xl font-bold">מה נכנס היום</h2>
+          <h2 className="text-2xl font-bold">
+            {LAST_SCAN_IS_TODAY ? (
+              "מה נכנס היום"
+            ) : (
+              <>
+                מה נכנס בעדכון האחרון{" "}
+                <time dateTime={LAST_SCAN} className="tnum ltr">
+                  {LAST_SCAN}
+                </time>
+              </>
+            )}
+          </h2>
           <Link href="/feed" className="text-sm text-accent hover:underline">
             כל הפיד ({itemCount(RECENT.length)}) ←
           </Link>
         </div>
         <ol className="mt-6 flex flex-col gap-4">
-          {latest.map((item) => (
+          {LATEST.map((item) => (
             <li key={item.id}>
-              <ItemCard item={item} isNew={item.added === LAST_SCAN} />
+              <ItemCard item={item} />
             </li>
           ))}
         </ol>

@@ -33,7 +33,7 @@ export default function FeedPage() {
         </p>
       </header>
 
-      <FeedList items={RECENT} lastScan={LAST_SCAN} />
+      <FeedList items={RECENT} />
     </main>
   );
 }

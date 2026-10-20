@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ItemCard } from "@/components/feed/item-card";
-import { LAST_SCAN, MONTHS, byMonth } from "@/lib/content";
+import { MONTHS, byMonth } from "@/lib/content";
 import { itemCount, monthLabel } from "@/lib/format";
 
 /**
@@ -59,7 +59,7 @@ export default async function MonthPage({ params }: Params) {
       <ol className="flex flex-col gap-4">
         {items.map((item) => (
           <li key={item.id}>
-            <ItemCard item={item} isNew={item.added === LAST_SCAN} />
+            <ItemCard item={item} />
           </li>
         ))}
       </ol>

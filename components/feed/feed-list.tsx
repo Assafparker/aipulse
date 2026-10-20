@@ -28,13 +28,7 @@ import {
  * without editing a single component.
  */
 
-export function FeedList({
-  items,
-  lastScan,
-}: {
-  items: Item[];
-  lastScan: string;
-}) {
+export function FeedList({ items }: { items: Item[] }) {
   const [state, setState] = useState<UserState>(EMPTY);
   const [hydrated, setHydrated] = useState(false);
   const [view, setView] = useState<View>("all");
@@ -179,7 +173,6 @@ export function FeedList({
     <li key={item.id}>
       <ItemCard
         item={item}
-        isNew={item.added === lastScan}
         pinned={pinnedSet.has(item.id)}
         saved={savedSet.has(item.id)}
         read={readSet.has(item.id)}

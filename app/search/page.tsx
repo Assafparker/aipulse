@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ItemCard } from "@/components/feed/item-card";
 import { SearchBox } from "@/components/ui/search-box";
-import { ITEMS, LAST_SCAN } from "@/lib/content";
+import { ITEMS } from "@/lib/content";
 import { itemCount } from "@/lib/format";
 import { searchItems } from "@/lib/search";
 
@@ -67,7 +67,7 @@ export default async function SearchPage({ searchParams }: Props) {
           <ol className="flex flex-col gap-4">
             {results.map((item) => (
               <li key={item.id}>
-                <ItemCard item={item} isNew={item.added === LAST_SCAN} />
+                <ItemCard item={item} />
               </li>
             ))}
           </ol>

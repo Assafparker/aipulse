@@ -7,7 +7,7 @@ import type { Item } from "@/lib/schema";
  *
  * Deliberately imports nothing from lib/content: that module pulls in the
  * whole of items.json, and this component is in the client bundle. Anything
- * derived from the full content set — `isNew` above all — arrives as a prop.
+ * derived from the full content set arrives as a prop.
  *
  * `actions` is optional. The feed passes handlers and gets the button row;
  * the archive passes none and gets no buttons, rather than three controls
@@ -25,7 +25,6 @@ export type ItemActions = {
 
 type Props = {
   item: Item;
-  isNew?: boolean;
   pinned?: boolean;
   saved?: boolean;
   read?: boolean;
@@ -38,7 +37,6 @@ type Props = {
 
 export function ItemCard({
   item,
-  isNew = false,
   pinned = false,
   saved = false,
   read = false,
@@ -55,41 +53,50 @@ export function ItemCard({
         pinned ? "border-s-4 border-s-pin" : ""
       } ${dimmed ? "opacity-60" : ""}`}
     >
-      {/* Row 1 — source family, and the badge for items from the latest scan */}
-      <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
-        <span className="inline-flex items-center gap-1.5 text-accent-ink">
-          {/* Filled circle = primary source, hollow = secondary reporting */}
-          <span
-            className={`size-2 shrink-0 rounded-full border border-current ${
-              isPrimary ? "bg-current" : ""
-            }`}
-            aria-hidden="true"
-          />
-          <FamilyIcon fam={item.fam} />
-          <span className="text-sm font-medium">{family?.label ?? item.fam}</span>
-        </span>
-        <span className="sr-only">
-          {isPrimary ? "מקור ראשוני" : "דיווח משני"}
-        </span>
-        {isNew && (
-          <span className="rounded-full bg-accent-soft px-2 py-0.5 text-xs font-medium text-accent-ink">
-            חדש
+      {/* Row 1 — source family at the start, the two dates at the end */}
+      <div className="flex flex-wrap items-start justify-between gap-x-4 gap-y-2">
+        <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+          <span className="inline-flex items-center gap-1.5 text-accent-ink">
+            {/* Filled circle = primary source, hollow = secondary reporting */}
+            <span
+              className={`size-2 shrink-0 rounded-full border border-current ${
+                isPrimary ? "bg-current" : ""
+              }`}
+              aria-hidden="true"
+            />
+            <FamilyIcon fam={item.fam} />
+            <span className="text-sm font-medium">{family?.label ?? item.fam}</span>
           </span>
-        )}
-        {pinned && (
-          <span className="rounded-full bg-pin-soft px-2 py-0.5 text-xs font-medium text-pin">
-            מוצמד
+          <span className="sr-only">
+            {isPrimary ? "מקור ראשוני" : "דיווח משני"}
           </span>
-        )}
+          {pinned && (
+            <span className="rounded-full bg-pin-soft px-2 py-0.5 text-xs font-medium text-pin">
+              מוצמד
+            </span>
+          )}
+        </div>
+        {/* `added` is the day the scan put the item on the site; `date` is the
+            day the source published it. The gap is often days or weeks. */}
+        <dl className="grid grid-cols-[auto_auto] gap-x-2 text-xs">
+          <dt className="text-ink-3">תאריך עדכון</dt>
+          <dd>
+            <time dateTime={item.added} className="tnum ltr text-ink-2">
+              {item.added}
+            </time>
+          </dd>
+          <dt className="text-ink-3">תאריך פרסום</dt>
+          <dd>
+            <time dateTime={item.date} className="tnum ltr text-ink-2">
+              {item.date}
+            </time>
+          </dd>
+        </dl>
       </div>
 
-      {/* Row 2 — source name, date, topic tags */}
+      {/* Row 2 — source name, topic tags */}
       <div className="mt-2 flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-ink-3">
         <span className="text-ink-2">{item.src}</span>
-        <span aria-hidden="true">·</span>
-        <time dateTime={item.date} className="tnum ltr">
-          {item.date}
-        </time>
         {item.topics.map((t) => {
           const up = boosted?.has(t) ?? false;
           return (
