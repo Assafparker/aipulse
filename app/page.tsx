@@ -6,9 +6,9 @@ import { FAMILIES } from "@/lib/constants";
 import {
   ITEMS,
   LAST_SCAN,
-  LAST_SCAN_IS_TODAY,
-  LATEST,
   RECENT,
+  latestAdded,
+  todayInJerusalem,
 } from "@/lib/content";
 import { itemCount } from "@/lib/format";
 
@@ -21,6 +21,13 @@ import { itemCount } from "@/lib/format";
  * count of scanned families, per SPEC.md 3.2. Claiming eight would overstate
  * what the scan actually covers.
  */
+
+/**
+ * Static, but regenerated at most hourly. The "today" heading depends on the
+ * clock, not just the content: without this, a page built yesterday would go
+ * on saying "today" about yesterday's items until the next deploy.
+ */
+export const revalidate = 3600;
 
 const SCANNED_FAMILIES = FAMILIES.filter((f) => !f.gap);
 
@@ -40,6 +47,10 @@ const PRINCIPLES = [
 ];
 
 export default function Home() {
+  // Inside the render, not at module scope: a module-level value is computed
+  // once per server process and would survive every revalidation.
+  const latest = latestAdded(ITEMS, todayInJerusalem());
+
   return (
     <main>
       {/* 1 — Hero. The dot field is sparse on the right; in RTL the headline
@@ -122,23 +133,31 @@ export default function Home() {
       <section className="mx-auto max-w-5xl px-6 py-14">
         <div className="flex flex-wrap items-baseline justify-between gap-3">
           <h2 className="text-2xl font-bold">
-            {LAST_SCAN_IS_TODAY ? (
+            {latest.isToday ? (
               "מה נכנס היום"
             ) : (
               <>
                 מה נכנס בעדכון האחרון{" "}
-                <time dateTime={LAST_SCAN} className="tnum ltr">
-                  {LAST_SCAN}
+                <time dateTime={latest.date} className="tnum ltr">
+                  {latest.date}
                 </time>
               </>
             )}
           </h2>
-          <Link href="/feed" className="text-sm text-accent hover:underline">
-            כל הפיד ({itemCount(RECENT.length)}) ←
-          </Link>
+          <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+            {latest.total > latest.items.length && (
+              <span className="text-sm text-ink-3">
+                מוצגים {latest.items.length} מתוך {itemCount(latest.total)} שנכנסו
+                בעדכון
+              </span>
+            )}
+            <Link href="/feed" className="text-sm text-accent hover:underline">
+              כל הפיד ({itemCount(RECENT.length)}) ←
+            </Link>
+          </div>
         </div>
         <ol className="mt-6 flex flex-col gap-4">
-          {LATEST.map((item) => (
+          {latest.items.map((item) => (
             <li key={item.id}>
               <ItemCard item={item} />
             </li>

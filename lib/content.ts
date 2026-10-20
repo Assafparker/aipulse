@@ -28,25 +28,40 @@ export const MONTHS: string[] = [...new Set(ITEMS.map(i => i.date.slice(0, 7)))]
 export const byMonth = (m: string) => ITEMS.filter(i => i.date.startsWith(m));
 
 /**
- * The homepage list, built from `added` (the day the scan put an item on the
- * site), not `date` (the day the source published it). Items typically enter
- * days or weeks after publication, so sorting by `date` buries today's intake.
+ * The homepage list: the items of the latest update, and only those. Built
+ * from `added` (the day the scan put an item on the site), not `date` (the
+ * day the source published it) — items typically enter days or weeks after
+ * publication. Never padded from earlier updates, so dates are never mixed
+ * under one heading.
  *
- * Everything from the latest scan, backfilled from earlier scans up to `min`
- * when the latest is thin, capped at `max`. Ordered added desc, then date desc.
+ * Pure: `today` (YYYY-MM-DD, Asia/Jerusalem) is passed in rather than read
+ * from the clock, so the heading choice can be tested with any date.
  */
-export function latestAdded(items: Item[], min = 4, max = 8): Item[] {
-  const sorted = [...items].sort(
-    (a, b) => b.added.localeCompare(a.added) || b.date.localeCompare(a.date),
-  );
-  const last = sorted[0]?.added;
-  const fromLast = sorted.filter((i) => i.added === last).length;
-  return sorted.slice(0, Math.min(max, Math.max(min, fromLast)));
+export type LatestUpdate = {
+  /** The latest `added` date, i.e. LAST_SCAN for the full item set. */
+  date: string;
+  /** Whether that update ran on `today`. Picks the homepage heading. */
+  isToday: boolean;
+  /** Items from that update, date desc, capped at `max`. */
+  items: Item[];
+  /** How many items that update added in all, before the cap. */
+  total: number;
+};
+
+export function latestAdded(items: Item[], today: string, max = 8): LatestUpdate {
+  const date = items.reduce((m, i) => (i.added > m ? i.added : m), "0000-00-00");
+  const fromLatest = items
+    .filter((i) => i.added === date)
+    .sort((a, b) => b.date.localeCompare(a.date));
+  return {
+    date,
+    isToday: date === today,
+    items: fromLatest.slice(0, max),
+    total: fromLatest.length,
+  };
 }
 
-export const LATEST: Item[] = latestAdded(ITEMS);
-
-/** Today's date in Israel, as YYYY-MM-DD. Evaluated at build time. */
+/** Today's date in Israel, as YYYY-MM-DD. */
 export function todayInJerusalem(now: Date = new Date()): string {
   // en-CA formats as YYYY-MM-DD.
   return new Intl.DateTimeFormat("en-CA", {
@@ -56,6 +71,3 @@ export function todayInJerusalem(now: Date = new Date()): string {
     day: "2-digit",
   }).format(now);
 }
-
-/** True when the latest scan ran today, Israel time. */
-export const LAST_SCAN_IS_TODAY: boolean = LAST_SCAN === todayInJerusalem();
