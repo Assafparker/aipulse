@@ -4435,5 +4435,79 @@
       "funding",
       "research"
     ]
+  },
+  {
+    "id": "st-vincents-australia-ai-clinical-council",
+    "date": "2026-10-09",
+    "added": "2026-10-21",
+    "src": "Cyber Daily",
+    "fam": "provider",
+    "title": "St Vincent's באוסטרליה מקיימת את הכינוס הראשון של מועצת AI קלינית לאומית ברשת בתי החולים שלה",
+    "titleSrc": "St Vincent's launches National AI Clinical Council",
+    "summary": "רשת St Vincent's Health Australia, המפעילה 12 בתי חולים ו-25 מתקני טיפול לקשישים, קיימה ב-8–9 באוקטובר את המפגשים הראשונים של מועצת AI קלינית חדשה, בהשתתפות חברי דירקטוריון, נאמנים ומנהלים בכירים לצד רופאים. מנהלת הרפואה הראשית ד\"ר כריס רובינסון אמרה שהמטרה היא לשלב מומחיות קלינית, ניסיון תפעולי ונקודות מבט קהילתיות כדי לזהות היכן AI יכול לסייע למטופלים, לדיירים ולצוות. יותר מ-300 אנשים הביעו עניין להצטרף למועצה, שתדון בין היתר באמון, באחריותיות, בבטיחות, בשוויון ובהשפעה על מקצועות הצוות.",
+    "url": "https://www.cyberdaily.au/digital-transformation/14283-st-vincents-launches-national-ai-clinical-council",
+    "topics": [
+      "adoption",
+      "ethics"
+    ]
+  },
+  {
+    "id": "brellium-23m-funding-ai-billing-compliance",
+    "date": "2026-10-13",
+    "added": "2026-10-21",
+    "src": "Inforcapital",
+    "fam": "press",
+    "title": "Brellium גייסה 23 מיליון דולר למודל AI שמאתר שגיאות תיעוד וחיוב קליני ומגן על ספקי בריאות מביקורות יקרות",
+    "titleSrc": "Brellium Raises $23M to Catch Medical Billing Errors With AI and Protect Healthcare Providers From Costly Audits",
+    "summary": "חברת Brellium, המפעילה את פלטפורמת CortexLM הסורקת תיעוד קליני וקידוד רפואי לאיתור פערי תאימות ושגיאות חיוב, גייסה 23 מיליון דולר בהובלת Left Lane Capital ו-First Round Capital, בהשתתפות Digital Health Venture Partners. החברה מציינת כי עד כה חסכה לספקי בריאות כביטחון כ-2 מיליארד דולר מביקורות חיוב יקרות — נתון שמקורו בחברה עצמה ולא אומת באופן עצמאי. הגיוס מיועד להרחבת הפלטפורמה לתחומי הקרדיולוגיה, טיפול בכאב ורפואת המשפחה.",
+    "url": "https://inforcapital.com/news/brellium-raises-23m-to-catch-medical-billing-errors-with-ai-and-protect-healthcare-providers-from-costly-audits",
+    "topics": [
+      "funding",
+      "ops"
+    ]
+  },
+  {
+    "id": "otter-health-8m-seed-ai-utilization-management",
+    "date": "2026-10-15",
+    "added": "2026-10-21",
+    "src": "Fierce Healthcare",
+    "fam": "press",
+    "title": "Otter Health יוצאת לדרך עם גיוס Seed של 8 מיליון דולר לפלטפורמת AI שמעריכה החלטות קליניות של מבטחים וספקים מעבר לאישור מקדים",
+    "titleSrc": "As prior auth becomes an AI 'arms race,' Otter Health raises $8M for a different approach",
+    "summary": "סטארט-אפ חדש בשם Otter Health, שהוקם בידי קית' פלורנס, בעל ניסיון של יותר משני עשורים במודלים בין מבטחים לספקים, השיק ב-15 באוקטובר פעילות עם גיוס Seed של 8 מיליון דולר בהנהגת Fika Ventures ו-Evidenced. הפלטפורמה נותנת למבטחים ולספקים תמונה משותפת של החלטות קליניות לעומת קווים מנחים מבוססי-ראיות, ומכסה גם הפניות, פרוצדורות אמבולטוריות ומעברים בין מסגרות טיפול — לא רק שירותים שדורשים כיום אישור מקדים. החברה טוענת, ללא אימות עצמאי, שהחלפת אישור מקדים במודל שלה יכולה לשמור על פחות מ-5% החלטות לא תואמות.",
+    "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/otter-health-launches-8m-take-prior-authorization",
+    "topics": [
+      "funding",
+      "ops"
+    ]
+  },
+  {
+    "id": "clalit-schneider-ai-communication-boards-nonverbal-children",
+    "date": "2026-10-18",
+    "added": "2026-10-21",
+    "src": "i24NEWS",
+    "fam": "provider",
+    "title": "כללית ובית החולים שניידר לילדים, בשיתוף Code for Israel, משיקים כלי AI שמייצר לוחות תקשורת לילדים שאינם מדברים",
+    "titleSrc": "Israeli hospital launches AI tool to help nonverbal children communicate",
+    "summary": "בית החולים שניידר לילדים של כללית, בשיתוף עמותת Code for Israel, השיקו ביום ראשון מערכת מבוססת AI שמייצרת לוחות תקשורת מותאמים אישית לילדים עם קשיי דיבור, או לכל ילד שחווה את בית החולים כסביבה מפחידה. התהליך, שבעבר ארך למעלה מ-30 דקות ולעיתים שעות של הכנה ידנית, מתקצר כעת לכחמש דקות. המערכת פותחה בשיתוף מחלקת קלינאות התקשורת של שניידר בהנהלת ד\"ר אושרת סלע-וייס, ואת הכלי הטכנולוגי של Code for Israel בנה כמתנדב עידן רול.",
+    "url": "https://www.i24news.tv/en/news/israel/society/artc-israeli-hospital-launches-ai-tool-to-help-nonverbal-children-communicate",
+    "topics": [
+      "israel",
+      "adoption"
+    ]
+  },
+  {
+    "id": "openevidence-doximity-settlement-ai-lawsuit",
+    "date": "2026-10-16",
+    "added": "2026-10-21",
+    "src": "Fierce Healthcare",
+    "fam": "press",
+    "title": "OpenEvidence ו-Doximity מגיעות להסדר ומסיימות את הקרב המשפטי הסוער ביניהן על בינה מלאכותית רפואית",
+    "titleSrc": "OpenEvidence, Doximity reach settlement in contentious AI legal battle",
+    "summary": "שתי חברות ה-AI הרפואי המתחרות OpenEvidence ו-Doximity הגיעו להסדר בעקרון ביום חמישי, ולמחרת הוגשה בבית המשפט המחוזי של מסצ'וסטס הצעה משותפת לדחיית כל התביעות והתביעות ההדדיות, כל צד נושא בעצמו בעלויותיו ובשכר טרחת עורכי הדין שלו; תנאי ההסדר לא פורסמו. OpenEvidence תבעה את Doximity ביוני 2025 בטענה שמנהלים בחברה התחזו לרופאים באמצעות מספרי NPI כדי לחלץ סודות מסחריים מהפלטפורמה שלה, ו-Doximity הגישה תביעה שכנגד שטענה למסע הסתה כולל חשבונות LinkedIn מזויפים והוצאה של יותר מ-3.6 מיליון דולר על פרסום תוקפני. ההסדר הגיע בשלב גילוי המסמכים, בעוד OpenEvidence עמדה בפני דרישה למסור רישום של הודעות Slack פנימיות שנמחקו לכאורה.",
+    "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/openevidence-doximity-reach-settlement-contentious-ai-lawsuit",
+    "topics": [
+      "ethics"
+    ]
   }
 ]
