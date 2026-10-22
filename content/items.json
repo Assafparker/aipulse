@@ -4509,5 +4509,63 @@
     "topics": [
       "ethics"
     ]
+  },
+  {
+    "id": "ntu-imh-psychosis-speech-ai-youth",
+    "date": "2026-10-13",
+    "added": "2026-10-22",
+    "src": "NTU Singapore / IMH",
+    "fam": "provider",
+    "title": "כלי בינה מלאכותית מבוסס דיבור מאתר צעירים בסיכון מוקדם לפסיכוזה בסינגפור",
+    "titleSrc": "NTU and IMH researchers harness AI to spot early signs of psychosis in youths",
+    "summary": "חוקרים מאוניברסיטת נאניאנג (NTU) ומכון בריאות הנפש (IMH) בסינגפור פיתחו מסגרת בשם LEMon-AID המנתחת דגימת דיבור חופשי של 45 שניות כדי לאתר צעירים בסיכון לפסיכוזה, בהתבסס על 429 משתתפים בני 14–29 ממחקר LYRIKS. מודלי שפה גדולים \"מהקופסה\" זיהו סיכון בדיוק של כ-55% בלבד — לא טוב מניחוש אקראי — ואילו הגישה המשולבת, שמחלצת פרופיל רגשי מהדיבור, העלתה את הדיוק לכ-67% ואת הרגישות לאיתור מצבי סיכון לעד 93%. החוקרים מדגישים שהטכנולוגיה טרם בשלה לפריסה קלינית עצמאית וזקוקה לאימות נוסף.",
+    "url": "https://www.ntu.edu.sg/news/detail/ntu-and-imh-researchers-harness-ai-to-spot-early-signs-of-psychosis-in-youths",
+    "topics": [
+      "mental",
+      "research"
+    ]
+  },
+  {
+    "id": "fsmb-ai-workgroup-clinical-authority-lobbying",
+    "date": "2026-10-14",
+    "added": "2026-10-22",
+    "src": "STAT News",
+    "fam": "press",
+    "title": "ועדת עבודה של 22 חברים בראשות פדרציית מועצות הרפואה של המדינות מתווה כללים לבינה מלאכותית אוטונומית ברפואה",
+    "titleSrc": "Lobbyists, trade groups push competing visions for autonomous clinical AI",
+    "summary": "לפי STAT News, נציגי גופי לובי מרכזיים — ביניהם האיגוד האמריקאי לרופאים (AMA), האיגוד האמריקאי לבתי חולים (AHA), חברת Anthropic והמבטחת Elevance Health — נפגשו בוושינגטון בדלתיים סגורות בראשית אוקטובר כחלק מוועדת עבודה של 22 חברים שכינסה פדרציית מועצות הרפואה של המדינות (FSMB) לגיבוש קווים מנחים לרגולציה על בינה מלאכותית ברפואה. מדיניות ה-AMA משנת 2026 קובעת כי בינה מלאכותית צריכה לשמש כלי מסייע בלבד ולא כגורם מחליט אוטונומי, ומתנגדת לשימוש במערכות אוטונומיות או כמעט-אוטונומיות כתחליף לבדיקת רופא בקביעת כיסוי ביטוחי.",
+    "url": "https://www.statnews.com/2026/10/14/lobbyists-trade-groups-ama-push-autonomous-clinical-ai-regulations/",
+    "topics": [
+      "policy",
+      "ethics"
+    ]
+  },
+  {
+    "id": "state-ai-sandboxes-health-regulation-landscape",
+    "date": "2026-10-15",
+    "added": "2026-10-22",
+    "src": "STAT News",
+    "fam": "press",
+    "title": "שש מדינות בארה\"ב חוקקו \"ארגזי חול\" רגולטוריים לבינה מלאכותית בבריאות, ועוד שמונה מקדמות חקיקה דומה",
+    "titleSrc": "Who's writing the rules as more states consider AI sandboxes",
+    "summary": "לפי מעקב של פדרציית מועצות הרפואה של המדינות (FSMB) שסיקרה STAT News, שש מדינות בארה\"ב — אריזונה, קונטיקט, דלאוור, קנזס, טקסס ויוטה — חוקקו חקיקה המתירה \"ארגזי חול\" רגולטוריים לבדיקת מוצרי בינה מלאכותית קליניים בפיקוח המדינה, ועוד שמונה מדינות מקדמות הצעות חוק דומות. בזירה הפדרלית, יוזמת הסנאטור טד קרוז למורטוריום על חקיקת AI מדינתית נתקעה בקונגרס בקיץ, אך קרוז טוען שגרסה ממוקדת-מדינה עדיין על השולחן.",
+    "url": "https://www.statnews.com/2026/10/15/scramble-to-shape-regulations-around-state-ai-sandboxes-health-tech/",
+    "topics": [
+      "policy"
+    ]
+  },
+  {
+    "id": "aha-fda-feedback-generative-ai-devices",
+    "date": "2026-10-19",
+    "added": "2026-10-22",
+    "src": "American Hospital Association",
+    "fam": "press",
+    "title": "האיגוד האמריקאי לבתי חולים (AHA) מגיב ל-FDA על רגולציה לכלי בינה מלאכותית גנרטיבית במכשור רפואי",
+    "titleSrc": "AHA Provides Feedback to FDA on Regulatory Considerations for Generative AI-Enabled Medical Devices",
+    "summary": "ב-19 באוקטובר הגיש האיגוד האמריקאי לבתי חולים (AHA) את תגובתו למסמך הדיון של ה-FDA על רגולציה למכשור רפואי מבוסס בינה מלאכותית גנרטיבית (docket FDA-2026-N-7874), וביקש מסגרת גמישה מבוססת-סיכון. האיגוד דרש מה-FDA להבהיר כי כלי תמיכה בקבלת החלטות קליניות וכלים אדמיניסטרטיביים מבוססי AI גנרטיבי אינם כפופים לפיקוחו, ולהבדיל בין מכשירים \"מכווני פעולה\" לכאלה \"שמבצעים פעולה\" בדרישות התיווי. ה-AHA מציין כי אתגרים כגון הטיה, הזיות ו-drift של מודלים עדיין לא מכוסים במלואם במסגרות הקיימות.",
+    "url": "https://www.aha.org/2026-10-19-aha-provides-feedback-fda-regulatory-considerations-generative-ai-enabled-medical-devices",
+    "topics": [
+      "policy"
+    ]
   }
 ]
