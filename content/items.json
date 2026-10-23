@@ -4567,5 +4567,62 @@
     "topics": [
       "policy"
     ]
+  },
+  {
+    "id": "sopris-capital-blackford-analysis-bayer-acquisition",
+    "date": "2026-10-09",
+    "added": "2026-10-23",
+    "src": "Radiology Business",
+    "fam": "press",
+    "title": "חברת ההשקעות Sopris Capital קונה את Blackford Analysis מבאייר, ותמזג אותה עם Azra AI",
+    "titleSrc": "Investment firm acquires AI platform Blackford Analysis from Bayer",
+    "summary": "חברת ההשקעות האמריקאית Sopris Capital הודיעה ב-9 באוקטובר על רכישת Blackford Analysis, פלטפורמת תזמור בינה מלאכותית להדמיה רפואית שמאגדת יותר מ-130 אפליקציות AI מלמעלה מ-45 ספקים שונים, מידי חברת באייר. באייר רכשה את Blackford ב-2023 כעוגן לפלטפורמת Calantic אך פרשה מעסקי הפלטפורמות; Sopris מתכננת למזג אותה עם חברת הבת שלה Azra AI, ותנאי העסקה הכספיים לא נחשפו.",
+    "url": "https://radiologybusiness.com/topics/healthcare-management/mergers-and-acquisitions/investment-firm-acquires-ai-platform-blackford-analysis-bayer",
+    "topics": [
+      "marketplace",
+      "imaging"
+    ]
+  },
+  {
+    "id": "healthleap-38m-funding-ai-undiagnosed-patients",
+    "date": "2026-10-07",
+    "added": "2026-10-23",
+    "src": "MobiHealthNews",
+    "fam": "press",
+    "title": "סטארטאפ הבינה המלאכותית Healthleap גייס 38 מיליון דולר לאיתור מצבים לא מאובחנים בחולים מאושפזים",
+    "summary": "סטארטאפ הבריאות Healthleap גייס 38 מיליון דולר במימון זרעים וסיבוב A שהוכרז ב-7 באוקטובר: 8 מיליון דולר בהנהגת Sequoia Capital ו-First Round Capital, ו-30 מיליון דולר בהנהגת Hummingbird Ventures. המערכת סורקת מדי יום רשומות של מאושפזים מבוגרים בלמעלה מ-50 בתי חולים, כולל Penn Medicine ו-Cedars-Sinai, ומייצרת ציוני סיכון למצבים כגון תת-תזונה; נתוני הצמיחה וההחזר על ההשקעה שמדווחת החברה הם נתוני החברה עצמה ולא אומתו באופן עצמאי.",
+    "url": "https://www.mobihealthnews.com/news/healthleap-raises-38m-ai-patient-screening",
+    "topics": [
+      "funding",
+      "adoption"
+    ]
+  },
+  {
+    "id": "bia-health-seed-funding-unnecessary-interventions",
+    "date": "2026-10-14",
+    "added": "2026-10-23",
+    "src": "BetaKit",
+    "fam": "press",
+    "title": "סטארטאפ קנדי Bia Health גייס 2.15 מיליון דולר קנדי לכלי AI שמסייע להפחית התערבויות רפואיות מיותרות",
+    "summary": "חברת ההזנק הקוויבקית Bia Health הודיעה ב-14 באוקטובר על גיוס של 2.15 מיליון דולר קנדי, חלקו חוב מ-Finalta Capital וחלקו הון בהנהגת Anges Québec, להרחבת כלי ה-AI 'Bia Assistant' לרופאים נוספים. הכלי שואב מהספרות המדעית כדי לסמן בדיקות והפניות שאינן תואמות הנחיות מבוססות-ראיות, מתוך הערכת החברה שכ-30% מהטיפול הרפואי בקנדה הוא מיותר או בעל ערך נמוך; החברה מדווחת על כ-500 אלף דולר קנדי הכנסה שנתית וניסוי בן שישה חודשים עם 100 רופאים ברשת Santé Québec.",
+    "url": "https://betakit.com/?p=410882",
+    "topics": [
+      "funding",
+      "ops"
+    ]
+  },
+  {
+    "id": "parakeet-health-10m-series-a-agentic-patient-access",
+    "date": "2026-10-01",
+    "added": "2026-10-23",
+    "src": "MedCity News",
+    "fam": "press",
+    "title": "Parakeet Health גייסה 10 מיליון דולר בסיבוב A להרחבת פלטפורמת AI אגנטית לתקשורת עם מטופלים",
+    "summary": "חברת הבריאות Parakeet Health הודיעה ב-1 באוקטובר על סיבוב גיוס A בסך 10 מיליון דולר בהנהגת Canvas Ventures, המעלה את סך המימון שגייסה ל-13 מיליון דולר. הפלטפורמה מפעילה סוכני AI שמנהלים שיחות נכנסות, תזכורות ותיאום תורים מול שש מתוך עשר קבוצות הדרמטולוגיה הגדולות בארה״ב ולמעלה מ-2,800 ספקים; נתוני הצמיחה וההכנסה שמציגה החברה הם נתוני החברה עצמה וטרם אומתו באופן עצמאי.",
+    "url": "https://medcitynews.com/2026/10/parakeet-health-secures-10m-for-conversational-agentic-platform/",
+    "topics": [
+      "funding",
+      "ops"
+    ]
   }
 ]
