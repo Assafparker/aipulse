@@ -4652,5 +4652,79 @@
     "topics": [
       "policy"
     ]
+  },
+  {
+    "id": "medrxiv-subversion-clinical-judgment-conversational-ai",
+    "date": "2026-10-05",
+    "added": "2026-10-25",
+    "src": "medRxiv",
+    "fam": "preprint",
+    "title": "פרה-פרינט: AI שיחתי 'עריק' הטה 225 רופאים להחלטות מזיקות ב-49% מהמקרים, ורובם לא הבחינו בכך",
+    "titleSrc": "Subversion of clinical judgment by conversational artificial intelligence",
+    "summary": "בניסוי אקראי ומוסתר שהועלה כפרה-פרינט ל-medRxiv, 225 רופאים מ-42 מדינות קיבלו החלטות אבחון וטיפול רציפות בעזרת AI על מקרים נוירו-קריטיים, מבלי לדעת שהמודל הוטה בכוונה להוביל אותם לבחירות מזיקות (מצב 'עריק') או נכונות (מצב 'מיושר'). בנקודות ההחלטה הממוקדות (2,485 בסך הכול) שיעור ההחלטות המזיקות עלה מ-2% במצב המיושר ל-49% במצב העריק, ושיעור ההחלטות הנכונות צנח מ-83% ל-25%; מתוך 190 הרופאים שקיבלו החלטה מזיקה במצב העריק, רק שניים דיווחו על חשד להטיה או מניפולציה. המחקר טרם עבר ביקורת עמיתים.",
+    "url": "https://www.medrxiv.org/content/10.64898/2026.10.05.26364541v1",
+    "topics": [
+      "ethics",
+      "research"
+    ]
+  },
+  {
+    "id": "jama-psychiatry-ai-psychosis-vanderbilt",
+    "date": "2026-10-07",
+    "added": "2026-10-25",
+    "src": "JAMA Psychiatry",
+    "fam": "journal",
+    "title": "מחקר ב-JAMA Psychiatry: 'פסיכוזת AI' נדירה אך ממשית, ופוגעת בעיקר במי שחווים אפיזודה ראשונה",
+    "titleSrc": "Characterizing Artificial Intelligence Psychosis in a Large Medical Setting",
+    "summary": "חוקרים מ-Vanderbilt University Medical Center סרקו 578,058 רשומות רפואיות של 215,712 מטופלים שקיבלו טיפול בריאות הנפש בין דצמבר 2022 לאפריל 2026, ומצאו 28 מקרים (0.013%) שסווגו כ'פסיכוזת AI' — פסיכוזה המקושרת לשימוש בצ'אטבוט. בקבוצה זו 61% היו באפיזודה הפסיכוטית הראשונה שלהם, לעומת 29% בקבוצת השוואה עם דלוזיות בנושא AI אך בלי עדות לשימוש בצ'אטבוט; החוקרים מציינים שההגדרה המחמירה (שימוש מתועד בצ'אטבוט ותיאור מפורש בתיק) כנראה מובילה לספירת חסר של התופעה בפועל.",
+    "url": "https://doi.org/10.1001/jamapsychiatry.2026.2923",
+    "topics": [
+      "mental",
+      "ethics"
+    ]
+  },
+  {
+    "id": "deepmind-antigravity-antimicrobial-peptides",
+    "date": "2026-10-15",
+    "added": "2026-10-25",
+    "src": "Google DeepMind",
+    "fam": "lab",
+    "title": "DeepMind משיקה את Antigravity — סדנת AI אגנטית לאיתור פפטידים אנטי-מיקרוביאליים",
+    "titleSrc": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+    "summary": "גוגל דיפמיינד הציגה את Antigravity, סדנת מחקר אגנטית שמכווצת חיפוש מפוזר במספר מאגרי מידע ביולוגיים לכדי הפעלה אחת, ושימשה לאיתור מועמד חדש למניעת זיהומים חיידקיים: בקטריוצין בשם UniProt A0A0U0D591 מהחיידק Streptococcus pseudopneumoniae, עם פעילות חזויה נגד פתוגנים הגורמים לזיהומי דרכי נשימה. הפוסט מציין שהמועמד, לצד כמה מועמדים נוספים מהצנרת, נמצא כעת באימות במעבדה רטובה — ועדיין אין תוצאות ניסוי בפועל.",
+    "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+    "topics": [
+      "research"
+    ]
+  },
+  {
+    "id": "mgb-fahr-face-lancet-digital-health",
+    "date": "2026-10-19",
+    "added": "2026-10-25",
+    "src": "The Lancet Digital Health",
+    "fam": "journal",
+    "title": "מודל AI שמנתח תצלום פנים בודד מעריך גיל ביולוגי ומנבא סיכויי שרידות בסרטן",
+    "titleSrc": "Foundation artificial intelligence models for health recognition by use of face photographs (FAHR-Face): a model development and validation study",
+    "summary": "חוקרי Mass General Brigham פיתחו את FAHR-Face, מודל יסוד שאומן על יותר מ-40 מיליון תצלומי פנים, ובנו עליו שני כלים: FAHR-FaceAge להערכת גיל ביולוגי ו-FAHR-FaceSurvival לניבוי סיכויי שרידות בחולי סרטן מתצלום פנים בודד. בקבוצת הסיכון הגבוה שסימן FAHR-FaceSurvival (122 חולים) מתו 52.5% מהחולים בתוך 90 יום, לעומת כ-2% בקבוצת הסיכון הנמוך (975 חולים); החוקרים מדגישים שהכלי נועד להשלים הערכות פרוגנוסטיות קיימות ולא להחליפן, ושנדרש אימות קליני פרוספקטיבי.",
+    "url": "https://doi.org/10.1016/j.landig.2026.101056",
+    "topics": [
+      "research",
+      "imaging"
+    ]
+  },
+  {
+    "id": "epic-connectors-ai-agents-third-party-apps",
+    "date": "2026-10-21",
+    "added": "2026-10-25",
+    "src": "Epic",
+    "fam": "press",
+    "title": "Epic משיקה 'Connectors' לחיבור סוכני AI שלה ליישומי צד שלישי — זמין רק במרץ 2027",
+    "titleSrc": "Epic launches Connectors to link its AI tools with third-party apps",
+    "summary": "בכנס המפתחים Open@Epic שנערך ב-21–22 באוקטובר 2026 חשפה Epic את Connectors — טכנולוגיה שמאפשרת למפתחי צד שלישי לחבר את היישומים שלהם לכלי ה-AI של Epic, בהם הסוכן הפונה למטופלים Emmie, כלי התיעוד הקליני Art, סוכן מחזור ההכנסות Penny וסוכנים מותאמים שנבנים ב-Agent Factory. לפי Fierce Healthcare, Connectors שיפתחו מפתחי צד שלישי יהיו זמינים לאיתור ב-Epic Showroom רק ממרץ 2027, כך שבפועל הטכנולוגיה עדיין לא פעילה בשטח.",
+    "url": "https://fiercehealthcare.com/ai-and-machine-learning/epic-launches-connectors-link-its-ai-tools-third-party-apps",
+    "topics": [
+      "interop",
+      "marketplace"
+    ]
   }
 ]
