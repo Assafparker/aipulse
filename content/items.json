@@ -4726,5 +4726,20 @@
       "interop",
       "marketplace"
     ]
+  },
+  {
+    "id": "common-sense-media-chatgpt-teens-unacceptable-risk",
+    "date": "2026-10-07",
+    "added": "2026-10-26",
+    "src": "Bloomberg Law",
+    "fam": "press",
+    "title": "Common Sense Media: ChatGPT for Teens מדורג 'סיכון בלתי מתקבל על הדעת' לבני פחות מ-18, חרף אבטחות ייעודיות",
+    "titleSrc": "ChatGPT for Teens Is Not Safe for Kids, Report Says",
+    "summary": "מכון Youth AI Safety Institute של עמותת Common Sense Media בדק יותר מ-4,000 שאילתות בחשבונות מדומים של בני 13–17 ופרסם דוח שמדרג את ChatGPT for Teens בדירוג הנמוך ביותר שלו — 'סיכון בלתי מתקבל על הדעת'. בבדיקות, חשבונות חדשים אפשרו לבני נוער לשוחח על מחשבות אבדניות, פגיעה עצמית והפרעות אכילה במשך כשעה בלי שההורים קיבלו התראה, וביותר מרבע מהבדיקות הרלוונטיות הצ'אטבוט לא הפנה לעזרה מקצועית או לקו חם; חלק מההגנות, כמו סירוב לתוכן מיני מפורש, תפקדו כמתוכנן. OpenAI חלקה על מסקנות הדוח וטענה שהבדיקה לא שיקפה נכון את אופן הפעולה של אמצעי ההגנה, בעוד שמבקרים מציינים ש-Common Sense Media מקבלת מימון מחברות טכנולוגיה, OpenAI בכלל זה.",
+    "url": "https://news.bloombergtax.com/tech-and-telecom-law/chatgpt-for-teens-is-not-safe-for-kids-report-says",
+    "topics": [
+      "mental",
+      "ethics"
+    ]
   }
 ]
