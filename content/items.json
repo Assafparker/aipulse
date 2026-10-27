@@ -4757,5 +4757,109 @@
       "adoption",
       "ethics"
     ]
+  },
+  {
+    "id": "jama-openevidence-clinician-usage-study",
+    "date": "2026-10-15",
+    "added": "2026-10-27",
+    "src": "JAMA",
+    "fam": "journal",
+    "title": "מחקר ב-JAMA: יותר מ-950,000 קלינאים בארה״ב שלחו 271 מיליון שאילתות לצ'אטבוט הרפואי OpenEvidence בתוך שנתיים וחצי",
+    "titleSrc": "Clinician Use of an Artificial Intelligence–Enabled Clinical Information Platform",
+    "summary": "חוקרים מהרווארד, Brigham and Women's Hospital ומוסדות נוספים ניתחו 271 מיליון שאילתות שהגישו 952,008 קלינאים לפלטפורמת OpenEvidence בין ינואר 2024 ליוני 2026, ומצאו שמספר המשתמשים הפעילים החודשיים צמח מ-355 ליותר מ-703,000, עם שיעור חזרה חודשי של כ-90% ב-2026. רוב השאילתות של רופאים (33.1%) נגעו לטיפול וניהול מקרה ולא לאבחנה (13.9%), והשימוש היה גבוה במיוחד בקרב מתמחים ורופאים בתחילת דרכם. שלושה ממחברי המחקר הם עובדי OpenEvidence, אם כי החברה לא מימנה את המחקר וספקה רק נתונים מזוהים חלקית.",
+    "url": "https://doi.org/10.1001/jama.2026.21868",
+    "topics": [
+      "adoption",
+      "research"
+    ]
+  },
+  {
+    "id": "npj-digital-medicine-ai-triage-stigmatizing-bias",
+    "date": "2026-09-19",
+    "added": "2026-10-27",
+    "src": "npj Digital Medicine",
+    "fam": "journal",
+    "title": "מחקר ב-npj Digital Medicine: מידע 'מכתים' בתיק הרפואי מטה מודלי שפה לדחוק מטופלים בסיכון גבוה בתיעדוף המיון",
+    "titleSrc": "Outcome-grounded effect of clinically stigmatizing information on large language model emergency triage prioritization",
+    "summary": "חוקרים מ-UT Southwestern, Stanford Medicine ו-Beth Israel Deaconess Medical Center בדקו שלושה מודלי שפה פתוחים (Gemma, Qwen, DeepSeek) על זוגות מטופלים תואמי-דחיפות ממיון, שבהם מטופל אחד הידרדר בתוך 6 שעות והשני לא. הוספת התיאור 'משתמש תדיר במיון' לתיק הובילה להורדת עדיפות שגויה ומזיקה בכל שש ההשוואות שנבדקו (עד 9.4% מהמקרים), והיסטוריה פסיכיאטרית יצרה אפקט דומה; גזע, שפה וסוג ביטוח לא יצרו הטיה עקבית. החוקרים מדגישים שהתוצאות מבוססות על שלושה מודלים פתוחים בלבד משני בתי חולים, ולא נבדקו מודלים קנייניים כמו GPT או Claude.",
+    "url": "https://www.nature.com/articles/s41746-026-03270-5",
+    "topics": [
+      "ethics",
+      "ops"
+    ]
+  },
+  {
+    "id": "penn-medicine-percival-ct-vision-language-npj",
+    "date": "2026-10-16",
+    "added": "2026-10-27",
+    "src": "npj Digital Medicine",
+    "fam": "journal",
+    "title": "מודל AI של פן מדיסין מזהה מחלות 'מוסתרות' בסריקות CT שגרתיות שלא נועדו לאתר אותן",
+    "titleSrc": "Generalizable CT vision-language modeling for population health and disease risk",
+    "summary": "חוקרי פן מדיסין פיתחו את Percival, מודל שפה-וראייה שאומן על יותר מ-400,000 זוגות סריקת CT-ודוח רדיולוגי מכ-52,000 מטופלים ב-Penn Medicine BioBank. ייצוגי הסריקה של המודל נמצאו מתואמים עם 351 קטגוריות אבחון ועם מדדי מעבדה, והתוצאות החזקות ביותר התקבלו לפרפור עמדים, טרשת עורקים כלילית, אי-ספיקת לב וסרטן לבלב — תוך עקיפה של מודל השוואה מבוסס-תמונה בלבד. המחברים מציינים שהמודל לא הושווה לרדיולוגים אנושיים ושעדיין לא סונן מצב שבו האבחנה נרשמה זמן קצר אחרי הסריקה, כך שחלק מה'ניבוי' עשוי לשקף מחלה שכבר הייתה קיימת.",
+    "url": "https://www.nature.com/articles/s41746-026-03257-2",
+    "topics": [
+      "imaging",
+      "research"
+    ]
+  },
+  {
+    "id": "who-korea-seoul-declaration-ai-healthcare",
+    "date": "2026-10-21",
+    "added": "2026-10-27",
+    "src": "WHO",
+    "fam": "regulator",
+    "title": "WHO ומשרד הבריאות הדרום-קוריאני מכריזים על 'הכרזת סיאול' לשימוש אחראי בבינה מלאכותית בבריאות",
+    "titleSrc": "Seoul Declaration on AI in Healthcare for Responsible Innovation and Global Solidarity",
+    "summary": "ב-21 באוקטובר 2026, בכנס World Bio Summit בסיאול, הכריזו משרד הבריאות הדרום-קוריאני ומנהל ה-WHO טדרוס אדהנום גברייסוס במשותף על הכרזת סיאול לבינה מלאכותית בבריאות — הפעם הראשונה שהגורמים מפרסמים הכרזה משותפת בנושא. ההכרזה קוראת למערכות AI מאומתות קלינית ובפיקוח אנושי, לגישה שוויונית לנתוני בריאות, למניעת ריכוזיות שוק יתרה ולהרמוניזציה רגולטורית בין מדינות. ההכרזה אינה מחייבת משפטית, אך משרד הבריאות הקוריאני הודיע שבעקבותיה תינתן הנחיה מעשית לשימוש ב-AI במערכת הבריאות המקומית.",
+    "url": "https://cdn.who.int/media/docs/default-source/digital-health-documents/seoul-declaration.pdf?sfvrsn=b8f7be8a_1",
+    "topics": [
+      "policy",
+      "ethics"
+    ]
+  },
+  {
+    "id": "johns-hopkins-bayview-ai-tool-data-exposure",
+    "date": "2026-10-22",
+    "added": "2026-10-27",
+    "src": "Hoodline",
+    "fam": "press",
+    "title": "ג'ונס הופקינס מתריע ל-3,182 מטופלים אחרי שעובד העלה את נתוניהם לכלי AI לא מאושר",
+    "titleSrc": "Johns Hopkins Bayview AI Data Exposure Hits 3,182 Patients",
+    "summary": "בית החולים ג'ונס הופקינס ביּיוויו דיווח כי ב-21 בספטמבר 2026, במהלך בדיקה פנימית, עובד העלה בטעות גיליון עם פרטי מטופלים לכלי AI חיצוני ולא מאושר; שם הכלי לא נחשף. הפרטים שנחשפו כוללים שמות, תאריכי טיפול, מספרי רשומה רפואית וחשבון, מחלקות, תרופות ושמות נותני טיפול עבור מטופלים שטופלו בין מאי לספטמבר 2026 — ללא מספרי ביטוח לאומי או פרטים פיננסיים. בית החולים שלח מכתבי התרעה לכ-3,182 מטופלים בסביבות 22 באוקטובר 2026 והציע 12 חודשי מעקב אשראי; לא אושר שחברת ה-AI אכן מחקה את הנתונים כמבוקש.",
+    "url": "https://hoodline.com/2026/10/johns-hopkins-bayview-warns-3-182-patients-after-staffer-fed-data-to-ai-tool/",
+    "topics": [
+      "ethics"
+    ]
+  },
+  {
+    "id": "sentara-regard-ai-discharge-monitoring",
+    "date": "2026-10-26",
+    "added": "2026-10-27",
+    "src": "Virginia Mercury",
+    "fam": "press",
+    "title": "בתי החולים של Sentara בוירג'יניה משתמשים בכלי AI בשם Regard למעקב מטופלים ולקביעת מועדי שחרור",
+    "titleSrc": "Sentara hospitals are using AI to help monitor patients, determine discharge timelines",
+    "summary": "מערך בתי החולים Sentara בוירג'יניה החל להשתמש בכלי AI בשם Regard, המשולב ברשומה הרפואית האלקטרונית, לסיוע בניטור מטופלים ובקביעת תחזיות שחרור. לפי החברה, Regard נמצא כבר בשימוש ביותר מ-150 בתי חולים בארה״ב. הכתבה מסתמכת בעיקר על דברי נציגי החברה והמערך, ואינה מציגה נתוני דיוק או תוצאים קליניים עצמאיים לפריסה הספציפית הזו.",
+    "url": "https://virginiamercury.com/2026/10/26/sentara-hospitals-are-using-ai-to-help-monitor-patients-determine-discharge-timelines/",
+    "topics": [
+      "ops",
+      "adoption"
+    ]
+  },
+  {
+    "id": "openai-acquires-orchestra-bio-rosalind",
+    "date": "2026-10-20",
+    "added": "2026-10-27",
+    "src": "OpenAI",
+    "fam": "lab",
+    "title": "OpenAI רוכשת את סטארטאפ מדעי-החיים Orchestra Bio ומשלבת אותו בחבילת Rosalind לפיתוח תרופות",
+    "titleSrc": "OpenAI to acquire Orchestra Bio",
+    "summary": "OpenAI הודיעה ב-20 באוקטובר 2026 על רכישת Orchestra Bio, סטארטאפ שסוכני ה-AI שלו מנהלים משימות תפעוליות בפיתוח תרופות — מניטור מחקרים ועד איתור עיכובים בניסויים קליניים — והיא תשולב בתוך Rosalind, חבילת מדעי החיים של OpenAI. תנאי העסקה הכספיים לא נחשפו; לפי דיווחים, Orchestra גייסה כ-20 מיליון דולר עד 2025 מ-Andreessen Horowitz, Atria ו-8VC. לפי Axios, הרכישה מגיעה כחלק מתחרות בין OpenAI לאנתרופיק על הרחבת פעילות ה-AI למדעים, כחצי שנה אחרי שאנתרופיק רכשה את הסטארטאפ Coefficient Bio בסכום מוערך של כ-400 מיליון דולר.",
+    "url": "https://openai.com/index/openai-to-acquire-orchestra-bio/",
+    "topics": [
+      "funding",
+      "research"
+    ]
   }
 ]
