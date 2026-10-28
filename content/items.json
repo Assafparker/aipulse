@@ -4861,5 +4861,50 @@
       "funding",
       "research"
     ]
+  },
+  {
+    "id": "microsoft-mai-dxo-science-nejm-cases",
+    "date": "2026-10-22",
+    "added": "2026-10-28",
+    "src": "TechCrunch",
+    "fam": "press",
+    "title": "מחקר של מיקרוסופט ב-Science: מערכת אבחון מבוססת AI הגיעה ל-83% דיוק במקרים מורכבים, לעומת כ-36% לרופאים כלליים",
+    "titleSrc": "Microsoft's Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases 'medical superintelligence'",
+    "summary": "מיקרוסופט פרסמה ב-22 באוקטובר 2026 מחקר שפוט בכתב העת Science על MAI-DxO, אורקסטרטור שמפעיל כמה מודלי שפה כצוות אבחון וירטואלי המזמין בדיקות ומתדיין על אבחנה. על 304 מקרים מורכבים מתוך כתב העת NEJM המערכת הגיעה ל-83.2% דיוק, לעומת כ-36.1% לרופאים כלליים עם גישה לכלי עזר. כל 15 מחברי המאמר הם עובדי מיקרוסופט, הבדיקה נעשתה על מקרים היסטוריים בטקסט בלבד ולא על מטופלים חיים, ומיקרוסופט מתכננת כעת מחקר פרוספקטיבי עם בית החולים Beth Israel Deaconess.",
+    "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence",
+    "topics": [
+      "research",
+      "adoption"
+    ]
+  },
+  {
+    "id": "lunit-summit-therapeutics-ai-pathology-agreement",
+    "date": "2026-10-24",
+    "added": "2026-10-28",
+    "src": "BioPharmaAPAC",
+    "fam": "press",
+    "title": "Lunit וסאמיט תרפיוטיקס חוברות לפענוח ביולוגיית גידולים בעזרת פתולוגיה מבוססת בינה מלאכותית",
+    "titleSrc": "Lunit and Summit Therapeutics Join Forces to Decode Tumour Biology with AI-Powered Pathology",
+    "summary": "חברת הפתולוגיה הדיגיטלית הדרום-קוריאנית Lunit וחברת התרופות סאמיט תרפיוטיקס הודיעו ב-24 באוקטובר 2026 על הסכם מחקר להפעלת פלטפורמת ה-AI של Lunit, SCOPE IO, על תמונות שקופיות היסטולוגיות צבועות H&E מניסויי התרופה האימונו-אונקולוגית ivonescimab. המטרה היא לאפיין את מיקרו-סביבת הגידול ולבחון אם ניתוח פתולוגי מבוסס AI יכול לתמוך בגילוי ביומרקרים ובבחירת מטופלים, בלי צביעות או בדיקות נוספות. הצדדים לא חשפו תנאים כספיים, ומדובר בשלב מחקרי בלבד שלא נועד עדיין לשינוי פרוטוקול קליני.",
+    "url": "https://biopharmaapac.com/news/83/8597/lunit-and-summit-therapeutics-join-forces-to-decode-tumour-biology-with-ai-powered-pathology.html",
+    "topics": [
+      "research",
+      "imaging"
+    ]
+  },
+  {
+    "id": "unitedhealthcare-avery-ai-companion-21m-members",
+    "date": "2026-10-08",
+    "added": "2026-10-28",
+    "src": "Becker's Payer",
+    "fam": "press",
+    "title": "יוניטד הלת'קר מרחיבה את עוזרת ה-AI הגנרטיבית \"אוורי\" ל-21 מיליון מבוטחים",
+    "titleSrc": "UnitedHealthcare's AI assistant expands to 21 million members",
+    "summary": "יוניטד הלת'קר (UnitedHealthcare) הודיעה שהעוזרת השיחתית מבוססת AI גנרטיבי בשם Avery, שמסייעת למבוטחים להתמצא בהטבות, בעלויות ובספקים ברשת, זמינה כעת ל-21 מיליון מבוטחים מסחריים, Medicare ו-Medicaid — עלייה מכ-6.5 מיליון מבוטחי מעסיקים ו-160 אלף מבוטחי Medicare Advantage בהשקה. לפי יוניטד הלת' גרופ, החברה-האם, Avery הוא אחד מיותר מ-1,000 כלי AI הפעילים בקבוצה, וב-2026 היא מתכננת להשקיע כ-1.6 מיליארד דולר בבינה מלאכותית. הנתונים מבוססים על הודעות החברה עצמה ולא על אימות עצמאי.",
+    "url": "https://www.beckerspayer.com/virtual-care/unitedhealthcares-ai-assistant-expands-to-21-million-members/",
+    "topics": [
+      "adoption",
+      "ops"
+    ]
   }
 ]
