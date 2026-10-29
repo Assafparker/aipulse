@@ -4906,5 +4906,20 @@
       "adoption",
       "ops"
     ]
+  },
+  {
+    "id": "pathos-ai-series-e-bms",
+    "date": "2026-10-23",
+    "added": "2026-10-29",
+    "src": "Fierce Biotech",
+    "fam": "press",
+    "title": "Pathos AI גייסה 237 מיליון דולר בהובלת בריסטול מייירס סקוויב, בשווי של כ-3 מיליארד דולר",
+    "titleSrc": "BMS leads Pathos AI's $237M series E alongside Alzheimer's link-up",
+    "summary": "חברת ה-AI לתרופות Pathos AI גייסה 237 מיליון דולר בסבב E בהובלת בריסטול מייירס סקוויב (BMS), לפי שווי של כ-3 מיליארד דולר — עלייה משווי של 1.6 מיליארד דולר במאי 2025. כחלק מהעסקה, Tempus AI תבנה ל-Pathos מסד נתונים על מאות אלפי חולים עם מחלות נוירולוגיות במסגרת הסכם רישוי בן חמש שנים בשווי 55 מיליון דולר, ו-BMS תשתף פעולה בפיתוח תרכובות לאלצהיימר. החברה מתכננת להשתמש בכסף להרחבת פלטפורמת ה-AI שלה (Foundry) מעבר לאונקולוגיה, לתחום מחלות נוירולוגיות.",
+    "url": "https://www.fiercebiotech.com/biotech/pathos-ai-closes-237m-series-e-heels-bms-alzheimers-link",
+    "topics": [
+      "funding",
+      "research"
+    ]
   }
 ]
