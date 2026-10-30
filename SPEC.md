@@ -8,7 +8,8 @@
 | שפה | TypeScript, `strict: true` | הסכימה היא חוזה, רוצים שהמהדר יאכוף אותו |
 | עיצוב | Tailwind CSS v4 | תכונות לוגיות מובנות, אין CSS-in-JS מיותר |
 | ולידציה | Zod | סכימת התוכן נאכפת בזמן בנייה |
-| גופנים | `next/font/google` | Frank Ruhl Libre, Heebo, IBM Plex Mono |
+| גופנים | `next/font/google` | Rubik, Assistant |
+| תנועה | GSAP, `@gsap/react` | מערכת תנועה אחת; ספריית אנימציה אחרת אסורה |
 | אחסון מצב | `localStorage` | שלב 1: בלי שרת, בלי חשבון |
 | פריסה | Vercel | Git push ⇒ דיפלוי |
 
@@ -27,9 +28,12 @@ app/
   globals.css             # טוקנים של הפלטה + reset
 components/
   brand/logo.tsx          # הסימן inline (currentColor)
-  brand/hero-graphic.tsx  # גרפיקת הפתיח inline
+  brand/line-legend.tsx   # רצועת הקווים ומקרא הקטגוריות
+  motion/line-motion.tsx  # ציור הקווים בטעינה ובגלילה (GSAP)
+  motion/logo-motion.tsx  # פעימת הלוגו (GSAP)
   feed/item-card.tsx
   feed/feed-list.tsx      # "use client" — מחזיק סינון ומיון
+  feed/category-filter.tsx # הסינון הראשי: קטגוריות ונושאים
   feed/family-filter.tsx
   feed/topic-prefs.tsx
   feed/view-tabs.tsx
@@ -38,11 +42,14 @@ components/
 lib/
   schema.ts               # Zod + טיפוסים נגזרים
   content.ts              # קריאת התוכן + ולידציה
-  constants.ts            # FAMILIES, TOPICS
+  constants.ts            # FAMILIES, TOPICS, CATEGORIES
+  theme.ts                # הסקריפט החוסם של ערכת הנושא ושער התנועה
   user-state.ts           # כל הגישה ל-localStorage, מאחורי ממשק
   ranking.ts              # מיון וניקוד לפי העדפות
 content/
   items.json              # התוכן. הסריקה היומית כותבת לכאן.
+  people.json             # קולות מובילים למעקב
+  strategy-watchlist.json # מקורות לנושא national-strategies
 public/
   aipulse-mark.svg  favicon.svg  hero.svg  icons/*.svg
 ```
@@ -63,7 +70,7 @@ export const FAMILY_IDS = [
 export const TOPIC_IDS = [
   "israel", "policy", "research", "ambient", "imaging",
   "mental", "ops", "funding", "ethics", "adoption",
-  "interop", "marketplace",
+  "interop", "marketplace", "foundation-models", "national-strategies",
 ] as const;
 
 const isoDate = z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "תאריך חייב להיות YYYY-MM-DD");
@@ -122,9 +129,9 @@ export const FAMILIES: { id: FamilyId; label: string; tier: "primary" | "seconda
     gap: "חסומות לסריקה אוטומטית ולכן אינן נסרקות. במקומן נקראים אותם אנשים בערוצים הפתוחים שלהם." },
 ];
 
-export const TOPICS: { id: TopicId; label: string }[] = [
+export const TOPICS: { id: TopicId; label: string; scope?: string }[] = [
   { id: "israel",      label: "ישראל" },
-  { id: "policy",      label: "רגולציה ומדיניות" },
+  { id: "policy",      label: "רגולציה", scope: "…" },
   { id: "research",    label: "מחקר קליני וראיות" },
   { id: "ambient",     label: "תיעוד ו-Ambient AI" },
   { id: "imaging",     label: "הדמיה ואבחון" },
@@ -135,8 +142,30 @@ export const TOPICS: { id: TopicId; label: string }[] = [
   { id: "adoption",    label: "אימוץ בשטח" },
   { id: "interop",     label: "FHIR ואינטראופרביליות" },
   { id: "marketplace", label: "Marketplace" },
+  { id: "foundation-models",   label: "מודלי יסוד בבריאות",      scope: "…" },
+  { id: "national-strategies", label: "אסטרטגיות לאומיות בעולם", scope: "…" },
 ];
+
+export const CATEGORIES: { id: CategoryId; label: string; topics: TopicId[] }[] = [
+  { id: "rnd",    label: "מו\"פ",            topics: ["research", "funding"] },
+  { id: "health", label: "שירותי בריאות",    topics: ["imaging", "adoption", "ambient", "mental", "ops"] },
+  { id: "reg",    label: "רגולציה ומדיניות", topics: ["policy", "ethics", "national-strategies"] },
+  { id: "infra",  label: "תשתיות",           topics: ["interop", "marketplace", "foundation-models"] },
+];
+export const UNCATEGORIZED: TopicId[] = ["israel"];
 ```
+
+`scope` הוא ההגדרה שהסריקה קוראת בעת תיוג פריטים; האתר אינו מציג אותו. נוסח
+ההגדרות המלא נמצא ב-`lib/constants.ts`.
+
+**ההבחנה בין `policy` ל-`national-strategies`:** `policy` הוא כללים מחייבים, אישורים
+ורגולציה. `national-strategies` הוא תכניות, תוכניות השקעה וכיוון אסטרטגי של
+ממשלות, משרדי בריאות, סוכנויות בריאות דיגיטלית ומבטחים ציבוריים, כולל ישראל
+ברף הגבוה הקיים לפריטים ישראליים.
+
+`israel` הוא גיאוגרפיה ולכן מחוץ לכל קטגוריה. הקו של פריט נקבע לפי הנושא הראשון
+שלו שיש לו קטגוריה (`lineCategory`). נושא בלי פריטים מוצג בסרגל עם ספירה 0.
+שני הנושאים החדשים מתמלאים מסריקות עתידיות בלבד; פריטים קיימים לא סווגו מחדש.
 
 משפחת `social` מוצגת בממשק עם ההסבר שב-`gap` **ולא** נספרת כמקור פעיל. אסור
 שיופיע פריט עם `fam: "social"` בתוכן.
@@ -248,8 +277,8 @@ export const scoreOf = (i: Item, prefs: UserState["prefs"]) =>
 
 ### `/` — דף נחיתה
 
-1. **גיבור** — הסימן, השם AiPulse, משפט הסבר, שני כפתורים: "לפיד" ו"איך זה עובד".
-   רקע: `hero.svg` כרכיב inline, לא `<img>` (ראה §8).
+1. **שלט הגיבור** — שלט אינדיגו: הסימן, השם AiPulse, משפט הסבר, שני כפתורים,
+   לוחית חדר עם תאריך הסריקה האחרונה, ומתחתיו רצועת ארבעת הקווים.
 2. **שורת מספרים** — כמה פריטים, כמה משפחות מקור, תאריך הסריקה האחרונה.
    מחושב מהתוכן, לא מוקלד.
 3. **תצוגה מקדימה** — הפריטים שנוספו בעדכון האחרון לפי `added` (לא לפי `date`),
@@ -269,7 +298,8 @@ export const scoreOf = (i: Item, prefs: UserState["prefs"]) =>
 
 ### `/feed`
 
-- **סרגל צד** (דסקטופ) / **מגירה** (מובייל): תצוגות, מיון, משפחות מקור, נושאים.
+- **סרגל צד** (דסקטופ) / **מגירה** (מובייל): תצוגות, מיון, קטגוריות ונושאים, סוג מקור,
+  העדפות נושא.
 - **רשימה**: מוצמדים, ואז השאר.
 - **תצוגת "נקראו"**: רשימה שטוחה של כותרות עם כפתור "החזר לפיד" וכפתור ניקוי.
 
@@ -290,24 +320,16 @@ export const scoreOf = (i: Item, prefs: UserState["prefs"]) =>
 
 ### כרטיס פריט — פירוט
 
-```
-[● משפחה]                     תאריך עדכון  YYYY-MM-DD
-                              תאריך פרסום  YYYY-MM-DD
-מקור · [תגית] [תגית]
-כותרת מקושרת (יעד חיצוני, target=_blank, rel="noopener noreferrer")
-תקציר
-─────────────────────────
-[הצמד] [שמור] [כבר קראתי]            [למקור ↗]
-```
+פריט הוא שורה על הרצפה ולא כרטיס; הפריסה המלאה ב-`DESIGN.md`, סעיף Item Row.
 
 - העיגול לפני שם המשפחה: מלא ל-`tier: primary`, חלול ל-`secondary`.
 - אין תג "חדש". במקומו כל כרטיס מציג שני תאריכים זה מתחת לזה, בקצה הסופי של
   השורה הראשונה: "תאריך עדכון" (`added` — היום שבו הסריקה העלתה את הפריט לאתר)
   ומתחתיו "תאריך פרסום" (`date` — היום שבו המקור פרסם). כל ערך ב-`<time>`.
   התאריך אינו מופיע שוב בשורה השנייה.
-- תגית של נושא שסומן "יותר" מודגשת ברקע `accent-soft`.
+- תגית של נושא שסומן "יותר" מודגשת ברקע `sign`.
 - כל כפתור מצב נושא `aria-pressed`.
-- כרטיס מוצמד: פס בצבע `pin` בקצה ההתחלתי (`border-inline-start`).
+- פריט מוצמד מקבל תג על לוחית `sign`.
 
 ### הפוטר — בכל עמוד
 
@@ -319,61 +341,40 @@ export const scoreOf = (i: Item, prefs: UserState["prefs"]) =>
 
 ## 7. עיצוב
 
-### פלטה — טוקנים ב-`globals.css`
+**`DESIGN.md` הוא המקור המחייב לעיצוב**, ו-`PRODUCT.md` למוצר. הסעיף הזה מסכם בלבד.
 
-הגדר את **כל** הצבעים על `:root` בערכי הכהה — זו ברירת המחדל, ללא תנאי —
-ודרוס אותם רק כשהקורא בחר בהיר במפורש. אין כאן `@media` בכלל: העדפת מערכת
-ההפעלה אינה משפיעה על הפלטה:
+**Corridor Lines:** האתר מעוצב כשילוט רצפה בבית חולים. הרצפה היא מסדרון בלילה,
+השלטים אמייל, וכל קטגוריה היא קו צבוע על הרצפה.
 
-```css
-:root{
-  --ground:#0F1513; --surface:#161E1B; --surface-2:#1D2724;
-  --ink:#E7EEEA; --ink-2:#B4C2BC; --ink-3:#7F8F89;
-  --line:#26312D; --line-2:#33403B;
-  --accent:#74B8A6; --accent-soft:#1B2E29; --accent-ink:#9BD0C1;
-  --pin:#D08A55; --pin-soft:#2E2118;
-}
-:root[data-theme="light"]{
-  --ground:#F6F8F6; --surface:#FFFFFF; --surface-2:#EEF2EF;
-  --ink:#151E1B; --ink-2:#3C4A45; --ink-3:#63716B;
-  --line:#DCE3DE; --line-2:#C6D1CB;
-  --accent:#2F6F62; --accent-soft:#E3EFEA; --accent-ink:#1E4C43;
-  --pin:#A65A2A; --pin-soft:#F6E8DE;
-}
-```
-
-`color-scheme` ואייקוני כפתור המצב בנויים באותו מבנה דו-שלבי: כהה על
-`html`/`:root`, והדריסה היחידה היא `[data-theme="light"]`. הערך נכתב
-ב-localStorage ומוחזר על ידי סקריפט חוסם ב-`<head>` לפני הציור הראשון.
-
-### גופנים
-
-| שימוש | גופן | משקלים |
-|---|---|---|
-| כותרות ושם המותג | Frank Ruhl Libre | 700, 900 |
-| גוף הטקסט | Heebo | 300, 400, 500 |
-| מספרים, תוויות, תאריכים | IBM Plex Mono | 400, 500 |
-
-טען דרך `next/font/google` עם `display: "swap"` וקבע `font-variant-numeric:
-tabular-nums` על כל מקום שמציג מספרים.
+- **כהה כברירת מחדל, ללא תנאי.** כל הטוקנים על `:root` בערכי הכהה, והדריסה היחידה
+  היא `:root[data-theme="light"]`. `prefers-color-scheme` אינו נקרא. סקריפט חוסם
+  (`lib/theme.ts`) מחזיר את הבחירה הידנית לפני הציור הראשון.
+- **שלטי אינדיגו.** צבע שלט אחד, `--sign` (`#1A1544`), בשתי ערכות הנושא: אזור העליון,
+  כל שאר השלטים ומצבי הלחיצה. בכהה קצוות ומצבים נושאים את `--sign-line` (`#6A5FD0`).
+- **ארבע קטגוריות בצבע לפי נושא.** `--cat-rnd`, `--cat-health`, `--cat-reg`,
+  `--cat-infra`. צבע מסמן קטגוריה בלבד, לעולם לא מצב ולא משפחת מקור. נושא חדש
+  מצטרף לקטגוריה ואינו מקבל צבע משלו.
+- **סוג המקור הוא דוגמת הקו.** מקור ראשוני: קו רציף ונקודה מלאה. דיווח משני: קו
+  מקווקו ונקודה חלולה.
+- **לוגו הטבעת.** טבעת שנהב, נקודה מרכזית כחולה ונקודה צהובה מסומנת, תמיד על
+  שלט האינדיגו. בפעימה הנקודה פועמת, ארבע אדוות בצבעי הקטגוריות יוצאות אל
+  הטבעת וצובעות אותה לרגע, והיא חוזרת לשנהב. הפעימה רצה בטעינה ובריחוף או
+  הקשה, בלי לולאה.
+- **תנועה.** GSAP בלבד, טרנספורמציות בלבד: רצועת הקווים נדלקת בטעינה, וקו כל פריט
+  נמשך בגלילה ומתעקל אל הכותרת. בהעדפת תנועה מופחתת דבר לא זז, ותוכן לעולם לא
+  מוסתר מאחורי תנועה.
+- **גופנים.** Rubik לכל מה שמנווטים לפיו (כותרות, מספרים, פקדים), Assistant לקריאה.
+  מספרים ותאריכים ב-`tabular-nums`.
+- **צורה.** פינות ישרות, בלי צללים, מודול קו של 4px.
 
 ### נכסים
 
-`public/` מכיל את הסימן, הפאביקון, גרפיקת הפתיח ושמונה אייקוני משפחות —
-כולם SVG מקוריים בפלטה הזאת. אין תלות ברישוי חיצוני.
+הלוגו מוטמע inline ב-`components/brand/logo.tsx`. הפאביקון וסמלי האפליקציה הם מצב
+המנוחה של הלוגו על משבצת אינדיגו.
 
-**האייקונים מגיעים בשתי גרסאות ובחירה שגויה שוברת את המצב הכהה:**
-`currentColor` **אינו חוצה גבול `<img>`** — קובץ SVG שנטען כתמונה הוא מסמך
-מבודד שלא יורש `color` מהדף. השתמש ב-`icons-inline/` כרכיבי React (הם יורשים
-את צבע הטקסט), או ב-`icons/` דרך `<img>` (הם נושאים צבע משלהם עם media query פנימי).
-המלצה: הטמע inline דרך `ui/family-icon.tsx`.
-
-### דף נחיתה מודרני — מה זה אומר כאן
-
-לא גרדיאנטים סגולים ולא איורים תלת-ממדיים. הכיוון: טיפוגרפיה סריפית גדולה
-בעברית, שטח לבן נדיב, כרטיסים עם גבול דק וצל כמעט בלתי נראה, וצבע מבטא אחד
-שמופיע במשורה. הגיבור נושא את גרפיקת הנקודות — שדה של פריטים שנסרקו שמתדלדל
-לכיוון הכותרת, עם מעטים שנבחרו בצבע. זה מסביר את המוצר בלי מילה אחת.
+**אייקוני המשפחות מגיעים בשתי גרסאות ובחירה שגויה שוברת את המצב הכהה:**
+`currentColor` **אינו חוצה גבול `<img>`**. השתמש ב-`icons-inline/` כרכיבי React,
+דרך `ui/family-icon.tsx`.
 
 ## 8. RTL — כללים מחייבים
 
@@ -386,8 +387,6 @@ tabular-nums` על כל מקום שמציג מספרים.
 5. **מחרוזת שמתחילה בתו ניטרלי** (`#`, `(`, `/`) בהקשר RTL תיזרק לצד הלא נכון.
    קודי צבע, כתובות URL ומזהים לטיניים חייבים `direction:ltr` **על אלמנט טקסט
    שאינו ממוקם**, או `unicode-bidi:isolate`.
-6. גרפיקת הפתיח שומרת אזור פנוי בצד ימין לכותרת. אם תזיז את הכותרת, עדכן את
-   האזור ב-`hero.svg` — אחרת הטקסט יישב על הנקודות.
 
 ## 9. פריסה ב-Vercel
 

@@ -1,5 +1,7 @@
 "use client";
 
+import { THEME_KEY } from "@/lib/theme";
+
 /**
  * Manual light/dark override.
  *
@@ -12,14 +14,6 @@
  * the same rules that drive the palette. That removes any hydration mismatch,
  * and with it the flash this component exists to prevent.
  */
-
-export const THEME_KEY = "aipulse:theme";
-
-/**
- * Runs blocking in <head>, before first paint, so a reader who chose dark
- * never sees a light flash. Kept tiny for that reason.
- */
-export const themeScript = `try{var t=localStorage.getItem('${THEME_KEY}');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t)}catch(e){}`;
 
 export function ThemeToggle() {
   const toggle = () => {
@@ -44,11 +38,11 @@ export function ThemeToggle() {
       onClick={toggle}
       aria-label="החלף בין מצב בהיר לכהה"
       title="החלף בין מצב בהיר לכהה"
-      className="rounded-md border border-line p-2 text-ink-2 hover:border-line-2 hover:text-ink"
+      className="grid size-11 place-items-center sm:size-10 border border-sign-ink/30 text-sign-ink transition-colors hover:border-sign-ink hover:bg-sign-2"
     >
       {/* Both icons ship; CSS shows whichever matches the effective theme. */}
       <svg
-        className="theme-icon-light size-4"
+        className="theme-icon-light size-[18px]"
         viewBox="0 0 24 24"
         fill="none"
         stroke="currentColor"
@@ -61,7 +55,7 @@ export function ThemeToggle() {
         <path d="M12 2.5v2.4M12 19.1v2.4M4.2 4.2l1.7 1.7M18.1 18.1l1.7 1.7M2.5 12h2.4M19.1 12h2.4M4.2 19.8l1.7-1.7M18.1 5.9l1.7-1.7" />
       </svg>
       <svg
-        className="theme-icon-dark size-4"
+        className="theme-icon-dark size-[18px]"
         viewBox="0 0 24 24"
         fill="none"
         stroke="currentColor"

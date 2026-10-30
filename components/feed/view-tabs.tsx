@@ -9,6 +9,7 @@ const TABS: { id: View; label: string }[] = [
   { id: "read", label: "נקראו" },
 ];
 
+/** The four views, set as one segmented sign plate. */
 export function ViewTabs({
   view,
   counts,
@@ -20,22 +21,19 @@ export function ViewTabs({
 }) {
   return (
     <nav aria-label="תצוגות">
-      <ul className="flex flex-wrap gap-2">
+      <ul className="grid grid-cols-4">
         {TABS.map(({ id, label }) => (
-          <li key={id}>
+          <li key={id} className="-ms-px first:ms-0">
             <button
               type="button"
               aria-pressed={view === id}
               onClick={() => onChange(id)}
-              className="rounded-md border border-line px-2.5 py-1 text-sm text-ink-2 hover:border-line-2 hover:text-ink aria-pressed:border-accent aria-pressed:bg-accent-soft aria-pressed:text-accent-ink"
+              className="flex min-h-12 w-full flex-col items-center justify-center border border-rule font-display text-[0.8125rem] font-medium text-ink-2 hover:text-ink aria-pressed:relative aria-pressed:border-sign-line aria-pressed:bg-sign aria-pressed:text-sign-ink"
             >
-              {label}{" "}
-              {/* The count inherits the button's colour outright — no tint of
-                  its own. --ink-3 gave 4.33 against the pressed tab's
-                  --accent-soft, and dimming with opacity was worse still
-                  (3.85), since it blends toward the background. Size alone
-                  carries the distinction. */}
-              <span className="tnum text-xs">{counts[id]}</span>
+              {label}
+              {/* The count inherits the button's colour outright, so it
+                  keeps full contrast in both states. */}
+              <span className="tnum text-xs leading-4">{counts[id]}</span>
             </button>
           </li>
         ))}

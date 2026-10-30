@@ -1,80 +1,115 @@
 @import "tailwindcss";
 
-/* ── Palette ────────────────────────────────────────────────────────────
-   Dark is the unconditional default. Every colour is defined on :root in its
-   dark value, and :root[data-theme="light"] is the only thing that overrides
-   it. The OS preference is deliberately not consulted: a reader who has never
-   chosen gets dark whatever their system says, and only the toggle (persisted
-   in localStorage, replayed by themeScript before first paint) changes that. */
+/* ── Palette: Corridor Lines ────────────────────────────────────────────
+   Hospital floor wayfinding: a floor, indigo enamel signage, and one painted
+   line per topic category — the departments the floor lines lead to. The
+   line colours take after the London Underground line palette (colour only —
+   no roundel, typeface or line names). Category colours are used for
+   categories only — never as a general accent — so a colour always means
+   "this department". Source type is carried by the line's pattern (solid =
+   primary source, dashed = secondary reporting) and by text, never by colour.
+
+   Dark is the unconditional default (CLAUDE.md rule 7): every token is
+   defined on :root in its dark value — the corridor at night, signs lit —
+   and :root[data-theme="light"] (warm paper) is the only override. The OS
+   preference is deliberately not consulted; only the manual toggle,
+   persisted in localStorage and replayed by themeScript before first paint,
+   changes the theme.
+
+   Lines are graphics, so each category colour holds at least 3:1 against
+   both floor tones in its theme. Dark takes the saturated values; light
+   darkens the ones that fail on paper (yellow most of all). Measured:
+     dark  (floor / floor-2)   rnd 5.7/5.3  health 5.6/5.2  reg 3.8/3.6  infra 12.9/12.0
+     light (floor / floor-2)   rnd 4.0/3.6  health 5.4/4.9  reg 4.7/4.2  infra 3.7/3.3 */
 
 :root {
-  --ground: #0f1513;
-  --surface: #161e1b;
-  --surface-2: #1d2724;
-  --ink: #e7eeea;
-  --ink-2: #b4c2bc;
-  --ink-3: #7f8f89;
-  --line: #26312d;
-  --line-2: #33403b;
-  --accent: #74b8a6;
-  --accent-soft: #1b2e29;
-  --accent-ink: #9bd0c1;
-  --pin: #d08a55;
-  --pin-soft: #2e2118;
+  --floor: #0d1322;
+  --floor-2: #121a2d;
+  --surface: #18213a;
+  --ink: #eef1f6;
+  --ink-2: #c3cad8;
+  --ink-3: #9aa4b6;
+  --rule: #2b3651;
+  --lane: #222c44;
+  --focus: #eef1f6;
+
+  /* One sign colour, indigo, the same in both themes (not overridden below).
+     --sign-2 is its hover and search-field fill. Contrast on --sign:
+     sign-ink 17.0, sign-ink-2 11.7 (dark) / 10.8 (light); the logo at rest
+     6.6+. */
+  --sign: #1a1544;
+  --sign-2: #2d2670;
+  --sign-ink: #ffffff;
+  --sign-ink-2: #cdd6eb;
+
+  /* Indigo is 1.09:1 against the dark floor, so two tokens carry its edge.
+     --sign-line is the same hue lifted for rules, pressed edges, checkboxes
+     and the selection: 3.7 on floor, 3.4 on floor-2, 3.2 on surface, 3.4 on
+     sign, and sign-ink on it 5.1. --sign-edge is the 25% white hairline
+     around a static sign panel. */
+  --sign-line: #6a5fd0;
+  --sign-edge: rgb(255 255 255 / 0.25);
+
+  --cat-rnd: #0098d4; /* light blue — R&D */
+  --cat-health: #00a33c; /* green, lifted from #00782a to read on the dark floor — health services */
+  --cat-reg: #dc241f; /* red — regulation */
+  --cat-infra: #ffd300; /* yellow — infrastructure */
+
+  /* The line colour an element paints with. Set per category inline; left
+     alone it is the neutral source-type ink. */
+  --line: var(--ink-3);
 }
 
-/* The reader explicitly chose light. */
+/* The reader explicitly chose light: warm paper, the same indigo signs. */
 :root[data-theme="light"] {
-  --ground: #f6f8f6;
+  --floor: #fbfaf7;
+  --floor-2: #f1eee7;
   --surface: #ffffff;
-  --surface-2: #eef2ef;
-  --ink: #151e1b;
-  --ink-2: #3c4a45;
-  /* Darkened from the original #6E7D77, light mode only. That value scored
-     4.05 / 4.32 / 3.82 against --ground / --surface / --surface-2, all below
-     the 4.5 WCAG AA needs for small text, and this token carries the
-     disclosure line and every date and label. Same hue and saturation, 4%
-     darker; worst case is now 4.53. Dark mode already passed and is
-     unchanged. Approved 2026-09-05. */
-  --ink-3: #63716b;
-  --line: #dce3de;
-  --line-2: #c6d1cb;
-  --accent: #2f6f62;
-  --accent-soft: #e3efea;
-  --accent-ink: #1e4c43;
-  --pin: #a65a2a;
-  --pin-soft: #f6e8de;
+  --ink: #1a1f2b;
+  --ink-2: #404756;
+  --ink-3: #5c6270;
+  --rule: #d6d1c6;
+  --lane: #e2ded5;
+  --focus: #1a1f2b;
+
+  --sign-line: #1a1544; /* indigo itself: 16.3 on floor, 14.7 on floor-2 */
+  --sign-edge: transparent; /* the panel reads on paper without a hairline */
+  --sign-ink: #ffffff;
+  --sign-ink-2: #c5cee0;
+
+  --cat-rnd: #0084c0;
+  --cat-health: #00782a;
+  --cat-reg: #dc241f;
+  --cat-infra: #9c7f00; /* #b89600 is 2.7:1 on paper; darkened to 3.7 */
 }
 
-/* ── Exposing the tokens to Tailwind ────────────────────────────────────
-   `inline` matters here: it makes the generated utilities point at the
-   variable rather than copy its value, so `bg-surface` follows a theme
-   change instead of freezing on the light value.                        */
-
+/* `inline` makes the utilities point at the variable rather than copy its
+   value, so `bg-floor` follows a theme change. */
 @theme inline {
-  --color-ground: var(--ground);
+  --color-floor: var(--floor);
+  --color-floor-2: var(--floor-2);
   --color-surface: var(--surface);
-  --color-surface-2: var(--surface-2);
   --color-ink: var(--ink);
   --color-ink-2: var(--ink-2);
   --color-ink-3: var(--ink-3);
-  --color-line: var(--line);
-  --color-line-2: var(--line-2);
-  --color-accent: var(--accent);
-  --color-accent-soft: var(--accent-soft);
-  --color-accent-ink: var(--accent-ink);
-  --color-pin: var(--pin);
-  --color-pin-soft: var(--pin-soft);
+  --color-rule: var(--rule);
+  --color-lane: var(--lane);
+  --color-sign: var(--sign);
+  --color-sign-2: var(--sign-2);
+  --color-sign-ink: var(--sign-ink);
+  --color-sign-ink-2: var(--sign-ink-2);
+  --color-sign-line: var(--sign-line);
+  --color-sign-edge: var(--sign-edge);
 
-  --font-display: var(--font-frank-ruhl), Georgia, serif;
-  --font-sans: var(--font-heebo), system-ui, sans-serif;
-  --font-mono: var(--font-plex-mono), ui-monospace, monospace;
+  --font-display: var(--font-rubik), "Arial Hebrew", sans-serif;
+  --font-sans: var(--font-assistant), "Arial Hebrew", sans-serif;
 }
 
 /* ── Base ───────────────────────────────────────────────────────────── */
 
 html {
   color-scheme: dark;
+  scrollbar-color: var(--ink-3) var(--floor-2);
 }
 
 html[data-theme="light"] {
@@ -82,10 +117,10 @@ html[data-theme="light"] {
 }
 
 body {
-  background: var(--ground);
+  background: var(--floor);
   color: var(--ink);
   font-family: var(--font-sans);
-  font-weight: 400;
+  font-size: 1.0625rem;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -93,32 +128,66 @@ h1,
 h2,
 h3 {
   font-family: var(--font-display);
-  font-weight: 700;
+  text-wrap: balance;
 }
 
-/* Numbers, dates and labels — uniform digit width so columns don't jitter */
+::selection {
+  background: var(--sign-line);
+  color: var(--sign-ink);
+}
+
+a {
+  text-underline-offset: 0.22em;
+  text-decoration-thickness: 1px;
+}
+
+/* Numbers, dates and counts: signage numerals, uniform width */
 .tnum,
-time,
-code,
-kbd {
-  font-family: var(--font-mono);
+time {
+  font-family: var(--font-display);
   font-variant-numeric: tabular-nums;
+  white-space: nowrap;
 }
 
-/* Visible focus everywhere — an accessibility requirement, not decoration */
+p {
+  text-wrap: pretty;
+}
+
+/* On the landing page the lines leave from under the big sign, so the
+   header's own strip steps aside. */
+body:has(.home-sign) .header-strip,
+body:has(.home-sign) .header-brand {
+  display: none;
+}
+/* Indigo sits at 1.09:1 against the dark floor, so the top area ends on
+   the sign's own hairline (sign-ink at 25%). On the landing page the hero
+   carries it and the header, which runs straight into the hero, drops it. */
+body:has(.home-sign) .header-sign {
+  border-block-end-width: 0;
+}
+/* With the lockup gone, the directory shares the first row with the
+   controls instead of wrapping to its own. */
+body:has(.home-sign) .header-nav {
+  order: 0;
+  inline-size: auto;
+  flex-grow: 1;
+}
+
+/* Visible focus everywhere. On a sign panel the ring turns white. */
 :focus-visible {
-  outline: 2px solid var(--accent);
+  outline: 3px solid var(--focus);
   outline-offset: 2px;
-  border-radius: 2px;
+}
+.on-sign :focus-visible {
+  outline-color: var(--sign-ink);
 }
 
 /* The theme toggle ships both icons and CSS picks one, so the button renders
-   identically on server and client. Same two-block structure as the palette
-   above: dark by default, light only on an explicit data-theme="light". */
+   identically on server and client. Same two-block structure as the palette:
+   dark by default, light only on an explicit data-theme="light". */
 .theme-icon-light {
   display: none;
 }
-
 :root[data-theme="light"] .theme-icon-light {
   display: block;
 }
@@ -132,4 +201,146 @@ kbd {
 .ltr {
   direction: ltr;
   unicode-bidi: isolate;
+}
+
+/* ── Lines ──────────────────────────────────────────────────────────────
+   A line takes its category's colour; it is solid for a primary source and
+   dashed for secondary reporting — the floor-paint equivalent of the filled
+   and hollow dot. Outside a category (source-type swatches) --line falls
+   back to a neutral ink. */
+
+.line-solid {
+  background: var(--line);
+}
+.line-dashed-x {
+  background: repeating-linear-gradient(
+    90deg,
+    var(--line) 0 10px,
+    transparent 10px 16px
+  );
+}
+.line-dashed-y {
+  background: repeating-linear-gradient(
+    to bottom,
+    var(--line) 0 10px,
+    transparent 10px 16px
+  );
+}
+
+/* The lane rail beside every item. From sm up: four lanes, one per category
+   in CATEGORIES order from the inline start, each one module (4px) wide
+   with a module between. On a phone the three other lanes step aside and
+   only the item's own line is painted, still a full module wide. */
+
+.lined {
+  --lane-w: 4px;
+  --lane-gap: 4px;
+  --lanes: 1;
+  --lane-pos: 0;
+  --card-gap: 12px;
+}
+@media (min-width: 640px) {
+  .lined {
+    --lanes: 4;
+    --lane-pos: var(--lane-i);
+    --card-gap: 24px;
+  }
+}
+.rail {
+  display: flex;
+  gap: var(--lane-gap);
+  position: relative;
+  inline-size: calc(var(--lanes) * var(--lane-w) + (var(--lanes) - 1) * var(--lane-gap));
+  flex-shrink: 0;
+}
+.rail > .lane {
+  display: none;
+  inline-size: var(--lane-w);
+  background: var(--lane);
+}
+@media (min-width: 640px) {
+  .rail > .lane {
+    display: block;
+  }
+}
+.rail > .lane-on {
+  position: absolute;
+  inset-block: 0;
+  inset-inline-start: calc(var(--lane-pos) * (var(--lane-w) + var(--lane-gap)));
+  inline-size: var(--lane-w);
+  transform-origin: 50% 0;
+}
+
+/* The bend: the item's own line leaves its lane and turns into the
+   headline, like a floor line turning into a room. --reach is the distance
+   from the lane's inline-end edge to the headline's first letter.
+
+   From sm up it is two pieces inside the h3: a quarter-turn (.title-bend,
+   two borders and one rounded corner, all logical so RTL mirrors it) that
+   starts on the lane, and a straight run (.title-branch) from the end of the
+   turn to just short of the first letter. On a phone the rail is a single
+   lane with no room to turn, so the run alone carries it. */
+.lined {
+  --reach: calc(
+    var(--card-gap) + (var(--lanes) - var(--lane-pos) - 1) *
+      (var(--lane-w) + var(--lane-gap))
+  );
+  --bend-r: 14px;
+}
+.title-branch {
+  position: absolute;
+  inset-block-start: 0.62em;
+  inset-inline-start: calc(-1 * var(--reach));
+  inline-size: calc(var(--reach) - 6px);
+  block-size: var(--lane-w);
+}
+.title-bend {
+  display: none;
+}
+@media (min-width: 640px) {
+  .title-bend {
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    inset-block-start: calc(0.62em + var(--lane-w) - var(--bend-r));
+    inset-inline-start: calc(-1 * (var(--reach) + var(--lane-w)));
+    inline-size: var(--bend-r);
+    block-size: var(--bend-r);
+    border-inline-start: var(--lane-w) solid var(--line);
+    border-block-end: var(--lane-w) solid var(--line);
+    border-end-start-radius: var(--bend-r);
+  }
+  .title-bend.bend-dashed {
+    border-style: dashed;
+  }
+  .title-branch {
+    inset-inline-start: calc(
+      -1 * (var(--reach) + var(--lane-w)) + var(--bend-r)
+    );
+    inline-size: calc(var(--reach) + var(--lane-w) - var(--bend-r) - 6px);
+  }
+}
+
+/* Motion: only when the head script found no reduced-motion preference.
+   Decorative lines start unpainted and GSAP paints them; content is never
+   hidden. A line JS has painted carries data-drawn and stays painted. */
+.motion-ok [data-wake]:not([data-drawn]) {
+  transform: scaleX(0);
+}
+.motion-ok [data-lane]:not([data-drawn]) {
+  transform: scaleY(0);
+}
+.motion-ok [data-branch]:not([data-drawn]) {
+  transform: scaleX(0);
+}
+.motion-ok [data-bend]:not([data-drawn]) {
+  opacity: 0;
+}
+
+/* ── Logo beat (components/motion/logo-motion.tsx) ──────────────────────
+   The flagged dot pops in at the end of the beat, so under the motion gate
+   it starts hidden until GSAP takes it over (data-shown). Without JavaScript
+   or with reduced motion there is no .motion-ok and it is simply there. */
+.motion-ok [data-logo-flag]:not([data-shown]) {
+  opacity: 0;
 }
