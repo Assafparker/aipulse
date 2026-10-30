@@ -30,7 +30,8 @@ components/
   brand/logo.tsx          # הסימן inline (currentColor)
   brand/line-legend.tsx   # רצועת הקווים ומקרא הקטגוריות
   motion/line-motion.tsx  # ציור הקווים בטעינה ובגלילה (GSAP)
-  motion/logo-motion.tsx  # פעימת הלוגו (GSAP)
+  motion/logo-motion.tsx  # פעימת הלוגו בכותרת (GSAP)
+  motion/wordmark-motion.tsx  # גליץ׳ הלוגו בעמוד הבית (GSAP)
   feed/item-card.tsx
   feed/feed-list.tsx      # "use client" — מחזיק סינון ומיון
   feed/category-filter.tsx # הסינון הראשי: קטגוריות ונושאים

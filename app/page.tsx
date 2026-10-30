@@ -1,9 +1,8 @@
 import Link from "next/link";
 import { LineLegend, LineStrip } from "@/components/brand/line-legend";
-import { Logo } from "@/components/brand/logo";
 import { ItemCard } from "@/components/feed/item-card";
 import { LineMotion } from "@/components/motion/line-motion";
-import { LogoMotion } from "@/components/motion/logo-motion";
+import { WordmarkMotion } from "@/components/motion/wordmark-motion";
 import { ArrowStart } from "@/components/ui/arrow";
 import { FAMILIES } from "@/lib/constants";
 import {
@@ -62,13 +61,8 @@ export default function Home() {
         <div className="mx-auto grid max-w-6xl gap-6 px-4 pb-6 pt-5 sm:gap-10 sm:px-6 sm:pb-12 sm:pt-12 lg:grid-cols-[1fr_auto] lg:items-end lg:gap-16">
           <div>
             {/* On home the header lockup steps aside and this one stands in
-                for it, so it carries the logo beat too. */}
-            <LogoMotion className="flex items-center gap-4">
-              <span className="shrink-0 [&>svg]:size-12 sm:[&>svg]:size-16"><Logo size={64} /></span>
-              <h1 className="text-[clamp(2.75rem,10vw,6rem)] font-extrabold leading-[0.9] tracking-[-0.035em]">
-                <span className="whitespace-nowrap">AiPulse</span>
-              </h1>
-            </LogoMotion>
+                for it, with a motion of its own. */}
+            <WordmarkMotion />
             <p className="mt-4 max-w-[38ch] text-[1.0625rem] leading-relaxed text-sign-ink-2 sm:mt-6 sm:text-xl">
               סריקה יומית של AI בבריאות — מעבדות חזית, כתבי עת שפוטים,
               פרה-פרינטים ורגולטורים, בעברית, עם המספרים, הסייג, וקישור למקור

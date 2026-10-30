@@ -345,6 +345,17 @@
       "restState": "the markup is the rest state; ripples ship at opacity 0. Static under reduced motion and without JavaScript. Under .motion-ok the flagged dot starts at opacity 0 until GSAP sets data-shown on it.",
       "contrast": "on indigo every ripple colour clears 3:1 (blue 5.2, green 5.1, red 3.5, yellow 11.8); the ring rests on ivory (12.2)"
     },
+    "wordmarkMotion": {
+      "file": "components/motion/wordmark-motion.tsx",
+      "scope": "home sign lockup only; the header keeps logoMotion",
+      "plugins": [],
+      "waves": "the four ripple colours in lane order, 0.36s apart, A to e, one letter every 0.05s",
+      "letter": "4 frames of 0.045s: random x up to 1.5px, y up to 0.75px, text-shadow echoes at about -2px (wave colour) and +2px (colour two steps ahead), each +/-30%; settles to x 0, y 0, no shadow, 0.12s power2.out. Glyphs never change colour",
+      "ring": "0.05s after the e: stroke takes the wave colour 0.08s; centre dot scale 1.25 and back; ripple scale 1 -> 1.5 from r 20.5, opacity 0.95 -> 0, 0.6s power1.out",
+      "settle": "0.3s after the fourth wave reaches the ring: ivory, 0.5s power1.inOut; flagged dot at +0.2s, scale 0 -> 1, 0.45s back.out(2.2)",
+      "triggers": "once on load (0.35s delay); pointerenter and pointerdown on the word or the mark replay; ignored while running; no loop; new random offsets each play",
+      "restState": "the markup is the rest state; all inline styles and GSAP attributes are removed at the end. Static under reduced motion and without JavaScript"
+    },
     "topEdge": "Indigo is 1.09:1 against the dark floor, so the top area ends on a 1px sign-ink hairline at 25%: under the header sign, or under the home hero sign on the landing page (.header-sign drops its own there)."
   },
   "components": [
