@@ -20,7 +20,14 @@ export type UserState = {
   saved: string[];
   read: string[]; // ids only — the content is already in the repo
   famOff: FamilyId[];
+  /** Topic filter: empty or absent shows everything; otherwise an item shows
+      when any of its topics is listed. Optional for the same reason as
+      `compact`. */
+  topicsOn?: TopicId[];
   sort: "date" | "pref" | "added";
+  /** Headlines only. Optional so a state saved before it existed still
+      reads as version 1 without a migration. */
+  compact?: boolean;
 };
 
 const KEY = "aipulse:v1";
@@ -79,7 +86,9 @@ function normalize(raw: unknown): UserState {
     saved: stringsOf(o.saved),
     read: stringsOf(o.read),
     famOff: stringsOf(o.famOff).filter((f): f is FamilyId => FAMILY_IDS.has(f)),
+    topicsOn: stringsOf(o.topicsOn).filter((t): t is TopicId => TOPIC_IDS.has(t)),
     sort: o.sort === "pref" ? "pref" : o.sort === "added" ? "added" : "date",
+    compact: o.compact === true,
   };
 }
 

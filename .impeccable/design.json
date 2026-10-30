@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-29T07:43:06.938Z",
+  "title": "Design System: AiPulse",
+  "extensions": {
+    "colorMeta": {
+      "floor": {
+        "role": "neutral",
+        "displayName": "Vinyl Floor",
+        "canonical": "#0d1322",
+        "cssVar": "--floor",
+        "lightValue": "#fbfaf7"
+      },
+      "floor-2": {
+        "role": "neutral",
+        "displayName": "Floor Shade",
+        "canonical": "#121a2d",
+        "cssVar": "--floor-2",
+        "lightValue": "#f1eee7"
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Clean Surface",
+        "canonical": "#18213a",
+        "cssVar": "--surface",
+        "lightValue": "#ffffff"
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#eef1f6",
+        "cssVar": "--ink",
+        "lightValue": "#1a1f2b"
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Ink Secondary",
+        "canonical": "#c3cad8",
+        "cssVar": "--ink-2",
+        "lightValue": "#404756"
+      },
+      "ink-3": {
+        "role": "neutral",
+        "displayName": "Ink Tertiary",
+        "canonical": "#9aa4b6",
+        "cssVar": "--ink-3",
+        "lightValue": "#5c6270"
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Rule",
+        "canonical": "#2b3651",
+        "cssVar": "--rule",
+        "lightValue": "#d6d1c6"
+      },
+      "lane": {
+        "role": "neutral",
+        "displayName": "Unpainted Lane",
+        "canonical": "#222c44",
+        "cssVar": "--lane",
+        "lightValue": "#e2ded5"
+      },
+      "focus": {
+        "role": "neutral",
+        "displayName": "Focus Ring",
+        "canonical": "#eef1f6",
+        "cssVar": "--focus",
+        "lightValue": "#1a1f2b"
+      },
+      "sign": {
+        "role": "primary",
+        "displayName": "Navy Enamel Sign",
+        "canonical": "#1d315e",
+        "cssVar": "--sign",
+        "lightValue": "#13203b"
+      },
+      "sign-2": {
+        "role": "primary",
+        "displayName": "Lit Sign Hover",
+        "canonical": "#2a4280",
+        "cssVar": "--sign-2",
+        "lightValue": "#22325a"
+      },
+      "top": {
+        "role": "primary",
+        "displayName": "Indigo Top Sign",
+        "canonical": "#1a1544",
+        "cssVar": "--top",
+        "lightValue": "#1a1544",
+        "usage": "Site header and home hero sign only. Not overridden in light: the top area stays dark in both themes. Dedicated; no other panel uses it."
+      },
+      "top-2": {
+        "role": "primary",
+        "displayName": "Top Hover",
+        "canonical": "#2d2670",
+        "cssVar": "--top-2",
+        "lightValue": "#2d2670",
+        "usage": "Hover fill on the top sign and the header search field."
+      },
+      "sign-ink": {
+        "role": "primary",
+        "displayName": "Sign White",
+        "canonical": "#ffffff",
+        "cssVar": "--sign-ink",
+        "lightValue": "#ffffff"
+      },
+      "sign-ink-2": {
+        "role": "primary",
+        "displayName": "Sign Secondary",
+        "canonical": "#cdd6eb",
+        "cssVar": "--sign-ink-2",
+        "lightValue": "#c5cee0"
+      },
+      "cat-rnd": {
+        "role": "secondary",
+        "displayName": "Line Light Blue",
+        "canonical": "#0098d4",
+        "cssVar": "--cat-rnd",
+        "category": "מו\"פ (R&D): research, funding",
+        "lightValue": "#0084c0",
+        "palette": "after the London Underground line colours (colour only)"
+      },
+      "cat-health": {
+        "role": "secondary",
+        "displayName": "Line Green",
+        "canonical": "#00a33c",
+        "cssVar": "--cat-health",
+        "category": "שירותי בריאות (health services): imaging, adoption, ambient, mental, ops",
+        "lightValue": "#00782a",
+        "palette": "after the London Underground line colours (colour only)"
+      },
+      "cat-reg": {
+        "role": "secondary",
+        "displayName": "Line Red",
+        "canonical": "#dc241f",
+        "cssVar": "--cat-reg",
+        "category": "רגולציה ומדיניות (regulation and policy): policy, ethics, national-strategies",
+        "lightValue": "#dc241f",
+        "palette": "after the London Underground line colours (colour only)"
+      },
+      "cat-infra": {
+        "role": "secondary",
+        "displayName": "Line Yellow",
+        "canonical": "#ffd300",
+        "cssVar": "--cat-infra",
+        "category": "תשתיות (infrastructure): interop, marketplace, foundation-models",
+        "lightValue": "#9c7f00",
+        "palette": "after the London Underground line colours (colour only)"
+      }
+    },
+    "themes": {
+      "default": "dark",
+      "persistence": {
+        "storageKey": "aipulse:theme",
+        "mechanism": "The manual toggle writes data-theme on <html> and localStorage; the blocking head script themeScript (lib/theme.ts) replays it before first paint, so a manual choice is remembered. prefers-color-scheme is never consulted; the toggle treats a missing data-theme as dark."
+      },
+      "light": {
+        "selector": ":root[data-theme=\"light\"]",
+        "description": "Warm paper under the same navy signs. The only override block; every token is defined on :root in its dark value."
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The AiPulse name on the home sign only."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Page titles on feed, archive, method and search."
+      },
+      "room-number": {
+        "displayName": "Room Number",
+        "purpose": "The last-scan date in a 2px white plate on the home sign. Tabular numerals."
+      },
+      "section": {
+        "displayName": "Section",
+        "purpose": "Section headings on the floor."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Item headlines; 1.1875rem below 640px, 1.3125rem from 640px."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Summaries (max 64ch) and method prose (max 60ch), set in Assistant."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Family and category names, controls, legend entries; meta and tags at 0.75rem."
+      },
+      "nav": {
+        "displayName": "Nav",
+        "purpose": "Header directory, footer links, arrowed text links."
+      }
+    },
+    "shadows": [],
+    "lines": [
+      {
+        "name": "lane",
+        "value": "4px wide, 4px gap; 4 lanes (one per category) from 640px, the item lane only below",
+        "purpose": "Item rail at the inline start."
+      },
+      {
+        "name": "line-solid",
+        "value": "background: var(--line)",
+        "purpose": "Primary-source line, in the item's category colour."
+      },
+      {
+        "name": "line-dashed",
+        "value": "repeating-linear-gradient(var(--line) 0 10px, transparent 10px 16px)",
+        "purpose": "Secondary-reporting line, in the item's category colour."
+      },
+      {
+        "name": "title-branch",
+        "value": "4px thick, from the lane edge to 6px short of the headline, top 0.62em",
+        "purpose": "Joins the item lane to its headline."
+      },
+      {
+        "name": "rule-weights",
+        "value": "1px hairline; 2px ink heavy rule; 3px focus ring and current-page bar; 4px navy section rule",
+        "purpose": "The only line weights in the system."
+      }
+    ],
+    "motion": [
+      {
+        "name": "library",
+        "value": "GSAP + ScrollTrigger via @gsap/react useGSAP",
+        "purpose": "The only motion system (components/motion/line-motion.tsx)."
+      },
+      {
+        "name": "wake",
+        "value": "scaleX 0 to 1, 0.9s, expo.out, stagger 0.09s, delay 0.15s, origin at the inline-start edge",
+        "purpose": "Strip lines switch on category after category on load."
+      },
+      {
+        "name": "lane-draw",
+        "value": "ScrollTrigger.batch, start \"top 92%\", once; scaleY 0 to 1, 0.8s, expo.out, stagger 0.07s, origin top",
+        "purpose": "Each item lane draws as it enters."
+      },
+      {
+        "name": "branch-draw",
+        "value": "scaleX 0 to 1, 0.45s, expo.out, stagger 0.07s, at +0.18s",
+        "purpose": "The branch into the headline follows its lane."
+      },
+      {
+        "name": "gate",
+        "value": ".motion-ok on <html>, set by the blocking motionScript only under prefers-reduced-motion: no-preference",
+        "purpose": "Lines start unpainted only under the gate; reduced motion renders everything static. Drawn lines carry data-drawn."
+      },
+      {
+        "name": "state-transition",
+        "value": "Tailwind transition-colors default (150ms)",
+        "purpose": "Hover and pressed colour changes on controls."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      }
+    ],
+    "layout": {
+      "container": "1152px (max-w-6xl)",
+      "gutter": "16px; 24px from 640px",
+      "feedFilterColumn": "288px from 1024px",
+      "direction": "rtl; logical properties only",
+      "touchTarget": "44px below 640px; 40px from 640px"
+    },
+    "logo": {
+      "description": "The original AiPulse mark: a ring (the daily scan), a centre dot (the selected item) and a flagged dot off the ring (the item the reader flagged). viewBox 0 0 64 64. Always sits on the indigo top sign (#1a1544) in both themes, so its colours are fixed values rather than theme tokens. At rest on indigo: ivory 12.2:1, blue 6.6:1, yellow 11.8:1; ripples 3.5:1 or better.",
+      "geometry": {
+        "ring": "circle cx 30 cy 34 r 20.5, stroke-width 3.6, no fill",
+        "core": "circle cx 30 cy 34 r 6.8",
+        "flag": "circle cx 47.5 cy 16.5 r 4.2"
+      },
+      "rest": {
+        "ring": "#e8d9b5",
+        "core": "#2ea8ff",
+        "flag": "#ffd300"
+      },
+      "ripples": [
+        "#0098d4",
+        "#00a33c",
+        "#dc241f",
+        "#ffd300"
+      ],
+      "icons": "Rest state on a #1a1544 tile, rx 14/64, mark scaled 0.9 and centred: public/favicon.svg, app/icon.png (512), public/icons/icon-192.png, icon-512.png. app/apple-icon.png (180) is full-bleed; iOS masks it."
+    },
+    "openItems": [
+      "Headlines-only (compact) rows keep the full action row (pin, save, already-read, to-source)."
+    ],
+    "bend": {
+      "description": "Each item's line bends off its lane into its headline: a 14px-radius quarter-turn (.title-bend; logical borders and one rounded corner so RTL mirrors it; dashed for secondary sources) plus a 4px run (.title-branch) stopping 6px short of the first letter. From 640px only; on a phone the run alone carries the line.",
+      "motion": "ScrollTrigger.batch, start 88%, once, batchMax 3, interval 0.15s. Per item: lane scaleY 0.7s expo.out; +0.22s bend opacity 0->1 and scale 0.3->1 from the lane corner, 0.3s power2.out; +0.36s run scaleX from the lane, 0.5s expo.out; items staggered 0.14s. Reduced motion: drawn static."
+    },
+    "logoMotion": {
+      "file": "components/motion/logo-motion.tsx",
+      "plugins": [],
+      "colors": {
+        "rest": {
+          "ring": "#e8d9b5",
+          "core": "#2ea8ff",
+          "flag": "#ffd300"
+        },
+        "ripples": {
+          "rnd": "#0098d4",
+          "health": "#00a33c",
+          "reg": "#dc241f",
+          "infra": "#ffd300"
+        }
+      },
+      "sequence": [
+        {
+          "at": "0s-0.25s",
+          "what": "centre dot beats once: scale 1 -> 1.3 (0.125s power2.out) -> 1 (0.125s power2.in)"
+        },
+        {
+          "at": "0.15s-1.79s",
+          "what": "four ripples, one every 0.28s: r 6.8 -> 21 over 0.8s power1.out; opacity 0 -> 0.95 in 0.06s, then -> 0, 2px non-scaling stroke, in category lane order"
+        },
+        {
+          "at": "+0.6s into each ripple",
+          "what": "ring stroke takes the ripple's colour, 0.15s"
+        },
+        {
+          "at": "1.74s-2.24s",
+          "what": "ring settles back to ivory #e8d9b5, 0.5s power1.inOut; it never rests on a category colour"
+        },
+        {
+          "at": "1.84s-2.24s",
+          "what": "flagged dot, hidden (scale 0) since t=0, pops in: scale 0 -> 1, 0.4s back.out(2.2)"
+        }
+      ],
+      "triggers": "once on load (0.35s delay); pointerenter and pointerdown replay; ignored while running; no loop",
+      "restState": "the markup is the rest state; ripples ship at opacity 0. Static under reduced motion and without JavaScript. Under .motion-ok the flagged dot starts at opacity 0 until GSAP sets data-shown on it.",
+      "contrast": "on indigo every ripple colour clears 3:1 (blue 5.2, green 5.1, red 3.5, yellow 11.8); the ring rests on ivory (12.2)"
+    },
+    "topEdge": "Indigo is 1.09:1 against the dark floor, so the top area ends on a 1px sign-ink hairline at 25%: under the header sign, or under the home hero sign on the landing page (.header-sign drops its own there)."
+  },
+  "components": [
+    {
+      "name": "Door Button",
+      "kind": "button",
+      "refersTo": "button-door",
+      "description": "The primary call to action, set on a indigo sign panel: a white plate with the drawn start-pointing arrow.",
+      "html": "<div class=\"ds-sign\" dir=\"rtl\"><a class=\"ds-btn-door\" href=\"#\">לפיד <svg viewBox=\"0 0 20 20\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"square\" aria-hidden=\"true\"><path d=\"M17 10H4\"/><path d=\"M9 5L4 10L9 15\"/></svg></a></div>",
+      "css": ".ds-sign{background:var(--top,#1a1544);padding:24px;} .ds-btn-door{display:inline-flex;align-items:center;gap:12px;min-height:48px;padding:0 24px;background:var(--sign-ink,#fff);color:var(--top,#1a1544);font-family:Rubik,\"Arial Hebrew\",sans-serif;font-size:1rem;font-weight:600;text-decoration:none;border-radius:0;transition:background-color .15s;} .ds-btn-door:hover{background:var(--sign-ink-2,#cdd6eb);} .ds-btn-door:focus-visible{outline:3px solid var(--sign-ink,#fff);outline-offset:2px;}"
+    },
+    {
+      "name": "Sign Ghost Button",
+      "kind": "button",
+      "refersTo": "button-sign-ghost",
+      "description": "Secondary action on a sign panel: white hairline frame, lit fill on hover.",
+      "html": "<div class=\"ds-sign\" dir=\"rtl\"><a class=\"ds-btn-ghost\" href=\"#\">איך זה עובד</a></div>",
+      "css": ".ds-sign{background:var(--top,#1a1544);padding:24px;} .ds-btn-ghost{display:inline-flex;align-items:center;min-height:48px;padding:0 24px;border:1px solid rgb(255 255 255 / .4);color:var(--sign-ink,#fff);font-family:Rubik,\"Arial Hebrew\",sans-serif;font-size:1rem;font-weight:500;text-decoration:none;border-radius:0;transition:background-color .15s,border-color .15s;} .ds-btn-ghost:hover{border-color:var(--sign-ink,#fff);background:var(--top-2,#2d2670);} .ds-btn-ghost:focus-visible{outline:3px solid var(--sign-ink,#fff);outline-offset:2px;}"
+    },
+    {
+      "name": "State Button",
+      "kind": "button",
+      "refersTo": "button-state",
+      "description": "Pin, save and already-read toggles on an item; the pressed state turns navy. Already-read stands apart.",
+      "html": "<div dir=\"rtl\" class=\"ds-row\"><button class=\"ds-btn-state\" aria-pressed=\"true\">הצמד</button><button class=\"ds-btn-state\" aria-pressed=\"false\">שמור</button><span class=\"ds-sep\"></span><button class=\"ds-btn-state\" aria-pressed=\"false\">כבר קראתי</button></div>",
+      "css": ".ds-row{display:flex;gap:8px;align-items:center;} .ds-sep{width:24px;} .ds-btn-state{min-height:40px;padding:0 12px;border:1px solid var(--rule,#2b3651);background:transparent;color:var(--ink-2,#c3cad8);font-family:Rubik,\"Arial Hebrew\",sans-serif;font-size:.8125rem;font-weight:500;border-radius:0;cursor:pointer;transition:color .15s,border-color .15s;} .ds-btn-state:hover{border-color:var(--ink-3,#9aa4b6);color:var(--ink,#eef1f6);} .ds-btn-state[aria-pressed=\"true\"]{border-color:var(--sign,#1d315e);background:var(--sign,#1d315e);color:var(--sign-ink,#fff);} .ds-btn-state:focus-visible{outline:3px solid var(--focus,#eef1f6);outline-offset:2px;}"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "input-search",
+      "description": "Search on the floor: a surface field joined to a navy submit plate.",
+      "html": "<form class=\"ds-search\" dir=\"rtl\" role=\"search\"><input class=\"ds-input\" type=\"search\" placeholder=\"חיפוש בארכיון…\"><button class=\"ds-submit\" type=\"submit\">חיפוש</button></form>",
+      "css": ".ds-search{display:flex;align-items:stretch;} .ds-input{min-height:44px;width:320px;padding:0 12px;border:1px solid var(--ink-3,#9aa4b6);background:var(--surface,#18213a);color:var(--ink,#eef1f6);font-family:Assistant,\"Arial Hebrew\",sans-serif;font-size:1rem;border-radius:0;} .ds-input::placeholder{color:var(--ink-3,#9aa4b6);} .ds-input:focus{border-color:var(--ink,#eef1f6);} .ds-input:focus-visible{outline:3px solid var(--focus,#eef1f6);outline-offset:2px;} .ds-submit{min-height:44px;padding:0 16px;border:0;background:var(--sign,#1d315e);color:var(--sign-ink,#fff);font-family:Rubik,\"Arial Hebrew\",sans-serif;font-size:.875rem;font-weight:500;border-radius:0;cursor:pointer;transition:background-color .15s;} .ds-submit:hover{background:var(--sign-2,#2a4280);} .ds-submit:focus-visible{outline:3px solid var(--focus,#eef1f6);outline-offset:2px;}"
+    },
+    {
+      "name": "Department Sign Navigation",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "The header sign: brand, directory links with a white current-page bar, and the four category floor lines leaving from underneath.",
+      "html": "<header dir=\"rtl\"><div class=\"ds-navsign\"><span class=\"ds-brand\">AiPulse</span><ul class=\"ds-nav\"><li><a href=\"#\" aria-current=\"page\">הפיד</a></li><li><a href=\"#\">הארכיון</a></li><li><a href=\"#\">השיטה</a></li></ul></div><div class=\"ds-strip\"><i class=\"s\" style=\"--line:var(--cat-rnd,#0098d4)\"></i><i class=\"s\" style=\"--line:var(--cat-health,#00a33c)\"></i><i class=\"s\" style=\"--line:var(--cat-reg,#dc241f)\"></i><i class=\"s\" style=\"--line:var(--cat-infra,#ffd300)\"></i></div></header>",
+      "css": ".ds-navsign{display:flex;align-items:center;gap:32px;padding:12px 24px;background:var(--top,#1a1544);color:var(--sign-ink,#fff);} .ds-brand{font-family:Rubik,\"Arial Hebrew\",sans-serif;font-size:1.25rem;font-weight:800;letter-spacing:-.02em;} .ds-nav{display:flex;gap:4px;list-style:none;margin:0;padding:0;font-family:Rubik,\"Arial Hebrew\",sans-serif;font-size:.9375rem;font-weight:500;} .ds-nav a{position:relative;display:inline-flex;align-items:center;min-height:40px;padding:0 10px;color:var(--sign-ink-2,#cdd6eb);text-decoration:none;transition:color .15s,background-color .15s;} .ds-nav a:hover{background:var(--top-2,#2d2670);color:var(--sign-ink,#fff);} .ds-nav a[aria-current=\"page\"]{color:var(--sign-ink,#fff);} .ds-nav a[aria-current=\"page\"]::after{content:\"\";position:absolute;inset-inline:10px;bottom:0;height:3px;background:var(--sign-ink,#fff);} .ds-nav a:focus-visible{outline:3px solid var(--sign-ink,#fff);outline-offset:2px;} .ds-strip{display:flex;flex-direction:column;gap:4px;padding:4px 0;background:var(--floor,#0d1322);} .ds-strip i{display:block;height:4px;} .ds-strip .s{background:var(--line);} .ds-strip .d{background:repeating-linear-gradient(90deg,var(--line) 0 10px,transparent 10px 16px);}"
+    },
+    {
+      "name": "Topic Tag",
+      "kind": "chip",
+      "refersTo": "topic-tag",
+      "description": "Topic labels on an item; a topic the reader boosted turns navy.",
+      "html": "<div dir=\"rtl\" class=\"ds-tags\"><span class=\"ds-tag\">רגולציה</span><span class=\"ds-tag ds-tag-up\">ישראל</span></div>",
+      "css": ".ds-tags{display:flex;gap:6px;} .ds-tag{padding:2px 8px;background:var(--floor-2,#121a2d);color:var(--ink-2,#c3cad8);font-family:Rubik,\"Arial Hebrew\",sans-serif;font-size:.75rem;border-radius:0;} .ds-tag-up{background:var(--sign,#1d315e);color:var(--sign-ink,#fff);}"
+    },
+    {
+      "name": "Segmented View Tabs",
+      "kind": "custom",
+      "refersTo": "button-state-pressed",
+      "description": "Adjoining square cells with counts, overlapping by 1px; the pressed cell becomes a navy plate.",
+      "html": "<ul dir=\"rtl\" class=\"ds-seg\"><li><button aria-pressed=\"true\">הכול<span>108</span></button></li><li><button aria-pressed=\"false\">מוצמדים<span>0</span></button></li><li><button aria-pressed=\"false\">שמורים<span>0</span></button></li><li><button aria-pressed=\"false\">נקראו<span>0</span></button></li></ul>",
+      "css": ".ds-seg{display:grid;grid-template-columns:repeat(4,1fr);list-style:none;margin:0;padding:0;width:300px;} .ds-seg li+li{margin-inline-start:-1px;} .ds-seg button{display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;min-height:48px;border:1px solid var(--rule,#2b3651);background:transparent;color:var(--ink-2,#c3cad8);font-family:Rubik,\"Arial Hebrew\",sans-serif;font-size:.8125rem;font-weight:500;border-radius:0;cursor:pointer;} .ds-seg button span{font-size:.75rem;font-variant-numeric:tabular-nums;} .ds-seg button:hover{color:var(--ink,#eef1f6);} .ds-seg button[aria-pressed=\"true\"]{position:relative;border-color:var(--sign,#1d315e);background:var(--sign,#1d315e);color:var(--sign-ink,#fff);} .ds-seg button:focus-visible{outline:3px solid var(--focus,#eef1f6);outline-offset:2px;}"
+    },
+    {
+      "name": "Item Row on its Line",
+      "kind": "card",
+      "refersTo": "badge-pinned",
+      "description": "The signature row: a four-lane rail with the item's own category lane painted (solid for a primary source), a 4px branch into the headline, the neutral filled dot, family label and ISO date.",
+      "html": "<article dir=\"rtl\" class=\"ds-item\" style=\"--line:var(--cat-rnd,#0098d4);--i:0\"><div class=\"ds-rail\"><i></i><i></i><i></i><i></i><b></b></div><div class=\"ds-body\"><div class=\"ds-meta\"><span class=\"ds-dot\"></span><strong>כתבי עת שפוטים</strong><span>NEJM AI</span><time>2026-10-20</time></div><h3 class=\"ds-title\"><span class=\"ds-branch\"></span><a href=\"#\">כותרת הידיעה, מונחת על הקו של הקטגוריה</a></h3></div></article>",
+      "css": ".ds-item{display:flex;gap:24px;background:var(--floor,#0d1322);} .ds-rail{position:relative;display:flex;gap:4px;width:28px;flex-shrink:0;} .ds-rail i{width:4px;background:var(--lane,#222c44);} .ds-rail b{position:absolute;inset-block:0;inset-inline-start:calc(var(--i) * 8px);width:4px;background:var(--line);} .ds-body{flex-grow:1;border-bottom:1px solid var(--rule,#2b3651);padding:12px 0 24px;} .ds-meta{display:flex;align-items:center;gap:12px;font-family:Rubik,\"Arial Hebrew\",sans-serif;font-size:.8125rem;color:var(--ink-2,#c3cad8);} .ds-meta strong{font-weight:500;color:var(--ink,#eef1f6);} .ds-meta time{margin-inline-start:auto;font-size:.75rem;direction:ltr;unicode-bidi:isolate;font-variant-numeric:tabular-nums;color:var(--ink,#eef1f6);} .ds-dot{width:10px;height:10px;box-sizing:border-box;border-radius:9999px;border:2px solid var(--ink-2,#c3cad8);background:var(--ink-2,#c3cad8);} .ds-title{position:relative;margin:8px 0 0;font-family:Rubik,\"Arial Hebrew\",sans-serif;font-size:1.3125rem;font-weight:600;line-height:1.375;letter-spacing:-.005em;} .ds-branch{position:absolute;inset-block-start:.62em;inset-inline-start:-52px;width:46px;height:4px;background:var(--line);} .ds-title a{color:var(--ink,#eef1f6);text-decoration:none;text-decoration-color:var(--line);text-decoration-thickness:2px;text-underline-offset:.22em;} .ds-title a:hover{text-decoration-line:underline;} .ds-title a:focus-visible{outline:3px solid var(--focus,#eef1f6);outline-offset:2px;}"
+    },
+    {
+      "name": "Room Plate",
+      "kind": "custom",
+      "refersTo": "room-plate",
+      "description": "The last scan date as a room number on the home sign, with a two-cell placard of counts.",
+      "html": "<div class=\"ds-sign\" dir=\"rtl\"><time class=\"ds-room\">2026-10-20</time><dl class=\"ds-placard\"><div><dt>פריטים בארכיון</dt><dd>299</dd></div><div><dt>משפחות מקור נסרקות</dt><dd>7</dd></div></dl></div>",
+      "css": ".ds-sign{background:var(--top,#1a1544);color:var(--sign-ink,#fff);padding:24px;font-family:Rubik,\"Arial Hebrew\",sans-serif;} .ds-room{display:inline-block;border:2px solid var(--sign-ink,#fff);padding:4px 12px;font-size:3.25rem;font-weight:700;line-height:1;letter-spacing:-.02em;font-variant-numeric:tabular-nums;direction:ltr;unicode-bidi:isolate;} .ds-placard{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:16px 0 0;} .ds-placard div{border-top:1px solid rgb(255 255 255 / .25);padding-top:12px;} .ds-placard dt{font-size:.875rem;color:var(--sign-ink-2,#cdd6eb);} .ds-placard dd{margin:0;font-size:1.125rem;font-weight:600;font-variant-numeric:tabular-nums;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Corridor Lines",
+    "overview": "AiPulse is set as hospital floor wayfinding. The ground is the corridor at night (a deep navy-black floor), or warm paper in the light theme; the structure is navy enamel signage with white Hebrew; and every topic category is a coloured line painted on that floor. Floor lines lead to departments, and the departments here are the topic categories: R&D, health services, regulation, infrastructure. The digest is the corridor a clinician walks each morning: the sign tells you where you are and what day it is, the lines leave from under the sign, and each item stands on its own category's line. A colour on this site always means \"this department\", nothing else. What kind of source an item comes from is carried by the line's pattern (solid or dashed) and by text, never by colour.\n\nThe system is dense and sober. Headlines pack tightly down an unbroken rail, controls are square sign plates, and depth comes from the navy panels against the floor rather than from shadows. Dark is the default world (the corridor at night, signs lit); light is warm paper under the same navy signs, reached only by the manual toggle and remembered. The site refuses the dark card-grid news aggregator and the cream broadsheet.\n\nThere are two living elements: the floor lines paint themselves, and the logo beats on load and on hover or tap: its centre dot pulses once, four ripples in the category colours run out to the ring and tint it in turn, the ring settles back to ivory and the flagged dot pops in. On load the lines switch on category after category; on scroll each item's lane draws down its rail, then its line bends off the rail and runs into the headline. Nothing else moves, and with reduced motion nothing moves at all.",
+    "keyCharacteristics": [
+      "Night-corridor floor (dark, default) or warm paper (light), navy enamel sign panels, white signage type.",
+      "Four category line colours, reserved exclusively for topic categories.",
+      "Primary source = solid line + filled dot; secondary reporting = dashed line + hollow dot.",
+      "One 4px line module governs lanes, gaps, strips, branches and heavy rules.",
+      "Square corners everywhere, no shadows.",
+      "Rubik for signage (headings, numerals, controls); Assistant for reading.",
+      "Dark by default; the OS colour preference is never consulted; a manual choice is remembered.",
+      "One motion system (GSAP), transforms only, static under reduced motion.",
+      "RTL first, logical properties only."
+    ],
+    "rules": [
+      {
+        "name": "The Category Colour Rule",
+        "body": "A category colour is used for its topic category only: the item's lane, bend and run, the category swatch beside its name (item row, legend, filter), and the headline's hover underline. Never as a general accent, link colour, button fill or state colour, and never for a source family. Interactive state is navy.",
+        "section": "colors"
+      },
+      {
+        "name": "The Uncoloured Source Rule",
+        "body": "Source family is secondary information and carries no colour: its icon, the primary/secondary dot and its filter swatches are neutral ink. Source type reaches the reader through the line pattern on the coloured category line and through the family name as text.",
+        "section": "colors"
+      },
+      {
+        "name": "The Solid and Dashed Rule",
+        "body": "Primary sources are painted solid with a filled dot; secondary reporting is painted dashed (10px dash, 6px gap) with a hollow dot. The two encodings always travel together, and the screen-reader text says \"מקור ראשוני\" or \"דיווח משני\".",
+        "section": "colors"
+      },
+      {
+        "name": "The Dark Default Rule",
+        "body": "Dark is the default unconditionally, on every first visit. `prefers-color-scheme` is not read anywhere. Only the manual toggle changes the theme: it writes `data-theme` on `<html>` and persists it in localStorage under `aipulse:theme`, and a blocking head script (lib/theme.ts) replays it before first paint. With no `data-theme`, the toggle treats the current theme as dark.",
+        "section": "colors"
+      },
+      {
+        "name": "The Room Number Rule",
+        "body": "Every date and count is set in Rubik with tabular numerals and no wrapping (the `time` element and `.tnum`). Dates are ISO (2026-10-20) and bidi-isolated as LTR text.",
+        "section": "typography"
+      },
+      {
+        "name": "The Signage Face Rule",
+        "body": "Rubik carries anything a reader navigates by: headings, numerals, controls, labels. Assistant carries only what is read through.",
+        "section": "typography"
+      },
+      {
+        "name": "The Enamel Not Shadow Rule",
+        "body": "If something needs to stand forward, it becomes a navy sign plate or gains a heavier rule. It never gains a shadow.",
+        "section": "elevation"
+      },
+      {
+        "name": "The 4px Module Rule",
+        "body": "One 4px module sets the lane width, lane gap, strip line height and gap, branch thickness and the heaviest rule. A new line-like element is 4px, or one of the existing rule weights (1px hairline, 2px heavy rule, 3px focus ring and current-page bar), never an arbitrary weight.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "**Do** set every item's `--line` from its category token (its first categorized topic) and paint its lane, bend, run, swatch and hover underline from that one variable.",
+      "**Do** pair solid line + filled dot for primary sources and dashed line + hollow dot for secondary reporting, with the matching screen-reader text.",
+      "**Do** use navy (sign) for every pressed, selected, pinned or boosted state.",
+      "**Do** keep corners at 0px and lines on the 4px module.",
+      "**Do** define every colour on `:root` in its dark value and override only in `:root[data-theme=\"light\"]`.",
+      "**Do** set dates and counts in Rubik with tabular numerals, bidi-isolated.",
+      "**Do** animate only decorative lines, only with transforms, only under `.motion-ok`, and only through GSAP.",
+      "**Do** use logical properties exclusively, and keep touch targets at 44px on a phone."
+    ],
+    "donts": [
+      "**Don't** use a category colour as a general accent, link, button or state colour, or to mark a source family.",
+      "**Don't** give a single topic its own colour; topics join a category.",
+      "**Don't** add shadows or rounded corners; the dot and the logo are the only circles, and the icon tile is the only rounded corner.",
+      "**Don't** let the logo ring rest on a category colour; it always settles to ivory.",
+      "**Don't** read `prefers-color-scheme` or make light the fallback.",
+      "**Don't** hide content behind motion or add a second animation library or effect.",
+      "**Don't** put `direction: ltr` on a positioned element; its `inset-inline-*` will flip.",
+      "**Don't** box items into cards; they stand on the floor, on their line.",
+      "**Don't** remove or soften the footer disclosure line."
+    ]
+  }
+}

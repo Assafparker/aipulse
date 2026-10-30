@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { FeedList } from "@/components/feed/feed-list";
+import { ArrowStart } from "@/components/ui/arrow";
 import { LAST_SCAN, RECENT } from "@/lib/content";
 import { itemCount } from "@/lib/format";
 
@@ -16,21 +17,27 @@ export const metadata: Metadata = {
  */
 export default function FeedPage() {
   return (
-    <main className="mx-auto max-w-3xl px-6 py-12">
-      <header className="mb-8">
-        <h1 className="text-3xl font-bold">הפיד</h1>
-        <p className="mt-2 text-sm text-ink-3">
-          30 הימים האחרונים · <span className="tnum">{itemCount(RECENT.length)}</span> ·
-          סריקה אחרונה{" "}
-          <time dateTime={LAST_SCAN} className="tnum ltr text-ink-2">
-            {LAST_SCAN}
-          </time>
-        </p>
-        <p className="mt-2 text-sm">
-          <Link href="/archive" className="text-accent hover:underline">
-            לארכיון המלא
-          </Link>
-        </p>
+    <main className="mx-auto max-w-6xl px-4 pt-10 sm:px-6 sm:pt-14">
+      <header className="mb-10 flex flex-wrap items-end justify-between gap-x-8 gap-y-4">
+        <div>
+          <h1 className="text-[clamp(2.5rem,7vw,4.5rem)] font-extrabold leading-none tracking-[-0.03em]">
+            הפיד
+          </h1>
+          <p className="mt-3 font-display text-[0.9375rem] text-ink-2">
+            30 הימים האחרונים · <span className="tnum">{itemCount(RECENT.length)}</span> ·
+            סריקה אחרונה{" "}
+            <time dateTime={LAST_SCAN} className="ltr font-semibold text-ink">
+              {LAST_SCAN}
+            </time>
+          </p>
+        </div>
+        <Link
+          href="/archive"
+          className="inline-flex min-h-11 sm:min-h-10 items-center gap-2 font-display text-[0.9375rem] font-semibold text-ink underline"
+        >
+          לארכיון המלא
+          <ArrowStart />
+        </Link>
       </header>
 
       <FeedList items={RECENT} />

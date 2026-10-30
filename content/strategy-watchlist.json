@@ -1,0 +1,226 @@
+[
+  {
+    "country": "South Korea",
+    "body": "Ministry of Health and Welfare",
+    "url": "https://www.mohw.go.kr/eng/",
+    "type": "ministry",
+    "status": "followed"
+  },
+  {
+    "country": "South Korea",
+    "body": "Korea Health Industry Development Institute (KHIDI)",
+    "url": "https://www.khidi.or.kr/eps",
+    "type": "agency",
+    "status": "unverified"
+  },
+  {
+    "country": "South Korea",
+    "body": "National Health Insurance Service (NHIS)",
+    "url": "https://www.nhis.or.kr/english/index.do",
+    "type": "payer",
+    "status": "unverified"
+  },
+  {
+    "country": "South Korea",
+    "body": "Health Insurance Review and Assessment Service (HIRA)",
+    "url": "https://www.hira.or.kr/eng/main.do",
+    "type": "payer",
+    "status": "unverified"
+  },
+  {
+    "country": "Singapore",
+    "body": "Ministry of Health",
+    "url": "https://www.moh.gov.sg/newsroom/",
+    "type": "ministry",
+    "status": "followed"
+  },
+  {
+    "country": "Singapore",
+    "body": "Synapxe",
+    "url": "https://www.synapxe.sg/newsroom",
+    "type": "agency",
+    "status": "unverified"
+  },
+  {
+    "country": "Singapore",
+    "body": "Smart Nation: National AI Strategy",
+    "url": "https://www.smartnation.gov.sg/initiatives/national-ai-strategy",
+    "type": "agency",
+    "status": "followed"
+  },
+  {
+    "country": "Denmark",
+    "body": "Ministry of Health (Sundheds- og Kirkeministeriet)",
+    "url": "https://www.skim.dk/nyheder",
+    "type": "ministry",
+    "status": "followed"
+  },
+  {
+    "country": "Denmark",
+    "body": "Danish Health Data Authority (Sundhedsdatastyrelsen)",
+    "url": "https://sundhedsdatastyrelsen.dk/nyheder",
+    "type": "agency",
+    "status": "followed"
+  },
+  {
+    "country": "Sweden",
+    "body": "Ministry of Health and Social Affairs",
+    "url": "https://www.government.se/government-of-sweden/ministry-of-health-and-social-affairs/",
+    "type": "ministry",
+    "status": "unverified"
+  },
+  {
+    "country": "Sweden",
+    "body": "Swedish eHealth Agency (E-hälsomyndigheten)",
+    "url": "https://www.ehalsomyndigheten.se/nyheter/",
+    "type": "agency",
+    "status": "followed"
+  },
+  {
+    "country": "Norway",
+    "body": "Ministry of Health and Care Services",
+    "url": "https://www.regjeringen.no/en/dep/hod/id421/",
+    "type": "ministry",
+    "status": "unverified"
+  },
+  {
+    "country": "Norway",
+    "body": "Norwegian Directorate of Health (Helsedirektoratet)",
+    "url": "https://www.helsedirektoratet.no/",
+    "type": "agency",
+    "status": "followed"
+  },
+  {
+    "country": "Finland",
+    "body": "Ministry of Social Affairs and Health",
+    "url": "https://stm.fi/en/frontpage",
+    "type": "ministry",
+    "status": "unverified"
+  },
+  {
+    "country": "Finland",
+    "body": "Findata, Social and Health Data Permit Authority",
+    "url": "https://findata.fi/en/",
+    "type": "agency",
+    "status": "followed"
+  },
+  {
+    "country": "USA",
+    "body": "HHS: AI strategy",
+    "url": "https://www.hhs.gov/programs/topic-sites/ai/index.html",
+    "type": "ministry",
+    "status": "unverified"
+  },
+  {
+    "country": "USA",
+    "body": "ASTP/ONC",
+    "url": "https://healthit.gov/news/",
+    "type": "agency",
+    "status": "followed"
+  },
+  {
+    "country": "USA",
+    "body": "CMS (incl. Medicare)",
+    "url": "https://www.cms.gov/newsroom",
+    "type": "payer",
+    "status": "followed"
+  },
+  {
+    "country": "USA",
+    "body": "CMS Innovation Center models",
+    "url": "https://www.cms.gov/priorities/innovation/models",
+    "type": "payer",
+    "status": "followed"
+  },
+  {
+    "country": "USA",
+    "body": "Department of Veterans Affairs: AI",
+    "url": "https://department.va.gov/ai/",
+    "type": "agency",
+    "status": "followed"
+  },
+  {
+    "country": "UK",
+    "body": "Department of Health and Social Care",
+    "url": "https://www.gov.uk/government/organisations/department-of-health-and-social-care",
+    "type": "ministry",
+    "status": "followed"
+  },
+  {
+    "country": "UK",
+    "body": "NHS England",
+    "url": "https://www.england.nhs.uk/news/",
+    "type": "agency",
+    "status": "unverified"
+  },
+  {
+    "country": "UK",
+    "body": "10-Year Health Plan for England",
+    "url": "https://www.gov.uk/government/publications/10-year-health-plan-for-england-fit-for-the-future",
+    "type": "ministry",
+    "status": "followed"
+  },
+  {
+    "country": "UK",
+    "body": "MHRA AI Airlock",
+    "url": "https://www.gov.uk/government/collections/ai-airlock-the-regulatory-sandbox-for-aiamd",
+    "type": "agency",
+    "status": "followed"
+  },
+  {
+    "country": "Germany",
+    "body": "GKV-Spitzenverband",
+    "url": "https://www.gkv-spitzenverband.de/",
+    "type": "payer",
+    "status": "unverified"
+  },
+  {
+    "country": "Germany",
+    "body": "BfArM: DiGA",
+    "url": "https://www.bfarm.de/EN/Medical-devices/Tasks/DiGA-and-DiPA/_node.html",
+    "type": "agency",
+    "status": "followed"
+  },
+  {
+    "country": "France",
+    "body": "Assurance Maladie",
+    "url": "https://www.assurance-maladie.ameli.fr/qui-sommes-nous/actualites",
+    "type": "payer",
+    "status": "unverified"
+  },
+  {
+    "country": "France",
+    "body": "Health Data Hub",
+    "url": "https://www.health-data-hub.fr/actualites",
+    "type": "agency",
+    "status": "followed"
+  },
+  {
+    "country": "International",
+    "body": "WHO: Data, Digital Health, Analytics and AI",
+    "url": "https://www.who.int/teams/digital-health-and-innovation",
+    "type": "international",
+    "status": "followed"
+  },
+  {
+    "country": "International",
+    "body": "OECD: digital health",
+    "url": "https://www.oecd.org/en/topics/policy-issues/digital-health.html",
+    "type": "international",
+    "status": "unverified"
+  },
+  {
+    "country": "EU",
+    "body": "European Commission: AI in healthcare",
+    "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/artificial-intelligence-healthcare_en",
+    "type": "international",
+    "status": "followed"
+  },
+  {
+    "country": "EU",
+    "body": "European Commission: European Health Data Space",
+    "url": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en",
+    "type": "international",
+    "status": "followed"
+  }
+]

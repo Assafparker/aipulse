@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ItemCard } from "@/components/feed/item-card";
+import { LineMotion } from "@/components/motion/line-motion";
 import { SearchBox } from "@/components/ui/search-box";
 import { ITEMS } from "@/lib/content";
 import { itemCount } from "@/lib/format";
@@ -33,29 +34,35 @@ export default async function SearchPage({ searchParams }: Props) {
   const results = searchItems(ITEMS, q);
 
   return (
-    <main className="mx-auto max-w-3xl px-6 py-12">
-      <header className="mb-8">
-        <p className="text-sm">
-          <Link href="/feed" className="text-accent hover:underline">
+    <main className="mx-auto max-w-6xl px-4 pt-10 sm:px-6 sm:pt-14">
+      <div className="max-w-4xl">
+      <header className="mb-8 border-b-2 border-ink pb-5">
+        <p>
+          <Link
+            href="/feed"
+            className="inline-flex min-h-11 sm:min-h-10 items-center font-display text-[0.9375rem] font-semibold text-ink underline"
+          >
             חזרה לפיד
           </Link>
         </p>
-        <h1 className="mt-2 text-3xl font-bold">חיפוש</h1>
-        <div className="mt-4">
+        <h1 className="mt-1 text-[clamp(2.25rem,6vw,4rem)] font-extrabold leading-none tracking-[-0.03em]">
+          חיפוש
+        </h1>
+        <div className="mt-5">
           <SearchBox defaultValue={q} />
         </div>
         {q ? (
-          <p className="mt-3 text-sm text-ink-3">
-            <span className="tnum text-ink-2">{itemCount(results.length)}</span>{" "}
-            נמצאו עבור <bdi className="text-ink-2">&quot;{q}&quot;</bdi>
+          <p className="mt-3 text-[0.9375rem] text-ink-2">
+            <span className="tnum font-semibold text-ink">{itemCount(results.length)}</span>{" "}
+            נמצאו עבור <bdi className="font-semibold text-ink">&quot;{q}&quot;</bdi>
           </p>
         ) : (
-          <p className="mt-3 text-sm text-ink-3">הקלד מונח לחיפוש בכל הארכיון.</p>
+          <p className="mt-3 text-[0.9375rem] text-ink-2">הקלד מונח לחיפוש בכל הארכיון.</p>
         )}
       </header>
 
       {q && results.length === 0 ? (
-        <p className="rounded-lg border border-line bg-surface p-6 text-ink-3">
+        <p className="border border-dashed border-ink-3 p-6 text-ink-2">
           אין תוצאות. נסה מונח אחר.
         </p>
       ) : null}
@@ -64,15 +71,18 @@ export default async function SearchPage({ searchParams }: Props) {
         <>
           {/* Cards use <h3>; without this the order jumps h1 to h3. */}
           <h2 className="sr-only">תוצאות החיפוש</h2>
-          <ol className="flex flex-col gap-4">
-            {results.map((item) => (
-              <li key={item.id}>
-                <ItemCard item={item} />
-              </li>
-            ))}
-          </ol>
+          <LineMotion>
+            <ol>
+              {results.map((item) => (
+                <li key={item.id}>
+                  <ItemCard item={item} />
+                </li>
+              ))}
+            </ol>
+          </LineMotion>
         </>
       ) : null}
+      </div>
     </main>
   );
 }

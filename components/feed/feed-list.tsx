@@ -1,10 +1,13 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useState, useTransition } from "react";
+import { CategoryFilter } from "./category-filter";
 import { FamilyFilter } from "./family-filter";
 import { ItemCard } from "./item-card";
 import { TopicPrefs } from "./topic-prefs";
 import { ViewTabs, type View } from "./view-tabs";
+import { LineMotion } from "@/components/motion/line-motion";
+import { CATEGORIES, type CategoryId } from "@/lib/constants";
 import { itemCount } from "@/lib/format";
 import { isDimmed, sortItems } from "@/lib/ranking";
 import type { FamilyId, Item, TopicId } from "@/lib/schema";
@@ -70,6 +73,10 @@ export function FeedList({ items }: { items: Item[] }) {
   const savedSet = useMemo(() => new Set(state.saved), [state.saved]);
   const readSet = useMemo(() => new Set(state.read), [state.read]);
   const famOffSet = useMemo(() => new Set(state.famOff), [state.famOff]);
+  const topicsOnSet = useMemo(
+    () => new Set(state.topicsOn ?? []),
+    [state.topicsOn],
+  );
   const boosted = useMemo(
     () =>
       new Set(
@@ -86,10 +93,34 @@ export function FeedList({ items }: { items: Item[] }) {
     return counts;
   }, [items]);
 
-  /** The feed proper: family filter applied, read items removed. */
+  const perTopic = useMemo(() => {
+    const counts: Partial<Record<TopicId, number>> = {};
+    for (const i of items)
+      for (const t of i.topics) counts[t] = (counts[t] ?? 0) + 1;
+    return counts;
+  }, [items]);
+
+  // Items touching the category through any of their topics, not only
+  // those whose line it colours.
+  const perCategory = useMemo(() => {
+    const counts: Partial<Record<CategoryId, number>> = {};
+    for (const c of CATEGORIES)
+      counts[c.id] = items.filter((i) =>
+        i.topics.some((t) => c.topics.includes(t)),
+      ).length;
+    return counts;
+  }, [items]);
+
+  /** The feed proper: both filters applied, read items removed. */
   const inFeed = useMemo(
-    () => items.filter((i) => !famOffSet.has(i.fam) && !readSet.has(i.id)),
-    [items, famOffSet, readSet],
+    () =>
+      items.filter(
+        (i) =>
+          !famOffSet.has(i.fam) &&
+          !readSet.has(i.id) &&
+          (topicsOnSet.size === 0 || i.topics.some((t) => topicsOnSet.has(t))),
+      ),
+    [items, famOffSet, readSet, topicsOnSet],
   );
 
   const readItems = useMemo(
@@ -152,6 +183,30 @@ export function FeedList({ items }: { items: Item[] }) {
       setState((s) => ({ ...s, famOff: toggleId(s.famOff, fam) })),
     [],
   );
+  const toggleTopic = useCallback(
+    (topic: TopicId) =>
+      setState((s) => ({ ...s, topicsOn: toggleId(s.topicsOn ?? [], topic) })),
+    [],
+  );
+  // A category selects all its topics, or — when all are already on —
+  // clears them.
+  const toggleCategory = useCallback((id: CategoryId) => {
+    const topics = CATEGORIES.find((c) => c.id === id)?.topics ?? [];
+    setState((s) => {
+      const current = s.topicsOn ?? [];
+      const all = topics.every((t) => current.includes(t));
+      return {
+        ...s,
+        topicsOn: all
+          ? current.filter((t) => !topics.includes(t))
+          : [...current, ...topics.filter((t) => !current.includes(t))],
+      };
+    });
+  }, []);
+  const clearTopics = useCallback(
+    () => setState((s) => ({ ...s, topicsOn: [] })),
+    [],
+  );
   const setPref = useCallback((topic: TopicId, value: 1 | -1 | 0) => {
     setState((s) => {
       const prefs = { ...s.prefs };
@@ -162,6 +217,10 @@ export function FeedList({ items }: { items: Item[] }) {
   }, []);
   const setSort = useCallback(
     (sort: UserState["sort"]) => setState((s) => ({ ...s, sort })),
+    [],
+  );
+  const toggleCompact = useCallback(
+    () => setState((s) => ({ ...s, compact: !s.compact })),
     [],
   );
   const clearRead = useCallback(
@@ -178,6 +237,7 @@ export function FeedList({ items }: { items: Item[] }) {
         read={readSet.has(item.id)}
         dimmed={isDimmed(item, state.prefs)}
         boosted={boosted}
+        compact={state.compact === true}
         actions={{
           onPin: () => togglePin(item.id),
           onSave: () => toggleSave(item.id),
@@ -187,26 +247,45 @@ export function FeedList({ items }: { items: Item[] }) {
     </li>
   );
 
+
+  // Re-paint lines for rows that newly appear when the list changes.
+  const motionKey = [view, String(state.compact), ...pinnedGroup.map((i) => i.id), "|", ...mainGroup.map((i) => i.id)].join(",");
+
   return (
-    <div className="flex flex-col gap-8 lg:flex-row">
-      <aside className="lg:w-64 lg:shrink-0">
+    <div className="flex flex-col gap-8 lg:flex-row lg:gap-12">
+      <aside className="lg:w-72 lg:shrink-0">
         <button
           type="button"
           aria-expanded={filtersOpen}
+          aria-controls="feed-filters"
           onClick={() => setFiltersOpen((o) => !o)}
-          className="w-full rounded-md border border-line px-3 py-2 text-sm lg:hidden"
+          className="flex min-h-12 w-full items-center justify-between bg-sign px-4 font-display text-[0.9375rem] font-semibold text-sign-ink lg:hidden"
         >
           סינון וכיוונון
+          <svg
+            viewBox="0 0 16 16"
+            width="16"
+            height="16"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.8"
+            aria-hidden="true"
+            focusable="false"
+            className={`transition-transform ${filtersOpen ? "rotate-180" : ""}`}
+          >
+            <path d="M3.5 6l4.5 4.5L12.5 6" />
+          </svg>
         </button>
 
         <div
-          className={`${filtersOpen ? "flex" : "hidden"} mt-3 flex-col gap-6 lg:mt-0 lg:flex`}
+          id="feed-filters"
+          className={`${filtersOpen ? "flex" : "hidden"} mt-4 flex-col gap-8 lg:mt-0 lg:flex`}
         >
           <ViewTabs view={view} counts={counts} onChange={setView} />
 
           <fieldset>
-            <legend className="text-sm font-medium">מיון</legend>
-            <div className="mt-2 flex gap-2">
+            <legend className="font-display text-sm font-semibold text-ink">מיון</legend>
+            <div className="mt-3 grid grid-cols-3">
               {(
                 [
                   { id: "added", label: "נוסף לאחרונה" },
@@ -219,13 +298,22 @@ export function FeedList({ items }: { items: Item[] }) {
                   type="button"
                   aria-pressed={state.sort === o.id}
                   onClick={() => setSort(o.id)}
-                  className="rounded-md border border-line px-2.5 py-1 text-sm text-ink-2 hover:border-line-2 hover:text-ink aria-pressed:border-accent aria-pressed:bg-accent-soft aria-pressed:text-accent-ink"
+                  className="-ms-px min-h-11 sm:min-h-10 border border-rule px-1.5 font-display text-[0.8125rem] font-medium leading-tight text-ink-2 first:ms-0 hover:text-ink aria-pressed:relative aria-pressed:border-sign aria-pressed:bg-sign aria-pressed:text-sign-ink"
                 >
                   {o.label}
                 </button>
               ))}
             </div>
           </fieldset>
+
+          <CategoryFilter
+            selected={state.topicsOn ?? []}
+            topicCounts={perTopic}
+            categoryCounts={perCategory}
+            onToggleTopic={toggleTopic}
+            onToggleCategory={toggleCategory}
+            onClear={clearTopics}
+          />
 
           <FamilyFilter
             famOff={state.famOff}
@@ -238,10 +326,25 @@ export function FeedList({ items }: { items: Item[] }) {
       </aside>
 
       <div className="min-w-0 grow">
-        <p className="mb-4 text-sm text-ink-3" aria-live="polite">
-          {view === "read" ? itemCount(counts.read) : itemCount(listed.length)}{" "}
-          {view === "read" ? "ברשימת הנקראו" : "מוצגים"}
-        </p>
+        <div className="flex flex-wrap items-center justify-between gap-3 border-b-2 border-ink pb-2">
+          <p
+            className="font-display text-sm font-medium text-ink-2"
+            aria-live="polite"
+          >
+            {view === "read" ? itemCount(counts.read) : itemCount(listed.length)}{" "}
+            {view === "read" ? "ברשימת הנקראו" : "מוצגים"}
+          </p>
+          {view !== "read" && (
+            <button
+              type="button"
+              aria-pressed={state.compact === true}
+              onClick={toggleCompact}
+              className="min-h-11 border border-rule px-3 font-display text-[0.8125rem] font-medium text-ink-2 transition-colors hover:border-ink-3 hover:text-ink aria-pressed:border-sign aria-pressed:bg-sign aria-pressed:text-sign-ink sm:min-h-10"
+            >
+              כותרות בלבד
+            </button>
+          )}
+        </div>
 
         {view === "read" ? (
           <ReadView
@@ -250,19 +353,19 @@ export function FeedList({ items }: { items: Item[] }) {
             onClear={clearRead}
           />
         ) : listed.length === 0 ? (
-          <p className="rounded-lg border border-line bg-surface p-6 text-ink-3">
+          <p className="mt-6 border border-dashed border-ink-3 p-6 text-ink-2">
             {view === "all"
-              ? "אין פריטים להצגה. נסה להדליק משפחות מקור שכיבית."
+              ? "אין פריטים להצגה. נסה לבחור נושאים נוספים או להדליק משפחות מקור שכיבית."
               : "הרשימה ריקה."}
           </p>
         ) : (
-          <>
+          <LineMotion dep={motionKey}>
             {pinnedGroup.length > 0 && (
-              <section className="mb-6">
-                <h2 className="mb-3 text-sm font-medium text-pin">מוצמדים</h2>
-                <ol className="flex flex-col gap-4">
-                  {pinnedGroup.map(renderCard)}
-                </ol>
+              <section className="mb-8">
+                <h2 className="mt-5 inline-block bg-sign px-3 py-1 font-display text-sm font-semibold text-sign-ink">
+                  מוצמדים
+                </h2>
+                <ol>{pinnedGroup.map(renderCard)}</ol>
               </section>
             )}
             {/* The cards use <h3>, so the page needs an <h2> between them and
@@ -270,8 +373,8 @@ export function FeedList({ items }: { items: Item[] }) {
             <h2 className="sr-only">
               {pinnedGroup.length > 0 ? "שאר הפריטים" : "פריטים"}
             </h2>
-            <ol className="flex flex-col gap-4">{mainGroup.map(renderCard)}</ol>
-          </>
+            <ol>{mainGroup.map(renderCard)}</ol>
+          </LineMotion>
         )}
       </div>
     </div>
@@ -294,48 +397,48 @@ function ReadView({
 }) {
   if (items.length === 0) {
     return (
-      <p className="rounded-lg border border-line bg-surface p-6 text-ink-3">
+      <p className="mt-6 border border-dashed border-ink-3 p-6 text-ink-2">
         עדיין לא סימנת פריטים כנקראו.
       </p>
     );
   }
 
   return (
-    <div className="rounded-lg border border-line bg-surface">
-      <ul className="divide-y divide-line">
+    <div>
+      <ul>
         {items.map((item) => (
           <li
             key={item.id}
-            className="flex flex-wrap items-center justify-between gap-3 p-3"
+            className="flex flex-wrap items-center justify-between gap-3 border-b border-rule py-3"
           >
             <span className="min-w-0 grow">
               <a
                 href={item.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm hover:text-accent hover:underline"
+                className="font-display text-[0.9375rem] font-medium text-ink hover:underline"
               >
                 {item.title}
               </a>
-              <span className="tnum ltr mt-0.5 block text-xs text-ink-3">
+              <time dateTime={item.date} className="ltr mt-0.5 block text-xs text-ink-3">
                 {item.date}
-              </span>
+              </time>
             </span>
             <button
               type="button"
               onClick={() => onRestore(item.id)}
-              className="rounded-md border border-line px-2.5 py-1 text-sm text-ink-2 hover:border-line-2 hover:text-ink"
+              className="min-h-11 sm:min-h-10 border border-rule px-3 font-display text-[0.8125rem] font-medium text-ink-2 hover:border-ink-3 hover:text-ink"
             >
               החזר לפיד
             </button>
           </li>
         ))}
       </ul>
-      <div className="border-t border-line p-3">
+      <div className="pt-4">
         <button
           type="button"
           onClick={onClear}
-          className="text-sm text-ink-3 hover:text-ink hover:underline"
+          className="min-h-11 sm:min-h-10 font-display text-sm text-ink-2 underline hover:text-ink"
         >
           נקה את הרשימה
         </button>

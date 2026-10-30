@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ItemCard } from "@/components/feed/item-card";
+import { LineMotion } from "@/components/motion/line-motion";
 import { MONTHS, byMonth } from "@/lib/content";
 import { itemCount, monthLabel } from "@/lib/format";
 
@@ -43,26 +44,35 @@ export default async function MonthPage({ params }: Params) {
   if (items.length === 0) notFound();
 
   return (
-    <main className="mx-auto max-w-3xl px-6 py-12">
-      <header className="mb-8">
-        <p className="text-sm">
-          <Link href="/archive" className="text-accent hover:underline">
+    <main className="mx-auto max-w-6xl px-4 pt-10 sm:px-6 sm:pt-14">
+      <div className="max-w-4xl">
+      <header className="mb-8 border-b-2 border-ink pb-4">
+        <p>
+          <Link
+            href="/archive"
+            className="inline-flex min-h-11 sm:min-h-10 items-center font-display text-[0.9375rem] font-semibold text-ink underline"
+          >
             הארכיון
           </Link>
         </p>
-        <h1 className="mt-2 text-3xl font-bold">{monthLabel(month)}</h1>
-        <p className="tnum mt-2 text-sm text-ink-3">{itemCount(items.length)}</p>
+        <h1 className="mt-1 text-[clamp(2.25rem,6vw,4rem)] font-extrabold leading-none tracking-[-0.03em]">
+          {monthLabel(month)}
+        </h1>
+        <p className="tnum mt-3 text-[0.9375rem] text-ink-2">{itemCount(items.length)}</p>
       </header>
 
       {/* Cards use <h3>; without this the order jumps h1 to h3. */}
       <h2 className="sr-only">פריטי החודש</h2>
-      <ol className="flex flex-col gap-4">
-        {items.map((item) => (
-          <li key={item.id}>
-            <ItemCard item={item} />
-          </li>
-        ))}
-      </ol>
+      <LineMotion>
+        <ol>
+          {items.map((item) => (
+            <li key={item.id}>
+              <ItemCard item={item} />
+            </li>
+          ))}
+        </ol>
+      </LineMotion>
+      </div>
     </main>
   );
 }

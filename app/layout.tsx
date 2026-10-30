@@ -1,29 +1,24 @@
 import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
-import { Frank_Ruhl_Libre, Heebo, IBM_Plex_Mono } from "next/font/google";
+import { Assistant, Rubik } from "next/font/google";
 import { SiteFooter } from "@/components/ui/site-footer";
 import { SiteHeader } from "@/components/ui/site-header";
-import { themeScript } from "@/components/ui/theme-toggle";
+import { motionScript, themeScript } from "@/lib/theme";
 import "./globals.css";
 
-const frankRuhl = Frank_Ruhl_Libre({
+// Rubik carries the signage: headings, the brand, numerals and controls.
+const rubik = Rubik({
   subsets: ["hebrew", "latin"],
-  weight: ["700", "900"],
-  variable: "--font-frank-ruhl",
+  weight: "variable",
+  variable: "--font-rubik",
   display: "swap",
 });
 
-const heebo = Heebo({
+// Assistant carries the reading: summaries and running text.
+const assistant = Assistant({
   subsets: ["hebrew", "latin"],
-  weight: ["300", "400", "500"],
-  variable: "--font-heebo",
-  display: "swap",
-});
-
-const plexMono = IBM_Plex_Mono({
-  subsets: ["latin"],
-  weight: ["400", "500"],
-  variable: "--font-plex-mono",
+  weight: "variable",
+  variable: "--font-assistant",
   display: "swap",
 });
 
@@ -40,15 +35,16 @@ export default function RootLayout({
     <html
       lang="he"
       dir="rtl"
-      className={`${frankRuhl.variable} ${heebo.variable} ${plexMono.variable}`}
+      className={`${rubik.variable} ${assistant.variable}`}
+      suppressHydrationWarning
     >
       <head>
         {/*
-          Blocking, before first paint: a reader who chose dark must never
-          see a light flash. This is the one place a synchronous inline
+          Blocking, before first paint: a reader who chose a theme must never
+          see the other one flash. This is the one place a synchronous inline
           script is the right tool — anything deferred is already too late.
         */}
-        <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+        <script dangerouslySetInnerHTML={{ __html: themeScript + motionScript }} />
       </head>
       <body className="flex min-h-dvh flex-col">
         <SiteHeader />

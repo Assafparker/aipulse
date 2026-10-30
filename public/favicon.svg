@@ -1,9 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="32" height="32" role="img" aria-label="AiPulse">
-  <style>
-    :root{--accent:#2F6F62;--pin:#A65A2A;}
-    @media (prefers-color-scheme:dark){:root{--accent:#74B8A6;--pin:#D08A55;}}
-  </style>
-  <circle cx="30" cy="34" r="20.5" fill="none" stroke="var(--accent)" stroke-width="5"/>
-  <circle cx="30" cy="34" r="8.5" fill="var(--accent)"/>
-  
+  <rect width="64" height="64" rx="14" fill="#1a1544"/>
+  <g transform="translate(32 32) scale(0.9) translate(-30 -34.3)">
+    <circle cx="30" cy="34" r="20.5" fill="none" stroke="#e8d9b5" stroke-width="3.6"/>
+    <circle cx="30" cy="34" r="6.8" fill="#2ea8ff"/>
+    <circle cx="47.5" cy="16.5" r="4.2" fill="#ffd300"/>
+  </g>
 </svg>
