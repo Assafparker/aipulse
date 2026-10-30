@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 /* ── Palette: Corridor Lines ────────────────────────────────────────────
-   Hospital floor wayfinding: a floor, navy enamel signage, and one painted
+   Hospital floor wayfinding: a floor, indigo enamel signage, and one painted
    line per topic category — the departments the floor lines lead to. The
    line colours take after the London Underground line palette (colour only —
    no roundel, typeface or line names). Category colours are used for
@@ -33,21 +33,25 @@
   --lane: #222c44;
   --focus: #eef1f6;
 
-  --sign: #1d315e;
-  --sign-2: #2a4280;
+  /* One sign colour, indigo, the same in both themes (not overridden below).
+     --sign-2 is its hover and search-field fill. Contrast on --sign:
+     sign-ink 17.0, sign-ink-2 11.7 (dark) / 10.8 (light); the logo at rest
+     6.6+. */
+  --sign: #1a1544;
+  --sign-2: #2d2670;
   --sign-ink: #ffffff;
   --sign-ink-2: #cdd6eb;
 
-  /* The top of the site — the header sign and the home hero sign — is
-     indigo, not the shared navy, and stays this colour in both themes (it
-     is not overridden below). --top-2 is its hover and search-field fill.
-     Text and marks on it keep the sign inks. Contrast on --top: sign-ink
-     17.0, sign-ink-2 11.7 (dark) / 10.8 (light); the logo at rest 6.6+. */
-  --top: #1a1544;
-  --top-2: #2d2670;
+  /* Indigo is 1.09:1 against the dark floor, so two tokens carry its edge.
+     --sign-line is the same hue lifted for rules, pressed edges, checkboxes
+     and the selection: 3.7 on floor, 3.4 on floor-2, 3.2 on surface, 3.4 on
+     sign, and sign-ink on it 5.1. --sign-edge is the 25% white hairline
+     around a static sign panel. */
+  --sign-line: #6a5fd0;
+  --sign-edge: rgb(255 255 255 / 0.25);
 
   --cat-rnd: #0098d4; /* light blue — R&D */
-  --cat-health: #00a33c; /* green, lifted from #00782a to read on navy — health services */
+  --cat-health: #00a33c; /* green, lifted from #00782a to read on the dark floor — health services */
   --cat-reg: #dc241f; /* red — regulation */
   --cat-infra: #ffd300; /* yellow — infrastructure */
 
@@ -56,7 +60,7 @@
   --line: var(--ink-3);
 }
 
-/* The reader explicitly chose light: warm paper, the same navy signs. */
+/* The reader explicitly chose light: warm paper, the same indigo signs. */
 :root[data-theme="light"] {
   --floor: #fbfaf7;
   --floor-2: #f1eee7;
@@ -68,8 +72,8 @@
   --lane: #e2ded5;
   --focus: #1a1f2b;
 
-  --sign: #13203b;
-  --sign-2: #22325a;
+  --sign-line: #1a1544; /* indigo itself: 16.3 on floor, 14.7 on floor-2 */
+  --sign-edge: transparent; /* the panel reads on paper without a hairline */
   --sign-ink: #ffffff;
   --sign-ink-2: #c5cee0;
 
@@ -94,8 +98,8 @@
   --color-sign-2: var(--sign-2);
   --color-sign-ink: var(--sign-ink);
   --color-sign-ink-2: var(--sign-ink-2);
-  --color-top: var(--top);
-  --color-top-2: var(--top-2);
+  --color-sign-line: var(--sign-line);
+  --color-sign-edge: var(--sign-edge);
 
   --font-display: var(--font-rubik), "Arial Hebrew", sans-serif;
   --font-sans: var(--font-assistant), "Arial Hebrew", sans-serif;
@@ -128,7 +132,7 @@ h3 {
 }
 
 ::selection {
-  background: var(--sign);
+  background: var(--sign-line);
   color: var(--sign-ink);
 }
 

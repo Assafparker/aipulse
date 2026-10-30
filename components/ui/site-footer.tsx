@@ -11,7 +11,7 @@ import Link from "next/link";
  */
 export function SiteFooter() {
   return (
-    <footer className="mt-20 border-t-4 border-sign bg-floor-2">
+    <footer className="mt-20 border-t-4 border-sign-line bg-floor-2">
       <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
         <p className="max-w-prose text-base leading-relaxed text-ink">
           התקצירים באתר מופקים בסריקה יומית אוטומטית ומקושרים למקור הראשוני.

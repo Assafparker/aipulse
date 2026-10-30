@@ -43,7 +43,7 @@ export function FamilyFilter({
                   type="checkbox"
                   checked={on}
                   onChange={() => onToggle(f.id)}
-                  className="size-4 accent-[var(--sign)]"
+                  className="size-4 accent-[var(--sign-line)]"
                 />
                 <span
                   aria-hidden="true"

@@ -28,7 +28,7 @@ export function ViewTabs({
               type="button"
               aria-pressed={view === id}
               onClick={() => onChange(id)}
-              className="flex min-h-12 w-full flex-col items-center justify-center border border-rule font-display text-[0.8125rem] font-medium text-ink-2 hover:text-ink aria-pressed:relative aria-pressed:border-sign aria-pressed:bg-sign aria-pressed:text-sign-ink"
+              className="flex min-h-12 w-full flex-col items-center justify-center border border-rule font-display text-[0.8125rem] font-medium text-ink-2 hover:text-ink aria-pressed:relative aria-pressed:border-sign-line aria-pressed:bg-sign aria-pressed:text-sign-ink"
             >
               {label}
               {/* The count inherits the button's colour outright, so it

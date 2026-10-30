@@ -98,7 +98,7 @@ export function ItemCard({
             </span>
             <span className="text-ink-2">{item.src}</span>
             {pinned && (
-              <span className="bg-sign px-2 py-0.5 text-xs font-medium text-sign-ink">
+              <span className="border border-sign-line bg-sign px-2 py-0.5 text-xs font-medium text-sign-ink">
                 מוצמד
               </span>
             )}
@@ -174,8 +174,8 @@ export function ItemCard({
             return (
               <span
                 key={t}
-                className={`px-2 py-0.5 font-display text-xs ${
-                  up ? "bg-sign text-sign-ink" : "bg-floor-2 text-ink-2"
+                className={`border px-2 py-0.5 font-display text-xs ${
+                  up ? "border-sign-line bg-sign text-sign-ink" : "border-transparent bg-floor-2 text-ink-2"
                 }`}
               >
                 {TOPIC_BY_ID.get(t)?.label ?? t}
@@ -283,7 +283,7 @@ function StateButton({
       aria-pressed={pressed}
       title={title}
       onClick={onClick}
-      className={`${compact ? "min-h-10" : "min-h-11 sm:min-h-10"} border border-rule px-3 font-display text-[0.8125rem] font-medium text-ink-2 transition-colors hover:border-ink-3 hover:text-ink aria-pressed:border-sign aria-pressed:bg-sign aria-pressed:text-sign-ink`}
+      className={`${compact ? "min-h-10" : "min-h-11 sm:min-h-10"} border border-rule px-3 font-display text-[0.8125rem] font-medium text-ink-2 transition-colors hover:border-ink-3 hover:text-ink aria-pressed:border-sign-line aria-pressed:bg-sign aria-pressed:text-sign-ink`}
     >
       {label}
     </button>

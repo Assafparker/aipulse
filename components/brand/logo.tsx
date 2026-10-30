@@ -2,7 +2,7 @@
  * The AiPulse mark — a ring (the daily scan), one selected item at its
  * centre, and a yellow dot off the ring: the item the reader flagged.
  *
- * It always sits on the indigo top sign (--top), in both themes, so its
+ * It always sits on the indigo sign (--sign), in both themes, so its
  * colours are fixed values rather than theme tokens: ivory ring, neon-blue
  * centre, yellow flag. On indigo: ivory 12.2:1, blue 6.6:1, yellow 11.8:1.
  *

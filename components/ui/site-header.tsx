@@ -20,7 +20,7 @@ import { ThemeToggle } from "./theme-toggle";
 export function SiteHeader() {
   return (
     <header>
-      <div className="header-sign on-sign border-b border-sign-ink/25 bg-top text-sign-ink">
+      <div className="header-sign on-sign border-b border-sign-ink/25 bg-sign text-sign-ink">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center gap-x-8 gap-y-3 px-4 py-3 sm:px-6">
           <Link
             href="/"
@@ -46,7 +46,7 @@ export function SiteHeader() {
             <Link
               href="/search"
               aria-label="חיפוש בארכיון"
-              className="grid size-11 place-items-center sm:size-10 border border-sign-ink/30 text-sign-ink transition-colors hover:border-sign-ink hover:bg-top-2 md:hidden"
+              className="grid size-11 place-items-center sm:size-10 border border-sign-ink/30 text-sign-ink transition-colors hover:border-sign-ink hover:bg-sign-2 md:hidden"
             >
               <svg
                 viewBox="0 0 24 24"

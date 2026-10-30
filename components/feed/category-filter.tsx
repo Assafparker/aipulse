@@ -96,7 +96,7 @@ export function CategoryFilter({
             type="button"
             aria-pressed={on.has(t)}
             onClick={() => onToggleTopic(t)}
-            className="min-h-11 sm:min-h-10 border border-rule px-3 font-display text-[0.8125rem] font-medium text-ink-2 hover:border-ink-3 hover:text-ink aria-pressed:border-sign aria-pressed:bg-sign aria-pressed:text-sign-ink"
+            className="min-h-11 sm:min-h-10 border border-rule px-3 font-display text-[0.8125rem] font-medium text-ink-2 hover:border-ink-3 hover:text-ink aria-pressed:border-sign-line aria-pressed:bg-sign aria-pressed:text-sign-ink"
           >
             {TOPIC_LABEL.get(t) ?? t}
             <span className="tnum ms-2 text-xs opacity-75">{topicCounts[t] ?? 0}</span>
@@ -136,7 +136,7 @@ function CategoryRow({
         type="checkbox"
         checked={checked}
         onChange={onChange}
-        className="size-4 accent-[var(--sign)]"
+        className="size-4 accent-[var(--sign-line)]"
       />
       <span aria-hidden="true" className="line-solid h-1 w-6 shrink-0" />
       <span className="grow">{label}</span>
@@ -163,7 +163,7 @@ function TopicRow({
         type="checkbox"
         checked={checked}
         onChange={onChange}
-        className="size-3.5 accent-[var(--sign)]"
+        className="size-3.5 accent-[var(--sign-line)]"
       />
       <span className="grow">{label}</span>
       <span className="tnum text-xs text-ink-3">{count}</span>

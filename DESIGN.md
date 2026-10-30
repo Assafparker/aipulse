@@ -11,10 +11,10 @@ colors:
   rule: "#2b3651"
   lane: "#222c44"
   focus: "#eef1f6"
-  sign: "#1d315e"
-  sign-2: "#2a4280"
-  top: "#1a1544"
-  top-2: "#2d2670"
+  sign: "#1a1544"
+  sign-2: "#2d2670"
+  sign-line: "#6a5fd0"
+  sign-edge: "rgb(255 255 255 / 0.25)"
   sign-ink: "#ffffff"
   sign-ink-2: "#cdd6eb"
   cat-rnd: "#0098d4"
@@ -86,7 +86,7 @@ spacing:
 components:
   button-door:
     backgroundColor: "{colors.sign-ink}"
-    textColor: "{colors.top}"
+    textColor: "{colors.sign}"
     typography: "{typography.label}"
     rounded: "{rounded.none}"
     padding: "0 24px"
@@ -99,7 +99,7 @@ components:
     padding: "0 24px"
     height: "48px"
   button-sign-ghost-hover:
-    backgroundColor: "{colors.top-2}"
+    backgroundColor: "{colors.sign-2}"
   button-state:
     textColor: "{colors.ink-2}"
     typography: "{typography.label}"
@@ -124,7 +124,7 @@ components:
     padding: "0 12px"
     height: "44px"
   input-search-sign:
-    backgroundColor: "{colors.top-2}"
+    backgroundColor: "{colors.sign-2}"
     textColor: "{colors.sign-ink}"
     rounded: "{rounded.none}"
     padding: "0 12px"
@@ -163,14 +163,14 @@ components:
 
 **Creative North Star: "Corridor Lines"**
 
-AiPulse is set as hospital floor wayfinding. The ground is the corridor at night (a deep navy-black floor), or warm paper in the light theme; the structure is enamel signage with white Hebrew — indigo at the top of the site, navy everywhere else; and every topic category is a coloured line painted on that floor. Floor lines lead to departments, and the departments here are the topic categories: R&D, health services, regulation and policy, infrastructure. The digest is the corridor a clinician walks each morning: the sign tells you where you are and what day it is, the lines leave from under the sign, and each item stands on its own category's line. A colour on this site always means "this department", nothing else. What kind of source an item comes from is carried by the line's pattern (solid or dashed) and by text, never by colour.
+AiPulse is set as hospital floor wayfinding. The ground is the corridor at night (a deep blue-black floor), or warm paper in the light theme; the structure is indigo enamel signage with white Hebrew; and every topic category is a coloured line painted on that floor. Floor lines lead to departments, and the departments here are the topic categories: R&D, health services, regulation and policy, infrastructure. The digest is the corridor a clinician walks each morning: the sign tells you where you are and what day it is, the lines leave from under the sign, and each item stands on its own category's line. A colour on this site always means "this department", nothing else. What kind of source an item comes from is carried by the line's pattern (solid or dashed) and by text, never by colour.
 
-The system is dense and sober. Headlines pack tightly down an unbroken rail, controls are square sign plates, and depth comes from the navy panels against the floor rather than from shadows. Dark is the default world (the corridor at night, signs lit); light is warm paper under the same navy signs, reached only by the manual toggle and remembered. The site refuses the dark card-grid news aggregator and the cream broadsheet.
+The system is dense and sober. Headlines pack tightly down an unbroken rail, controls are square sign plates, and depth comes from the indigo panels against the floor rather than from shadows. Dark is the default world (the corridor at night, signs lit); light is warm paper under the same indigo signs, reached only by the manual toggle and remembered. The site refuses the dark card-grid news aggregator and the cream broadsheet.
 
 There are two living elements. The floor lines paint themselves: on load the lines switch on category after category; on scroll each item's lane draws down its rail, then its line bends off the rail and runs into the headline. And the logo beats: its centre dot pulses once, four ripples in the category colours run out to the ring and tint it in turn, the ring settles back to ivory and the flagged dot pops in, on load and on hover or tap. Nothing else moves, and with reduced motion nothing moves at all.
 
 **Key Characteristics:**
-- Night-corridor floor (dark, default) or warm paper (light), an indigo top sign, navy enamel sign panels below, white signage type.
+- Night-corridor floor (dark, default) or warm paper (light), one sign colour, indigo enamel, white signage type.
 - Four category line colours, reserved exclusively for topic categories.
 - Primary source = solid line + filled dot; secondary reporting = dashed line + hollow dot.
 - One 4px line module governs lanes, gaps, strips, branches and heavy rules.
@@ -182,15 +182,15 @@ There are two living elements. The floor lines paint themselves: on load the lin
 
 ## Colors
 
-A floor and navy enamel carry the whole interface; the only saturated colour on the page is a category line, in colours taken after the London Underground line palette.
+A floor and indigo enamel carry the whole interface; the only saturated colour on the page is a category line, in colours taken after the London Underground line palette.
 
 All tokens are CSS custom properties on `:root` in their dark values (app/globals.css); `:root[data-theme="light"]` is the only override block. Tailwind v4 reads them through `@theme inline`, so utilities follow a theme switch. The frontmatter records the dark (default) values; light values are in the tables below and in the sidecar.
 
 ### Primary
-- **Indigo Top Sign** (top): the top of the site only — the site header and the home hero sign (brand, intro, door buttons, room plate). #1A1544 in both themes: the top area is dark in light mode too, so it is defined once on `:root` and never overridden. Dedicated rather than shared: no other panel, plate or state uses it.
-- **Top Hover** (top-2, #2D2670): hover fill for links and buttons on the top sign, and the header search field. Text and marks on the top sign keep the sign inks below.
-- **Navy Enamel Sign** (sign): the shared navy for every other sign panel and state. Archive month directory, pressed state of every toggle, boosted topic tags, the pinned badge, date-group headings in the feed, the 4px top rule on the footer and on method principles. Also the text-selection colour.
-- **Lit Sign Hover** (sign-2): hover fill for links and buttons on a navy sign panel (the archive directory), and the hover of the navy submit plate.
+- **Indigo Sign** (sign, #1A1544): the one sign colour, the same in both themes, defined once on `:root` and never overridden. The site header and home hero sign, the archive month panel, the mobile filter bar, date-group and pinned-group heading plates, the "AiPulse" plate on the about page, the pressed fill of every toggle and tab, boosted topic tags, the pinned badge and the search submit plate.
+- **Sign Hover** (sign-2, #2D2670): hover fill for links and buttons on a sign, the hover of the submit plate, and the header search field. Text and marks on the sign keep the sign inks below.
+- **Sign Line** (sign-line): indigo where it has to read as a line or a state on the floor. #6A5FD0 in dark, the same hue lifted; #1A1544 in light. The 4px rule on the footer and above the home principles, the 1px edge of every pressed toggle, boosted tag, pinned badge, submit plate and the mobile filter bar, filter checkboxes and the text-selection colour.
+- **Sign Edge** (sign-edge): the 25% white hairline around a static sign panel in dark (archive panel, heading plates, the about plate). Transparent in light.
 - **Sign White** (sign-ink): all text and icon strokes on a sign panel; the fill of the "door" call to action. Hairlines on the sign are this colour at 15-40% opacity.
 - **Sign Secondary** (sign-ink-2): subtitles, field labels and inactive nav links on the sign.
 
@@ -200,7 +200,7 @@ One colour per topic category, in lane order from the inline start (`CATEGORIES`
 | Category (token) | Topics | Line colour | Dark (default), on floor / floor-2 | Light, on floor / floor-2 |
 |---|---|---|---|---|
 | מו"פ, R&D (cat-rnd) | research, funding | light blue | #0098D4, 5.7 / 5.3 | #0084C0, 4.0 / 3.6 |
-| שירותי בריאות, health services (cat-health) | imaging, adoption, ambient, mental, ops | green | #00A33C (lifted from #00782A to read on navy), 5.6 / 5.2 | #00782A, 5.4 / 4.9 |
+| שירותי בריאות, health services (cat-health) | imaging, adoption, ambient, mental, ops | green | #00A33C (lifted from #00782A to read on the dark floor), 5.6 / 5.2 | #00782A, 5.4 / 4.9 |
 | רגולציה ומדיניות, regulation and policy (cat-reg) | policy, ethics, national-strategies | red | #DC241F, 3.8 / 3.6 | #DC241F, 4.7 / 4.2 |
 | תשתיות, infrastructure (cat-infra) | interop, marketplace, foundation-models | yellow | #FFD300, 12.9 / 12.0 | #9C7F00 (#B89600 is 2.7:1 on paper), 3.7 / 3.3 |
 
@@ -220,18 +220,21 @@ Each item sets `--line` to its category token, and its lane, bend, run, category
 | Rule (rule): hairline dividers, control borders | #2B3651 | #D6D1C6 |
 | Unpainted lane (lane): the three inactive lanes | #222C44 | #E2DED5 |
 | Focus (focus): the focus ring off the sign | #EEF1F6 | #1A1F2B |
-| Top sign (top) / top hover (top-2) | #1A1544 / #2D2670 | #1A1544 / #2D2670 (not overridden) |
-| Sign (sign) / sign hover (sign-2) | #1D315E / #2A4280 | #13203B / #22325A |
+| Sign (sign) / sign hover (sign-2) | #1A1544 / #2D2670 | #1A1544 / #2D2670 (not overridden) |
+| Sign line (sign-line) | #6A5FD0 | #1A1544 |
+| Sign edge (sign-edge) | white at 25% | transparent |
 | Sign secondary (sign-ink-2) | #CDD6EB | #C5CEE0 |
 
 Text contrast (WCAG AA): light ink 15.8:1, ink-2 8.0:1 or better and ink-3 5.3:1 or better on both paper tones; dark ink-2 11.3:1 and ink-3 6.9:1 or better; sign secondary 7.9:1 or better in both themes.
 
-On the indigo top sign: sign-ink 17.0:1; sign-ink-2 11.7:1 (dark) and 10.8:1 (light); door label (top on white) 17.0:1, 11.7 / 10.8 on its hover fill; white on the top-2 hover and field fill 12.9:1, placeholder (sign-ink-2) 8.9 / 8.2. The header search field's border is white at 40% (3.7:1 against the indigo, the 3:1 a field boundary needs; 30% was 2.65:1). The 3px white focus ring and the 2px white room-plate frame are 17.0:1.
+On the indigo sign: sign-ink 17.0:1; sign-ink-2 11.7:1 (dark) and 10.8:1 (light); door label (sign on white) 17.0:1, 11.7 / 10.8 on its hover fill; white on the sign-2 hover and field fill 12.9:1, placeholder (sign-ink-2) 8.9 / 8.2. The header search field's border is white at 40% (3.7:1 against the indigo, the 3:1 a field boundary needs; 30% was 2.65:1). The 3px white focus ring and the 2px white room-plate frame are 17.0:1.
 
-**The Top Edge Rule.** Indigo sits at 1.09:1 against the dark floor, too close to read as an edge, so the top area always ends on a 1px sign-ink hairline at 25%: on every page under the header sign, and on the home page under the hero sign instead (the header, which runs straight into the hero, drops its own; `.header-sign` in globals.css). The category strip follows directly beneath it. On paper the indigo is 16.3:1 and the hairline is simply part of the sign.
+Sign line in dark: 3.7:1 on floor, 3.4:1 on floor-2, 3.2:1 on surface, 3.4:1 on the sign itself; white on it 5.1:1 (selected text, checkbox tick). In light it is indigo: 16.3:1 on floor, 14.7:1 on floor-2, white on it 17.0:1.
+
+**The Sign Edge Rule.** Indigo sits at 1.09:1 against the dark floor, too close to read as an edge, so a sign never relies on its fill there. A control or state (pressed toggle, boosted tag, pinned badge, submit plate, filter bar) carries a 1px sign-line edge, 3:1 or better. A static panel carries a 1px hairline of white at 25% (2.4:1 on the floor; it is decoration, and the white text inside carries the panel). The top area always ends on that hairline: on every page under the header sign, and on the home page under the hero sign instead (the header, which runs straight into the hero, drops its own; `.header-sign` in globals.css). The category strip follows directly beneath it. On paper the indigo is 16.3:1 and the hairline is simply part of the sign.
 
 ### Named Rules
-**The Category Colour Rule.** A category colour is used for its topic category only: the item's lane, bend and run, the category swatch beside its name (item row, legend, filter), and the headline's hover underline. Never as a general accent, link colour, button fill or state colour, and never for a source family. Interactive state is navy.
+**The Category Colour Rule.** A category colour is used for its topic category only: the item's lane, bend and run, the category swatch beside its name (item row, legend, filter), and the headline's hover underline. Never as a general accent, link colour, button fill or state colour, and never for a source family. Interactive state is indigo.
 
 **The Uncoloured Source Rule.** Source family is secondary information and carries no colour: its icon, the primary/secondary dot and its filter swatches are neutral ink. Source type reaches the reader through the line pattern on the coloured category line and through the family name as text.
 
@@ -269,7 +272,7 @@ The page is a single centred column, 72rem (1152px) max, with 16px gutters (24px
 
 **The line strip.** Under every sign, four solid 4px category lines (4px apart) run full width in lane order. On the home page the header's own strip and brand lockup are hidden and the strip leaves from under the big sign instead.
 
-**Feed.** From 1024px the feed is a two-column layout: a 288px filter column (view tabs, sort, categories and topics, source type, topic preferences) and the list. Below that the filters collapse behind a full-width navy toggle bar. List headers sit on a 2px ink rule.
+**Feed.** From 1024px the feed is a two-column layout: a 288px filter column (view tabs, sort, categories and topics, source type, topic preferences) and the list. Below that the filters collapse behind a full-width indigo toggle bar. List headers sit on a 2px ink rule.
 
 **Home.** The sign band is a grid: brand, subtitle and door buttons at the start; the room-number plate and a two-cell placard of counts at the end (side by side from 1024px). On a phone the line legend moves below the latest items so headlines reach the first screen.
 
@@ -279,14 +282,14 @@ Breakpoints are Tailwind's defaults: 640px, 768px, 1024px.
 
 ## Elevation & Depth
 
-The system is flat. There are no shadows anywhere. Depth is conveyed by material: navy enamel panels sit against the floor, recessed bands use floor-2, and weight comes from rules: 1px hairlines between rows, a 2px ink rule under list headers, and a 4px navy rule at the top of the footer and above each method principle. Dimmed items (a "less" topic preference) drop to 60% opacity; they are never hidden.
+The system is flat. There are no shadows anywhere. Depth is conveyed by material: indigo enamel panels sit against the floor, recessed bands use floor-2, and weight comes from rules: 1px hairlines between rows, a 2px ink rule under list headers, and a 4px sign-line rule at the top of the footer and above each home principle. Dimmed items (a "less" topic preference) drop to 60% opacity; they are never hidden.
 
 ### Named Rules
-**The Enamel Not Shadow Rule.** If something needs to stand forward, it becomes a navy sign plate or gains a heavier rule. It never gains a shadow.
+**The Enamel Not Shadow Rule.** If something needs to stand forward, it becomes an indigo sign plate or gains a heavier rule. It never gains a shadow.
 
 ## Shapes
 
-Square corners throughout (0px): buttons, inputs, tags, panels, plates, segmented tabs. The round forms are the primary/secondary dot (10px circle, 2px ink-2 border, filled for primary) and the logo, which is built from circles. Icons are inline SVG strokes, square line caps and mitre joins for wayfinding marks (arrow, external link). Segmented controls (view tabs, sort, topic preferences) are built from adjoining bordered cells overlapping by 1px, with the pressed cell lifted into navy.
+Square corners throughout (0px): buttons, inputs, tags, panels, plates, segmented tabs. The round forms are the primary/secondary dot (10px circle, 2px ink-2 border, filled for primary) and the logo, which is built from circles. Icons are inline SVG strokes, square line caps and mitre joins for wayfinding marks (arrow, external link). Segmented controls (view tabs, sort, topic preferences) are built from adjoining bordered cells overlapping by 1px, with the pressed cell lifted into indigo.
 
 **The 4px Module Rule.** One 4px module sets the lane width, lane gap, strip line height and gap, branch thickness and the heaviest rule. A new line-like element is 4px, or one of the existing rule weights (1px hairline, 2px heavy rule, 3px focus ring and current-page bar), never an arbitrary weight.
 
@@ -295,26 +298,26 @@ Square corners throughout (0px): buttons, inputs, tags, panels, plates, segmente
 ### Buttons
 Sign plates: square, flat, Rubik.
 - **Shape:** square (0px).
-- **Door (primary, on the home sign):** white fill, indigo (top) text, Rubik 600, 48px tall, 24px inline padding, followed by the drawn start-pointing arrow. Hover fades the fill to sign-ink-2.
-- **Sign ghost:** 1px white border at 40% opacity, white text; hover takes a full-white border and the top-2 fill.
-- **State button (pin, save, already-read):** 1px rule border, ink-2 label at 0.8125rem/500, 44px tall on a phone and 40px from 640px. Hover darkens border and text. Pressed (`aria-pressed`) turns navy with white text. "Already read" stands apart from pin and save by a 12-24px gap.
-- **Icon buttons on the header sign** (theme toggle, mobile search): 44px square (40px from 640px), white-30% border (the white icon itself carries the contrast, 17.0:1), top-2 hover fill.
+- **Door (primary, on the home sign):** white fill, indigo (sign) text, Rubik 600, 48px tall, 24px inline padding, followed by the drawn start-pointing arrow. Hover fades the fill to sign-ink-2.
+- **Sign ghost:** 1px white border at 40% opacity, white text; hover takes a full-white border and the sign-2 fill.
+- **State button (pin, save, already-read):** 1px rule border, ink-2 label at 0.8125rem/500, 44px tall on a phone and 40px from 640px. Hover darkens border and text. Pressed (`aria-pressed`) turns indigo with white text and a sign-line edge. "Already read" stands apart from pin and save by a 12-24px gap.
+- **Icon buttons on the header sign** (theme toggle, mobile search): 44px square (40px from 640px), white-30% border (the white icon itself carries the contrast, 17.0:1), sign-2 hover fill.
 - **Focus:** a 3px ink outline offset 2px everywhere; white on a sign panel.
 
 ### Chips
-- **Topic tag:** floor-2 fill, ink-2 text, Rubik 0.75rem, 2px by 8px padding, square. A topic the reader boosted turns navy with white text.
-- **Pinned badge:** the same plate in navy.
+- **Topic tag:** floor-2 fill, ink-2 text, Rubik 0.75rem, 2px by 8px padding, square. A topic the reader boosted turns indigo with white text and a sign-line edge.
+- **Pinned badge:** the same plate in indigo, with the same edge.
 
 ### Cards / Containers
 Items are not cards. They are rows standing on the floor: no fill, no border box, no radius, no shadow, divided by a 1px rule, with the rail at the inline start. Empty states use a 1px dashed ink-3 frame with 24px padding.
 
 ### Inputs / Fields
-- **On the floor:** surface fill, 1px ink-3 border, square, 44px tall; focus darkens the border to ink and shows the focus ring. Joined to a navy submit plate.
-- **On the header sign:** top-2 fill, white-40% border (3.7:1 on indigo), white text, 208px wide, joined to a submit plate with the same border; focus takes a full-white border.
-- **Checkboxes** use the navy accent colour.
+- **On the floor:** surface fill, 1px ink-3 border, square, 44px tall; focus darkens the border to ink and shows the focus ring. Joined to an indigo submit plate with a sign-line edge.
+- **On the header sign:** sign-2 fill, white-40% border (3.7:1 on indigo), white text, 208px wide, joined to a submit plate with the same border; focus takes a full-white border.
+- **Checkboxes** use the sign-line accent colour.
 
 ### Navigation
-The header is the department sign: indigo (top), brand lockup (logo + "AiPulse" in Rubik 800) at the start, directory links in Rubik 0.9375rem/500, search and theme toggle at the end. Links rest at sign-ink-2, hover to white on top-2, and the current page is white with a 3px white bar along the bottom (`aria-current="page"`). On a phone the directory wraps to its own row (except on home, where it shares the first row). The footer is a floor-2 band under a 4px navy rule; the disclosure line comes first, then the links.
+The header is the department sign: indigo (sign), brand lockup (logo + "AiPulse" in Rubik 800) at the start, directory links in Rubik 0.9375rem/500, search and theme toggle at the end. Links rest at sign-ink-2, hover to white on sign-2, and the current page is white with a 3px white bar along the bottom (`aria-current="page"`). On a phone the directory wraps to its own row (except on home, where it shares the first row). The footer is a floor-2 band under a 4px sign-line rule; the disclosure line comes first, then the links.
 
 ### Item Row (signature)
 Row 1: dot, family icon in ink-3, family label, source name; the update and publication dates at the end, labelled. Then the headline (linked to the primary source, category-coloured 2px underline on hover) set on its bend, the source's own headline, the summary, the category name with a 14px line swatch followed by the topic tags, and the action row with "למקור" and an external-link icon at the inline end. Headlines-only mode collapses the source headline, summary and tags; the category name then stays in the screen-reader text. Open item: compact rows still keep the full action row; it is not yet a rule that they do.
@@ -342,13 +345,13 @@ The original AiPulse mark (components/brand/logo.tsx), inlined as SVG, viewBox 0
 - **Centre dot** (the selected item): cx 30, cy 34, r 6.8, neon blue #2EA8FF.
 - **Flagged dot** (the item the reader flagged): cx 47.5, cy 16.5, r 4.2, yellow #FFD300.
 
-It always sits on the indigo top sign (#1A1544), in both themes, so its colours are fixed values, not theme tokens. At rest: ivory 12.2:1, blue 6.6:1, yellow 11.8:1 on indigo. Header lockup: the mark at 30px beside "AiPulse" in Rubik 800, 1.25rem. Home sign lockup: the mark at 48px (64px from 640px) beside the Display wordmark.
+It always sits on the indigo sign (#1A1544), in both themes, so its colours are fixed values, not theme tokens. At rest: ivory 12.2:1, blue 6.6:1, yellow 11.8:1 on indigo. Header lockup: the mark at 30px beside "AiPulse" in Rubik 800, 1.25rem. Home sign lockup: the mark at 48px (64px from 640px) beside the Display wordmark.
 
-**Icons.** The favicon (public/favicon.svg, app/icon.png at 512px) and the manifest icons (public/icons/icon-192.png, icon-512.png) are the rest state on a #1A1544 tile (the top indigo, so the icon matches the header it comes from) with 14/64 rounded corners, the mark scaled 0.9 and centred on its bounding box, so it reads on any browser or home-screen background. app/apple-icon.png (180px) is the same tile full-bleed: iOS applies its own rounded mask and would fill transparent corners with black.
+**Icons.** The favicon (public/favicon.svg, app/icon.png at 512px) and the manifest icons (public/icons/icon-192.png, icon-512.png) are the rest state on a #1A1544 tile (the sign indigo, so the icon matches the header it comes from) with 14/64 rounded corners, the mark scaled 0.9 and centred on its bounding box, so it reads on any browser or home-screen background. app/apple-icon.png (180px) is the same tile full-bleed: iOS applies its own rounded mask and would fill transparent corners with black.
 
 ### Logo motion
 The logo beat, GSAP, in components/motion/logo-motion.tsx. It runs on the header lockup, and on the home sign's lockup, which stands in for the header lockup on that page.
-- **Sequence, about 2.2s:** (1) t=0, the centre dot beats once: scale 1 to 1.3 and back, 0.25s (`power2.out`, then `power2.in`). (2) From t=0.15s, four ripples leave the centre dot (r 6.8) for the ring (r 21) and fade (0.8s, `power1.out`: opacity 0 to 0.95 in the first 0.06s, then out to 0, so a waiting ripple is never visible), one every 0.28s, with a 2px stroke that does not scale with the mark (`vector-effect: non-scaling-stroke`), in the category colours in lane order, dark values as on the navy sign: R&D #0098D4, health services #00A33C, regulation #DC241F, infrastructure #FFD300. (3) As each ripple reaches the ring, 0.6s into it, the ring takes its colour (0.15s); after the last one it settles back to ivory (0.5s, `power1.inOut`), so it never rests on a category colour. (4) The flagged dot is hidden (scale 0) from t=0 and pops in over the settle (scale 0 to 1, 0.4s, `back.out(2.2)`).
+- **Sequence, about 2.2s:** (1) t=0, the centre dot beats once: scale 1 to 1.3 and back, 0.25s (`power2.out`, then `power2.in`). (2) From t=0.15s, four ripples leave the centre dot (r 6.8) for the ring (r 21) and fade (0.8s, `power1.out`: opacity 0 to 0.95 in the first 0.06s, then out to 0, so a waiting ripple is never visible), one every 0.28s, with a 2px stroke that does not scale with the mark (`vector-effect: non-scaling-stroke`), in the category colours in lane order, dark values as on the indigo sign: R&D #0098D4, health services #00A33C, regulation #DC241F, infrastructure #FFD300. (3) As each ripple reaches the ring, 0.6s into it, the ring takes its colour (0.15s); after the last one it settles back to ivory (0.5s, `power1.inOut`), so it never rests on a category colour. (4) The flagged dot is hidden (scale 0) from t=0 and pops in over the settle (scale 0 to 1, 0.4s, `back.out(2.2)`).
 - **Contrast in motion:** every ripple colour clears 3:1 on indigo: R&D blue 5.2, health green 5.1, regulation red 3.5, infrastructure yellow 11.8. The ring passes through them and rests on ivory (12.2).
 - **When:** once on page load (after 0.35s), and again on hover (`pointerenter`) or tap (`pointerdown`). Never stacked: a trigger while it is running is ignored. No loop.
 - **Rest state:** the markup is the rest state, and the ripples ship at opacity 0. Without JavaScript or under reduced motion (`gsap.matchMedia`: nothing is created) the mark is static: ivory ring, blue centre, yellow flagged dot. Under `.motion-ok` the flagged dot starts at opacity 0 so it does not flash before the first play; GSAP sets `data-shown` on it when it takes over, which lifts that gate for good.
@@ -359,7 +362,7 @@ The logo beat, GSAP, in components/motion/logo-motion.tsx. It runs on the header
 ### Do:
 - **Do** set every item's `--line` from its category token (its first categorized topic) and paint its lane, bend, run, swatch and hover underline from that one variable.
 - **Do** pair solid line + filled dot for primary sources and dashed line + hollow dot for secondary reporting, with the matching screen-reader text.
-- **Do** use navy (sign) for every pressed, selected, pinned or boosted state.
+- **Do** use indigo (sign) for every pressed, selected, pinned or boosted state.
 - **Do** keep corners at 0px and lines on the 4px module.
 - **Do** define every colour on `:root` in its dark value and override only in `:root[data-theme="light"]`.
 - **Do** set dates and counts in Rubik with tabular numerals, bidi-isolated.

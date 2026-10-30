@@ -38,7 +38,7 @@ export function ThemeToggle() {
       onClick={toggle}
       aria-label="החלף בין מצב בהיר לכהה"
       title="החלף בין מצב בהיר לכהה"
-      className="grid size-11 place-items-center sm:size-10 border border-sign-ink/30 text-sign-ink transition-colors hover:border-sign-ink hover:bg-top-2"
+      className="grid size-11 place-items-center sm:size-10 border border-sign-ink/30 text-sign-ink transition-colors hover:border-sign-ink hover:bg-sign-2"
     >
       {/* Both icons ship; CSS shows whichever matches the effective theme. */}
       <svg

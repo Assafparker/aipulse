@@ -26,7 +26,7 @@ export function MainNav() {
             <Link
               href={n.href}
               aria-current={here ? "page" : undefined}
-              className="relative inline-flex min-h-11 items-center px-2.5 text-sign-ink-2 transition-colors hover:bg-top-2 hover:text-sign-ink aria-[current=page]:text-sign-ink sm:min-h-10"
+              className="relative inline-flex min-h-11 items-center px-2.5 text-sign-ink-2 transition-colors hover:bg-sign-2 hover:text-sign-ink aria-[current=page]:text-sign-ink sm:min-h-10"
             >
               {n.label}
               {here && (

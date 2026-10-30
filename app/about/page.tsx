@@ -119,7 +119,7 @@ export default function AboutPage() {
       <h2 className={H2}>גילוי נאות</h2>
       {/* Posted like a notice on the corridor wall: framed, not buried. */}
       <div className="mt-6 border-2 border-ink bg-surface">
-        <div className="on-sign bg-sign px-5 py-2 font-display text-sm font-semibold text-sign-ink" aria-hidden="true">
+        <div className="on-sign border-b border-sign-edge bg-sign px-5 py-2 font-display text-sm font-semibold text-sign-ink" aria-hidden="true">
           AiPulse
         </div>
         <div className="p-5 sm:p-6">

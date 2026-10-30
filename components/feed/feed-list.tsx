@@ -259,7 +259,7 @@ export function FeedList({ items }: { items: Item[] }) {
           aria-expanded={filtersOpen}
           aria-controls="feed-filters"
           onClick={() => setFiltersOpen((o) => !o)}
-          className="flex min-h-12 w-full items-center justify-between bg-sign px-4 font-display text-[0.9375rem] font-semibold text-sign-ink lg:hidden"
+          className="flex min-h-12 w-full items-center justify-between border border-sign-line bg-sign px-4 font-display text-[0.9375rem] font-semibold text-sign-ink lg:hidden"
         >
           סינון וכיוונון
           <svg
@@ -298,7 +298,7 @@ export function FeedList({ items }: { items: Item[] }) {
                   type="button"
                   aria-pressed={state.sort === o.id}
                   onClick={() => setSort(o.id)}
-                  className="-ms-px min-h-11 sm:min-h-10 border border-rule px-1.5 font-display text-[0.8125rem] font-medium leading-tight text-ink-2 first:ms-0 hover:text-ink aria-pressed:relative aria-pressed:border-sign aria-pressed:bg-sign aria-pressed:text-sign-ink"
+                  className="-ms-px min-h-11 sm:min-h-10 border border-rule px-1.5 font-display text-[0.8125rem] font-medium leading-tight text-ink-2 first:ms-0 hover:text-ink aria-pressed:relative aria-pressed:border-sign-line aria-pressed:bg-sign aria-pressed:text-sign-ink"
                 >
                   {o.label}
                 </button>
@@ -339,7 +339,7 @@ export function FeedList({ items }: { items: Item[] }) {
               type="button"
               aria-pressed={state.compact === true}
               onClick={toggleCompact}
-              className="min-h-11 border border-rule px-3 font-display text-[0.8125rem] font-medium text-ink-2 transition-colors hover:border-ink-3 hover:text-ink aria-pressed:border-sign aria-pressed:bg-sign aria-pressed:text-sign-ink sm:min-h-10"
+              className="min-h-11 border border-rule px-3 font-display text-[0.8125rem] font-medium text-ink-2 transition-colors hover:border-ink-3 hover:text-ink aria-pressed:border-sign-line aria-pressed:bg-sign aria-pressed:text-sign-ink sm:min-h-10"
             >
               כותרות בלבד
             </button>
@@ -362,7 +362,7 @@ export function FeedList({ items }: { items: Item[] }) {
           <LineMotion dep={motionKey}>
             {pinnedGroup.length > 0 && (
               <section className="mb-8">
-                <h2 className="mt-5 inline-block bg-sign px-3 py-1 font-display text-sm font-semibold text-sign-ink">
+                <h2 className="mt-5 inline-block border border-sign-edge bg-sign px-3 py-1 font-display text-sm font-semibold text-sign-ink">
                   מוצמדים
                 </h2>
                 <ol>{pinnedGroup.map(renderCard)}</ol>

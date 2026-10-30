@@ -58,7 +58,7 @@ export default function Home() {
     <main>
       {/* 1 — The department sign. The brand and its promise at the start,
           the directory of honest counts at the end. */}
-      <section className="home-sign on-sign border-b border-sign-ink/25 bg-top text-sign-ink">
+      <section className="home-sign on-sign border-b border-sign-ink/25 bg-sign text-sign-ink">
         <div className="mx-auto grid max-w-6xl gap-6 px-4 pb-6 pt-5 sm:gap-10 sm:px-6 sm:pb-12 sm:pt-12 lg:grid-cols-[1fr_auto] lg:items-end lg:gap-16">
           <div>
             {/* On home the header lockup steps aside and this one stands in
@@ -77,14 +77,14 @@ export default function Home() {
             <div className="mt-6 flex flex-wrap gap-3 sm:mt-8">
               <Link
                 href="/feed"
-                className="inline-flex min-h-12 items-center gap-3 bg-sign-ink px-6 font-display text-base font-semibold text-top transition-colors hover:bg-sign-ink-2"
+                className="inline-flex min-h-12 items-center gap-3 bg-sign-ink px-6 font-display text-base font-semibold text-sign transition-colors hover:bg-sign-ink-2"
               >
                 לפיד
                 <ArrowStart />
               </Link>
               <Link
                 href="/about"
-                className="inline-flex min-h-12 items-center border border-sign-ink/40 px-6 font-display text-base font-medium text-sign-ink transition-colors hover:border-sign-ink hover:bg-top-2"
+                className="inline-flex min-h-12 items-center border border-sign-ink/40 px-6 font-display text-base font-medium text-sign-ink transition-colors hover:border-sign-ink hover:bg-sign-2"
               >
                 איך זה עובד
               </Link>
@@ -194,7 +194,7 @@ export default function Home() {
         </h2>
         <ul className="mt-8 grid gap-x-10 gap-y-10 md:grid-cols-3">
           {PRINCIPLES.map((p) => (
-            <li key={p.title} className="border-t-4 border-sign pt-5">
+            <li key={p.title} className="border-t-4 border-sign-line pt-5">
               <h3 className="text-xl font-semibold leading-snug">{p.title}</h3>
               <p className="mt-3 leading-[1.7] text-ink-2">{p.body}</p>
             </li>

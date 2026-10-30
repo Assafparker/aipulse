@@ -43,7 +43,7 @@ export default function ArchivePage() {
         </Link>
       </header>
 
-      <ul className="on-sign bg-sign p-2 text-sign-ink sm:p-3">
+      <ul className="on-sign border border-sign-edge bg-sign p-2 text-sign-ink sm:p-3">
         {months.map(({ month, count }) => (
           <li key={month} className="border-b border-sign-ink/15 last:border-b-0">
             <Link

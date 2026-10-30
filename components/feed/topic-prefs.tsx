@@ -53,7 +53,7 @@ export function TopicPrefs({
                     aria-label={`${c.label} — ${t.label}`}
                     title={c.label}
                     onClick={() => onSet(t.id, c.value)}
-                    className="-ms-px grid size-9 place-items-center border border-rule text-ink-3 first:ms-0 hover:text-ink aria-pressed:relative aria-pressed:border-sign aria-pressed:bg-sign aria-pressed:text-sign-ink"
+                    className="-ms-px grid size-9 place-items-center border border-rule text-ink-3 first:ms-0 hover:text-ink aria-pressed:relative aria-pressed:border-sign-line aria-pressed:bg-sign aria-pressed:text-sign-ink"
                   >
                     <svg
                       viewBox="0 0 16 16"

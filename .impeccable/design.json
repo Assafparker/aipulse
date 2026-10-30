@@ -69,33 +69,35 @@
       },
       "sign": {
         "role": "primary",
-        "displayName": "Navy Enamel Sign",
-        "canonical": "#1d315e",
+        "displayName": "Indigo Sign",
+        "canonical": "#1a1544",
         "cssVar": "--sign",
-        "lightValue": "#13203b"
+        "lightValue": "#1a1544",
+        "usage": "The one sign colour, the same in both themes."
       },
       "sign-2": {
         "role": "primary",
-        "displayName": "Lit Sign Hover",
-        "canonical": "#2a4280",
-        "cssVar": "--sign-2",
-        "lightValue": "#22325a"
-      },
-      "top": {
-        "role": "primary",
-        "displayName": "Indigo Top Sign",
-        "canonical": "#1a1544",
-        "cssVar": "--top",
-        "lightValue": "#1a1544",
-        "usage": "Site header and home hero sign only. Not overridden in light: the top area stays dark in both themes. Dedicated; no other panel uses it."
-      },
-      "top-2": {
-        "role": "primary",
-        "displayName": "Top Hover",
+        "displayName": "Sign Hover",
         "canonical": "#2d2670",
-        "cssVar": "--top-2",
+        "cssVar": "--sign-2",
         "lightValue": "#2d2670",
-        "usage": "Hover fill on the top sign and the header search field."
+        "usage": "Hover fill on a sign and the header search field."
+      },
+      "sign-line": {
+        "role": "primary",
+        "displayName": "Sign Line",
+        "canonical": "#6a5fd0",
+        "cssVar": "--sign-line",
+        "lightValue": "#1a1544",
+        "usage": "Indigo as a line or state on the floor: footer and principle rules, pressed edges, checkboxes, selection. Same hue as sign; 3:1 or better on every dark floor tone."
+      },
+      "sign-edge": {
+        "role": "primary",
+        "displayName": "Sign Edge",
+        "canonical": "rgb(255 255 255 / 0.25)",
+        "cssVar": "--sign-edge",
+        "lightValue": "transparent",
+        "usage": "Hairline around a static sign panel in dark."
       },
       "sign-ink": {
         "role": "primary",
@@ -156,7 +158,7 @@
       },
       "light": {
         "selector": ":root[data-theme=\"light\"]",
-        "description": "Warm paper under the same navy signs. The only override block; every token is defined on :root in its dark value."
+        "description": "Warm paper under the same indigo signs. The only override block; every token is defined on :root in its dark value."
       }
     },
     "typographyMeta": {
@@ -217,7 +219,7 @@
       },
       {
         "name": "rule-weights",
-        "value": "1px hairline; 2px ink heavy rule; 3px focus ring and current-page bar; 4px navy section rule",
+        "value": "1px hairline; 2px ink heavy rule; 3px focus ring and current-page bar; 4px indigo section rule",
         "purpose": "The only line weights in the system."
       }
     ],
@@ -275,7 +277,7 @@
       "touchTarget": "44px below 640px; 40px from 640px"
     },
     "logo": {
-      "description": "The original AiPulse mark: a ring (the daily scan), a centre dot (the selected item) and a flagged dot off the ring (the item the reader flagged). viewBox 0 0 64 64. Always sits on the indigo top sign (#1a1544) in both themes, so its colours are fixed values rather than theme tokens. At rest on indigo: ivory 12.2:1, blue 6.6:1, yellow 11.8:1; ripples 3.5:1 or better.",
+      "description": "The original AiPulse mark: a ring (the daily scan), a centre dot (the selected item) and a flagged dot off the ring (the item the reader flagged). viewBox 0 0 64 64. Always sits on the indigo sign (#1a1544) in both themes, so its colours are fixed values rather than theme tokens. At rest on indigo: ivory 12.2:1, blue 6.6:1, yellow 11.8:1; ripples 3.5:1 or better.",
       "geometry": {
         "ring": "circle cx 30 cy 34 r 20.5, stroke-width 3.6, no fill",
         "core": "circle cx 30 cy 34 r 6.8",
@@ -352,7 +354,7 @@
       "refersTo": "button-door",
       "description": "The primary call to action, set on a indigo sign panel: a white plate with the drawn start-pointing arrow.",
       "html": "<div class=\"ds-sign\" dir=\"rtl\"><a class=\"ds-btn-door\" href=\"#\">לפיד <svg viewBox=\"0 0 20 20\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"square\" aria-hidden=\"true\"><path d=\"M17 10H4\"/><path d=\"M9 5L4 10L9 15\"/></svg></a></div>",
-      "css": ".ds-sign{background:var(--top,#1a1544);padding:24px;} .ds-btn-door{display:inline-flex;align-items:center;gap:12px;min-height:48px;padding:0 24px;background:var(--sign-ink,#fff);color:var(--top,#1a1544);font-family:Rubik,\"Arial Hebrew\",sans-serif;font-size:1rem;font-weight:600;text-decoration:none;border-radius:0;transition:background-color .15s;} .ds-btn-door:hover{background:var(--sign-ink-2,#cdd6eb);} .ds-btn-door:focus-visible{outline:3px solid var(--sign-ink,#fff);outline-offset:2px;}"
+      "css": ".ds-sign{background:var(--sign,#1a1544);padding:24px;} .ds-btn-door{display:inline-flex;align-items:center;gap:12px;min-height:48px;padding:0 24px;background:var(--sign-ink,#fff);color:var(--sign,#1a1544);font-family:Rubik,\"Arial Hebrew\",sans-serif;font-size:1rem;font-weight:600;text-decoration:none;border-radius:0;transition:background-color .15s;} .ds-btn-door:hover{background:var(--sign-ink-2,#cdd6eb);} .ds-btn-door:focus-visible{outline:3px solid var(--sign-ink,#fff);outline-offset:2px;}"
     },
     {
       "name": "Sign Ghost Button",
@@ -360,23 +362,23 @@
       "refersTo": "button-sign-ghost",
       "description": "Secondary action on a sign panel: white hairline frame, lit fill on hover.",
       "html": "<div class=\"ds-sign\" dir=\"rtl\"><a class=\"ds-btn-ghost\" href=\"#\">איך זה עובד</a></div>",
-      "css": ".ds-sign{background:var(--top,#1a1544);padding:24px;} .ds-btn-ghost{display:inline-flex;align-items:center;min-height:48px;padding:0 24px;border:1px solid rgb(255 255 255 / .4);color:var(--sign-ink,#fff);font-family:Rubik,\"Arial Hebrew\",sans-serif;font-size:1rem;font-weight:500;text-decoration:none;border-radius:0;transition:background-color .15s,border-color .15s;} .ds-btn-ghost:hover{border-color:var(--sign-ink,#fff);background:var(--top-2,#2d2670);} .ds-btn-ghost:focus-visible{outline:3px solid var(--sign-ink,#fff);outline-offset:2px;}"
+      "css": ".ds-sign{background:var(--sign,#1a1544);padding:24px;} .ds-btn-ghost{display:inline-flex;align-items:center;min-height:48px;padding:0 24px;border:1px solid rgb(255 255 255 / .4);color:var(--sign-ink,#fff);font-family:Rubik,\"Arial Hebrew\",sans-serif;font-size:1rem;font-weight:500;text-decoration:none;border-radius:0;transition:background-color .15s,border-color .15s;} .ds-btn-ghost:hover{border-color:var(--sign-ink,#fff);background:var(--sign-2,#2d2670);} .ds-btn-ghost:focus-visible{outline:3px solid var(--sign-ink,#fff);outline-offset:2px;}"
     },
     {
       "name": "State Button",
       "kind": "button",
       "refersTo": "button-state",
-      "description": "Pin, save and already-read toggles on an item; the pressed state turns navy. Already-read stands apart.",
+      "description": "Pin, save and already-read toggles on an item; the pressed state turns indigo. Already-read stands apart.",
       "html": "<div dir=\"rtl\" class=\"ds-row\"><button class=\"ds-btn-state\" aria-pressed=\"true\">הצמד</button><button class=\"ds-btn-state\" aria-pressed=\"false\">שמור</button><span class=\"ds-sep\"></span><button class=\"ds-btn-state\" aria-pressed=\"false\">כבר קראתי</button></div>",
-      "css": ".ds-row{display:flex;gap:8px;align-items:center;} .ds-sep{width:24px;} .ds-btn-state{min-height:40px;padding:0 12px;border:1px solid var(--rule,#2b3651);background:transparent;color:var(--ink-2,#c3cad8);font-family:Rubik,\"Arial Hebrew\",sans-serif;font-size:.8125rem;font-weight:500;border-radius:0;cursor:pointer;transition:color .15s,border-color .15s;} .ds-btn-state:hover{border-color:var(--ink-3,#9aa4b6);color:var(--ink,#eef1f6);} .ds-btn-state[aria-pressed=\"true\"]{border-color:var(--sign,#1d315e);background:var(--sign,#1d315e);color:var(--sign-ink,#fff);} .ds-btn-state:focus-visible{outline:3px solid var(--focus,#eef1f6);outline-offset:2px;}"
+      "css": ".ds-row{display:flex;gap:8px;align-items:center;} .ds-sep{width:24px;} .ds-btn-state{min-height:40px;padding:0 12px;border:1px solid var(--rule,#2b3651);background:transparent;color:var(--ink-2,#c3cad8);font-family:Rubik,\"Arial Hebrew\",sans-serif;font-size:.8125rem;font-weight:500;border-radius:0;cursor:pointer;transition:color .15s,border-color .15s;} .ds-btn-state:hover{border-color:var(--ink-3,#9aa4b6);color:var(--ink,#eef1f6);} .ds-btn-state[aria-pressed=\"true\"]{border-color:var(--sign,#1a1544);background:var(--sign,#1a1544);color:var(--sign-ink,#fff);} .ds-btn-state:focus-visible{outline:3px solid var(--focus,#eef1f6);outline-offset:2px;}"
     },
     {
       "name": "Search Field",
       "kind": "input",
       "refersTo": "input-search",
-      "description": "Search on the floor: a surface field joined to a navy submit plate.",
+      "description": "Search on the floor: a surface field joined to an indigo submit plate.",
       "html": "<form class=\"ds-search\" dir=\"rtl\" role=\"search\"><input class=\"ds-input\" type=\"search\" placeholder=\"חיפוש בארכיון…\"><button class=\"ds-submit\" type=\"submit\">חיפוש</button></form>",
-      "css": ".ds-search{display:flex;align-items:stretch;} .ds-input{min-height:44px;width:320px;padding:0 12px;border:1px solid var(--ink-3,#9aa4b6);background:var(--surface,#18213a);color:var(--ink,#eef1f6);font-family:Assistant,\"Arial Hebrew\",sans-serif;font-size:1rem;border-radius:0;} .ds-input::placeholder{color:var(--ink-3,#9aa4b6);} .ds-input:focus{border-color:var(--ink,#eef1f6);} .ds-input:focus-visible{outline:3px solid var(--focus,#eef1f6);outline-offset:2px;} .ds-submit{min-height:44px;padding:0 16px;border:0;background:var(--sign,#1d315e);color:var(--sign-ink,#fff);font-family:Rubik,\"Arial Hebrew\",sans-serif;font-size:.875rem;font-weight:500;border-radius:0;cursor:pointer;transition:background-color .15s;} .ds-submit:hover{background:var(--sign-2,#2a4280);} .ds-submit:focus-visible{outline:3px solid var(--focus,#eef1f6);outline-offset:2px;}"
+      "css": ".ds-search{display:flex;align-items:stretch;} .ds-input{min-height:44px;width:320px;padding:0 12px;border:1px solid var(--ink-3,#9aa4b6);background:var(--surface,#18213a);color:var(--ink,#eef1f6);font-family:Assistant,\"Arial Hebrew\",sans-serif;font-size:1rem;border-radius:0;} .ds-input::placeholder{color:var(--ink-3,#9aa4b6);} .ds-input:focus{border-color:var(--ink,#eef1f6);} .ds-input:focus-visible{outline:3px solid var(--focus,#eef1f6);outline-offset:2px;} .ds-submit{min-height:44px;padding:0 16px;border:0;background:var(--sign,#1a1544);color:var(--sign-ink,#fff);font-family:Rubik,\"Arial Hebrew\",sans-serif;font-size:.875rem;font-weight:500;border-radius:0;cursor:pointer;transition:background-color .15s;} .ds-submit:hover{background:var(--sign-2,#2d2670);} .ds-submit:focus-visible{outline:3px solid var(--focus,#eef1f6);outline-offset:2px;}"
     },
     {
       "name": "Department Sign Navigation",
@@ -384,23 +386,23 @@
       "refersTo": "nav-link",
       "description": "The header sign: brand, directory links with a white current-page bar, and the four category floor lines leaving from underneath.",
       "html": "<header dir=\"rtl\"><div class=\"ds-navsign\"><span class=\"ds-brand\">AiPulse</span><ul class=\"ds-nav\"><li><a href=\"#\" aria-current=\"page\">הפיד</a></li><li><a href=\"#\">הארכיון</a></li><li><a href=\"#\">השיטה</a></li></ul></div><div class=\"ds-strip\"><i class=\"s\" style=\"--line:var(--cat-rnd,#0098d4)\"></i><i class=\"s\" style=\"--line:var(--cat-health,#00a33c)\"></i><i class=\"s\" style=\"--line:var(--cat-reg,#dc241f)\"></i><i class=\"s\" style=\"--line:var(--cat-infra,#ffd300)\"></i></div></header>",
-      "css": ".ds-navsign{display:flex;align-items:center;gap:32px;padding:12px 24px;background:var(--top,#1a1544);color:var(--sign-ink,#fff);} .ds-brand{font-family:Rubik,\"Arial Hebrew\",sans-serif;font-size:1.25rem;font-weight:800;letter-spacing:-.02em;} .ds-nav{display:flex;gap:4px;list-style:none;margin:0;padding:0;font-family:Rubik,\"Arial Hebrew\",sans-serif;font-size:.9375rem;font-weight:500;} .ds-nav a{position:relative;display:inline-flex;align-items:center;min-height:40px;padding:0 10px;color:var(--sign-ink-2,#cdd6eb);text-decoration:none;transition:color .15s,background-color .15s;} .ds-nav a:hover{background:var(--top-2,#2d2670);color:var(--sign-ink,#fff);} .ds-nav a[aria-current=\"page\"]{color:var(--sign-ink,#fff);} .ds-nav a[aria-current=\"page\"]::after{content:\"\";position:absolute;inset-inline:10px;bottom:0;height:3px;background:var(--sign-ink,#fff);} .ds-nav a:focus-visible{outline:3px solid var(--sign-ink,#fff);outline-offset:2px;} .ds-strip{display:flex;flex-direction:column;gap:4px;padding:4px 0;background:var(--floor,#0d1322);} .ds-strip i{display:block;height:4px;} .ds-strip .s{background:var(--line);} .ds-strip .d{background:repeating-linear-gradient(90deg,var(--line) 0 10px,transparent 10px 16px);}"
+      "css": ".ds-navsign{display:flex;align-items:center;gap:32px;padding:12px 24px;background:var(--sign,#1a1544);color:var(--sign-ink,#fff);} .ds-brand{font-family:Rubik,\"Arial Hebrew\",sans-serif;font-size:1.25rem;font-weight:800;letter-spacing:-.02em;} .ds-nav{display:flex;gap:4px;list-style:none;margin:0;padding:0;font-family:Rubik,\"Arial Hebrew\",sans-serif;font-size:.9375rem;font-weight:500;} .ds-nav a{position:relative;display:inline-flex;align-items:center;min-height:40px;padding:0 10px;color:var(--sign-ink-2,#cdd6eb);text-decoration:none;transition:color .15s,background-color .15s;} .ds-nav a:hover{background:var(--sign-2,#2d2670);color:var(--sign-ink,#fff);} .ds-nav a[aria-current=\"page\"]{color:var(--sign-ink,#fff);} .ds-nav a[aria-current=\"page\"]::after{content:\"\";position:absolute;inset-inline:10px;bottom:0;height:3px;background:var(--sign-ink,#fff);} .ds-nav a:focus-visible{outline:3px solid var(--sign-ink,#fff);outline-offset:2px;} .ds-strip{display:flex;flex-direction:column;gap:4px;padding:4px 0;background:var(--floor,#0d1322);} .ds-strip i{display:block;height:4px;} .ds-strip .s{background:var(--line);} .ds-strip .d{background:repeating-linear-gradient(90deg,var(--line) 0 10px,transparent 10px 16px);}"
     },
     {
       "name": "Topic Tag",
       "kind": "chip",
       "refersTo": "topic-tag",
-      "description": "Topic labels on an item; a topic the reader boosted turns navy.",
+      "description": "Topic labels on an item; a topic the reader boosted turns indigo.",
       "html": "<div dir=\"rtl\" class=\"ds-tags\"><span class=\"ds-tag\">רגולציה</span><span class=\"ds-tag ds-tag-up\">ישראל</span></div>",
-      "css": ".ds-tags{display:flex;gap:6px;} .ds-tag{padding:2px 8px;background:var(--floor-2,#121a2d);color:var(--ink-2,#c3cad8);font-family:Rubik,\"Arial Hebrew\",sans-serif;font-size:.75rem;border-radius:0;} .ds-tag-up{background:var(--sign,#1d315e);color:var(--sign-ink,#fff);}"
+      "css": ".ds-tags{display:flex;gap:6px;} .ds-tag{padding:2px 8px;background:var(--floor-2,#121a2d);color:var(--ink-2,#c3cad8);font-family:Rubik,\"Arial Hebrew\",sans-serif;font-size:.75rem;border-radius:0;} .ds-tag-up{background:var(--sign,#1a1544);color:var(--sign-ink,#fff);}"
     },
     {
       "name": "Segmented View Tabs",
       "kind": "custom",
       "refersTo": "button-state-pressed",
-      "description": "Adjoining square cells with counts, overlapping by 1px; the pressed cell becomes a navy plate.",
+      "description": "Adjoining square cells with counts, overlapping by 1px; the pressed cell becomes an indigo plate.",
       "html": "<ul dir=\"rtl\" class=\"ds-seg\"><li><button aria-pressed=\"true\">הכול<span>108</span></button></li><li><button aria-pressed=\"false\">מוצמדים<span>0</span></button></li><li><button aria-pressed=\"false\">שמורים<span>0</span></button></li><li><button aria-pressed=\"false\">נקראו<span>0</span></button></li></ul>",
-      "css": ".ds-seg{display:grid;grid-template-columns:repeat(4,1fr);list-style:none;margin:0;padding:0;width:300px;} .ds-seg li+li{margin-inline-start:-1px;} .ds-seg button{display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;min-height:48px;border:1px solid var(--rule,#2b3651);background:transparent;color:var(--ink-2,#c3cad8);font-family:Rubik,\"Arial Hebrew\",sans-serif;font-size:.8125rem;font-weight:500;border-radius:0;cursor:pointer;} .ds-seg button span{font-size:.75rem;font-variant-numeric:tabular-nums;} .ds-seg button:hover{color:var(--ink,#eef1f6);} .ds-seg button[aria-pressed=\"true\"]{position:relative;border-color:var(--sign,#1d315e);background:var(--sign,#1d315e);color:var(--sign-ink,#fff);} .ds-seg button:focus-visible{outline:3px solid var(--focus,#eef1f6);outline-offset:2px;}"
+      "css": ".ds-seg{display:grid;grid-template-columns:repeat(4,1fr);list-style:none;margin:0;padding:0;width:300px;} .ds-seg li+li{margin-inline-start:-1px;} .ds-seg button{display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;min-height:48px;border:1px solid var(--rule,#2b3651);background:transparent;color:var(--ink-2,#c3cad8);font-family:Rubik,\"Arial Hebrew\",sans-serif;font-size:.8125rem;font-weight:500;border-radius:0;cursor:pointer;} .ds-seg button span{font-size:.75rem;font-variant-numeric:tabular-nums;} .ds-seg button:hover{color:var(--ink,#eef1f6);} .ds-seg button[aria-pressed=\"true\"]{position:relative;border-color:var(--sign,#1a1544);background:var(--sign,#1a1544);color:var(--sign-ink,#fff);} .ds-seg button:focus-visible{outline:3px solid var(--focus,#eef1f6);outline-offset:2px;}"
     },
     {
       "name": "Item Row on its Line",
@@ -416,14 +418,14 @@
       "refersTo": "room-plate",
       "description": "The last scan date as a room number on the home sign, with a two-cell placard of counts.",
       "html": "<div class=\"ds-sign\" dir=\"rtl\"><time class=\"ds-room\">2026-10-20</time><dl class=\"ds-placard\"><div><dt>פריטים בארכיון</dt><dd>299</dd></div><div><dt>משפחות מקור נסרקות</dt><dd>7</dd></div></dl></div>",
-      "css": ".ds-sign{background:var(--top,#1a1544);color:var(--sign-ink,#fff);padding:24px;font-family:Rubik,\"Arial Hebrew\",sans-serif;} .ds-room{display:inline-block;border:2px solid var(--sign-ink,#fff);padding:4px 12px;font-size:3.25rem;font-weight:700;line-height:1;letter-spacing:-.02em;font-variant-numeric:tabular-nums;direction:ltr;unicode-bidi:isolate;} .ds-placard{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:16px 0 0;} .ds-placard div{border-top:1px solid rgb(255 255 255 / .25);padding-top:12px;} .ds-placard dt{font-size:.875rem;color:var(--sign-ink-2,#cdd6eb);} .ds-placard dd{margin:0;font-size:1.125rem;font-weight:600;font-variant-numeric:tabular-nums;}"
+      "css": ".ds-sign{background:var(--sign,#1a1544);color:var(--sign-ink,#fff);padding:24px;font-family:Rubik,\"Arial Hebrew\",sans-serif;} .ds-room{display:inline-block;border:2px solid var(--sign-ink,#fff);padding:4px 12px;font-size:3.25rem;font-weight:700;line-height:1;letter-spacing:-.02em;font-variant-numeric:tabular-nums;direction:ltr;unicode-bidi:isolate;} .ds-placard{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:16px 0 0;} .ds-placard div{border-top:1px solid rgb(255 255 255 / .25);padding-top:12px;} .ds-placard dt{font-size:.875rem;color:var(--sign-ink-2,#cdd6eb);} .ds-placard dd{margin:0;font-size:1.125rem;font-weight:600;font-variant-numeric:tabular-nums;}"
     }
   ],
   "narrative": {
     "northStar": "Corridor Lines",
-    "overview": "AiPulse is set as hospital floor wayfinding. The ground is the corridor at night (a deep navy-black floor), or warm paper in the light theme; the structure is navy enamel signage with white Hebrew; and every topic category is a coloured line painted on that floor. Floor lines lead to departments, and the departments here are the topic categories: R&D, health services, regulation, infrastructure. The digest is the corridor a clinician walks each morning: the sign tells you where you are and what day it is, the lines leave from under the sign, and each item stands on its own category's line. A colour on this site always means \"this department\", nothing else. What kind of source an item comes from is carried by the line's pattern (solid or dashed) and by text, never by colour.\n\nThe system is dense and sober. Headlines pack tightly down an unbroken rail, controls are square sign plates, and depth comes from the navy panels against the floor rather than from shadows. Dark is the default world (the corridor at night, signs lit); light is warm paper under the same navy signs, reached only by the manual toggle and remembered. The site refuses the dark card-grid news aggregator and the cream broadsheet.\n\nThere are two living elements: the floor lines paint themselves, and the logo beats on load and on hover or tap: its centre dot pulses once, four ripples in the category colours run out to the ring and tint it in turn, the ring settles back to ivory and the flagged dot pops in. On load the lines switch on category after category; on scroll each item's lane draws down its rail, then its line bends off the rail and runs into the headline. Nothing else moves, and with reduced motion nothing moves at all.",
+    "overview": "AiPulse is set as hospital floor wayfinding. The ground is the corridor at night (a deep blue-black floor), or warm paper in the light theme; the structure is indigo enamel signage with white Hebrew; and every topic category is a coloured line painted on that floor. Floor lines lead to departments, and the departments here are the topic categories: R&D, health services, regulation, infrastructure. The digest is the corridor a clinician walks each morning: the sign tells you where you are and what day it is, the lines leave from under the sign, and each item stands on its own category's line. A colour on this site always means \"this department\", nothing else. What kind of source an item comes from is carried by the line's pattern (solid or dashed) and by text, never by colour.\n\nThe system is dense and sober. Headlines pack tightly down an unbroken rail, controls are square sign plates, and depth comes from the indigo panels against the floor rather than from shadows. Dark is the default world (the corridor at night, signs lit); light is warm paper under the same indigo signs, reached only by the manual toggle and remembered. The site refuses the dark card-grid news aggregator and the cream broadsheet.\n\nThere are two living elements: the floor lines paint themselves, and the logo beats on load and on hover or tap: its centre dot pulses once, four ripples in the category colours run out to the ring and tint it in turn, the ring settles back to ivory and the flagged dot pops in. On load the lines switch on category after category; on scroll each item's lane draws down its rail, then its line bends off the rail and runs into the headline. Nothing else moves, and with reduced motion nothing moves at all.",
     "keyCharacteristics": [
-      "Night-corridor floor (dark, default) or warm paper (light), navy enamel sign panels, white signage type.",
+      "Night-corridor floor (dark, default) or warm paper (light), indigo enamel sign panels, white signage type.",
       "Four category line colours, reserved exclusively for topic categories.",
       "Primary source = solid line + filled dot; secondary reporting = dashed line + hollow dot.",
       "One 4px line module governs lanes, gaps, strips, branches and heavy rules.",
@@ -436,7 +438,7 @@
     "rules": [
       {
         "name": "The Category Colour Rule",
-        "body": "A category colour is used for its topic category only: the item's lane, bend and run, the category swatch beside its name (item row, legend, filter), and the headline's hover underline. Never as a general accent, link colour, button fill or state colour, and never for a source family. Interactive state is navy.",
+        "body": "A category colour is used for its topic category only: the item's lane, bend and run, the category swatch beside its name (item row, legend, filter), and the headline's hover underline. Never as a general accent, link colour, button fill or state colour, and never for a source family. Interactive state is indigo.",
         "section": "colors"
       },
       {
@@ -466,7 +468,7 @@
       },
       {
         "name": "The Enamel Not Shadow Rule",
-        "body": "If something needs to stand forward, it becomes a navy sign plate or gains a heavier rule. It never gains a shadow.",
+        "body": "If something needs to stand forward, it becomes an indigo sign plate or gains a heavier rule. It never gains a shadow.",
         "section": "elevation"
       },
       {
@@ -478,7 +480,7 @@
     "dos": [
       "**Do** set every item's `--line` from its category token (its first categorized topic) and paint its lane, bend, run, swatch and hover underline from that one variable.",
       "**Do** pair solid line + filled dot for primary sources and dashed line + hollow dot for secondary reporting, with the matching screen-reader text.",
-      "**Do** use navy (sign) for every pressed, selected, pinned or boosted state.",
+      "**Do** use indigo (sign) for every pressed, selected, pinned or boosted state.",
       "**Do** keep corners at 0px and lines on the 4px module.",
       "**Do** define every colour on `:root` in its dark value and override only in `:root[data-theme=\"light\"]`.",
       "**Do** set dates and counts in Rubik with tabular numerals, bidi-isolated.",
