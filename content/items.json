@@ -4921,5 +4921,50 @@
       "funding",
       "research"
     ]
+  },
+  {
+    "id": "anthropic-drug-development-progress",
+    "date": "2026-10-27",
+    "added": "2026-10-30",
+    "src": "Anthropic",
+    "fam": "lab",
+    "title": "Anthropic מדווחת על התקדמות בפיתוח תרופות עם Claude: שישה שותפים, ועד 89% ירידה בזמן בדיקה רגולטורית",
+    "titleSrc": "Early progress on accelerating drug development with Claude",
+    "summary": "Anthropic מפרטת שיתופי פעולה עם שישה חברות פיתוח תרופות: Generate Biomedicines תכננה טיפול CAR-T קצר ב-70% עם כ-10 פי יותר קולטנים; Divergence Labs יצרה כ-35,000 עיצובי נוגדנים בחודש; Enveda קיצרה סקירת מסמכים רגולטוריים מ-25 שעות לפחות משלוש (ירידה של 89%). החברה מדגישה שרוב העבודה היא פרה-קלינית מוקדמת וטרם נבדקה בבני אדם — תרופה אחת עשויה להגיע לניסויים אנושיים לא לפני סוף 2028, בכפוף להמשך תוצאות חיוביות.",
+    "url": "https://www.anthropic.com/research/early-progress-drug-development",
+    "topics": [
+      "research",
+      "funding"
+    ]
+  },
+  {
+    "id": "anthropic-guest-investigators-life-sciences",
+    "date": "2026-10-22",
+    "added": "2026-10-30",
+    "src": "Anthropic",
+    "fam": "lab",
+    "title": "Anthropic פותחת קול קורא לחוקרים אורחים במדעי החיים לעבודה משותפת עם Claude",
+    "titleSrc": "Open call for guest investigators in the life sciences",
+    "summary": "Anthropic מזמינה חוקרים ראשיים באקדמיה, בעמותות ובמעבדות ממשלתיות להציע פרויקטים מיוחדים בביולוגיה אנושית, ביולוגיה מולקולרית, כימיה תרופתית, גילוי תרופות ומדע קליני. הקבוצות הנבחרות עובדות עם חוקרי Anthropic למשך 8–12 שבועות בחינם, והתוצרים, הנתונים והקוד יפורסמו בקוד פתוח כשהחוקרים שומרים על זכויותיהם למחקר עצמאי. ההרשמה פתוחה כ-14 יום, וההודעות על קבלה כ-14 יום לאחר מכן.",
+    "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+    "topics": [
+      "research",
+      "funding"
+    ]
+  },
+  {
+    "id": "cleveland-clinic-dyania-gartner-trial-matching",
+    "date": "2026-10-26",
+    "added": "2026-10-30",
+    "src": "Cleveland Clinic Newsroom",
+    "fam": "provider",
+    "title": "קליבלנד קליניק זוכה בפרס Gartner על שיתוף הפעולה עם Dyania Health בהתאמת מועמדים לניסויים קליניים באמצעות AI",
+    "titleSrc": "Cleveland Clinic and Dyania's Work on AI in Clinical Trial Matching Earns 2026 Gartner Eye on Innovation Award",
+    "summary": "קליבלנד קליניק זכתה בפרס Gartner Eye on Innovation 2026 בתחום הבריאות ומדעי החיים על שיתוף הפעולה עם Dyania Health בפלטפורמת ה-AI \"Synapsis\", שפרוסה ברחבי המערכת מנובמבר 2025 ותומכת באיתור מועמדים לניסויים קליניים, כולל מחלות נדירות. לפי ההודעה, צוותי המחקר גייסו בממוצע 40% יותר מטופלים ב-47% פחות זמן; בניסוי למלנומה המערכת זיהתה את כל המועמדים הזכאים ב-2.5 דקות בדיוק של 96%, לעומת כ-400 דקות לאחיות. הנתונים מגיעים מהודעת בית החולים והחברה עצמם ואינם הערכה בלתי תלויה.",
+    "url": "https://newsroom.clevelandclinic.org/2026/10/26/cleveland-clinic-and-dyanias-work-on-ai-in-clinical-trial-matching-earns-2026-gartner-eye-on-innovation-award",
+    "topics": [
+      "research",
+      "ops"
+    ]
   }
 ]
