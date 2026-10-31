@@ -4966,5 +4966,50 @@
       "research",
       "ops"
     ]
+  },
+  {
+    "id": "onc-hti-5-final-rule-deregulatory",
+    "date": "2026-10-26",
+    "added": "2026-10-31",
+    "src": "Federal Register / ONC",
+    "fam": "regulator",
+    "title": "ONC מפרסם את כלל HTI-5 הסופי: הסרת 14 קריטריוני הסמכה והוצאת דרישות \"כרטיס המודל\" של AI מקריטריון תמיכת ההחלטה",
+    "titleSrc": "Health Data, Technology, and Interoperability: Office of the National Coordinator for Health Information Technology Deregulatory Actions",
+    "summary": "HHS ו-ONC פרסמו ב-26 באוקטובר את הכלל הסופי HTI-5, שמסיר 14 קריטריוני הסמכה לטכנולוגיית מידע בריאותי במקום 34 שהוצעו, ומתקן שבעה נוספים. הקריטריון \"התערבויות תומכות החלטה\" צומצם והוסרו ממנו דרישות \"כרטיס המודל\" (שקיפות) של מערכות AI. 13 שינויים נכנסים לתוקף עם פרסום הכלל, שבעה ב-1 בינואר 2027 ואחד ב-1 בינואר 2030; קריטריוני הפרטיות והאבטחה נשארו ויידונו בהליך עתידי. המקור הוא מסמך הביקורת הציבורית של הרישום הפדרלי, והפרטים כאן לפי סיכום AHA.",
+    "url": "https://www.federalregister.gov/public-inspection/2026-21943/health-data-technology-and-interoperability-office-of-the-national-coordinator-for-health",
+    "topics": [
+      "policy",
+      "interop"
+    ]
+  },
+  {
+    "id": "stat-epic-dominance-choking-health-tech-innovation",
+    "date": "2026-10-28",
+    "added": "2026-10-31",
+    "src": "STAT News",
+    "fam": "press",
+    "title": "תחקיר STAT: השליטה של Epic מחנקת חדשנות בטכנולוגיית בריאות ומגבילה גישה לנתונים עבור מפתחים מתחרים",
+    "titleSrc": "As Epic's dominance grows, its iron grip is choking innovation in health technology",
+    "summary": "תחקיר של STAT (הראשון בסדרה) מדווח ש-Epic, ספקית ה-EHR הגדולה בארה\"ב, מקבלת מעל 6.5 מיליארד דולר בשנה ומחזיקה בנתונים של כשמונה מכל עשרה אמריקאים. מנהלים ב-12 חברות הרשומות בשוק האפליקציות של Epic סיפרו ל-STAT שהחברה פגעה בעסקיהם בהגבלת גישה לנתונים, בהפצת שמועות שליליות ובדמי שימוש גבוהים. Epic טוענת שהיא מספקת יותר חיבורי נתונים ממה שהחוק מחייב; מדובר בעדויות של גורמים בעלי אינטרס ובתחקיר עיתונאי, לא בממצא רגולטורי.",
+    "url": "https://statnews.com/2026/10/28/epic-systems-ehr-dominance-health-tech-antitrust-scrutiny",
+    "topics": [
+      "interop",
+      "marketplace"
+    ]
+  },
+  {
+    "id": "stat-fda-cms-state-ai-sandboxes-regulatory-logjam",
+    "date": "2026-10-30",
+    "added": "2026-10-31",
+    "src": "STAT News",
+    "fam": "press",
+    "title": "ה-FDA ו-CMS מנסים למנוע פקק רגולטורי, כשמדינות בארה\"ב מבקשות לבחון AI קליני בארגזי חול",
+    "titleSrc": "FDA, CMS scramble to avoid regulatory logjam as more states look to test AI in clinical settings",
+    "summary": "לפי STAT, גורמים פדרליים בבריאות פועלים בשקט להפחית מתח מול מדינות סביב AI שמבצע עבודה קלינית, כמו כתיבת מרשמים. מדינות מרשות ומפקחות על העיסוק ברפואה, ואילו AI קליני ללא פיקוח צפוי להיכלל בסמכות ה-FDA על מכשירים רפואיים; הממשל הנוכחי הפחית נטל רגולטורי ויצר מסלולי תשלום חדשים. הכתבה בתשלום, והתקציר מבוסס על פתיחתה בלבד.",
+    "url": "https://www.statnews.com/2026/10/30/fda-cms-health-ai-regulation-state-sandboxes-run-into-federal-rules/",
+    "topics": [
+      "policy",
+      "adoption"
+    ]
   }
 ]
