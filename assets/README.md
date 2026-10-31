@@ -37,7 +37,7 @@ preview.html            דף ראווה של כל הערכה
 **`icons-inline/`** — `currentColor` נקי, יורש את צבע הטקסט מסביב:
 
 ```html
-<span class="fam"><svg viewBox="0 0 24 24" ...>...</svg> כתבי עת שפוטים</span>
+<span class="fam"><svg viewBox="0 0 24 24" ...>...</svg> כתבי עת מדעיים</span>
 ```
 ```css
 .fam{ color: var(--accent-ink) }   /* האייקון יקבל את הצבע הזה */

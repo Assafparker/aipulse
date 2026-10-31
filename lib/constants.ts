@@ -2,11 +2,11 @@ import type { FamilyId, TopicId } from "./schema";
 
 export const FAMILIES: { id: FamilyId; label: string; tier: "primary" | "secondary";
                          watch: string; gap?: string }[] = [
-  { id: "lab",       label: "מעבדות חזית",       tier: "primary",
+  { id: "lab",       label: "Frontier labs",     tier: "primary",
     watch: "Anthropic · OpenAI · Google DeepMind · Google Research · Microsoft Research" },
-  { id: "journal",   label: "כתבי עת שפוטים",     tier: "primary",
+  { id: "journal",   label: "כתבי עת מדעיים",    tier: "primary",
     watch: "Nature Medicine · npj Digital Medicine · NEJM AI · Lancet Digital Health · JAMA" },
-  { id: "preprint",  label: "פרה-פרינטים",        tier: "primary",
+  { id: "preprint",  label: "Preprints",          tier: "primary",
     watch: "arXiv · medRxiv · bioRxiv" },
   { id: "regulator", label: "רגולציה ורשויות",    tier: "primary",
     watch: "FDA · נציבות האיחוד האירופי · MHRA · משרד הבריאות" },

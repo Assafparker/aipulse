@@ -64,9 +64,8 @@ export default function Home() {
                 for it, with a motion of its own. */}
             <WordmarkMotion />
             <p className="mt-4 max-w-[38ch] text-[1.0625rem] leading-relaxed text-sign-ink-2 sm:mt-6 sm:text-xl">
-              סריקה יומית של AI בבריאות — מעבדות חזית, כתבי עת שפוטים,
-              פרה-פרינטים ורגולטורים, בעברית, עם המספרים, הסייג, וקישור למקור
-              הראשוני.
+              סריקה יומית של AI בבריאות — frontier labs, כתבי עת מדעיים,
+              preprints ורגולטורים, עם המספרים, הסייג וקישור למקור הראשוני.
             </p>
             <div className="mt-6 flex flex-wrap gap-3 sm:mt-8">
               <Link
