@@ -5011,5 +5011,20 @@
       "policy",
       "adoption"
     ]
+  },
+  {
+    "id": "cleveland-clinic-cancer-institute-ai-task-force",
+    "date": "2026-10-26",
+    "added": "2026-11-01",
+    "src": "Cleveland Clinic Consult QD",
+    "fam": "provider",
+    "title": "Cleveland Clinic: ועדת AI במכון הסרטן בוחנת הצעות שיתוף פעולה כמו ועדת אתיקה לפרויקטים שאינם מחקריים",
+    "titleSrc": "AI Task Force Develops Unified Strategy to Integrate Tech Innovations",
+    "summary": "מאמר של Cleveland Clinic מתאר ועדת AI שבוחנת הצעות של חברות ומודלים שאינם מחקריים: בטיחות, הטיות, אבטחת נתונים ומעקב אחר שינויים בביצועי המודל לאורך זמן, בדומה לוועדת IRB. המאמר מצטט ירידה של \"עד 75%\" בזמן התיעוד של קלינאים, ומציין שימושים כמו התאמת מינוני קרינה בסרטן ריאות. מדובר בתיאור פנימי של המוסד, ללא נתוני ביצוע בלתי תלויים.",
+    "url": "https://consultqd.clevelandclinic.org/ai-task-force-develops-unified-strategy-to-integrate-tech-innovations",
+    "topics": [
+      "adoption",
+      "ethics"
+    ]
   }
 ]
