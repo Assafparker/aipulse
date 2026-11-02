@@ -5026,5 +5026,34 @@
       "adoption",
       "ethics"
     ]
+  },
+  {
+    "id": "suki-90m-series-e-ai-agents",
+    "date": "2026-10-26",
+    "added": "2026-11-02",
+    "src": "Healthcare IT Today",
+    "fam": "press",
+    "title": "Suki גייסה 90 מיליון דולר (סדרה E) להרחבת סוכני AI קליניים מעבר לתיעוד אמביינטי",
+    "titleSrc": "Suki Secures $90 Million; Confido Health Expands Agentic Operating Platform",
+    "summary": "Suki, חברת תיעוד קליני אמביינטי, הודיעה על גיוס של 90 מיליון דולר בסדרה E והתרחבות לחשיבה קלינית, מחזור הכנסות ותהליכי תפעול. לפי החברה היא משרתת למעלה מ-450 ארגוני בריאות, מספר המפגשים שנתמכו גדל ביותר מ-190% משנה לשנה ב-2026 וההכנסות הוכפלו ב-2025. הנתונים הם של החברה עצמה ולא אומתו באופן בלתי תלוי; ההכרזה המקורית פורסמה ב-13 באוקטובר.",
+    "url": "https://www.healthcareittoday.com/2026/10/26/suki-secures-90-million-confido-health-expands-agentic-operating-platform/",
+    "topics": [
+      "ambient",
+      "funding"
+    ]
+  },
+  {
+    "id": "pathos-ai-tempus-55m-data-deal-bms",
+    "date": "2026-10-23",
+    "added": "2026-11-02",
+    "src": "Pathos AI (הודעה לעיתונות)",
+    "fam": "press",
+    "title": "Pathos AI חותמת עם Tempus על עסקת נתונים של 55 מיליון דולר ומרחיבה שיתוף פעולה עם BMS בנוירולוגיה",
+    "summary": "לפי ההודעה, Tempus תבנה מאגר נתונים אורך מפורק-זהות של מאות אלפי חולים נוירולוגיים, ו-Pathos תרשה אותו בהסכם ל-5 שנים בשווי 55 מיליון דולר. BMS, שמובילה את סבב סדרה E, מקבלת גישה לא-בלעדית לפלטפורמת Foundry ובלעדיות לשלוש שנים בתחום הנוירו. המאגר עדיין עתידי וללא לוח זמנים, ל-Pathos אין תוכניות נוירו מוצהרות, והטענות על שיפור תכנון ניסויים הן של החברה בלבד.",
+    "url": "https://www.pathos.com/pathos-ai-announces-strategic-collaborations-with-bristol-myers-squibb-and-tempus-ai-to-advance-ai-driven-drug-development-beginning-with-alzheimers-disease-and-other-neurological-conditions",
+    "topics": [
+      "funding",
+      "research"
+    ]
   }
 ]
