@@ -5055,5 +5055,114 @@
       "funding",
       "research"
     ]
+  },
+  {
+    "id": "google-singapore-health-summit-medgemma-co-clinician",
+    "date": "2026-10-29",
+    "added": "2026-11-03",
+    "src": "Google Blog",
+    "fam": "lab",
+    "title": "גוגל וסינגפור מרחיבות שותפות בבריאות: מרכז מחקר חדש, MedGemma למרפאות ו-AI co-clinician בהערכה ב-NUHS",
+    "titleSrc": "Partnering with Singapore to bring frontier AI to public health",
+    "summary": "בפסגת Google for Health בסינגפור הוכרז מרכז מחקר חדש של Google Research בשיתוף NUS ו-NTU, והבאת MedGemma לסביבות טיפול קדמיות כך שהנתונים יישארו בסינגפור. Google DeepMind מעריכה את כלי ה-AI co-clinician עם NUHS, ו-Google Cloud בונה עם NHG Health מאמן בריאות מבוסס חיזוי; Google.org ו-DeepMind תורמות 7 מיליון דולר לקואליציית בריאות אזורית. מדובר בהודעה תאגידית: הכלי הקליני עדיין בשלב הערכה (בסימולציה), ואין נתוני תוצאות, תקציב כולל או לוחות זמנים.",
+    "url": "https://blog.google/innovation-and-ai/technology/health/google-for-health-summit-singapore/",
+    "topics": [
+      "national-strategies",
+      "foundation-models",
+      "adoption"
+    ]
+  },
+  {
+    "id": "google-research-tb-screening-foundation-models",
+    "date": "2026-10-23",
+    "added": "2026-11-03",
+    "src": "Google Research",
+    "fam": "lab",
+    "title": "Google Research: מודלי יסוד מגיעים לקו החזית של סינון שחפת, עם Nexus AI ומשרד הבריאות של אינדונזיה",
+    "titleSrc": "Bringing foundational models to the front lines of TB screening",
+    "summary": "כלי ה-AI של Nexus AI לסינון שחפת בצילומי חזה פועל בכ-40 מתקנים בשש מדינות, מחזיר תוצאה בפחות מ-45 שניות ונבדק על ידי יותר מ-90 קלינאים על 25 אלף צילומים. משרד הבריאות של אינדונזיה מכוונן את MedGemma ו-MedSigLIP על צילומים מקומיים, ושותפים באפריקה בוחנים סינון שבוסס על שיעול עם מודל HeAR. הפוסט פרסומי ומדווח עצמית: אישור FDA והכשרה מוקדמת של WHO עדיין בתהליך, ופריסת אינדונזיה היא כוונון בעבודה ולא הפעלה לאומית.",
+    "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/",
+    "topics": [
+      "foundation-models",
+      "imaging",
+      "adoption"
+    ]
+  },
+  {
+    "id": "google-research-blind-sweep-ultrasound-gestational-age",
+    "date": "2026-10-21",
+    "added": "2026-11-03",
+    "src": "Google Research",
+    "fam": "lab",
+    "title": "Google Research: מודל AI לסריקת אולטרסאונד \"blind sweep\" מעריך גיל הריון בדיוק דומה למומחי סונוגרפיה",
+    "titleSrc": "Empowering frontline maternal care with AI-assisted ultrasound",
+    "summary": "במחקר פרוספקטיבי רב-מרכזי שפורסם ב-JAMA Network Open (385 משתתפות, שיקגו ונאירובי) שגיאת האומדן הממוצעת של המודל הייתה 4.18 ימים, מול 4.48 ימים בביומטריה של סונוגרפים מומחים, והמחברים מדווחים על אי-נחיתות. המודל הוכשר על 1,968 משתתפות וכוונן ב-120 משתתפות נוספות להתאמה לחיישן חדש, כך שלא הכליל ללא התאמה. זו תוצאה מחקרית משני אתרים בלבד, ללא מדידת השפעה על החלטות קליניות או תוצאי חולות.",
+    "url": "https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/",
+    "topics": [
+      "imaging",
+      "research"
+    ]
+  },
+  {
+    "id": "epic-connectors-apps-communicate-agents",
+    "date": "2026-10-21",
+    "added": "2026-11-03",
+    "src": "Epic (חדשות החברה)",
+    "fam": "press",
+    "title": "Epic מכריזה על Connectors: דרך חדשה לאפליקציות ולסוכני ה-AI שלה לתקשר עם המערכת",
+    "titleSrc": "Introducing Connectors: A New Way for Apps to Communicate With Epic",
+    "summary": "Connectors מאפשרים ל-Epic למשוך מידע מאפליקציות חיצוניות או לבצע בהן פעולות, ועובדים עם סוכני ה-AI של החברה (Emmie למטופלים, Art לרופאים, Penny לתפעול) ועם סוכנים מותאמים מ-Agent Factory. הדוגמאות כוללות זמן הגעת אמבולנס למיון והזמנת ארוחה דרך אפליקציית תזונה. הכלים יהיו ניתנים למציאה ב-Epic Showroom רק במרץ 2027, אין נתוני אימוץ, והציטוטים הם של שותפים מסחריים.",
+    "url": "https://www.epic.com/epic/post/introducing-connectors-a-new-way-for-apps-to-communicate-with-epic/",
+    "topics": [
+      "interop",
+      "marketplace",
+      "adoption"
+    ]
+  },
+  {
+    "id": "epic-tefca-nationwide-diagnostic-image-exchange",
+    "date": "2026-10-27",
+    "added": "2026-11-03",
+    "src": "Epic (חדשות החברה)",
+    "fam": "press",
+    "title": "Epic: החלפת תמונות דימות ארצית אפשרית באמצעות TEFCA, ומנגנון מבוסס תקנים כבר בהשקה",
+    "titleSrc": "Fewer Care Delays, More Cost Savings: Nationwide Diagnostic Image Exchange Is Possible With TEFCA",
+    "summary": "מאמר דעה של מנהל האינטרופרביליות של Epic, שפורסם במקור ב-Healthcare IT Today, טוען שהחלפת תמונות דימות בין ארגונים דרך TEFCA תצמצם סריקות כפולות, תוזיל עלויות ותזרז טיפול. לדברי Epic, מנגנון ההחלפה המבוסס תקנים \"מושק כעת\", והיא קוראת לאימוץ רחב של תקנים פתוחים בתעשייה. הדף הוא תקציר ללא נתונים כמותיים על חיסכון, והטענות הן של ספק התוכנה עצמו.",
+    "url": "https://www.epic.com/epic/post/fewer-care-delays-more-cost-savings-nationwide-diagnostic-image-exchange-is-possible-with-tefca/",
+    "topics": [
+      "interop",
+      "imaging"
+    ]
+  },
+  {
+    "id": "oracle-intent-driven-ehr-modular-rollout",
+    "date": "2026-11-02",
+    "added": "2026-11-03",
+    "src": "Healthcare IT Today",
+    "fam": "press",
+    "title": "Oracle מציגה אסטרטגיית EHR מבוססת כוונות: מערכת AI-first שפועלת לצד Millennium ומוטמעת מודול אחר מודול",
+    "titleSrc": "No More Rip-and-Replace: Oracle Previews an Intent-Driven EHR Strategy",
+    "summary": "בראיון עם ה-CMO של Oracle מתוארת מערכת EHR חדשה שתרוץ במקביל ל-Millennium ותיכנס מחלקה אחר מחלקה, כדי להימנע ממיגרציית נתונים מלאה. הממשק אדפטיבי וללא תוכן עניינים, והסוכנים אמורים לתעד הזמנות ולבצע פקודות קוליות כמו הזמנת בדיקות ומרשמים בלי קליקים. אלה תיאורי תכנון בלבד מפי בכיר בחברה: אין לוח זמנים, אין נתונים כמותיים, ו-Oracle היא ספונסרית של הרשת שמפרסמת את הכתבה.",
+    "url": "https://www.healthcareittoday.com/2026/11/02/no-more-rip-and-replace-oracle-previews-an-intent-driven-ehr-strategy/",
+    "topics": [
+      "adoption",
+      "ambient"
+    ]
+  },
+  {
+    "id": "medcity-wiser-medicare-ai-prior-authorization-problems",
+    "date": "2026-11-02",
+    "added": "2026-11-03",
+    "src": "MedCity News",
+    "fam": "press",
+    "title": "שבע בעיות אפשריות בניסוי ה-AI של Medicare לאישורים מוקדמים (WISeR)",
+    "titleSrc": "7 Potential Problems with Medicare's AI Prior Authorization Experiment",
+    "summary": "WISeR של CMS פועל מינואר 2026 עד 2031 בשש מדינות עם שישה ספקי טכנולוגיה, ומחייב אישור מוקדם ליותר מתריסר הליכים. לפי מסמכים שהתקבלו בבקשת FOIA של EFF, אחד הספקים דחה 53% מיותר מ-6,000 בקשות בשלושה חודשים (נתון שלבדו אינו מוכיח שהדחיות שגויות), בקשה אחת נותרה ללא מענה 83 ימים, וספקים יכולים לקבל אחוז מהוצאה שנמנעה. CMS מחייבת בדיקה של קלינאי מורשה לכל המלצת דחייה; הכתבה היא ניתוח דעה ולא הערכה עצמאית של התוצאות.",
+    "url": "https://medcitynews.com/2026/11/7-potential-problems-with-medicares-ai-prior-authorization-experiment/",
+    "topics": [
+      "policy",
+      "ops",
+      "ethics"
+    ]
   }
 ]
