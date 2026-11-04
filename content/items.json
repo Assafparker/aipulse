@@ -5164,5 +5164,36 @@
       "ops",
       "ethics"
     ]
+  },
+  {
+    "id": "jama-netw-open-llm-silent-steering-mental-health",
+    "date": "2026-11-03",
+    "added": "2026-11-04",
+    "src": "JAMA Network Open",
+    "fam": "journal",
+    "title": "מחקר ב-JAMA Network Open: אפשר להטות בשקט את המלצות הטיפול של מודל שפה בדיכאון באמצעות כיוון הפעלות פנימי",
+    "titleSrc": "Silent Manipulation of Mental Health Treatment Recommendations From a Large Language Model",
+    "summary": "מכתב מחקר של רוי פרליס (MGH) בדק מודל פתוח (DeepSeek v4 Flash) שהוגדר כעוזר מידע לבריאות הנפש, ושינה את נטיית ההמלצות שלו בין תרופות לבין טיפול עצמי באמצעות כיוון הפעלות בזמן הסקה, בלי לשנות משקולות או הנחיית מערכת. ב-12 תרחישי דיכאון סינתטיים, הציון הממוצע למתן עדיפות לתרופות ירד מ-1.25 בכיוון מרבי לתרופות ל-0.17 בכיוון מרבי לטיפול עצמי, וההשפעה הייתה חזקה במיוחד כשהמשתמש לא ציין העדפה. זו הוכחת היתכנות על מודל אחד ותרחישים סינתטיים בלבד, ללא מטופלים; הכותב קורא לביקורת עצמאית של מודלים המשמשים להכוונה קלינית.",
+    "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2856233",
+    "topics": [
+      "mental",
+      "ethics",
+      "research"
+    ]
+  },
+  {
+    "id": "dhsc-uk-one-million-more-scans-ai-mri",
+    "date": "2026-11-03",
+    "added": "2026-11-04",
+    "src": "משרד הבריאות והרווחה של בריטניה (DHSC)",
+    "fam": "regulator",
+    "title": "בריטניה: 125 סורקי CT ו-MRI נוספים ב-NHS ותוכנת AI להאצת MRI מותקנת ב-54% מהסורקים התואמים",
+    "titleSrc": "One million more scans to help catch cancer sooner",
+    "summary": "לפי הודעת הממשלה, בין מרץ 2024 למרץ 2026 נוספו ל-NHS 125 סורקים שתומכים בכמיליון בדיקות נוספות בשנה, 107 מהם במרכזי אבחון קהילתיים. תוכנת האצה מבוססת AI מותקנת ב-54% מסורקי ה-MRI התואמים ומאפשרת בממוצע 14% יותר סריקות באותה איכות תמונה; פריסה מלאה עשויה להוסיף עד 162,000 בדיקות בשנה, וכל נאמנות NHS תקבל הזדמנות לשדרג עד 2029. אלה נתונים מהודעה ממשלתית, ללא הערכה עצמאית.",
+    "url": "https://www.gov.uk/government/news/one-million-more-scans-to-help-catch-cancer-sooner",
+    "topics": [
+      "adoption",
+      "imaging"
+    ]
   }
 ]
