@@ -5195,5 +5195,96 @@
       "adoption",
       "imaging"
     ]
+  },
+  {
+    "id": "jama-netw-open-rct-rosie-maternal-chatbot",
+    "date": "2026-11-04",
+    "src": "JAMA Network Open",
+    "fam": "journal",
+    "title": "ניסוי אקראי ב-JAMA Network Open: צ'אטבוט גנרטיבי לבריאות האם והתינוק לא שיפר חרדה ודיכאון לאחר 12 חודשים",
+    "titleSrc": "Generative Artificial Intelligence and Maternal Health Outcomes in Pregnant and Postpartum Individuals: A Randomized Clinical Trial",
+    "summary": "חוקרים מאוניברסיטת מרילנד והמכון הלאומי לסיעוד (NIH) חילקו 400 נשים בהיריון או אחרי לידה, מקבוצות מיעוט, לקבוצה שקיבלה גישה לצ'אטבוט גנרטיבי בשם Rosie (200) ולביקורת (200). לאחר 12 חודשים לא נמצא הבדל בציוני חרדה (GAD-7: הפרש 0.10, רווח סמך 95%: ‏−0.77 עד 0.96) או דיכאון (PHQ-9: הפרש ‏−0.23, ‏−1.05 עד 0.59), ובמדדים משניים לא נראה יתרון ברור. כל התוצאות דווחו עצמית, המחקר היה מוגבל לעוצמה לאפקטים בינוניים, ובצ'אטבוט פעלו התראות בטיחות עם מעקב אנושי, ולכן הכותבים רואים בו כלי משלים ולא טיפול עצמאי.",
+    "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2856248",
+    "topics": [
+      "research",
+      "mental",
+      "ethics"
+    ],
+    "added": "2026-11-05"
+  },
+  {
+    "id": "jama-netw-open-delirium-ml-external-validation-mount-sinai",
+    "date": "2026-11-04",
+    "src": "JAMA Network Open",
+    "fam": "journal",
+    "title": "מחקר ב-JAMA Network Open: מודל למידת מכונה לסיכון להזיה (דליריום) שהופעל ללא אימון מחדש בבית חולים שני של Mount Sinai",
+    "titleSrc": "External Validation of a Machine Learning Model for Delirium Risk",
+    "summary": "מחקר שיפור איכות במערכת Mount Sinai בחן 33,095 אשפוזים של בני 60 ומעלה ביחידות שאינן טיפול נמרץ, בין דצמבר 2024 לדצמבר 2025. המודל שהופעל ללא אימון מחדש בבית החולים Morningside שמר על ביצועים (AUROC של 0.91, לעומת 0.94 באתר הפיתוח), וזיהוי ההזיה החודשי עלה בממוצע מכ-9.2% לכ-19.6%. הערך המנבא החיובי נמוך (25.9%), מה שמעלה חשש מעייפות התראות, והניתוח רטרוספקטיבי ובתוך אותה מערכת בריאות, כך שאין כאן אימות עצמאי.",
+    "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2856244",
+    "topics": [
+      "research",
+      "adoption"
+    ],
+    "added": "2026-11-05"
+  },
+  {
+    "id": "medcity-mount-sinai-nih-ai-postoperative-kidney-injury",
+    "date": "2026-11-04",
+    "src": "MedCity News",
+    "fam": "press",
+    "title": "Mount Sinai מקבל מענק NIH של 4 מיליון דולר לבניית מודל AI לחיזוי פגיעה כלייתית אחרי ניתוח",
+    "titleSrc": "Researchers Receive $4M NIH Grant to Build AI Model To Prevent Kidney Injury",
+    "summary": "לפי MedCity News, חוקרי Mount Sinai בראשות ד״ר אירה הופר קיבלו מענק NIH לחמש שנים בהיקף 4 מיליון דולר לפיתוח מודל שמזהה מי בסיכון גבוה לפגיעה כלייתית חריפה אחרי ניתוח. המודל יאומן בלמידה מאוחדת על נתוני יותר מ-320,000 מטופלים מ-15 בתי חולים, בלי העברת מידע בין המערכות, בשיתוף ונדרבילט ו-UCLA. כ-12% מהמנותחים בניתוחים שאינם לבביים סובלים מהפגיעה, ואין לה טיפול ישיר; המודל עדיין בשלב פיתוח, וניסויים קליניים יבואו רק אם יציג ביצועים טובים.",
+    "url": "https://medcitynews.com/2026/11/researchers-receive-4m-nih-grant-to-build-ai-model-to-prevent-kidney-injury/",
+    "topics": [
+      "research",
+      "funding"
+    ],
+    "added": "2026-11-05"
+  },
+  {
+    "id": "calcalist-tailormed-acquired-growthcurve-250m",
+    "date": "2026-11-02",
+    "src": "Calcalist (CTech)",
+    "fam": "press",
+    "title": "חברת הבריאות הדיגיטלית הישראלית TailorMed נמכרת לקרן GrowthCurve בכ-250 מיליון דולר",
+    "titleSrc": "Israeli digital health company TailorMed acquired in $250 million deal",
+    "summary": "לפי כלכליסט, קרן ההון הפרטי האמריקאית GrowthCurve תרכוש גרעין שליטה ב-TailorMed, שנוסדה ב-2016 ועוזרת למטופלים בארה״ב להתמודד עם חסמים כספיים ומנהליים בגישה לתרופות. מחיר העסקה, כ-250 מיליון דולר, מבוסס על הדיווח בלבד והחברות לא פרסמו אותו; החברה גייסה עד כה כ-60 מיליון דולר, מעסיקה כ-120 עובדים (כ-50 בישראל) ומחברת מעל 950 בתי חולים ו-4,700 מרפאות. נתון הסיוע הכספי של 7.4 מיליארד דולר שהחברה מציגה מתייחס לסיוע שנגיש למטופלים ולא להכנסותיה.",
+    "url": "https://www.calcalistech.com/ctechnews/article/sk4ycmiazg",
+    "topics": [
+      "israel",
+      "funding"
+    ],
+    "added": "2026-11-05"
+  },
+  {
+    "id": "calcalist-schneider-children-vc-pediatric-fund",
+    "date": "2026-11-04",
+    "src": "Calcalist (CTech)",
+    "fam": "press",
+    "title": "בית החולים שניידר משיק קרן הון סיכון של 50 מיליון דולר לטכנולוגיות בריאות ילדים",
+    "titleSrc": "Schneider hospital launches $50 million venture fund focused on children's health",
+    "summary": "לפי כלכליסט, Schneider Children's VC, שהוקמה בהסכם עם כללית, גייסה כ-20 מיליון דולר בסגירה ראשונה ביעד של כ-50 מיליון, והשקיעה עד כה בשלוש חברות בהשקעות של 500 אלף עד 3 מיליון דולר. הקרן בחנה כ-170 חברות ומתכננת לבדוק סטארט-אפים בסביבה קלינית בגישה לנתוני כללית, ולשתף פעולה עם חברות טכנולוגיה בנושאי נתונים ו-AI לגילוי מוקדם של מחלות. מדובר בדיווח עיתונאי על קרן שהוצגה כראשונה בישראל בתחום, ללא תוצאות השקעה עדיין.",
+    "url": "https://www.calcalistech.com/ctechnews/article/b5b14bvpn",
+    "topics": [
+      "israel",
+      "funding"
+    ],
+    "added": "2026-11-05"
+  },
+  {
+    "id": "ehalsomyndigheten-sweden-national-health-data-infrastructure",
+    "date": "2026-10-20",
+    "src": "הסוכנות השוודית לבריאות דיגיטלית (E-hälsomyndigheten)",
+    "fam": "regulator",
+    "title": "שוודיה: הצעת חקיקה לשלב ראשון של תשתית דיגיטלית לאומית בתחום נתוני הבריאות",
+    "titleSrc": "Förslag till reglering för en nationell digital infrastruktur på hälsodataområdet",
+    "summary": "משרדי הממשלה בשוודיה פרסמו טיוטת הצעה לשלושה חוקים חדשים, עם תקנות נלוות: רישום בסיס של נותני שירותי בריאות, רישום לאומי של נותני השירות של המטופלים, ושירות חיפוש לאומי לשירותי בריאות. סוכנות ה-eHälsomyndigheten, שתפתח ותנהל את התשתית, הגישה תגובה שתומכת בכיוון הכללי אך העירה על תנאי היישום, הפיתוח לטווח ארוך והיישום המעשי. ההצעה היא שלב ראשון בלבד שאינו מכסה את כל סוגיות התשתית, ולא פורסמו בה תקציב או לוחות זמנים.",
+    "url": "https://www.ehalsomyndigheten.se/om-ehalsomyndigheten/aktuellt/nyheter/2026/forslag-till-reglering-for-en-nationell-digital-infrastruktur-pa-halsodataomradet",
+    "topics": [
+      "national-strategies",
+      "interop"
+    ],
+    "added": "2026-11-05"
   }
 ]
