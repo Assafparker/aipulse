@@ -5286,5 +5286,80 @@
       "interop"
     ],
     "added": "2026-11-05"
+  },
+  {
+    "id": "google-research-hypertension-wearable-sensors",
+    "date": "2026-11-05",
+    "src": "Google Research",
+    "fam": "lab",
+    "title": "גוגל: מודל על בסיס שעון חכם לזיהוי סימני יתר לחץ דם נבדק מול ניטור לחץ דם של 24 שעות",
+    "titleSrc": "Detecting signs of hypertension using wearable sensors",
+    "summary": "מחקר פרוספקטיבי רב-מרכזי בחמישה אתרים בארה״ב כלל 196 מבוגרים ללא מחלת לב ידועה וללא טיפול תרופתי; המודל אומן מראש על 492 אלף שעות נתוני לבישים מ-2,109 משתתפים. בסינון ראשוני הגיעה הרגישות ל-65.8% והסגוליות ל-90.0%, לעומת רגישות של 55.3% במדידה במרפאה. בתת-קבוצה של 48 נבדקים לאישור הרגישות עלתה ל-78.4%, אך ניטור ביתי רב-יומי הגיע ל-89.2%. החוקרים מדגישים שזה מחקר היתכנות מוקדם, שאינו תחליף לאבחון.",
+    "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/",
+    "topics": [
+      "research",
+      "foundation-models"
+    ],
+    "added": "2026-11-06"
+  },
+  {
+    "id": "arxiv-2610-41437-ai-clinical-visit-preparation-rct",
+    "date": "2026-10-30",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "ניסוי אקראי: סוכן AI שמכין מטופלים לביקור רפואי הביא להכנה טובה יותר מצ׳אטבוט בסיסי",
+    "titleSrc": "A prospective randomized study of patient-centered AI for clinical visit preparation",
+    "summary": "802 מבוגרים בארה״ב ניהלו 866 שיחות בנושאי בריאות באפליקציית Google Health, עם סוכן הכנה לביקור או עם צ׳אטבוט בסיסי על אותו מודל. בהערכת רופאים (272 שיחות) הכנה מקיפה עמדה על 67.2% מול 50.6%, ובסקר המטופלים (460) תחושת מוכנות עלתה ל-73.8% מול 57.0%. המדדים נוגעים להכנה ולתחושה בלבד ולא לתוצאים קליניים; זהו פרה-פרינט שטרם עבר ביקורת עמיתים, בקרב משתמשי אפליקציה אחת.",
+    "url": "https://arxiv.org/abs/2610.41437",
+    "topics": [
+      "research",
+      "adoption"
+    ],
+    "added": "2026-11-06"
+  },
+  {
+    "id": "jama-netw-open-fda-510k-ai-device-updates",
+    "date": "2026-11-05",
+    "src": "JAMA Network Open",
+    "fam": "journal",
+    "title": "עדכוני אלגוריתם במכשירי AI מאושרי FDA: שליש עודכנו, ובהם מידע חלקי על ראיות והתועלת הקלינית",
+    "titleSrc": "Updated AI and/or Machine Learning–Based Medical Devices Cleared Through the FDA 510(k) Pathway",
+    "summary": "מכתב מחקר ניתח 163 מכשירי AI/ML שקיבלו אישור 510(k) ראשוני (89% מהם בהדמיה רפואית). 56 מהם (34.4%) עודכנו לפחות פעם אחת, בחציון של 1.8 שנים עד העדכון הראשון, ובשלושה רבעים מהם העדכון שינה את השימוש במכשיר. ב-85.7% מהמכשירים לא דווח כלל על תועלת קלינית או ארגונית. המדגם קטן, מבוסס על מסמכי FDA בלבד, ואינו מכסה שינויים שאושרו מראש במסגרת תוכניות PCCP.",
+    "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2856263",
+    "topics": [
+      "policy",
+      "imaging"
+    ],
+    "added": "2026-11-06"
+  },
+  {
+    "id": "healthit-gov-va-dow-join-tefca",
+    "date": "2026-11-05",
+    "src": "ASTP/ONC (HHS)",
+    "fam": "regulator",
+    "title": "משרדי ותיקי המלחמה והביטחון של ארה״ב מצטרפים לרשת TEFCA להחלפת מידע רפואי",
+    "titleSrc": "HHS Welcomes the Department of Veterans Affairs and Department of War to the TEFCA Network",
+    "summary": "ASTP/ONC הודיע שמשרד ותיקי המלחמה (VA) ומשרד המלחמה הצטרפו לרשת TEFCA, שאליה כבר מחוברות סוכנויות פדרליות נוספות כמו IHS ו-SSA. לפי הנתונים שפורסמו, כ-25 אלף ארגונים פעילים ברשת, כמעט 110 אלף חיבורים, ויותר ממיליארדיים רשומות רפואיות הוחלפו מאז ההשקה ב-2023. ההודעה מציגה את המטרה (מידע עדכני לרופאים של ותיקים וחיילים) ואינה כוללת לוח זמנים ליישום בפועל.",
+    "url": "https://healthit.gov/news/hhs-welcomes-the-department-of-veterans-affairs-and-department-of-war-to-the-tefca-network-expanding-secure-timely-health-information-exchange-for-americas-veterans-and-warfighters/",
+    "topics": [
+      "interop",
+      "adoption"
+    ],
+    "added": "2026-11-06"
+  },
+  {
+    "id": "ehalsomyndigheten-sweden-interoperability-terminology-responsibility",
+    "date": "2026-11-02",
+    "src": "הסוכנות השוודית לבריאות דיגיטלית (E-hälsomyndigheten)",
+    "fam": "regulator",
+    "title": "שוודיה: סוכנות הבריאות הדיגיטלית קיבלה אחריות על SNOMED CT, ICD ומבני מידע לאינטראופרביליות",
+    "titleSrc": "Gemensamma begrepp och strukturer stärker interoperabiliteten",
+    "summary": "מאז 1 ביוני 2026 E-hälsomyndigheten אחראית על מכלול תנאי האינטראופרביליות בנתוני בריאות, לאחר שקיבלה מ-Socialstyrelsen משימות בתחומי טרמינולוגיה, סיווגים ומבנה מידע, ובהן SNOMED CT, ICD ו-KVÅ. הסוכנות מציגה זאת כתנאי יסוד לתשתית דיגיטלית לאומית. ההערכה שההעברה בוצעה בהצלחה מבוססת על דוח הסיכום של הסוכנות עצמה, ואין בהודעה נתונים על היקף או עלות.",
+    "url": "https://www.ehalsomyndigheten.se/om-ehalsomyndigheten/aktuellt/nyheter/2026/gemensamma-begrepp-och-strukturer-starker-interoperabiliteten",
+    "topics": [
+      "national-strategies",
+      "interop"
+    ],
+    "added": "2026-11-06"
   }
 ]
