@@ -5361,5 +5361,82 @@
       "interop"
     ],
     "added": "2026-11-06"
+  },
+  {
+    "id": "jama-netw-open-ai-scribes-language-note-closure",
+    "date": "2026-11-06",
+    "added": "2026-11-07",
+    "src": "JAMA Network Open",
+    "fam": "journal",
+    "title": "מחקר ב-JAMA Network Open: הקלטה מבוססת AI האיצה סגירת רשומות בביקורים בשפה זרה, אך לא ברור אם היתרון מגיע לביקורים עם מתורגמן",
+    "titleSrc": "Artificial Intelligence Scribes and Same-Day Note Closure by Patient Language Preference and Interpreter Modality",
+    "summary": "מחקר חתך ב-14 מרפאות ראשוניות של מרכז רפואי אקדמי בבוסטון (209,009 ביקורים, 286 רופאים, מאי 2025–מאי 2026) בדק האם כלי תיעוד AI מגדילים סגירת רשומה באותו יום. בביקורים בשפה שאינה אנגלית עם רופא דובר אותה השפה עלתה הסגירה ב-10.2 נקודות אחוז (רווח סמך 7.4–12.9), ובביקורים באנגלית ב-1.7 נקודות; לגבי ביקורים עם מתורגמן התוצאות אינן חד-משמעיות בגלל רווחי סמך רחבים. המחברים מזהירים שמדובר במערכת אחת, בבחירה עצמית של רופאים ובקשר שאינו סיבתי.",
+    "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2856327",
+    "topics": [
+      "ambient",
+      "research",
+      "ethics"
+    ]
+  },
+  {
+    "id": "arxiv-safe-teen-chatbot-adolescent-mental-health",
+    "date": "2026-11-04",
+    "added": "2026-11-07",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "SAFE-Teen: בדיקת בטיחות של 18 צ'אטבוטים בשיחות מדומות עם מתבגרים על בריאות הנפש",
+    "titleSrc": "SAFE-Teen: Evaluating Chatbot Safety Across Adolescent Mental Health Conversations",
+    "summary": "פרה-פרינט שהעריך 32,555 שיחות מדומות עם מתבגרים בני 13–17 מול 18 ממשקי צ'אטבוט, לפי 22 קריטריוני בטיחות שגובשו עם קלינאים. שיעור הכשלים עמד על 43.3% ללא הנחיית מערכת מותאמת לבני נוער ו-24.9% איתה; כשהמתבגר התעקש מול התשובה עלו הכשלים בתחומי אבחון, תרופות וחומרים ב-10–12 נקודות אחוז. אלה שיחות מדומות ולא נתוני שטח, והעבודה טרם עברה ביקורת עמיתים.",
+    "url": "https://arxiv.org/abs/2611.07218",
+    "topics": [
+      "mental",
+      "ethics"
+    ]
+  },
+  {
+    "id": "arxiv-prism-variant-reclassification-health-communities",
+    "date": "2026-11-04",
+    "added": "2026-11-07",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "PRISM: צינור סוכני מבוסס LLM מאתר בקהילות מטופלים אנשים שגרסאות גנטיות שלהם סווגו מחדש",
+    "titleSrc": "Reclassification Is All You Missed: Surfacing Variant Reinterpretation Need in Online Health Communities at Population Scale",
+    "summary": "החוקרים סרקו 3.9 מיליון פוסטים מ-32 קהילות בריאות מקוונות ומצאו שדיון הרלוונטי לסיווג מחדש של וריאנט גנטי נדיר (0.288%), אך מרוכז בקהילות גנטיקה (6.30%). PRISM איתר 123 הבדלי סיווג מועמדים, מהם 5 עברו מ'לא ודאי' ל'פתוגני' או 'כנראה פתוגני'. מתוך 30 טיוטות פנייה שנבדקו בידי קלינאי, 27 היו מבוססות עובדתית ו-15 ראויות לשליחה; הבדיקה היא ניסוי יבש ללא יצירת קשר אמיתי, ופרה-פרינט.",
+    "url": "https://arxiv.org/abs/2611.07054",
+    "topics": [
+      "research",
+      "ethics"
+    ]
+  },
+  {
+    "id": "arxiv-pediatric-ecg-foundation-model",
+    "date": "2026-11-05",
+    "added": "2026-11-07",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "מודל יסוד ל-ECG ילדים: כוונון של מודל מבוגרים משפר דיוק ושיפר אבחנות של קלינאים",
+    "titleSrc": "Pediatric ECG foundation model via adult-to-pediatric fine-tuning: downstream tasks and clinical evaluation",
+    "summary": "פרה-פרינט שבדק התאמת מודל יסוד ל-ECG של מבוגרים לילדים על 339,563 אלקטרוקרדיוגרמות מ-238,189 ילדים. הפעלה ישירה של המודל נתנה AUC ממוצע של 0.8256, וכוונון לילדים הגיע ל-0.9695 (0.9079 עם 1% מהנתונים בלבד) ול-0.9385 באימות חיצוני על 10,999 מדידות. במחקר קורא עם 17 קלינאים ו-100 מקרים עלה הדיוק מ-56.8% ל-65.4%; המדגם הקליני קטן והעבודה טרם עברה ביקורת עמיתים.",
+    "url": "https://arxiv.org/abs/2611.07717",
+    "topics": [
+      "foundation-models",
+      "imaging"
+    ]
+  },
+  {
+    "id": "statnews-doctors-ai-chatbots-hipaa-block-or-buy",
+    "date": "2026-11-05",
+    "added": "2026-11-07",
+    "src": "STAT News",
+    "fam": "press",
+    "title": "כשיותר רופאים מתייעצים עם צ'אטבוטים: מערכות בריאות בוחרות בין חסימה לרכישה",
+    "titleSrc": "As more doctors consult chatbots, health systems can block them — or buy in",
+    "summary": "STAT מדווח שכלים כמו OpenEvidence, Doximity Ask ו-ChatGPT for Clinicians צמחו בשנה האחרונה, ושלפי הכתבה משתמשים בהם מאות אלפי רופאים. Monument Health בדקוטה הדרומית וויומינג חסמה גישה ל-OpenEvidence אחרי שרופא אחד שמר בו יותר ממאה רשומות מטופלים. הספקים טוענים לעמידה ב-HIPAA תחת הסכם מתאים, אך הנתונים כאן מבוססים על תצוגה מקדימה של כתבה בתשלום ועל מערכת אחת, ואין אימות בלתי תלוי.",
+    "url": "https://www.statnews.com/2026/11/05/doctors-use-ai-chatbots-hipaa-compliance-questions/",
+    "topics": [
+      "adoption",
+      "ethics",
+      "foundation-models"
+    ]
   }
 ]
