@@ -5438,5 +5438,50 @@
       "ethics",
       "foundation-models"
     ]
+  },
+  {
+    "id": "openevidence-learn-platform",
+    "date": "2026-11-04",
+    "added": "2026-11-08",
+    "src": "OpenEvidence",
+    "fam": "press",
+    "title": "OpenEvidence משיקה את Learn: פלטפורמת לימוד רפואית מותאמת אישית, חינמית",
+    "titleSrc": "Announcing Learn: OpenEvidence's Personalized Medical Education Platform",
+    "summary": "OpenEvidence השיקה פלטפורמה חינמית להכשרת מתמחים ורופאים, הנשענת על אותן ראיות והנחיות שמזינות את תשובותיה בנקודת הטיפול: מעל 50,000 שאלות בסגנון בחינות מועצה, מדריך Socratic מבוסס מקרים עם מטופלים מדומים, כרטיסיות חזרה מרווחת וזיכוי CME על שאלות שהרופא ממילא שואל. בית הספר לרפואה של ג'ונס הופקינס ופרלמן (פנסילבניה) מזמינים את הסגל והמתמחים שלהם להתנסות ולתת משוב. זוהי הודעה שיווקית של החברה — אין בה הוכחה לשיפור בלמידה או בציוני בחינות, ולא צוין גוף המאשר את נקודות ה-CME.",
+    "url": "https://openevidence.com/announcements/announcing-learn",
+    "topics": [
+      "adoption",
+      "foundation-models"
+    ]
+  },
+  {
+    "id": "arxiv-cardiolm-multilingual-slm",
+    "date": "2026-11-05",
+    "added": "2026-11-08",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "CardioLM: חבילת מודלי שפה קטנים רב-לשוניים לקרדיולוגיה",
+    "titleSrc": "CardioLM: A multilingual suite of small language models for the cardiology domain",
+    "summary": "הפרה-פרינט מציג את CardioCCC — קורפוס של 508 תיאורי מקרה בקרדיולוגיה, במקור בספרדית ומורחב לשבע שפות, עם סימון של מחלות, תסמינים, פרוצדורות ותרופות — ואת CardioLM: מקודדים שהוכשרו מחדש על טקסט קרדיולוגי וביו-רפואי, ומודלי זיהוי ישויות (CardioNER). האימון המשותף הרב-לשוני העפיל על המערכת החד-לשונית החזקה ביותר בעד 0.13 נקודות F1, אך ההכשרה המקדימה שיפרה את ה-F1 המחמיר בלא יותר מ-0.04. דירוג קלינאים הגיע לממוצע 73%, לעומת 26% בבסיס מבוסס כללים. עבודה ראשונית שטרם עברה ביקורת עמיתים, על קורפוס קטן.",
+    "url": "https://arxiv.org/abs/2611.07940",
+    "topics": [
+      "research",
+      "foundation-models"
+    ]
+  },
+  {
+    "id": "arxiv-medgraph-patient-memory",
+    "date": "2026-11-05",
+    "added": "2026-11-08",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "MedGraph: זיכרון גרפי שמשמר את מצבו המעודכן של המטופל בשיחות רפואיות ארוכות טווח",
+    "titleSrc": "MedGraph: Maintaining Patient State with Graph Memory for Long-Term Medical Dialogue",
+    "summary": "המחברים ניתחו שגיאות של חמש מערכות זיכרון בשיחות רפואיות לאורך ביקורים וזיהו שלוש סיבות חוזרות: מצב מיושן שנשלף, עובדות בריאות של אדם אחר, וחסרות עובדות בטיחות. MedGraph חולץ עובדות מתוארכות לכל מפגש, משייך כל עובדה לאדם, ומקשר תרופות, אבחנות ומדידות לשרשראות שמשמרות מצבים קודמים. ב-MedMemoryBench הוא עקף את החזק מבין חמש קבוצות הבסיס ב-10.5 נקודות עם GPT וב-10.4 עם Qwen. התוצאות מבנצ'מרק יחיד ושני מודלי בסיס בלבד, ופרה-פרינט שטרם נבדק עמיתים.",
+    "url": "https://arxiv.org/abs/2611.08433",
+    "topics": [
+      "research",
+      "ops"
+    ]
   }
 ]
