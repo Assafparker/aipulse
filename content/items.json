@@ -5483,5 +5483,65 @@
       "research",
       "ops"
     ]
+  },
+  {
+    "id": "arxiv-guardrail-erosion-biomedical-llms",
+    "date": "2026-11-05",
+    "added": "2026-11-09",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "שחיקת מנגנוני הזהירות: כוונון עדין של מודלי שפה ביו-רפואיים מפחית את נטייתם להימנע ממענה כשאין להם ידע",
+    "titleSrc": "Guardrail Erosion in Domain Fine-Tuned Large Language Models: A Paired Audit of Knowledge-Centric Abstention in Biomedical LLMs",
+    "summary": "המחברים בדקו 25 מודלי שפה ביו-רפואיים מכוונים מול 11 נקודות בסיס מקבילות, בעזרת המבחנים MedAbstain ו-ClinDet-Bench. ההימנעות הראויה ממענה נמוכה גם במודלי הבסיס (חציון 8.3%) ויורדת עוד אחרי הכוונון, לחציון 4.2%, ב-21 מתוך 25 זוגות. גודל השינוי וכיוונו משתנים בין הזוגות. פרה-פרינט שטרם עבר ביקורת עמיתים.",
+    "url": "https://arxiv.org/abs/2611.08780",
+    "topics": [
+      "ethics",
+      "foundation-models"
+    ]
+  },
+  {
+    "id": "arxiv-clite-paraclite-cardiology-corpora",
+    "date": "2026-11-06",
+    "added": "2026-11-09",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "CliTe ו-ParaCliTe: קורפוסים מלאכותיים רב-לשוניים לבינה מלאכותית בקרדיולוגיה",
+    "titleSrc": "Multilingual Artificial Datasets for AI-Driven Cardiology: the CliTe and ParaCliTe corpora",
+    "summary": "קרדיולוגים משבעה בתי חולים באירופה כתבו רשומות רפואיות בדיוניות בשבע שפות, וכך נוצר CliTe עם 699 דוחות (340 ביקורי מרפאה, 263 סיכומי שחרור, 89 דוחות אשפוז). תת-קבוצה תורגמה ידנית ל-ParaCliTe: 94 מטופלים בדיוניים, 658 מסמכים מיושרים ברמת המשפט. הניסויים מראים שימושיות, וגם מגבלות של מודלי NLP המותאמים לקרדיולוגיה. פרה-פרינט, על נתונים סינתטיים בלבד.",
+    "url": "https://arxiv.org/abs/2611.09296",
+    "topics": [
+      "research",
+      "interop"
+    ]
+  },
+  {
+    "id": "arxiv-physiowave-t-biosignal-foundation-models",
+    "date": "2026-11-06",
+    "added": "2026-11-09",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "PhysioWave-T: מודלי יסוד יעילים-בטוקנים לאותות ביולוגיים (EEG, ECG, sEMG)",
+    "titleSrc": "PhysioWave-T: Token-Efficient Wavelet Foundation Models for Biosignals",
+    "summary": "משפחת מודלי יסוד מבוססי גלונים לאותות EEG, ECG ו-sEMG, עם מודל EEG בן 30 מיליון פרמטרים שאומן על יותר מ-15 מיליון חלונות. קיפול הסקאלות קיצר את זמן ההשהיה פי 4.0–7.2 ללא ירידה מדווחת בדיוק. בזיהוי התקפים ב-SeizeIT2, ברמה של 11 התראות שווא לשעה, הרגישות עלתה מ-61.4% ל-74.4% בהשוואה לבסיס החד-מודלי החזק ביותר. תוצאות דווחו בידי המחברים, בפרה-פרינט שטרם נבדק עמיתים.",
+    "url": "https://arxiv.org/abs/2611.08969",
+    "topics": [
+      "research",
+      "foundation-models"
+    ]
+  },
+  {
+    "id": "arxiv-glyph-clinical-interpretability-engine",
+    "date": "2026-11-06",
+    "added": "2026-11-09",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "Glyph: מנוע פרשנות לגילוי מדעי מנתונים קליניים באמצעות מודלי יסוד ואוטואנקודרים דלילים",
+    "titleSrc": "Glyph: An Interpretability Engine for AI-Driven Scientific Discovery in Clinical Data",
+    "summary": "המסגרת משלבת מודלי יסוד ואוטואנקודרים דלילים כדי לחלץ מאפיינים מנתונים קליניים לא מובנים ולפרש אותם כמושגים קליניים. על סריקות CT של הבטן, דוחות רדיולוגיה ובדיקות מעבדה של 41,628 מטופלים ממוסדות שונים נמצאו 397 מושגים מנבאים ו-4,463 קשרים מובהקים אחרי תיקון Bonferroni. רובם שוחזרו בקבוצות נפרדות מאתרים אחרים. פרה-פרינט שטרם עבר ביקורת עמיתים.",
+    "url": "https://arxiv.org/abs/2611.08922",
+    "topics": [
+      "imaging",
+      "foundation-models"
+    ]
   }
 ]
