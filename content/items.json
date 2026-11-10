@@ -5543,5 +5543,95 @@
       "imaging",
       "foundation-models"
     ]
+  },
+  {
+    "id": "jama-netopen-ai-interventional-trials-clinicaltrials-gov",
+    "date": "2026-11-09",
+    "added": "2026-11-10",
+    "src": "JAMA Network Open",
+    "fam": "journal",
+    "title": "כ-14% מהניסויים ההתערבותיים עם AI ברישום ClinicalTrials.gov מתכננים בינה גנרטיבית, ועלייה מ-0 ל-20% תוך שלוש שנים",
+    "titleSrc": "Artificial Intelligence Use in Interventional Clinical Trials Registered on ClinicalTrials.gov",
+    "summary": "מכתב מחקר חתך מאוניברסיטת אמורי סקר רישומים ב-ClinicalTrials.gov: מתוך 8,559 רשומות נותרו 1,212 ניסויים התערבותיים (שאינם תרופתיים) שהחלו מ-2022. בינה גנרטיבית תוכננה ב-166 ניסויים (13.7%), ובין ניסויי 2025 ב-100 מתוך 491 (20.4%) לעומת אפס ב-2022; רוב הניסויים באתר בודד (69.3%), 25% בארה\"ב ו-12.3% בסין. המחברים מזהירים שהרישום מתאר שימוש מתוכנן בלבד, ושאין במאגר שדות מובנים ל-AI.",
+    "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2856350",
+    "topics": [
+      "research",
+      "ethics"
+    ]
+  },
+  {
+    "id": "stat-ai-chatbots-men-mental-health",
+    "date": "2026-11-09",
+    "added": "2026-11-10",
+    "src": "STAT News",
+    "fam": "press",
+    "title": "האם צ'אטבוטים יצליחו לפתוח גברים לטיפול נפשי? STAT בוחן את הנתונים והסייגים",
+    "titleSrc": "AI chatbots aren't therapists. But can they finally get men to open up?",
+    "summary": "גברים מקבלים טיפול נפשי בכמחצית מהשיעור של נשים (נתוני CDC), ועד 80% ממקרי ההתאבדות. לפי סקר Pew, 8% מהגברים משתמשים בצ'אטבוטים לתמיכה רגשית. הכתבה מציינת את ניסוי Therabot של דארטמות' (כ-100 מטופלים מול כ-100 ברשימת המתנה) שעורר גם ביקורת מתודולוגית, ומזכירה שאין עדיין הנחיות פדרליות לבינה מלאכותית בבריאות הנפש ושאפליקציות נמנעות מפיקוח בהגדרה כ\"רווחה\".",
+    "url": "https://www.statnews.com/2026/11/09/ai-chatbots-can-overcome-mental-health-barriers-in-men/",
+    "topics": [
+      "mental",
+      "ethics"
+    ]
+  },
+  {
+    "id": "stat-ai-medical-records-women-bias",
+    "date": "2026-11-06",
+    "added": "2026-11-10",
+    "src": "STAT News",
+    "fam": "press",
+    "title": "רשומות רפואיות לא מספרות את כל האמת על נשים, וכלי AI עלולים לשכפל את הפער",
+    "titleSrc": "AI depends on medical records that don't always tell the full truth about women",
+    "summary": "מאמר דעה מבוסס על מחקר שהצליב רשומות רפואיות עם ראיונות של 87 נשים: 53 תיארו אירוע שבו האמון נשבר, אך רק ב-7 מהרשומות תועד חוסר אמון; 32 דיווחו על אבחון שגוי, ורק 8 תועדו. המחברות מזהירות שסורקי תיעוד ו-AI שמסכמים רשומות עלולים לשחזר הטיות בהצגת נשים, ומציעות לתעד גם עיכובים בטעויות באבחון. זהו מאמר דעה ולא ניסוי.",
+    "url": "https://www.statnews.com/2026/11/06/women-medical-records-artificial-intelligence-diagnosis-mental-health-pain/",
+    "topics": [
+      "ethics",
+      "ambient"
+    ]
+  },
+  {
+    "id": "arxiv-agentic-systems-radiology-production-ai-tools",
+    "date": "2026-11-06",
+    "added": "2026-11-10",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "האם מערכות אג'נטיות סוגרות את הפער ברדיולוגיה בעזרת כלי AI מאושרים? מתזמר מזהה פחות משליש מהממצאים",
+    "titleSrc": "Can Agentic Systems Close the Gap in Radiology with Production AI Tools?",
+    "summary": "המחקר בוחן מתזמר (orchestrator) שמפעיל קטלוג של כלי AI מאושרים לדימות. עם הקטלוג המאושר ותכנון לפי אינדיקציה בלבד, המתזמר משחזר פחות משליש מהממצאים הקליניים הניתנים לפעולה; רוב ההחמצות הן מחלקות שאף מכשיר מאושר אינו מכסה, וכשליש הן כלים שהוצעו ולא הופעלו. הוספת הכלים החסרים השכיחים סוגרת את רוב הפער. פרה-פרינט שטרם עבר ביקורת עמיתים.",
+    "url": "https://arxiv.org/abs/2611.09836",
+    "topics": [
+      "imaging",
+      "research"
+    ]
+  },
+  {
+    "id": "arxiv-icare-dt-icu-digital-twin",
+    "date": "2026-11-06",
+    "added": "2026-11-10",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "ICare-DT: תאום דיגיטלי לחיזוי רציף של מטופלי טיפול נמרץ, עם סייגים בחיזוי תגובה לטיפול",
+    "titleSrc": "ICare-DT: a digital twin for continuous forecasting of intensive care patients",
+    "summary": "מודל Transformer אומן על 140,473 אשפוזים ממאגר eICU לחיזוי חצייה של סימנים חיוניים. תחזיות מאוחרות עלו על תחזית שעה 6 בכל 12 ההגדרות (עלייה של 0.073–0.153 AUROC), ובמאגר MIMIC-IV ללא אימון מחדש בתוצאה דומה ב-8 מתוך 9. עם זאת, חיזוי תגובה לטיפול לא עלה על ניחוש של אפס השפעה. פרה-פרינט שטרם עבר ביקורת עמיתים.",
+    "url": "https://arxiv.org/abs/2611.09712",
+    "topics": [
+      "research",
+      "ops"
+    ]
+  },
+  {
+    "id": "arxiv-agentic-claim-denial-analysis-privacy",
+    "date": "2026-11-06",
+    "added": "2026-11-10",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "מסגרת אג'נטית לניתוח דחיית תביעות בביטוח בריאות עם שמירת פרטיות",
+    "titleSrc": "Agentic AI for Healthcare Claim Denial Analysis: A Policy-Grounded Framework for Privacy Preservation",
+    "summary": "המסגרת מנתחת דחיות תביעות על בסיס מדיניות המבטח ומסירה מזהים רגישים לפני הניתוח. על מערך נתוני תביעות סינתטי, 98% מהממצאים המספריים היו ניתנים למעקב, 214 מתוך 216 ציטוטי מדיניות אומתו, וכל 280 המזהים הרגישים הוסרו ללא שינוי בניתוח. ההערכה על נתונים סינתטיים בלבד, ולכן אין כאן הוכחה בסביבה אמיתית. פרה-פרינט שטרם עבר ביקורת עמיתים.",
+    "url": "https://arxiv.org/abs/2611.09423",
+    "topics": [
+      "ops",
+      "ethics"
+    ]
   }
 ]
