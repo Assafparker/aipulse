@@ -5633,5 +5633,123 @@
       "ops",
       "ethics"
     ]
+  },
+  {
+    "id": "arxiv-med-evidence-bench-clinical-reasoning",
+    "date": "2026-11-10",
+    "added": "2026-11-11",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "Med Evidence Bench: ציוני מודלי שפה יורדים בחדות מידע-רקע בהנחיות לתרחישים אמיתיים",
+    "titleSrc": "An evidence-traceable benchmark of clinical reasoning in large language models",
+    "summary": "הבנצ'מרק כולל 1,536 פריטים שכתבו רופאים, מקושרים לקטעי טקסט מנוסחי הנחיות. בעשרה מודלים הציון עמד על 0.975–0.997 בידע הנחיות, אך רק 0.182–0.447 בתרחישים אמיתיים מהמעבדה. החומרים בסינית ואינו מוכיח יעילות קלינית. פרה-פרינט שטרם עבר ביקורת עמיתים.",
+    "url": "https://arxiv.org/abs/2611.13562",
+    "topics": [
+      "research",
+      "ethics"
+    ]
+  },
+  {
+    "id": "arxiv-hx2dx-conversational-clinical-reasoning",
+    "date": "2026-11-10",
+    "added": "2026-11-11",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "Hx2Dx: מודלי שפה מדייקים פחות כשהם צריכים לאסוף היסטוריה בעצמם, לעומת מקרה מלא",
+    "titleSrc": "Hx2Dx: From Anamnesis to Diagnosis - A Multimodal Arena for Conversational Clinical Reasoning in LLMs",
+    "summary": "הזירה האינטראקטיבית כוללת 1,000 מקרי NEJM, מהצגת המטופל דרך אנמנזה, בדיקה גופנית ובירור. כל המודלים שנבדקו היו פחות מדויקים בהגדרה האינטראקטיבית מאשר כשהמקרה המלא נמסר מראש, וחלק גדול מהפער מוסבר באיכות השאלות. פרה-פרינט שטרם עבר ביקורת עמיתים.",
+    "url": "https://arxiv.org/abs/2611.14122",
+    "topics": [
+      "research"
+    ]
+  },
+  {
+    "id": "arxiv-handsonaid-offline-first-aid-assistant",
+    "date": "2026-11-10",
+    "added": "2026-11-11",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "HandsOnAid: עוזר עזרה ראשונה לא מקוון על טלפון, עם ביצועים מוגבלים",
+    "titleSrc": "HandsOnAid: Building and Evaluating an Offline First-Aid Assistant for Emergency Response Scenarios",
+    "summary": "מודל Gemma בן 2 מיליארד פרמטרים בכימות 4-ביט כוונן על 5,550 זוגות שאלה-תשובה בעזרה ראשונה. התצורה הטובה ביותר, עם אחזור מידע, קיבלה 2.51 מתוך 5, ובפיקסל 7 Pro הגיבה בממוצע תוך 14.88 שניות ללא רשת. הציונים נמוכים, והבדיקה נשענה על 41 שאלות בלבד. פרה-פרינט שטרם עבר ביקורת עמיתים.",
+    "url": "https://arxiv.org/abs/2611.14059",
+    "topics": [
+      "research",
+      "adoption"
+    ]
+  },
+  {
+    "id": "arxiv-biomem-agentic-memory-biomedical",
+    "date": "2026-11-10",
+    "added": "2026-11-11",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "BioMem: זיכרון אג'נטי לסוכני מודלי שפה ביו-רפואיים",
+    "titleSrc": "BioMem: Agentic Memory for Biomedical LLM Agents",
+    "summary": "המחברים השוו חמש גישות זיכרון בארבעה מודלי שפה ב-3 משימות ביו-רפואיות, והציעו מסגרת HMRU ללא אימון. היא שיפרה בממוצע 8.6% יחסית במבחני שאלות-תשובות וזיכרון שיחה, הפחיתה 24.9% מהשגיאות בשיחה וסגרה 48% מהפער להסקה עם הקשר מלא. פרה-פרינט שטרם עבר ביקורת עמיתים.",
+    "url": "https://arxiv.org/abs/2611.13426",
+    "topics": [
+      "research"
+    ]
+  },
+  {
+    "id": "stat-ai-health-advice-accurate-still-harmful",
+    "date": "2026-11-10",
+    "added": "2026-11-11",
+    "src": "STAT News",
+    "fam": "press",
+    "title": "מאמר דעה: תשובות AI בבריאות יכולות להיות מדויקות ועדיין לפגוע, ולכן נדרש מבחן התנהגותי",
+    "titleSrc": "AI's health advice can be accurate and still make us sicker",
+    "summary": "מחברי המאמר מאוניברסיטת פנסילבניה טוענים שבדיקות הבטיחות בוחנות כמעט רק דיוק. לדבריהם, ChatGPT, Gemini ו-Claude ענו במדויק על שאלות חיסונים, אך ניסוחים כמו 'פופולרי' על מסיבות אבעבועות רוח עלולים להחליש כוונה להתחסן. מדובר במאמר דעה והצעה שטרם יושמה, והמחקר המוזכר מתואר בקצרה בלבד.",
+    "url": "https://www.statnews.com/2026/11/10/ai-health-advice-accuracy-messaging-risk-behavioral-benchmarking/",
+    "topics": [
+      "ethics",
+      "research"
+    ]
+  },
+  {
+    "id": "stat-oura-counsel-health-625m",
+    "date": "2026-11-10",
+    "added": "2026-11-11",
+    "src": "STAT News",
+    "fam": "press",
+    "title": "Oura תרכוש את Counsel Health ב-625 מיליון דולר, הימור על טיפול מבוסס AI",
+    "titleSrc": "Oura to acquire Counsel Health for $625 million, placing a big bet on AI care",
+    "summary": "לפי STAT, יצרנית הטבעת החכמה Oura תרכוש את Counsel Health, סטארט-אפ שבו צ'אטבוט שמעביר את המשתמש לקלינאי לאבחון וטיפול בטלהלת'. Counsel גייסה בעבר 36 מיליון דולר, ו-Oura דחתה את ההנפקה כחודש קודם. הדיווח מאחורי חומת STAT+, ולכן תנאי העסקה ולוח הזמנים לא נבדקו.",
+    "url": "https://www.statnews.com/2026/11/10/oura-acquires-counsel-health-big-bet-ai-care/",
+    "topics": [
+      "funding",
+      "adoption"
+    ]
+  },
+  {
+    "id": "ehalsomyndigheten-open-health-information-systems-market",
+    "date": "2026-11-09",
+    "added": "2026-11-11",
+    "src": "E-hälsomyndigheten (שוודיה)",
+    "fam": "regulator",
+    "title": "סוכנות הבריאות הדיגיטלית של שוודיה: ממשל לאומי ומערכות פתוחות לשיפור שוק מערכות המידע הרפואי",
+    "titleSrc": "Nationell styrning kan förbättra marknaden för vårdinformationssystem",
+    "summary": "הדוח מצביע על חסמי כניסה גבוהים, קושי להעריך איכות ועלויות מעבר גבוהות, שמקשים על אזורים לרכוש מערכות חדשות. הסוכנות ממליצה להשלים הצעות לממשל לאומי של אינטראופרביליות ולבחון אישור וסמכות מדינתיים למערכות. אלו המלצות בלבד, ללא החלטות או לוחות זמנים, והנתונים הכמותיים בדוח המלא.",
+    "url": "https://www.ehalsomyndigheten.se/om-ehalsomyndigheten/aktuellt/nyheter/2026/nationell-styrning-kan-forbattra-marknaden-for-vardinformationssystem",
+    "topics": [
+      "national-strategies",
+      "interop"
+    ]
+  },
+  {
+    "id": "health-data-hub-france-omop-ohdsi-national-group",
+    "date": "2026-11-09",
+    "added": "2026-11-11",
+    "src": "Health Data Hub (צרפת)",
+    "fam": "regulator",
+    "title": "צרפת מקימה קבוצת ליבה לקהילת OMOP ולקבוצה לאומית של OHDSI",
+    "titleSrc": "La communauté française des utilisateurs du modèle de données de santé OMOP se structure autour de l’ANS et de la PDS",
+    "summary": "פלטפורמת נתוני הבריאות (PDS) והסוכנות לבריאות דיגיטלית (ANS) מחפשות ארגונים מומחים ל-OMOP שיגבשו קבוצת ליבה לקבוצה צרפתית של OHDSI ויעגנו אותה במערך האירופי. ההגשה נסגרת ב-17 בנובמבר 2026. לא פורטו מספר המושבים, קריטריוני הבחירה או תקציב.",
+    "url": "https://www.health-data-hub.fr/actualites/la-communaute-francaise-des-utilisateurs-du-modele-de-donnees-de-sante-omop-se-structure",
+    "topics": [
+      "interop",
+      "national-strategies"
+    ]
   }
 ]
