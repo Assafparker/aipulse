@@ -5751,5 +5751,77 @@
       "interop",
       "national-strategies"
     ]
+  },
+  {
+    "id": "google-research-ckm-health-age-wearables",
+    "date": "2026-11-11",
+    "src": "Google Research",
+    "fam": "lab",
+    "title": "Google Research: \"גיל בריאות\" מנתוני שעון חכם לחיזוי סיכון קרדיו-כלייתי-מטבולי ולאימון מותאם אישית",
+    "titleSrc": "Using wearables to enable cardiovascular-kidney-metabolic (CKM) risk profiling for personalized coaching",
+    "summary": "המסגרת מחשבת \"גיל בריאות\" מדופק מנוחה, צעדים, שינה ודקות פעילות. ב-22,748 משתתפי All of Us, מי שגילם הביולוגי עלה על הכרונולוגי היה בסיכון גבוה יותר ליתר לחץ דם, מחלות לב וסוכרת סוג 2 בתוך 8 שנים. מאמני כושר העדיפו את התוכנית שנגזרה ממודל העולם ב-71.4% מההערכות, אך הבדיקות היו רטרוספקטיביות ומדדו העדפה ולא תוצאות בריאות. החוקרים מדגישים שמדובר בדגמי מחקר ולא בכלי אבחון.",
+    "url": "https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/",
+    "topics": [
+      "research"
+    ],
+    "added": "2026-11-12"
+  },
+  {
+    "id": "deepmind-alphagenome-2-cell-type-variants",
+    "date": "2026-11-11",
+    "src": "Google DeepMind",
+    "fam": "lab",
+    "title": "DeepMind משיקה את AlphaGenome 2: חיזוי השפעת וריאנטים ב-DNA על ביטוי גנים בסוגי תאים שונים",
+    "titleSrc": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+    "summary": "המודל, שאומן על יותר ממאה מיליון פרופילי תא ב-68 רקמות, מזהה לדברי החברה כמעט פי שניים יותר וריאנטים המשנים ביטוי גנים מהמודל הקודם. במאגר TenK10K הוא איתר וריאנטים סיבתיים ב-30% מהמקרים לעומת 16% בגרסה הקודמת. הנתונים הם דיווח עצמי של DeepMind, והמודל מיועד למחקר בלבד ולא אומת לשימוש קליני או אבחוני.",
+    "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+    "topics": [
+      "research",
+      "foundation-models"
+    ],
+    "added": "2026-11-12"
+  },
+  {
+    "id": "arxiv-2611-13564-concept-attention-clinical-text",
+    "date": "2026-11-10",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "מסגרת פרשנית לחיזוי מטקסט קליני: ציוני מושגים ברמת הטוקן בלי תיוג מושגים, עם דיוק קרוב למודלי קופסה שחורה",
+    "titleSrc": "A Concept-Based Interpretable Framework for Clinical Text-based Prediction via Token-Concept Attention without Concept Supervision",
+    "summary": "המאמר מציע שכבת קשב שמעריכה כמה כל מושג רפואי בולט בכל טוקן של רשומה קלינית, ומזינה את הציונים למסווג לינארי, בלי תיוג מושגים באימון. במשימות חומרת חבלת חזה (מאגר פרטי) ותמותה בבית החולים (MIMIC-III) ה-AUROC נמצא בטווח של 0.02 ממודלים אטומים. זו פרהדפוס שטרם עבר ביקורת עמיתים, ונבדק על שתי משימות בלבד.",
+    "url": "https://arxiv.org/abs/2611.13564",
+    "topics": [
+      "research",
+      "ethics"
+    ],
+    "added": "2026-11-12"
+  },
+  {
+    "id": "stat-mdcalc-crosscover-clinical-ai-guardrail",
+    "date": "2026-11-11",
+    "src": "STAT News",
+    "fam": "press",
+    "title": "MDCalc משיקה את CrossCover: שכבת בדיקה שמסננת מידע מזהה משאילתות רופאים ומאמתת תשובות של צ'אטבוטים רפואיים",
+    "titleSrc": "MDCalc launches a 'rumble strip' for doctors using generative AI tools",
+    "summary": "אתר העזר הרפואי MDCalc השיק ב-11 בנובמבר כלי שבודק את שאלות הקלינאים לפני שליחתן לצ'אטבוט, כדי להסיר מידע רגיש, ובודק את דיוק התשובות. בניגוד לכלים כמו OpenEvidence, Abridge ו-Epic, שמוסיפים עוד נתוני מטופל, הגישה כאן מצמצמת אותם. המאמר חסום בתשלום, ולכן אין נתוני שימוש או דיוק, וההצהרות על פרטיות ודיוק מגיעות מהחברה ללא הערכה עצמאית.",
+    "url": "https://www.statnews.com/2026/11/11/mdcalc-launches-crosscover-rumble-strip-for-clinical-ai-chatbots/",
+    "topics": [
+      "ethics",
+      "adoption"
+    ],
+    "added": "2026-11-12"
+  },
+  {
+    "id": "healthcareittoday-vera-health-series-a-28m",
+    "date": "2026-11-05",
+    "src": "Healthcare IT Today",
+    "fam": "press",
+    "title": "Vera Health גייסה 28.5 מיליון דולר בסבב A לכלי AI שמסייע לרופאים למצוא ולהעריך ראיות רפואיות",
+    "summary": "הסבב בהובלת Threshold Ventures, בהשתתפות Mantis VC ו-SV Angel ומשקיעות קיימות, מביא את סך הגיוס ל-32 מיליון דולר. החברה מדווחת על יותר מ-800 אלף משתמשים וצוות של 12 איש, והסבב הוכרז לראשונה ב-27 באוקטובר. הנתונים מדווחים על ידי החברה ללא אימות עצמאי.",
+    "url": "https://www.healthcareittoday.com/2026/11/05/vera-health-raised-32-million-spendrule-raises-4-million/",
+    "topics": [
+      "funding"
+    ],
+    "added": "2026-11-12"
   }
 ]
