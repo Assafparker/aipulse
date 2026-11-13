@@ -5823,5 +5823,154 @@
       "funding"
     ],
     "added": "2026-11-12"
+  },
+  {
+    "id": "mountsinai-drug-ads-influence-ai-treatment-recommendations",
+    "date": "2026-11-11",
+    "src": "Mount Sinai",
+    "fam": "provider",
+    "title": "מחקר Mount Sinai: פרסומות לתרופות משפיעות על המלצות הטיפול של מודלי שפה",
+    "titleSrc": "Drug Ads Can Influence AI Treatment Recommendations, Study Finds",
+    "summary": "חוקרי Mount Sinai, במאמר ב-Lancet Digital Health, בחנו 12 מודלים (בהם של Google, OpenAI ו-Anthropic) על 33 מקרים שכתבו רופאים, עם ובלי פרסומת מסומנת לתרופה. ב-258,559 תשובות נבחרה התרופה המפורסמת ב-47.6% מהמקרים עם פרסומת לעומת 35% בלעדיה, ובארבעה תרחישים הבחירה עלתה מ-0% ל-100%. החוקרים מדגישים שזה ניסוי מבוקר: לא הוכח שהפרסומות מובילות לטיפול לא בטוח, ולא נמדדו מרשמים או תוצאות מטופלים.",
+    "url": "https://www.mountsinai.org/about/newsroom/2026/drug-ads-can-influence-ai-treatment-recommendations-study-finds",
+    "topics": [
+      "ethics",
+      "research"
+    ],
+    "added": "2026-11-13"
+  },
+  {
+    "id": "healthit-onc-cms-electronic-prior-authorization-testing",
+    "date": "2026-11-12",
+    "src": "ASTP/ONC (healthit.gov)",
+    "fam": "regulator",
+    "title": "ONC ו-CMS משיקות סבבי בדיקות תעשייתיים לאישור מראש אלקטרוני על בסיס FHIR",
+    "titleSrc": "ONC and CMS Launch Industry Electronic Prior Authorization Testing Initiative",
+    "summary": "ONC ו-CMS מקימות סדרת אירועי בדיקה בסביבות דמויות ייצור לתהליך אישור מראש אלקטרוני מקצה לקצה, על שלושה מדריכי יישום של HL7 FHIR Da Vinci (CRD, DTR, PAS). כל סבב נמשך 10–12 שבועות, ובו משתתפים משלמים, ספקים ויצרני EHR; הצטרפות הוגשת עד 20 בנובמבר 2026 והמקומות בסבב הראשון מוגבלים. ההשתתפות וולונטרית, הבדיקות אינן הסמכת ONC או קביעת ציות של CMS, והדף אינו מזכיר בינה מלאכותית.",
+    "url": "https://healthit.gov/news/onc-and-cms-launch-industry-electronic-prior-authorization-testing-initiative/",
+    "topics": [
+      "interop",
+      "policy"
+    ],
+    "added": "2026-11-13"
+  },
+  {
+    "id": "healthcareittoday-athenahealth-thrive-epic-claude",
+    "date": "2026-11-12",
+    "src": "Healthcare IT Today",
+    "fam": "press",
+    "title": "athenahealth מחברת את athenaOne ל-Epic ותביא את Claude לפורטל המטופל",
+    "titleSrc": "athenahealth Thrive 2026: Connecting athenaOne to Epic and Bringing Claude AI to the Patient Portal",
+    "summary": "לפי סיכום הכנס, athenahealth ו-Epic משתפות פעולה בהעברת הזמנות מ-athenaOne למתקני Epic, הצגת תוצאות מעבדה וסגירת מעגל בהפניות. בהמשך יוכלו מטופלים לשאול שאלות על הרשומה שלהם דרך Claude. מרפאת ילדים אחת מדווחת על קיצור זמן ההפניה מ-14 ל-3 ימים, נתון שהמרפאה עצמה מסרה; הקישור ל-MyChart והיכולת של Claude הם תוכנית ללא תאריך.",
+    "url": "https://www.healthcareittoday.com/2026/11/12/athenahealth-thrive-2026-connecting-athenaone-to-epic-and-bringing-claude-ai-to-the-patient-portal/",
+    "topics": [
+      "interop",
+      "adoption"
+    ],
+    "added": "2026-11-13"
+  },
+  {
+    "id": "arxiv-2611-13006-counterfactual-lesion-erasure-vlm",
+    "date": "2026-11-08",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "מודל ראייה-שפה רפואי קטן שלומד לדווח רק על מה שרואים בתמונה: אימון על נגעים שנמחקו",
+    "titleSrc": "Seeing Is Not Believing: Counterfactual Lesion Erasure Teaches a Small Medical Vision-Language Agent to Report Only What the Image Shows",
+    "summary": "המאמר מאמן את MedScope-4B (4 מיליארד פרמטרים) על תמונות שבהן נגעים נמחקו, כדי לצמצם דיווח על ממצא רק משום שהשאלה מזכירה אותו. ב-507 מקרים בחמישה סוגי דימות המודל טען לנגע שנמחק ב-9.6% מהמקרים, לעומת 41–62% במודלי חזית. בארבעה מרכזים חיצוניים מודלי החזית עדיין זיהו יותר נגעים אמיתיים, והמודל לא זיהה אף אחד מ-48 צילומי חזה עם פנאומותורקס; זו גרסה ראשונה ללא ביקורת עמיתים.",
+    "url": "https://arxiv.org/abs/2611.13006",
+    "topics": [
+      "imaging",
+      "research"
+    ],
+    "added": "2026-11-13"
+  },
+  {
+    "id": "arxiv-2611-12709-deidsharp-clinical-deidentification",
+    "date": "2026-11-09",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "DeidSharp: ערכת קוד פתוח להסרת זיהוי מטקסט קליני בשילוב מודל שפה מקומי, כללים וגלאים עצביים",
+    "titleSrc": "A local language model layered with rule-based and neural detectors for clinical text de-identification: an open-source toolkit and evaluation",
+    "summary": "הכלי משלב כללי תבנית, מודל NER קליני ומודל שפה מקומי בגודל 26 מיליארד פרמטרים לאיתור מידע מוגן. ברשומות סיעוד של PhysioNet (889 קטעים) הוא איתר 98.9% מהמידע, 2.8 נקודות יותר מכלי Stanford/Penn, אך בדיוק נמוך ב-9.3 נקודות. התוצאות על סיכומי שחרור מבוססות על נתונים חצי-סינתטיים, המחבר יחיד, והמודל פסל כרבע מהמידע המוגן האמיתי כשנתבקש לאמת את עצמו; פרהדפוס ללא ביקורת עמיתים.",
+    "url": "https://arxiv.org/abs/2611.12709",
+    "topics": [
+      "research",
+      "ethics"
+    ],
+    "added": "2026-11-13"
+  },
+  {
+    "id": "medrxiv-hidden-hepatitis-c-andalusia-ml",
+    "date": "2026-11-06",
+    "src": "medRxiv",
+    "fam": "preprint",
+    "title": "מודל למידת מכונה מוסבר ומבוקר הטיות לאיתור הפטיטיס C סמוי מרשומות בריאות אזוריות באנדלוסיה",
+    "titleSrc": "An explainable, bias-audited machine learning model to detect hidden hepatitis C from region-wide real-world health records",
+    "summary": "מחקר רטרוספקטיבי במאגר הבריאות של אנדלוסיה: 25,028 אנשים עם אבחנת HCV בשנים 2017–2024, כל אחד מותאם עד 10 ביקורות. במדגם בלתי תלוי של 2024 הושג AUC של 0.837, רגישות 63.5%, סגוליות 91.8% ו-PPV של 7.0%, כלומר רוב המסומנים לא יהיו חולים ושליש מהמקרים יוחמצו. הנתונים מאזור יחיד, משתני פרוקסי סוציו-אקונומיים הוסרו אחרי ביקורת הטיות, וזה פרהדפוס ללא ביקורת עמיתים.",
+    "url": "https://www.medrxiv.org/content/10.64898/2026.11.05.26367298v1",
+    "topics": [
+      "research"
+    ],
+    "added": "2026-11-13"
+  },
+  {
+    "id": "medcitynews-beyond-faster-horses-anterior-ai-governance",
+    "date": "2026-11-10",
+    "src": "MedCity News",
+    "fam": "press",
+    "title": "קמפיין Anterior קורא להעריך יישומי AI מעבר למהירות: אימות עצמאי ומעקב אחרי פריסה",
+    "titleSrc": "New Campaign Wants AI Applications To Look Beyond Speed",
+    "summary": "חברת ה-AI הקליני Anterior השיקה את \"Beyond Faster Horses\", יוזמה בת חמישה חלקים על תוכנית בריאות \"AI-native\". שר ותיקי המלחמה לשעבר דייוויד שולקין קורא להחיל על AI בדיקה דומה לזו של טיפולים חדשים, עם אימות עצמאי ומעקב לאחר פריסה בהתאם להיקף ההשפעה. היוזמה מופעלת על ידי ספק מסחרי והיא מבוססת על דעות, ללא נתוני תוצאות.",
+    "url": "https://medcitynews.com/2026/11/new-campaign-wants-ai-applications-to-look-beyond-speed/",
+    "topics": [
+      "ethics",
+      "adoption"
+    ],
+    "added": "2026-11-13"
+  },
+  {
+    "id": "healthcareittoday-ai-saves-lives-trap-himss-eastern-canada",
+    "date": "2026-11-11",
+    "src": "Healthcare IT Today",
+    "fam": "press",
+    "title": "\"מלכודת ה-AI מציל חיים\": מנהל ב-Unity Health מזהיר מפריסות חפוזות",
+    "titleSrc": "The 'AI Saves Lives' Trap at HIMSS Eastern Canada 2026",
+    "summary": "בכנס HIMSS Eastern Canada טען ד\"ר אמאל ורמה מ-Unity Health שהמסגור של \"AI מציל חיים\" מוביל לפריסות חפוזות. לדבריו שימושים צרים ומוכחים, כמו ניטור אלח דם, עובדים כשיש נתונים ומוכנות ארגונית. זהו סיכום כנס המבוסס על דברי דובר אחד, ללא נתונים סטטיסטיים.",
+    "url": "https://www.healthcareittoday.com/2026/11/11/the-ai-saves-lives-trap-at-himss-eastern-canada-2026/",
+    "topics": [
+      "adoption",
+      "ethics"
+    ],
+    "added": "2026-11-13"
+  },
+  {
+    "id": "statnews-medicare-ai-prior-authorization-new-documents",
+    "date": "2026-11-12",
+    "src": "STAT News",
+    "fam": "press",
+    "title": "STAT: מסמכים חדשים מעלים שאלות נוספות על ניסוי ה-AI של Medicare לאישור מראש",
+    "titleSrc": "STAT Plus: New documents raise more questions about Medicare's AI prior-authorization experiment",
+    "summary": "STAT מפרסמת המשך לסיקור הניסוי של Medicare, שבו נעשה שימוש ב-AI בתהליכי אישור מראש, על בסיס מסמכים חדשים. הכתבה חסומה מאחורי STAT+, ולכן נראו רק הכותרת, הכותב והתאריך ולא נבדקו תוכן המסמכים או נתונים כלשהם.",
+    "url": "https://www.statnews.com/2026/11/12/new-documents-raise-more-questions-about-medicares-ai-prior-authorization-experiment/",
+    "topics": [
+      "policy",
+      "ops"
+    ],
+    "added": "2026-11-13"
+  },
+  {
+    "id": "ehalsomyndigheten-data-reporting-requirements-consultation",
+    "date": "2026-10-30",
+    "src": "E-hälsomyndigheten (שוודיה)",
+    "fam": "regulator",
+    "title": "שוודיה: הצעת חקיקה לחובת ספקי בריאות ואזורים למסור נתונים כחלק מתשתית דיגיטלית לאומית",
+    "titleSrc": "Nu kan vårdgivare och regioner lämna synpunkter på nya krav om uppgiftslämning",
+    "summary": "ממשלת שוודיה מציעה חקיקה על חובת ספקי הבריאות והאזורים למסור נתונים לסוכנות, במסגרת תשתית דיגיטלית לאומית לבריאות וסעד. הכניסה לתוקף המוצעת היא 1 ביולי 2027, ההערות פתוחות עד 18 בדצמבר 2026, ותקנות מפורטות צפויות להישלח להתייעצות ב-2027. הדרישות עשויות להשתנות בחקיקה הסופית, והדף אינו מזכיר בינה מלאכותית.",
+    "url": "https://www.ehalsomyndigheten.se/om-ehalsomyndigheten/aktuellt/nyheter/2026/nu-kan-vardgivare-och-regioner-lamna-synpunkter-pa-nya-krav-om-uppgiftslamning",
+    "topics": [
+      "national-strategies",
+      "interop"
+    ],
+    "added": "2026-11-13"
   }
 ]
