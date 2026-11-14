@@ -5972,5 +5972,111 @@
       "interop"
     ],
     "added": "2026-11-13"
+  },
+  {
+    "id": "google-cloud-gemini-for-healthcare-preview",
+    "date": "2026-11-10",
+    "src": "Google Cloud",
+    "fam": "lab",
+    "title": "Google Cloud משיקה את Gemini for healthcare: פתרון סוכני לספקים ולמבטחים, בתצוגה מקדימה",
+    "titleSrc": "Google Cloud Launches Gemini for Healthcare",
+    "summary": "Google Cloud חשפה פתרון סוכני ייעודי לבריאות על בסיס Gemini, עם מיומנויות מוכנות לסינתזת רשומות, הכנה לביקור, בדיקת כיסוי וקביעת זכאות אצל משלמים. החיבורים ל-Epic ול-Oracle Health הם לקריאה בלבד, הכלי זמין בתצוגה מקדימה ללקוחות Gemini Enterprise, ושבעה לקוחות השקה, בהם HCA, Northwell ו-Highmark, מנויים בהודעה. מדובר בהודעה של החברה ללא אימות קליני עצמאי, וחלק מהיכולות והמחברים עדיין בבדיקה.",
+    "url": "https://www.googlecloudpresscorner.com/2026-11-10-Google-Cloud-Launches-Gemini-for-Healthcare",
+    "topics": [
+      "adoption",
+      "ops",
+      "interop"
+    ],
+    "added": "2026-11-14"
+  },
+  {
+    "id": "arxiv-neuro-vl-neuroimaging-model",
+    "date": "2026-11-11",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "Neuro-VL: מודל חזותי-לשוני שאומן על כמעט מיליון בדיקות הדמיית מוח קליניות",
+    "titleSrc": "A frontier machine intelligence for human neuroimaging",
+    "summary": "המאמר מציג את Neuro-VL, מודל חזותי-לשוני שאומן על כמעט מיליון בדיקות הדמיית מוח מהטיפול השגרתי. לפי המחברים הוא עוקף מודלים כלליים ורפואיים ייעודיים באבחון, באיתור ובתיאור ממצאים ובהפקת דוחות רדיולוגיה, ומשווה בדיקות עוקבות. מדובר בפרה-פרינט שטרם עבר ביקורת עמיתים, והתוצאות מדווחות על ידי המחברים בלבד.",
+    "url": "https://arxiv.org/abs/2611.15094",
+    "topics": [
+      "imaging",
+      "foundation-models"
+    ],
+    "added": "2026-11-14"
+  },
+  {
+    "id": "arxiv-discharge-summary-fairsumeval",
+    "date": "2026-11-10",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "סיכום שחרור אינו רק סיכום: בדיקת מציאות להערכת מודלים שמפיקים סיכומים קליניים",
+    "titleSrc": "Discharge Summary Generation Is Not Just Summarization: A Reality Check for Evaluation",
+    "summary": "על 200 אשפוזים מ-MIMIC-III נמצא שרק 18.8% מהעובדות בסיכומי הרופאים נתמכות בראיות קודמות בתיק, לעומת כ-65% מהעובדות בסיכומים שהפיקו מודלים. המחברים מציגים את FairSumEval, מסגרת להערכה ברמת העובדה, וטוענים שהערכה מול סיכום ייחוס בלבד עלולה להטעות. זה פרה-פרינט על מאגר אחד, והנתונים לא עברו ביקורת עמיתים.",
+    "url": "https://arxiv.org/abs/2611.14823",
+    "topics": [
+      "research",
+      "ambient"
+    ],
+    "added": "2026-11-14"
+  },
+  {
+    "id": "arxiv-llm-pain-management-bias-audit",
+    "date": "2026-11-11",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "האם מודלי שפה מפלים לפי גזע ומין בטיפול בכאב? ביקורת קונטרפקטואלית של שש משפחות מודלים",
+    "titleSrc": "Do Large Language Models Show Racial and Sex Bias in Pain Management?",
+    "summary": "בביקורת על 17 מודלים ב-24 תצורות לא שרד אף הבדל בין קבוצות אחרי תיקון להשוואות מרובות, מתוך 1,386 השוואות בלימוד השני, וכל הבדל בדרגת הכאב היה בתחום של נקודה אחת בסקאלה 0–10. השונות בין מודלים ובין תצורות גדולה מהשונות בין קבוצות מטופלים, ובהחלטות אופיואידים לא ניתן לשלול הבדלים של כ-20 נקודות אחוז. המחברים מגדירים את הניתוחים כחקרניים ולא מוקדמים-רשומים, והממצא הוא היעדר הבדל שזוהה ולא הוכחה להיעדרו.",
+    "url": "https://arxiv.org/abs/2611.14935",
+    "topics": [
+      "ethics",
+      "research"
+    ],
+    "added": "2026-11-14"
+  },
+  {
+    "id": "openevidence-access-intelligence",
+    "date": "2026-11-11",
+    "src": "OpenEvidence",
+    "fam": "press",
+    "title": "OpenEvidence משיקה Access Intelligence: בדיקת זמינות וגישה לטיפול בנקודת הטיפול",
+    "titleSrc": "Introducing OpenEvidence Access Intelligence: Bringing Affordability and Access to the Point of Care",
+    "summary": "OpenEvidence השיקה סדרת כלים בתוך הפלטפורמה שעונים על זמינות וזכאות ליותר מ-2,500 תוכניות תמיכה בחולים, ומפיקים מכתבי אישור מראש המבוססים על הנחיות קליניות. לפי החברה נכתבו בפלטפורמה יותר מ-500,000 מסמכי אישור מראש, והכלים חינמיים לרופאים אמריקאים מאומתים. כל הנתונים הם של החברה ללא מקור או מתודולוגיה, ולא מתואר כיצד נבדקת דיוק המכתבים מעבר לעריכה בידי הרופא.",
+    "url": "https://openevidence.com/announcements/introducing-openevidence-access-intelligence-bringing-affordability-and-access-to-the-point-of-care",
+    "topics": [
+      "ops",
+      "adoption"
+    ],
+    "added": "2026-11-14"
+  },
+  {
+    "id": "openevidence-acp-guidance-collaboration",
+    "date": "2026-11-09",
+    "src": "OpenEvidence",
+    "fam": "press",
+    "title": "OpenEvidence ו-ACP משתפות פעולה: הנחיות קליניות ותוכן Annals of Internal Medicine בפלטפורמה",
+    "titleSrc": "ACP and OpenEvidence Collaborate to Enhance Physician Access to Trusted Clinical Guidance",
+    "summary": "OpenEvidence תקבל רישיון להנחיות הקליניות מבוססות הראיות של הקולג' האמריקאי לרפואה פנימית (ACP) ולתוכן מכתב העת Annals of Internal Medicine. ל-ACP כ-163,000 חברים ביותר מ-172 מדינות, ורפואה פנימית היא ההתמחות הגדולה בפלטפורמה לפי ההודעה. זו הודעה משותפת של הצדדים, והיא אינה מפרטת תנאים כלכליים או תוצאות קליניות.",
+    "url": "https://openevidence.com/announcements/acp-and-openevidence-collaborate-to-enhance-physician-access-to-trusted-clinical-guidance",
+    "topics": [
+      "adoption",
+      "foundation-models"
+    ],
+    "added": "2026-11-14"
+  },
+  {
+    "id": "medcitynews-nejm-ai-care-plans-cost",
+    "date": "2026-11-12",
+    "src": "MedCity News",
+    "fam": "press",
+    "title": "מחקר NEJM: תוכניות טיפול שמפיקות מערכות AI יקרות יותר מאלו של רופאים",
+    "titleSrc": "Is AI Really Saving Hospitals Money? A New Study Raises Questions About the Cost of AI-Driven Care",
+    "summary": "לפי הדיווח, במחקר שפורסם ב-NEJM הופקו על ידי 24 מערכות AI תוכניות טיפול על בסיס 200 תיעודי ביקור, ותומחרו לפי תעריפי Medicare. תוכניות של מודלים כלליים עלו בממוצע 314 דולר יותר לביקור, ושל מערכות רפואיות ייעודיות פי 2.7–3.5, בעיקר בגלל בדיקות והפניות. החוקרים מדגישים שהמלצות עודפות אינן בהכרח בזבוז, והמודלים קיבלו רק תיאור כתוב; המקור כאן הוא סיקור עיתונאי, לא המאמר עצמו.",
+    "url": "https://medcitynews.com/2026/11/is-ai-really-saving-hospitals-money-a-new-study-raises-questions-about-the-cost-of-ai-driven-care/",
+    "topics": [
+      "ops",
+      "research"
+    ],
+    "added": "2026-11-14"
   }
 ]
