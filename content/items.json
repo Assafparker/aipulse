@@ -6078,5 +6078,66 @@
       "research"
     ],
     "added": "2026-11-14"
+  },
+  {
+    "id": "mohw-korea-public-healthcare-ai-network",
+    "date": "2026-11-13",
+    "src": "משרד הבריאות של קוריאה (MOHW)",
+    "fam": "regulator",
+    "title": "קוריאה משיקה פיילוט של רשת AI לבתי חולים ציבוריים: הפניות, הערכה טרום-הרדמה ושחרור",
+    "titleSrc": "Korea Launches Public Healthcare AI Network to Connect Regional Hospitals",
+    "summary": "משרד הבריאות הקוריאני השיק פיילוט של רשת לאומית שמחברת בתי חולים אזוריים למודלי AI שאומתו בבתי חולים מובילים, בתשתית GPU לאומית ובפלטפורמה אחידה לשילוב במערכות הבתי החולים. שלושה סוכני AI מנסחים מכתבי הפניה, הערכה טרום-הרדמה וסיכומי שחרור, וניסוח מכתב הפניה קוצר מיותר מ-10 דקות לדקה או פחות. התוכנית: 8 בתי חולים בפיילוט, עד 35 ב-2027 (בכפוף לתקצוב) ו-72 בתי חולים ציבוריים עד 2029; הנתונים הם של המשרד, מהדגמה ולא מהערכה בלתי תלויה.",
+    "url": "https://www.mohw.go.kr/board.es?mid=a20401000000&bid=0032&list_no=1492537&act=view",
+    "topics": [
+      "national-strategies",
+      "adoption",
+      "ops"
+    ],
+    "added": "2026-11-15"
+  },
+  {
+    "id": "mohw-korea-yeongwol-medical-ai-regional",
+    "date": "2026-11-12",
+    "src": "משרד הבריאות של קוריאה (MOHW)",
+    "fam": "regulator",
+    "title": "סגנית שר הבריאות בקוריאה סיירה בבית חולים אזורי: ארבעה כלי AI בשימוש יומיומי",
+    "titleSrc": "Medical AI Transforms Regional Healthcare, Easing Clinical Workloads and Expanding Essential Care",
+    "summary": "בביקור במרכז הרפואי Yeongwol שבמחוז Gangwon נסקרו כלי AI לניטור ולחיזוי סיכון (סיכון לספסיס עד 72 שעות מראש וסיכון לדום לב ב-24 השעות הבאות), פענוח צילומי חזה וממוגרפיה, וסינון מחלות עיניים משקיעת רשתית. המשרד מתכנן להרחיב את הכלים ואת לקחי המקום לבתי חולים ציבוריים נוספים, במסגרת רשת ה-AI הציבורית. מדובר בהודעה לעיתונות של הממשלה: אין בה הערכה בלתי תלויה של דיוק או השפעה על תוצאות מטופלים, וטענות הקלה בעומס מוצגות באופן איכותני בלבד.",
+    "url": "https://www.mohw.go.kr/board.es?mid=a20401000000&bid=0032&list_no=1492527&act=view",
+    "topics": [
+      "national-strategies",
+      "adoption"
+    ],
+    "added": "2026-11-15"
+  },
+  {
+    "id": "cms-rural-health-transformation-year-2-awards",
+    "date": "2026-11-09",
+    "src": "CMS",
+    "fam": "regulator",
+    "title": "CMS מכריזה על 10 מיליארד דולר בשנה השנייה של תוכנית הטרנספורמציה לבריאות כפרית",
+    "titleSrc": "Rural Health Transformation Program: Year 2 Awards",
+    "summary": "CMS הכריזה על מענקי שנה שנייה בהיקף 10 מיליארד דולר לכל 50 המדינות, מתוך תוכנית של 50 מיליארד דולר ל-2026–2030; לכל מדינה לפחות 100 מיליון דולר בשנה. אחד מיעדי התוכנית הוא חדשנות טכנולוגית, שכוללת טיפול מרחוק, שיתוף נתונים, אבטחת סייבר וטכנולוגיות מתפתחות. גיליון העובדות אינו מזכיר בינה מלאכותית במפורש, ולכן זו תשתית מימון רלוונטית ולא תוכנית AI.",
+    "url": "https://www.cms.gov/newsroom/fact-sheets/rural-health-transformation-program-year-2-awards",
+    "topics": [
+      "national-strategies",
+      "funding"
+    ],
+    "added": "2026-11-15"
+  },
+  {
+    "id": "healthcareittoday-duet-vumedi-funding",
+    "date": "2026-11-13",
+    "src": "Healthcare IT Today",
+    "fam": "press",
+    "title": "גיוסים: Duet ב-15 מיליון דולר ו-Vumedi ב-104 מיליון דולר מ-Oak HC/FT",
+    "titleSrc": "Duet Raises $15M | Vumedi Receives $104 Million Investment from Oak HC/FT",
+    "summary": "Duet, רשת של יותר מ-130 מרפאות רפואה ראשונית בבעלות אחיות מוסמכות ב-21 מדינות בארה\"ב, גייסה סבב A של 15 מיליון דולר בהובלת Kairos, והיא מפעילה כלי AI לאיתור מטופלים שנשרו מטיפול. Vumedi, קהילת למידה לרופאים, קיבלה 104 מיליון דולר מ-Oak HC/FT, וכלי ה-AI שלה מתבסס על יותר מ-100 אלף סרטונים; לפי החברה הוא שימש יותר מ-150 אלף רופאים. הנתונים הם של החברות עצמן ללא אימות בלתי תלוי.",
+    "url": "https://www.healthcareittoday.com/2026/11/13/duet-raises-15m-vumedi-receives-104-million-investment-from-oak-hc-ft/",
+    "topics": [
+      "funding",
+      "adoption"
+    ],
+    "added": "2026-11-15"
   }
 ]
