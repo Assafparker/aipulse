@@ -6139,5 +6139,65 @@
       "adoption"
     ],
     "added": "2026-11-15"
+  },
+  {
+    "id": "statnews-apple-openevidence-health-chat-study",
+    "date": "2026-11-15",
+    "added": "2026-11-16",
+    "src": "STAT News",
+    "fam": "press",
+    "title": "Apple ו-OpenEvidence משיקות מחקר סביב אפליקציית צ'אט בריאות ניסיונית",
+    "titleSrc": "STAT Plus: Apple and OpenEvidence launch experimental health chat app",
+    "summary": "Apple ו-OpenEvidence הכריזו בכנס HLTH על מחקר שנבנה סביב אפליקציית צ'אט בריאות ניסיונית, שבו המשתמשים יכולים לחבר נתונים אישיים כדי שהתשובות יתבססו עליהם. לפי Apple, המחקר בוחן אמון, הבנה ואיכות תשובות בשיחה עם AI בריאותי. אין בטקסט הנגיש נתונים על מספר משתתפים או משך, והכתבה חסומה בחלקה מאחורי חומת תשלום; הטענות על אמון הן הערכות עצמיות של מנהלי החברות.",
+    "url": "https://www.statnews.com/2026/11/15/apple-openevidence-launch-health-chat-app-experiment-ai/",
+    "topics": [
+      "foundation-models",
+      "adoption"
+    ]
+  },
+  {
+    "id": "onc-va-joins-tefca",
+    "date": "2026-11-13",
+    "added": "2026-11-16",
+    "src": "ASTP/ONC",
+    "fam": "regulator",
+    "title": "משרד ותיקי המלחמה האמריקאי (VA) הצטרף ל-TEFCA להחלפת מידע רפואי",
+    "titleSrc": "VA Joins TEFCA to Advance Health Information Exchange for Veterans",
+    "summary": "לפי פוסט של ONC, ה-VA הצטרף בתחילת נובמבר למסגרת TEFCA להחלפת מידע בריאותי מאובטחת. צפוי שההשתתפות תורחב גם לקביעת הזכאות להטבות באמצעות מינהל ההטבות של ה-VA (VBA), כאשר כיום רק מינהל הביטוח הלאומי משתמש במטרת ההחלפה הזו. ההשתתפות של VBA עדיין צפויה ולא מאושרת, ואין בפוסט נתונים כמותיים.",
+    "url": "https://healthit.gov/blog/tefca/va-joins-tefca-to-advance-health-information-exchange-for-veterans/",
+    "topics": [
+      "interop",
+      "national-strategies"
+    ]
+  },
+  {
+    "id": "arxiv-mamareason-unfinished-clinical-reasoning",
+    "date": "2026-11-13",
+    "added": "2026-11-16",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "MamaReason: כשהנימוק הקליני של המודל נקטע, ההמשך מחזיר לרוב את האבחנה שכבר נאמרה",
+    "titleSrc": "MamaReason: Unfinished Reasoning and Answer Recovery in Clinical Language Models",
+    "summary": "פרה-פרינט שבוחן מודל קליני שהותאם מ-Gemma 4 31B על 217 מקרי בריאות אם וילד מתוך MamaBench. ב-75 מתוך 94 מעברים ראשונים כושלים אחרי RL נמצאה אבחנה שכבר נאמרה בנימוק, וההמשך התאים לה ב-67 מהם. המחברים טוענים שיש להעריך בנפרד את התוכן האבחנתי בנימוק, השלמת התשובה ונכונותה; זו עבודה מוקדמת שלא עברה ביקורת עמיתים.",
+    "url": "https://arxiv.org/abs/2611.18264",
+    "topics": [
+      "research",
+      "foundation-models"
+    ]
+  },
+  {
+    "id": "openevidence-acr-patient-education",
+    "date": "2026-11-06",
+    "added": "2026-11-16",
+    "src": "OpenEvidence",
+    "fam": "press",
+    "title": "הקולג' האמריקאי לראומטולוגיה ו-OpenEvidence משתפים פעולה בחומרי הסברה למטופלים",
+    "titleSrc": "American College of Rheumatology and OpenEvidence Collaborate on Patient Education",
+    "summary": "ב-ACR Convergence 2026 הוכרז שחומרי ההסברה של ה-ACR על מחלות וטיפולים, באנגלית ובספרדית, יוצגו בתוך OpenEvidence לצד ספרות מבוקרת עם קישור למקור. ה-ACR מונה מעל 10,600 אנשי מקצוע. זו הודעה משותפת של שני הצדדים: הטענות על היקף השימוש ב-OpenEvidence מצוטטות ל\"מחקרים עצמאיים\" שלא נקראים בשמם, ואין נתוני תוצאות על הבנת מטופלים.",
+    "url": "https://openevidence.com/announcements/american-college-of-rheumatology-and-openevidence-collaborate-to-expand-access-to-trusted-patient-education-resources",
+    "topics": [
+      "adoption",
+      "foundation-models"
+    ]
   }
 ]
