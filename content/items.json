@@ -6199,5 +6199,65 @@
       "adoption",
       "foundation-models"
     ]
+  },
+  {
+    "id": "arxiv-2611-18297-evaluation-becomes-intervention-clinical-ai",
+    "date": "2026-11-13",
+    "added": "2026-11-17",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "כשההערכה הופכת להתערבות: \"שופטי AI\" בבדיקת מערכות AI קליניות",
+    "titleSrc": "When evaluation becomes intervention in clinical AI",
+    "summary": "פרה-פרינט (cs.AI, 12 עמודים, הוגש ל-npj Digital Medicine) שדן ב\"שופטי AI\", מודלים שמדרגים פלט של מערכת אחרת מול רובריקה ומאפשרים להרחיב סקירה קלינית. המחברים טוענים שכאשר תוצאות השופט משמשות לבחירת פרומפט או לאימון מודל, השופט הופך לחלק מההתערבות ותהליך הבחירה עלול להעדיף שגיאות שהוא לא תופס, ולכן נדרשים דיווח מפורט על השופט ובדיקה קלינית בלתי תלויה לכל שינוי. זו עבודת עמדה שלא עברה ביקורת עמיתים ואין בה תוצאות כמותיות.",
+    "url": "https://arxiv.org/abs/2611.18297",
+    "topics": [
+      "research",
+      "ethics"
+    ]
+  },
+  {
+    "id": "medrxiv-medcheckpoint-pharmacovigilance-llm-agents",
+    "date": "2026-11-12",
+    "added": "2026-11-17",
+    "src": "medRxiv",
+    "fam": "preprint",
+    "title": "MedCheckpoint: מערכת סוכני LLM לניטור בטיחות תרופות לאחר שיווק",
+    "titleSrc": "Automating postmarketing pharmacovigilance with large language model agents",
+    "summary": "פרה-פרינט המציג מערכת רב-סוכנית שנועדה לניטור בטיחות תרופות לאחר שיווק, עם בסיס ידע עם מקורות נגישים, נעילת פרמטרי המחקר לפני הניתוח וכלים סטטיסטיים דטרמיניסטיים. על 54 שאלות במדגם EHR מדומה של 2.7 מיליון אנשים קיבלה המערכת ציון 4.81–4.88 משלושה שופטי LLM, לעומת 4.25–4.55 ו-4.02–4.29 בשני בסיסי השוואה, וללא כשל מטעה בשבע שאלות מלכודת. ההערכה נעשתה על נתונים מדומים ובאמצעות שופטי LLM, ולא על נתוני אמת, והעבודה לא עברה ביקורת עמיתים.",
+    "url": "https://www.medrxiv.org/content/10.64898/2026.11.10.26367711v1",
+    "topics": [
+      "research",
+      "foundation-models"
+    ]
+  },
+  {
+    "id": "medrxiv-swarm-learning-hospital-sizes-eicu",
+    "date": "2026-11-12",
+    "added": "2026-11-17",
+    "src": "medRxiv",
+    "fam": "preprint",
+    "title": "למידת נחיל בין בתי חולים בגדלים שונים: כל הצטרפות שיפרה את המודל לחיזוי אלח דם",
+    "titleSrc": "A KPI-driven study of how swarm learning scales as hospitals of different sizes join, using eICU Collaborative Research Database data",
+    "summary": "סימולציה על 25 בתי חולים במאגר eICU (71,887 אשפוזי טיפול נמרץ, שכיחות אלח דם 16.6%) בדקה למידה מבוזרת בין בתי חולים בגדלים שונים. ה-AUROC עלה עם כל בית חולים שהצטרף, ל-0.804 ברשת של שישה, והשיפור ביחס לאימון מקומי נע בין 4.1% בבית החולים החזק ל-29.5% בחלש. הניסוי הוא סימולציה על מאגר קיים ולא פריסה אמיתית, עם רשת קטנה מאוד (1,313 פרמטרים), והוא טרם עבר ביקורת עמיתים.",
+    "url": "https://www.medrxiv.org/content/10.64898/2026.11.11.26367729v1",
+    "topics": [
+      "research",
+      "ethics"
+    ]
+  },
+  {
+    "id": "stanford-dbds-med-reduce-smaller-medical-ai",
+    "date": "2026-11-05",
+    "added": "2026-11-17",
+    "src": "Stanford Medicine (DBDS)",
+    "fam": "provider",
+    "title": "Med-REDUCE: מודלי הדמיה רפואית קטנים ובתמונות ברזולוציה נמוכה משיגים ביצועים דומים",
+    "titleSrc": "Medical AI: Doing More With Less",
+    "summary": "חוקרי סטנפורד בהובלת רוקסנה דנשג'ו הראו, במאמר ב-Medical Image Analysis, שצמצום תמונות מ-512×512 ל-64×64 פיקסלים וזיקוק ידע למודלים קטנים (עד רבע מהגודל) שמר על ביצועים: המודלים הקטנים השוו או עקפו את הגדולים ב-39 מתוך 42 השוואות, בדרמטולוגיה, פתולוגיה ורדיולוגיה. בצילומי חזה המודל התקשה לזהות פנאומותורקס קטן, והעבודה נעשתה על מאגרים קיימים ודורשת אימות בסביבה קלינית ובאוכלוסיות מגוונות; לפי החוקרים הכלי עדיין לא מוכן לשימוש.",
+    "url": "https://dbds.stanford.edu/medical-ai-doing-more-with-less/",
+    "topics": [
+      "imaging",
+      "research"
+    ]
   }
 ]
