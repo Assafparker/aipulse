@@ -6259,5 +6259,126 @@
       "imaging",
       "research"
     ]
+  },
+  {
+    "id": "jama-netw-open-llm-discharge-summaries-london",
+    "date": "2026-11-17",
+    "added": "2026-11-18",
+    "src": "JAMA Network Open",
+    "fam": "journal",
+    "title": "סיכומי שחרור שנכתבו ב-GPT-4o mini אושרו לחתימה בלי עריכה או עם עריכה קלה ב-89.7% מהמקרים, מול 67.1% בסיכומי רופאים",
+    "titleSrc": "Clinician Acceptance of Large Language Model–Generated Discharge Summaries",
+    "summary": "מחקר רטרוספקטיבי על 1,294 אשפוזים בחמישה בתי חולים בלונדון (649 סיכומים של רופאים ו-645 של GPT-4o mini) העריך אם הסיכומים ניתנים לחתימה. 12 רופאים מתמחים אישרו 89.7% מסיכומי המודל בלי עריכה או עם עריכה קלה, לעומת 67.1% בסיכומי הרופאים (הפרש מתואם של 22.2 נקודות אחוז), ושיעור ההזיות היה דומה: 6.0% מול 6.9%. המחקר רטרוספקטיבי, בחן מודל אחד בלבד ומעריכים שהיו מתמחים, ורק מחצית מסיכומי המודל לא נזקקו לעריכה כלל, ולכן עדיין נדרש פיקוח קליני.",
+    "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2856756",
+    "topics": [
+      "research",
+      "ambient",
+      "adoption"
+    ]
+  },
+  {
+    "id": "jama-netw-open-emotional-support-ai-mental-health-needs-japan",
+    "date": "2026-11-17",
+    "added": "2026-11-18",
+    "src": "JAMA Network Open",
+    "fam": "journal",
+    "title": "ביפן, שימוש קבוע ב-AI לתמיכה רגשית שכיח פי 2.6 בקרב מי שצרכי בריאות הנפש שלהם גבוהים",
+    "titleSrc": "Mental Health Needs and Emotional-Support Artificial Intelligence Use",
+    "summary": "מחקר עוקבה בשני גלים של 6,852 מבוגרים ביפן ללא מקור טיפול קבוע מצא ששימוש קבוע ב-AI גנרטיבי לתמיכה רגשית עלה עם רמת הצורך: 4.6% בצורך נמוך, 9.4% בצורך מוגבר ו-16.3% בצורך גבוה (יחס שכיחות מתואם של 2.61). החוקרים מדגישים שהנתונים אינם מעידים שהשימוש טיפולי, בטוח או תחליף לטיפול מקצועי. המחקר מבוסס על דיווח עצמי ועל פאנל אינטרנטי לא הסתברותי, ולא נבדק תוכן האינטראקציות או בטיחותן.",
+    "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2856761",
+    "topics": [
+      "mental",
+      "adoption",
+      "ethics"
+    ]
+  },
+  {
+    "id": "astp-onc-tefca-2026-2027-workplan-monthly-metrics",
+    "date": "2026-11-17",
+    "added": "2026-11-18",
+    "src": "ASTP/ONC",
+    "fam": "regulator",
+    "title": "ONC מפרסם תוכנית עבודה ל-12 חודשים ל-TEFCA ומתחיל לפרסם מדדים חודשיים: יותר מ-24,500 ארגונים מחוברים",
+    "titleSrc": "The Road Ahead: The Trusted Exchange Framework and Common Agreement (TEFCA) 2026–2027 Workplan and New Monthly Metrics",
+    "summary": "ONC פירסם את תוכנית העבודה המלאה הראשונה ל-TEFCA לשנים 2026–2027, בשלושה צירים: תפעול ויישום, דרישות טכניות ואבטחה, ומסמכי מסגרת וממשל. בין העדיפויות: יישום טיפול וגישת הפרט, מקרי שימוש של תשלום עם מעורבות משלמים, הרחבה למטרת קביעת הטבות ממשלתיות עבור VA, מפת דרכים טכנית רב-שנתית הכוללת תוספות FHIR, וחקר מטרת חילופין שביעית למחקר. לפי הפוסט פועלים 11 QHINs, יותר מ-24,500 ארגונים חיים ויותר מ-107,000 חיבורים, ויעלה עמוד \"TEFCA במספרים\" עם עדכון חודשי; התוכנית אינה ממצה ותעודכן במהלך השנה.",
+    "url": "https://healthit.gov/blog/tefca/the-road-ahead-the-trusted-exchange-framework-and-common-agreement-tefca-2026-2027-workplan-and-new-monthly-metrics/",
+    "topics": [
+      "interop",
+      "national-strategies"
+    ]
+  },
+  {
+    "id": "arxiv-diagtrace-interactive-clinical-decision-benchmark",
+    "date": "2026-11-16",
+    "added": "2026-11-18",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "DiagTrace: בנצ'מרק אינטראקטיבי שבודק אם מודלי שפה משחזרים מסלול אבחוני במקום לקבל את כל המידע מראש",
+    "titleSrc": "DiagTrace: An Interactive Benchmark for Clinical Decision Making",
+    "summary": "הפרה-פרינט טוען שבנצ'מרקים רפואיים קיימים מציגים את כל פרטי המטופל מראש ומודדים רק את האבחנה הסופית, ולכן אינם משקפים איסוף מידע הדרגתי. DiagTrace בנוי מדוחות מקרה ב-PubMed Central, מכיל 510 מקרים בשמונה התמחויות, ו-225 מהם שימשו להערכת ארבעה מודלי שפה לפי התאמה למהלך הקליני, איכות האינטראקציה ויעילות. הממצאים מצביעים על פשרות בין כיסוי, סדר עקבי ומספר הסבבים; העבודה לא עברה ביקורת עמיתים והיא מבוססת על דוחות מקרה ולא על מטופלים אמיתיים.",
+    "url": "https://arxiv.org/abs/2611.22009",
+    "topics": [
+      "research"
+    ]
+  },
+  {
+    "id": "arxiv-safe-triage-patient-facing-emergency-triage-ai",
+    "date": "2026-11-17",
+    "added": "2026-11-18",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "SAFE-Triage: מסגרת הערכה לכלי AI למיון חירום פונים-למטופל; מודל שפה בלי כללים עקף גרסה עם כללים",
+    "titleSrc": "Beyond Acuity Accuracy: A Multidimensional Framework for Evaluating Patient-Facing Emergency Triage AI Tools",
+    "summary": "המחברים מציגים מסגרת הערכה לכלי מיון פונים-למטופל המשלבת סקירה אנושית, מדדים אוטומטיים, שופט LLM וסימולציה, ובדקו אותה על 40 תרחישי חירום מ-MIMIC-IV ועל ניתוח של 10,030 מקרים. מודל בהנחיה פשוטה הגיע ל-57.5% דיוק בדרגת חומרה (ESI) לעומת 42.8% בגרסה עם כללים, ושיעור תת-מיון של 13.1% מול 29.8%. מדובר בפרה-פרינט שטרם עבר ביקורת עמיתים, על תרחישים שנגזרו ממאגר קיים ולא על מטופלים אמיתיים.",
+    "url": "https://arxiv.org/abs/2611.22045",
+    "topics": [
+      "research",
+      "ethics"
+    ]
+  },
+  {
+    "id": "arxiv-hindaudit-hindsight-clinical-agent-benchmarks",
+    "date": "2026-11-17",
+    "added": "2026-11-18",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "HindAudit: ניסוח מקרה בדיעבד מנפח את ביצועי סוכני אבחון, מ-25.4% ל-39.7% דיוק",
+    "titleSrc": "Where Does Hindsight Enter Clinical Agent Benchmarks? An Audit of Simulators and Case Construction",
+    "summary": "ביקורת על בנצ'מרקים לסוכני אבחון שנבנו מרשומות רטרוספקטיביות, על בסיס 27,489 אשפוזי חירום ב-MIMIC-IV. לא נמצא זליגה לתוצאות מעבדה מדומות, אך סיכומי מקרה בסגנון בנצ'מרק העלו דיוק של ארבעה מודלים מ-25.4% ל-39.7%, וגרסאות מסיכום השחרור הגיעו ל-45.3%, לעומת שחזור מנתוני הטריאז'. החוקרים מגדירים את הפער כגבול עליון להשפעת ראייה לאחור, כי MIMIC חסר אנמנזה עכשווית; הפרה-פרינט לא עבר ביקורת עמיתים.",
+    "url": "https://arxiv.org/abs/2611.22241",
+    "topics": [
+      "research",
+      "ethics"
+    ]
+  },
+  {
+    "id": "arxiv-right-diagnosis-unsafe-route-clinical-ai-trajectories",
+    "date": "2026-11-17",
+    "added": "2026-11-18",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "אבחנה נכונה, מסלול לא בטוח: ב-55.2% מהמסלולים של AI קליני שהגיעו לאבחנה מקובלת הייתה החלטה בעלת פוטנציאל נזק",
+    "titleSrc": "Right Diagnosis, Unsafe Route: Auditing Clinical AI Decision Trajectories and Corrective Oversight for Validity and Potential Harm",
+    "summary": "פרה-פרינט שמשחזר אשפוזים שלב אחר שלב ומדרג כל בדיקה, טיפול והחלטת שחרור לפי פוטנציאל נזק, על 300 מקרים ממאגר קרדיולוגיה בית-חולימי, MIMIC-IV ו-ASCENT ועד שבע מערכות AI. ב-55.2% מהמסלולים שהגיעו לאבחנה מקובלת הייתה החלטה בעלת נזק פוטנציאלי בינוני או חמור, וב-24.8% החלטה לא קבילה קלינית. תיקון מובנה פתר 73.6% מהשגיאות הראשונות, אך ב-30.2% מהמקרים נוצרה אחריו החלטה לא בטוחה חדשה; הדירוג נעשה בידי שופט LLM מכויל מול רופאים, והעבודה טרם עברה ביקורת עמיתים.",
+    "url": "https://arxiv.org/abs/2611.22612",
+    "topics": [
+      "ethics",
+      "research"
+    ]
+  },
+  {
+    "id": "arxiv-vital-agentic-ai-pharma-validation-framework",
+    "date": "2026-11-17",
+    "added": "2026-11-18",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "VITAL: מסגרת לאימות סוכני AI בפיתוח תרופות ובניהול ניסויים קליניים",
+    "titleSrc": "VITAL: A Framework for Validating Agentic AI in Pharmaceutical Drug Development and Clinical Trial Operations",
+    "summary": "המחברים טוענים ששיטות הבטחת איכות קיימות אינן מראות אם הראיות מספיקות לאמת, לנטר ולפקח על סוכני AI בתעשיית התרופות. המסגרת VITAL נבנתה מסקירת נוף, מיפוי רגולציה ותקנים, ראיונות מומחים ושכלול רב-בעלי עניין, והיא משלבת הקשר שימוש, בקרות, אימות התנהגותי וראיות לאורך מחזור החיים. היא הודגמה על ניתוח אפידמיולוגי, בחירת אתרים, הצלת גיוס ושיקולי תכנון ניסוי; אין בתקציר תוצאות כמותיות, והמחברים מציינים שיש לבדוק שחזוריות בין מעריכים וארגונים.",
+    "url": "https://arxiv.org/abs/2611.22973",
+    "topics": [
+      "ethics",
+      "research"
+    ]
   }
 ]
