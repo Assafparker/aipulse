@@ -6380,5 +6380,64 @@
       "ethics",
       "research"
     ]
+  },
+  {
+    "id": "hhs-clinical-ai-roadmap-cms",
+    "date": "2026-11-13",
+    "added": "2026-11-19",
+    "src": "HHS / CMS",
+    "fam": "regulator",
+    "title": "HHS פרסם מפת דרכים לאימוץ AI קליני: ארגזי חול עם מדינות, תשלום מבוסס תוצאות ובירור אחריות משפטית",
+    "titleSrc": "Clinical AI Roadmap",
+    "summary": "משרד הבריאות האמריקאי פרסם מסמך בן 8 עמודים (באתר CMS) שמרכז את הכוונים לזירוז אימוץ AI קליני: עבודה עם מדינות וארגזי חול רגולטוריים, רגולציה מבוססת סיכון, הרחבת תשלום לפי תוצאות דרך מודל ACCESS, שיתוף נתונים, מעקב אחרי בטיחות לאחר שיווק והבהרת אחריות כשה-AI גורם נזק. לפי Nextgov, יוזמת Health Tech Ecosystem כוללת מעל 800 חברות, ו-FDA ו-ARPA-H עובדות על AI קליני מורשה ראשון לליווי חולי לב בין ביקורים. המסמך מאחד בעיקר מהלכים קיימים; Nextgov מציין שאינו מבהיר מהם \"תחומי רגולציה מדינתית ברורה\" ואם FDA מפקחת על פיילוטים כמו זה של יוטה.",
+    "url": "https://www.cms.gov/files/document/clinical-si-roadmap.pdf",
+    "topics": [
+      "national-strategies",
+      "adoption"
+    ]
+  },
+  {
+    "id": "stat-epic-defends-competitive-practices-ai-access",
+    "date": "2026-11-18",
+    "added": "2026-11-19",
+    "src": "STAT News",
+    "fam": "press",
+    "title": "Epic מגינה על שיטותיה התחרותיות ומבטיחה גישה נוחה יותר של AI לרשומות",
+    "titleSrc": "Epic defends competitive practices, promises AI access to records",
+    "summary": "בפאנל בכנס HLTH הגיבו בכירי Epic לראשונה לחקירת STAT מ-28 באוקטובר, שטענה כי החברה מונעת באופן סלקטיבי גישה לנתונים ממתחרים. Epic הכחישה התנהלות אנטי-תחרותית, ציינה כ-75,000 פניות בשנה לחיבור למערכות שלה ורשומות של יותר מ-280 מיליון אמריקאים, והבטיחה להקל על חברות להשתמש ב-AI לקריאת נתוני הפלטפורמה. הכתבה חסומה בחלקה מאחורי STAT+, ולכן אין פרטים על לוחות זמנים או מנגנון טכני.",
+    "url": "https://www.statnews.com/2026/11/18/epic-defends-competitive-practices-promises-ai-access-to-records/",
+    "topics": [
+      "interop",
+      "adoption"
+    ]
+  },
+  {
+    "id": "topol-ground-truths-ethan-mollick-ai",
+    "date": "2026-11-10",
+    "added": "2026-11-19",
+    "src": "Ground Truths (Eric Topol)",
+    "fam": "people",
+    "title": "אריק טופול משוחח עם איתן מוליק על מצב ה-AI: \"חזית משוננת\", ניוון מיומנויות ו-AI רפואי ללא רופא בלולאה",
+    "titleSrc": "Ethan Mollick on AI: Where Are We Now and Where Are We Headed",
+    "summary": "בפרק של Ground Truths מארח טופול את איתן מוליק מ-Wharton, שמעריך מודלים באופן עצמאי וללא מימון חברות AI. מתוך תקציר הנושאים בעמוד: ה\"חזית המשוננת\" של יכולות AI, חשש מ-Deskilling ו-Never skilling, ובקטע על AI רפואי — \"רופאים מחוץ ללולאה\" והטענה ש-AI לבדו עשוי להיות טוב מרופאים המסתייעים בו. העמוד מציג רק את מתווה הנושאים ולא תמלול, ולכן אין פירוט של הטיעונים או של ראיות.",
+    "url": "https://erictopol.substack.com/p/ethan-mollick-on-ai-where-are-we",
+    "topics": [
+      "ethics",
+      "adoption"
+    ]
+  },
+  {
+    "id": "arxiv-probmedtod-bayesian-network-patient-history-taking",
+    "date": "2026-11-18",
+    "added": "2026-11-19",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "ProbMedTOD: מערכת דיאלוג מונחית רשת בייסיאנית ללקיחת אנמנזה ממטופלים עם מודלי שפה קטנים",
+    "titleSrc": "ProbMedTOD: A Bayesian Network Guided Task-Oriented Dialogue System for Patient History Taking",
+    "summary": "פרה-פרינט שמציע לבנות אוטומטית רשת בייסיאנית קלינית ממספר קטן של רשומות רפואיות, כדי שמודלי שפה קטנים יעקבו אחר ההסתברות לכל אבחנה לאורך השיחה ויבחרו את השאלה הבאה בעלת התועלת האבחנתית הגבוהה ביותר. לפי המחברים המערכת עוקפת בסיסי השוואה של LLM בלבד ושל שליפה על DDXPlus ו-MIMIC-IV, בעיקר במודלים קטנים. התקציר אינו מדווח על מספרים, ההערכה מוגבלת לשני מאגרים, ואין אימות קליני או שיחות עם מטופלים אמיתיים; העבודה טרם עברה ביקורת עמיתים.",
+    "url": "https://arxiv.org/abs/2611.24535",
+    "topics": [
+      "research"
+    ]
   }
 ]
