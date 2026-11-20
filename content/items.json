@@ -6439,5 +6439,50 @@
     "topics": [
       "research"
     ]
+  },
+  {
+    "id": "hhs-hipaa-privacy-final-rule-patient-access-health-apps",
+    "date": "2026-11-16",
+    "added": "2026-11-20",
+    "src": "HHS / OCR",
+    "fam": "regulator",
+    "title": "HHS פרסם עדכון סופי לכלל הפרטיות של HIPAA: מענה לבקשת רשומה תוך 15 יום וגישה דרך אפליקציות בריאות אישיות",
+    "titleSrc": "HIPAA Privacy Rule 2026 Final Rule",
+    "summary": "הכלל הסופי מקצר את מועד המענה לבקשת מטופל לרשומה מ-30 ל-15 ימים, מגדיר לראשונה \"אפליקציית בריאות אישית\" ומחייב מוסדות להעביר רשומות לאפליקציה שהמטופל בחר, אם יש להם יכולת טכנית לכך. HHS מעריך עלות של 784 מיליון דולר בשנה הראשונה וחיסכון נקי של 703 מיליון דולר בשנה בשנים 2–5 (הערכות של הרשות, לא נתוני אמת); הציות צפוי סביב יולי. לפי הסיקור, ארגוני בריאות התנגדו בטענה שאימות הרשאה לאפליקציה צד שלישי יהפוך קשה יותר, והכלל נקבע בעיקרו כפי שהוצע.",
+    "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/2026-privacy-final-rule/index.html",
+    "topics": [
+      "policy",
+      "interop"
+    ]
+  },
+  {
+    "id": "arxiv-rad-linter-chest-xray-report-error-detection",
+    "date": "2026-11-19",
+    "added": "2026-11-20",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "Rad-Linter: מודל שפה קטן בודק אם דוח צילום חזה תואם לממצאי התמונה",
+    "titleSrc": "Multimodal Error Detection in Chest X-ray Reports: A Large Language Model Reading Image Evidence",
+    "summary": "פרה-פרינט מציג מערכת שבה מסווג תמונה מדרג תשע פתולוגיות ומודל שפה של 1.5 מיליארד פרמטרים, שכוונן על 1,816 דוגמאות, בודק אם נוסח הדוח עקבי עם הציונים. בסט של 131 רביעיות דיוק הזוגות עמד על 98.5% מול 80.5% בבסיס מבוסס כללים, ובסט שני של 181 רביעיות על 93.4% מול 75.3%. הבדיקה נעשתה על נתוני OpenI ועל רביעיות מבוקרות בלבד, ללא אימות קליני; העבודה טרם עברה ביקורת עמיתים.",
+    "url": "https://arxiv.org/abs/2611.26492",
+    "topics": [
+      "imaging",
+      "research"
+    ]
+  },
+  {
+    "id": "arxiv-pair-med-multilingual-medical-reasoning",
+    "date": "2026-11-19",
+    "added": "2026-11-20",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "PAIR-MED: אימון מודלי הנמקה רפואית ב-12 שפות באמצעות מודל תגמול שמתעדכן לאורך האימון",
+    "titleSrc": "PAIR-MED: Policy-reward Alternation for Iterative Refinement in Multilingual Medical Reasoning",
+    "summary": "המחברים מאמנים מודלי הנמקה רפואית בגודל 8B ו-9B ל-12 שפות, תוך חילופין בין עדכון המודל לעדכון מודל התגמול כדי שלא ינותק ממנו. בקבצי הרפואה של Global-MMLU ו-MMLU-ProX הדיוק הממוצע עלה ב-3.01% עד 7.47% מעל מודלי Qwen המקוריים, וב-CUREMED-BENCH נרשם שיפור של 12.88% בשפות שנכללו באימון ו-7.45% בשפות שלא נכללו. התוצאות הן על מבחנים אקדמיים בלבד, ללא בדיקה קלינית, והעבודה טרם עברה ביקורת עמיתים.",
+    "url": "https://arxiv.org/abs/2611.25446",
+    "topics": [
+      "research",
+      "foundation-models"
+    ]
   }
 ]
