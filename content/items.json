@@ -6484,5 +6484,35 @@
       "research",
       "foundation-models"
     ]
+  },
+  {
+    "id": "dhsc-ai-guidance-social-care",
+    "date": "2026-11-20",
+    "added": "2026-11-21",
+    "src": "GOV.UK (DHSC)",
+    "fam": "regulator",
+    "title": "בריטניה מפרסמת את ההנחיה הלאומית הראשונה לשימוש בבינה מלאכותית בסיעוד ובשירותי הרווחה",
+    "titleSrc": "New AI guidance to cut paperwork and free more time for care",
+    "summary": "משרד הבריאות והרווחה ומשרד החינוך הבריטיים פרסמו הנחיה חוצת-מגזרים לאימוץ בטוח של AI ברווחה הקהילתית למבוגרים ולילדים, בנושאי ממשל, אחריותיות, הגנת מידע ופיקוח מקצועי. כדוגמה לתועלת מצוין פיילוט בעיריית סווינדון, שבו זמן העבודה המנהלית ירד ב-63% ושיחת הערכה ירדה משעה וחצי ל-30 דקות. המספרים מדווחים על ידי הממשלה מפיילוטים מקומיים, ללא הערכה בלתי תלויה, וההנחיה אינה מוגדרת כחובה.",
+    "url": "https://www.gov.uk/government/news/new-ai-guidance-to-cut-paperwork-and-free-more-time-for-care",
+    "topics": [
+      "national-strategies",
+      "adoption"
+    ]
+  },
+  {
+    "id": "korea-public-healthcare-ai-network",
+    "date": "2026-11-16",
+    "added": "2026-11-21",
+    "src": "Korea.net",
+    "fam": "regulator",
+    "title": "דרום קוריאה משיקה רשת AI ציבורית לבריאות שתביא מודלים מתקדמים לבתי חולים אזוריים",
+    "titleSrc": "Korea Launches First Public Healthcare AI Network to Extend Advanced Care Beyond Seoul",
+    "summary": "משרד הבריאות והרווחה הקוריאני השיק ב-11 בנובמבר את רשת ה-AI הציבורית הראשונה לבריאות, שמחברת בזמן אמת את בית החולים האוניברסיטאי קנגוון ואת המרכז הרפואי ינגוול ומפיצה מודלים רפואיים מאושרים לבתי חולים ציבוריים מחוץ לסיאול. התכנית כוללת פיילוט בשמונה בתי חולים ב-2026, הרחבה ל-35 ב-2027 ול-72 ב-2029. מדובר בהודעה ממשלתית ותכניות הרחבה בלבד, ללא נתוני ביצועים, עלויות או הערכה עצמאית.",
+    "url": "https://www.korea.net/NewsFocus/policies/view?articleId=302893",
+    "topics": [
+      "national-strategies",
+      "adoption"
+    ]
   }
 ]
