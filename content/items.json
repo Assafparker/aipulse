@@ -6514,5 +6514,78 @@
       "national-strategies",
       "adoption"
     ]
+  },
+  {
+    "id": "openai-medchembench",
+    "date": "2026-11-20",
+    "added": "2026-11-22",
+    "src": "OpenAI",
+    "fam": "lab",
+    "title": "OpenAI מפרסמת את MedChemBench, מבחן להערכת יכולת מודלים לחשוב בכימיה רפואית",
+    "titleSrc": "MedChemBench: Benchmarking AI for medicinal chemistry",
+    "summary": "המבחן כולל 99 בעיות שנלקחו מ-117 מאמרים ופטנטים ו-761 מבנים מולקולריים, והוא בוחן קריאת מבנים, פירוש תוצאות ניסוי, דירוג תרכובות וחיזוי תכונות. GPT-6.2 Astra השיג 84.5% מהניקוד המרבי, לעומת 58.2% ל-GPT-5.6 Sol; דירוג תרכובות וחיזוי מספרי היו קשים יותר, ובהם המודל קיבל בערך מחצית מהניקוד. OpenAI עצמה מציינת שהתוצאות אינן מוכיחות יכולת לגלות תרופות חדשות, שהמבחן מבוסס על ספרות היסטורית (חשש לחשיפה מוקדמת) ושכל תשובה ניתנה בניסיון יחיד ללא כלים.",
+    "url": "https://openai.com/index/introducing-medchembench/",
+    "topics": [
+      "research"
+    ]
+  },
+  {
+    "id": "arxiv-2611-24994-medical-llm-verbalized-thoughts",
+    "date": "2026-11-18",
+    "added": "2026-11-22",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "פענוח 'מחשבות' פנימיות של מודל רפואי חושף התקפות שהתשובה הסופית מסתירה",
+    "titleSrc": "What the model knows but does not say: monitoring medical LLMs through verbalized thoughts",
+    "summary": "החוקרים תרגמו את ההפעלות הפנימיות של Gemma-3-27B לטקסט חופשי ונתנו לשופט עיוור-קלט לקרוא אותו. בכל שמונת התרחישים של הזרקה זדונית (השמטת פתולוגיה או המלצה סמויה על תרופה) ערוץ ה'מחשבות' זיהה את ההתקפה יותר מהתשובה עצמה (p<0.05), עם שיעור חיוביות שגויות קרוב לאפס; הממצא על השמטה הועבר גם ל-Llama-3.3-70B. זהו פרה-פרינט שטרם עבר ביקורת עמיתים ונבדק בתרחישי התקפה מבוימים, לא בפריסה קלינית.",
+    "url": "https://arxiv.org/abs/2611.24994",
+    "topics": [
+      "ethics",
+      "research"
+    ]
+  },
+  {
+    "id": "arxiv-2611-24972-no-harm-jury",
+    "date": "2026-11-16",
+    "added": "2026-11-22",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "No-Harm-Jury: חבר מושבעים של חמישה מודלי שפה מעריך נזק בתשובות רפואיות של AI",
+    "titleSrc": "No-Harm-Jury: A Jury-Based Multi-Dimensional Harm Evaluation Framework for Medical AI Responses",
+    "summary": "המסגרת מפעילה חמישה מודלי שפה כשופטים בלתי תלויים שמדרגים תשובות רפואיות לפי שבעה ממדי נזק ומאחדים את הציונים בחציון, כדי לצמצם הטיה של שופט בודד. ההדגמה נעשתה על תשובות של Ministral-14B ל-3,000 שאלות מ-PubMedQA, MedQA ו-MedMCQA; 151 תשובות היו ריקות ונותרו 2,849 תקינות. זהו פרה-פרינט ללא אימות מול שופטים אנושיים בתקציר.",
+    "url": "https://arxiv.org/abs/2611.24972",
+    "topics": [
+      "ethics",
+      "research"
+    ]
+  },
+  {
+    "id": "arxiv-2611-25898-verifiable-logic-medical-llms",
+    "date": "2026-11-19",
+    "added": "2026-11-22",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "סקירה: מודלים קליניים נבחנים רק לפי התשובה הסופית, והרגולציה צריכה לבקר גם את שרשרת ההנמקה",
+    "titleSrc": "Verifiable Logic in Medical LLMs: A Critical Review of Agentic Clinical Reasoning Optimization and Neuro-Symbolic Grounding",
+    "summary": "הסקירה עוסקת בהזיות קליניות, בהצטברות שגיאות במערכות מרובות סוכנים, באימון ברמת צעד (process reward) ובקרקוע נוירו-סימבולי באונטולוגיות וגרפי ידע. המחברים מציעים מיפוי בין כשלי סוכנים לנקודות התערבות סימבוליות וטוענים שהרגולציה מתמקדת בביצועים ויש לבדוק גם את מסלול ההנמקה. הם מסייגים שתוצאות הבטיחות המדווחות מגיעות ממחקרים בודדים, לרוב מדומים או קטנים, ואינן ברות השוואה ישירה למודלים עצביים.",
+    "url": "https://arxiv.org/abs/2611.25898",
+    "topics": [
+      "ethics",
+      "policy"
+    ]
+  },
+  {
+    "id": "india-nha-sahi-roadmap-meeting",
+    "date": "2026-11-02",
+    "added": "2026-11-22",
+    "src": "eHealth Network (Elets)",
+    "fam": "regulator",
+    "title": "הודו מקדמת את סיום מפת הדרכים ליישום SAHI, האסטרטגיה הלאומית ל-AI בבריאות",
+    "titleSrc": "NHA Moves to Finalise SAHI Roadmap for AI in Healthcare",
+    "summary": "ב-2 בנובמבר כינס מנכ\"ל הרשות הלאומית לבריאות (NHA) את הישיבה הרביעית של ועדת מפת הדרכים ל-SAHI, אסטרטגיה שהושקה בפברואר 2026 עם 32 המלצות בחמישה עמודי תווך, לצד פלטפורמת ההערכה BODH. המפת דרכים אמורה להקצות לכל המלצה גוף מוביל, לוחות זמנים ומשאבים, וכוללת התייעצויות אזוריות עם מדינות ומוסדות כמו AIIMS ו-CDSCO. מועד פרסום הגרסה הסופית טרם נמסר, והדיווח הוא של כתב עת מקצועי ולא של הרשות עצמה.",
+    "url": "https://ehealth.eletsonline.com/2026/11/sahi-ai-healthcare-roadmap/",
+    "topics": [
+      "national-strategies"
+    ]
   }
 ]
