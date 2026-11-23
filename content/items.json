@@ -6587,5 +6587,65 @@
     "topics": [
       "national-strategies"
     ]
+  },
+  {
+    "id": "arxiv-2611-27301-observation-bias-clinical-ai-evaluation",
+    "date": "2026-11-20",
+    "added": "2026-11-23",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "הציון הגבוה בבנצ'מרק קליני יכול לנבוע מהמאמר שממנו נלקח המקרה עצמו: הטיית תצפית בהערכת AI קליני",
+    "titleSrc": "Observed, Curated, Reused: Observation Bias in Clinical AI Evaluation",
+    "summary": "המחברים עקבו אחרי 6,503 מקרים קליניים לאורך שש גרסאות של אונטולוגיית הפנוטיפים HPO (אוקטובר 2021 עד יוני 2026). דירוג הפתרון המרכזי (Resnik) עלה מ-0.26 לפני שהמאמר המקורי נכנס לאונטולוגיה ל-0.84 אחריו, וצנח ל-0.05 כשהטענות הקשורות למאמר הוסרו בניסוי נגדי; שני מדרגים נוספים הראו דפוס דומה. המסקנה: ציונים גבוהים עשויים לשקף גישה לראיה מהפרסום של אותו מקרה ולא הכללה אמיתית, והמחברים ממליצים להפריד בין מטופלים, ראיות מקור וזמן. פרה-פרינט (גרסה 1) שטרם עבר ביקורת עמיתים.",
+    "url": "https://arxiv.org/abs/2611.27301",
+    "topics": [
+      "research",
+      "ethics"
+    ]
+  },
+  {
+    "id": "arxiv-2611-27390-evidence-sufficiency-clinical-agents",
+    "date": "2026-11-20",
+    "added": "2026-11-23",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "סוכן קליני מקומי שמחליט מתי לסמוך על עצמו: הערכת מספיקות ראיות חוסכת כ-80% מהחישוב",
+    "titleSrc": "Evidence sufficiency assessment enables cost-effective review allocation in on-premise clinical AI agents",
+    "summary": "שיטה ללא אימון נוסף שבה מודל של 4 מיליארד פרמטרים מדרג עד כמה הראיות האובייקטיביות מספיקות לאבחנה, ומעבירה מקרים בשלוש דרגות: ריצה בודדת, עקביות של חמש ריצות או הפניה מלאה לרופא. על 1,605 מקרים ב-MIRA-v2, CDM, VivaBench וקוהורט פנימי של גידולי כבד, הגיעה ריצה בודדת ל-98.91% הצלחה במקרים שאושרו ב-MIRA-v2, בדומה לחמש ריצות, תוך חיסכון של כ-80% בחישוב. יעד ה-95% נבחר בידי המחברים, וזהו פרה-פרינט (גרסה 1) ללא ביקורת עמיתים מאומתת.",
+    "url": "https://arxiv.org/abs/2611.27390",
+    "topics": [
+      "research",
+      "ops"
+    ]
+  },
+  {
+    "id": "jamanetopen-ai-discharge-summaries-verification-paradox",
+    "date": "2026-11-17",
+    "added": "2026-11-23",
+    "src": "JAMA Network Open",
+    "fam": "journal",
+    "title": "סיכומי שחרור שנכתבו ב-AI: טיוטה מקובלת איננה בהכרח מסירה בטוחה — \"פרדוקס האימות\"",
+    "titleSrc": "AI-Generated Discharge Summaries—The Verification Paradox",
+    "summary": "פרשנות מוזמנת שמגיבה למחקר מחמישה בתי חולים בלונדון (1,294 אשפוזים), שבו 92.2% מסיכומי ה-LLM אושרו ללא עריכה או בעריכה קלה לעומת 70.0% מהסיכומים שכתבו קלינאים; אולם במקרה החציוני היו 30 מסמכים ויותר מ-4,000 מילים, ורק בחצי מהסיכומים לא נדרשה עריכה, ובמחקר אחר דווחו השמטות ב-25% מהטיוטות. הכותבת טוענת שהאימות קשה ביותר בדיוק ברשומות המורכבות שבהן הסיכום האוטומטי שימושי, ולכן הביקורת עלולה להפוך לטקס, וקוראת לכלים משולבי EHR עם קישור למקור ולניסויים מבוקרים שמודדים תוצאות מטופלים. זו חוות דעת, לא מחקר חדש.",
+    "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2856762",
+    "topics": [
+      "ethics",
+      "adoption"
+    ]
+  },
+  {
+    "id": "medcity-viz-ai-wolters-kluwer-uptodate",
+    "date": "2026-11-17",
+    "added": "2026-11-23",
+    "src": "MedCity News",
+    "fam": "press",
+    "title": "Viz.ai ו-Wolters Kluwer משלבות את UpToDate Expert AI בפלטפורמת Viz.ai One",
+    "titleSrc": "Viz.ai Partners with Wolters Kluwer Health to Add UpToDate Resource to its Platform",
+    "summary": "השותפות, שהוכרזה ב-HLTH, תכניס את UpToDate Expert AI לפלטפורמת התיאום והזיהוי של Viz.ai, המשמשת לדברי החברה כ-2,000 בתי חולים בארה״ב, כך שקלינאים יוכלו לשאול שאלות קליניות ולקבל תשובות מבוססות ראיות שמותאמות לנתוני המטופל בתוך זרימת העבודה. המהלך מתחרה בכלים כמו OpenEvidence. לא פורסמו מחיר, לוח זמנים או נתוני תוצאות לשילוב עצמו; נתון ההפחתה של 39% בזמן עד צנתור בשבץ שמצוטט בכתבה מגיע ממרכז אחד ולא מהשילוב החדש.",
+    "url": "https://medcitynews.com/2026/11/viz-ai-partners-with-wolters-kluwer-health-to-add-uptodate-resource-to-its-platform/",
+    "topics": [
+      "adoption",
+      "funding"
+    ]
   }
 ]
