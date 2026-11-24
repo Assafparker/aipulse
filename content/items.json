@@ -6647,5 +6647,50 @@
       "adoption",
       "funding"
     ]
+  },
+  {
+    "id": "mhra-ai-in-mental-health-airlock",
+    "date": "2026-11-23",
+    "added": "2026-11-24",
+    "src": "MHRA (gov.uk)",
+    "fam": "regulator",
+    "title": "ה-MHRA ו-NICE פותחות \"ארגז חול\" רגולטורי ל-AI בבריאות הנפש: עד חמישה גופים ייבחרו",
+    "titleSrc": "AI in Mental Health Airlock to support safe innovation",
+    "summary": "ה-MHRA הבריטית, יחד עם מעבדת ה-HTA של NICE, מרחיבה את תוכנית \"AI Airlock\" (שלב שני של תוכנית במימון Wellcome) לטכנולוגיות AI בבריאות הנפש. עד חמישה ארגונים ייבחרו, וההגשה פתוחה עד 22 בינואר 2027; ברקע סקר שלפיו 37% מהמבוגרים בבריטניה השתמשו בצ'אטבוט לתמיכה נפשית (2,000 נסקרים). זה מנגנון למידה ולא כלל מחייב: חלק מהצ'אטבוטים כפופים לרגולציה של מכשור רפואי וחלק לא, והתובנות אמורות להשפיע על רגולציה עתידית.",
+    "url": "https://www.gov.uk/government/news/ai-in-mental-health-airlock-to-support-safe-innovation",
+    "topics": [
+      "policy",
+      "mental"
+    ]
+  },
+  {
+    "id": "arxiv-2611-27544-ally-cbt-alliance-rupture",
+    "date": "2026-11-20",
+    "added": "2026-11-24",
+    "src": "arXiv (cs.CL)",
+    "fam": "preprint",
+    "title": "ALLY: סימולציית שיחות CBT שבהן המטופל המדומה מתרחק והמטפל נדרש לתקן את הקשר",
+    "titleSrc": "Alliance Rupture and Repair in Simulating Cognitive Behavioral Therapy Dialogues",
+    "summary": "הפרה-פרינט מציג מסגרת שבה מטופל מדומה מחזיק מצב ברית טיפולית נסתר שמשפיע על מידת פתיחותו, ו-LLM בתפקיד מטפל צריך לזהות נסיגה, לתקן ולעדכן את תוכנית הפגישה. לפי המחברים, ALLY קרוב יותר לשיחות CBT אמיתיות מאשר מאגרי דיאלוג סינתטיים קיימים, ו-20 מטפלים מורשים מצאו את הקרעים והתיקונים סבירים. מדובר בנתונים סינתטיים בלבד, בלי מטופלים אמיתיים, ובתקציר לא מדווחים ציונים מספריים.",
+    "url": "https://arxiv.org/abs/2611.27544",
+    "topics": [
+      "mental",
+      "research"
+    ]
+  },
+  {
+    "id": "statnews-ai-bubble-health-care-adler",
+    "date": "2026-11-23",
+    "added": "2026-11-24",
+    "src": "STAT News",
+    "fam": "press",
+    "title": "אם בועת ה-AI תתפוצץ, זו עלולה להיות בעיה חמורה לבריאות: דעה על פרויקטים שייגמרו לפני שיוכח ערכם",
+    "titleSrc": "If the AI bubble bursts, it could create a serious problem for health care",
+    "summary": "במאמר דעה, דייוויד אדלר ממכון PATHORA טוען שירידת השקעות עלולה לסיים פרויקטי AI רפואיים לפני שייבדק אם הם מועילים למטופלים. הוא מצטט שני מחקרי סינון לניסויים קליניים: באחד (פנסילבניה ואמורי) הדיוק השתפר בלי קיצור משמעותי בזמן, ובשני (אוסטרליה) זוהו יותר מועמדים אך הגיוס לא עלה. ההנחה שהשוק הוא בועה אינה מוכחת, והמלצותיו הן להגדיר קריטריוני הצלחה מראש ולשמור נתוני מחקר נגישים לבדיקה עצמאית.",
+    "url": "https://www.statnews.com/2026/11/23/ai-bubble-medical-artificial-intelligence-health/",
+    "topics": [
+      "funding",
+      "ethics"
+    ]
   }
 ]
