@@ -6692,5 +6692,138 @@
       "funding",
       "ethics"
     ]
+  },
+  {
+    "id": "stat-alaska-stroke-ai",
+    "date": "2026-11-24",
+    "added": "2026-11-25",
+    "src": "STAT News",
+    "fam": "press",
+    "title": "בעלסקה, תוכנת AI לזיהוי שבץ מקצרת את הדרך לטרומבקטומיה — אך ההשפעה על תוצאות טרם הוכחה",
+    "titleSrc": "How artificial intelligence is offering new hope for stroke patients in the Last Frontier",
+    "summary": "מרשת של שישה בתי חולים באלסקה שרכשה תוכנת AI לשבץ של RapidAI בכ-450 אלף דולר דרך עמותה התנדבותית: זמן ההתחלה של שליפת הקריש במרכזים עם מעבדת צנתור השתפר בכ-30%, ובמקרה אחד הועלתה שיחת ההעברה לפני הדוח הרדיולוגי הרשמי. הרחבת הרשת ל-21 בתי חולים ממומנת ב-3.2 מיליון דולר מתוכנית הבריאות הכפרית הפדרלית. הסייגים: ראיות בעיקר אנקדוטליות, חיוביים כוזבים אפשריים, וראש הקואליציה אינה יכולה להראות מובהקות סטטיסטית.",
+    "url": "https://www.statnews.com/2026/11/24/alaskan-hospitals-artificial-intelligence-bet-improve-stroke-care/",
+    "topics": [
+      "adoption",
+      "imaging"
+    ]
+  },
+  {
+    "id": "stat-rsna-radiology-draft-reports",
+    "date": "2026-11-24",
+    "added": "2026-11-25",
+    "src": "STAT News",
+    "fam": "press",
+    "title": "RSNA 2026: האם מודלי AI שמנסחים דוחות רדיולוגיה ישפרו טיפול? השאלה במוקד הכנס",
+    "titleSrc": "AI can analyze X-rays and CT scans to draft radiology reports. Will it make care better, safer?",
+    "summary": "סיקור כנס RSNA בשיקגו: כמעט כל הרדיולוגים משתמשים כבר בכלי AI לטריאז', הכתבה ולסימון ממצאים, והדגש עבר למודלי ראייה-שפה שמפרשים תמונה ומנסחים טיוטת דוח. מנכ\"ל הטכנולוגיה של Aidoc מציג את השאלה אם הטיוטה מדויקת מספיק בעיני רדיולוג. הכתבה מאחורי חומת STAT+, ולכן רק המבוא נבדק; אין בו נתוני דיוק או תוצאות קליניות.",
+    "url": "https://www.statnews.com/2026/11/24/does-radiology-ai-draft-reports-make-care-better-safer-rsna/",
+    "topics": [
+      "imaging",
+      "adoption"
+    ]
+  },
+  {
+    "id": "mhra-next-generation-innovation",
+    "date": "2026-11-24",
+    "added": "2026-11-25",
+    "src": "MHRA",
+    "fam": "regulator",
+    "title": "MHRA מציגה גישה רגולטורית לחדשנות הדור הבא — כולל מכשירים רפואיים מבוססי AI",
+    "titleSrc": "MHRA sets out regulatory approach to next generation innovation",
+    "summary": "חבילת יוזמות שהוצגה בשבוע מדעי החיים בלונדון: מסדרון חדשנות רגולטורי בריטניה–סינגפור, שבו גישה מבוססת AI לבחירת אנטיגנים לחיסון שפעת, ושירות AdvanceGxP להנחיה על AI ורובוטיקה בייצור. מזכר הבנות לא מחייב עם רשות המזון והתרופות הסעודית מציב מכשירים רפואיים מבוססי AI כעדיפות. אלו תוכניות וכיוון אסטרטגי ולא כללים מחייבים.",
+    "url": "https://www.gov.uk/government/news/mhra-sets-out-regulatory-approach-to-next-generation-innovation",
+    "topics": [
+      "national-strategies"
+    ]
+  },
+  {
+    "id": "medcity-abridge-hlth-assistant",
+    "date": "2026-11-18",
+    "added": "2026-11-25",
+    "src": "MedCity News",
+    "fam": "press",
+    "title": "Abridge מרחיבה את עוזר ההחלטה הקליני: Cochrane, מרכזי בריאות קהילתיים ונתיבי טיפול מקומיים",
+    "titleSrc": "Abridge Announcements during HLTH Emphasize Growing Healthcare Trend",
+    "summary": "בכנס HLTH הודיעה Abridge על שלוש הרחבות של Abridge Assistant: אפשרות לשלב נתיבי טיפול של מערכת הבריאות, שותפות עם Wiley לרישוי כ-10,000 סקירות Cochrane, והנגשה חינמית ל-108 אלף קלינאים במרכזים הקהילתיים של NACHC. לפי החברה הכלי זמין ביותר מ-300 מערכות בריאות ושימש מעל 40 אלף שאלות של קלינאי VA בחודש. הנתונים הם דיווח של החברה ולא הערכה בלתי תלויה.",
+    "url": "https://medcitynews.com/2026/11/abridge-announcements-during-hlth-emphasize-growing-healthcare-trend/",
+    "topics": [
+      "adoption",
+      "ambient"
+    ]
+  },
+  {
+    "id": "arxiv-kmed-31b",
+    "date": "2026-11-21",
+    "added": "2026-11-25",
+    "src": "arXiv",
+    "fam": "preprint",
+    "title": "KMed-31B של NAVER: מודל רפואי להפעלה מקומית שמכה מודלים קנייניים ב-HealthBench Hard",
+    "titleSrc": "KMed-31B Technical Report",
+    "summary": "דוח טכני של NAVER על מודל שפה רפואי בן 31 מיליארד פרמטרים, שהותאם ממודל פתוח להרצה מקומית על חומרה מוגבלת בשיטת זיקוק רב-מורים. ב-HealthBench Hard במצב חשיבה הציון עלה מ-23.80 ל-51.48, וב-HealthBench Professional מ-41.97 ל-59.18. הנתונים מדווחים בידי המחברים עצמם, כפרה-פרינט שטרם עבר ביקורת עמיתים.",
+    "url": "https://arxiv.org/abs/2611.28719",
+    "topics": [
+      "foundation-models",
+      "research"
+    ]
+  },
+  {
+    "id": "medrxiv-tabular-fm-who-benchmark",
+    "date": "2026-11-24",
+    "added": "2026-11-25",
+    "src": "medRxiv",
+    "fam": "preprint",
+    "title": "מודלי יסוד טבלאיים בבריאות: מבחן השוואה בהשראת ארגון הבריאות העולמי על עשרה מערכי נתונים",
+    "titleSrc": "Tabular Foundation AI Models in Healthcare: A WHO-Inspired Benchmark for Responsible AI and Trustworthiness",
+    "summary": "ארבעה מודלי יסוד טבלאיים (TabFM, TabPFN, TabDPT, TabICL) הושוו ל-XGBoost ולרגרסיה לוגיסטית על עשרה מערכי נתונים בריאותיים ו-20 מדדים. TabFM הוביל עם AUROC ממוצע 0.9327, אך אין הבדל מובהק בין ארבעת מודלי היסוד, והרגרסיה הלוגיסטית הייתה היציבה ביותר בהפרעות. תוצאות ההוגנות השתנו מאוד בין מערכי נתונים, והמחברים מדגישים צורך בתיקוף חיצוני.",
+    "url": "https://www.medrxiv.org/content/10.64898/2026.11.23.26368797v1",
+    "topics": [
+      "foundation-models",
+      "ethics"
+    ]
+  },
+  {
+    "id": "medrxiv-concern-ews-critique",
+    "date": "2026-11-24",
+    "added": "2026-11-25",
+    "src": "medRxiv",
+    "fam": "preprint",
+    "title": "ביקורת על ניסוי מערכת התרעה מוקדמת מבוססת AI: האם ירידה של 36% בתמותה מנופחת?",
+    "titleSrc": "Concerns over spillover, exclusions, and hospital unit differences in an AI early warning system trial (CONCERN-EWS)",
+    "summary": "הערה שמגיבה לניסוי אשכולות אקראי שבו מטופלים במחלקות עם מערכת התרעה מוקדמת מבוססת AI היו בסיכון נמוך ב-36% למות (HR מותאם 0.64; רווח סמך 0.53–0.78). הכותבים מעלים שלוש חששות: השפעת גלישה על זמינות מיטות טיפול נמרץ, החרגת חולים בסיכון גבוה בזרוע ההתערבות, ופערי תמותה בין מחלקות לפני הניסוי. זו הערה ביקורתית שטרם עברה ביקורת עמיתים ואינה מפריכה את הממצא.",
+    "url": "https://www.medrxiv.org/content/10.64898/2026.11.23.26368768v1",
+    "topics": [
+      "research",
+      "ethics"
+    ]
+  },
+  {
+    "id": "onc-fhir-tefca-blog",
+    "date": "2026-11-23",
+    "added": "2026-11-25",
+    "src": "ASTP/ONC",
+    "fam": "regulator",
+    "title": "ONC: FHIR ו-TEFCA צריכים להשלים זה את זה — אך המעבר רחב ההיקף ידרוש תכנון זהיר",
+    "titleSrc": "One if by FHIR, two if by TEFCA?",
+    "summary": "פוסט של סטיבן פוסנאק מ-ONC טוען שממשקי FHIR ורשת TEFCA אינם מתחרים: TEFCA יכולה לספק ממשל, ציפיות ביצוע ודרישות אבטחה להרחבת חילופי FHIR ארצית. כבר היום אפשר להשתמש ב-FHIR כמעט לכל מטרות החילופי המורשות ב-TEFCA, אך ברוב החילופי הארגוניים עדיין נעשה שימוש ב-HL7 v2, CDA, X12 ו-NCPDP. הפוסט הוא עמדה ולא כלל מחייב, ואינו כולל לוחות זמנים או מספרים.",
+    "url": "https://healthit.gov/blog/tefca/one-if-by-fhir-two-if-by-tefca/",
+    "topics": [
+      "interop"
+    ]
+  },
+  {
+    "id": "openai-gpt6-protein-design",
+    "date": "2026-11-24",
+    "added": "2026-11-25",
+    "src": "OpenAI",
+    "fam": "lab",
+    "title": "OpenAI: משפחת GPT-6 מתכננת חלבונים — 10.9% מהמינימבינדרים נקשרו למטרה במעבדה",
+    "titleSrc": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+    "summary": "לפי OpenAI, מודלי GPT-6 מתכננים צורות ורצפי חלבונים באמצעות חשיבה וקוד כללי: במעבדה עם שותפה נקשרו 35 מתוך 322 תכנונים (10.9%) לחמש מטרות, ו-70% מנוגדני VHH שעוצבו מחדש נקשרו ל-IL-4Rα. הסייגים: תוצאות רבות ממודלים פנימיים שלא פורסמו, נעשה שימוש גם במודלים ביולוגיים ייעודיים, חיזוי מבנה חלש (TM-score 0.26), וקשירה היא רק שלב אחד לפני בטיחות ויעילות.",
+    "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+    "topics": [
+      "foundation-models",
+      "research"
+    ]
   }
 ]
