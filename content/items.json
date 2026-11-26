@@ -6825,5 +6825,139 @@
       "foundation-models",
       "research"
     ]
+  },
+  {
+    "id": "npj-dm-multimodal-ai-gas-pharyngitis",
+    "date": "2026-11-25",
+    "src": "npj Digital Medicine",
+    "fam": "journal",
+    "title": "מודל AI רב-ממדי מבדיל דלקת גרון סטרפטוקוקלית מזיהום ויראלי: AUC של 0.917",
+    "titleSrc": "Multimodal AI for bacterial vs viral upper respiratory tract infection multicentre development and internal validation",
+    "summary": "מודל שמשלב תמונות גרון עם נתונים קליניים אומן על 6,666 ביקורים ו-119,988 תמונות מ-44 מתקני טיפול, והגיע ל-AUC של 0.917 בהבחנה בין סטרפטוקוקוס מקבוצה A לזיהומים ויראליים (תמונות בלבד: 0.902). בסף של סגוליות ≥0.90 הרגישות הייתה 0.761, וסימולציות העריכו ירידה של 23%–56% במרשמי אנטיביוטיקה. זו אימות פנימי בלבד; נדרשים אימות חיצוני והערכה פרוספקטיבית.",
+    "url": "https://www.nature.com/articles/s41746-026-03492-7",
+    "topics": [
+      "imaging",
+      "research"
+    ],
+    "added": "2026-11-26"
+  },
+  {
+    "id": "npj-dm-tumor-board-llm-summarization",
+    "date": "2026-11-24",
+    "src": "npj Digital Medicine",
+    "fam": "journal",
+    "title": "מודלי שפה בוועדות גידולים: סיכומי מקרה טובים (3.57–4.59 מתוך 5), המלצות טיפול חלשות בהרבה",
+    "titleSrc": "Challenges in AI based tumor board case summarization and recommendations",
+    "summary": "מחקר על נתוני ארבעה מוסדות רפואיים העריך מודלי DeepSeek, GPT, Gemini ו-Qwen במשימות ועדת גידולים, עם כ-9,600 טקסטי ייחוס ו-16 אלף שיפוטים של אונקולוגים. הרופאים דירגו סיכומי מקרה 3.57–4.59 מתוך 5, אך יצירת המלצות קיבלה רק 2.0–3.6. החוקרים מצביעים גם על כך שמומחים העניקו ציונים גבוהים לתשובות שנבדלו מאוד מטקסט הייחוס, מה שמערער הערכה אוטומטית מבוססת ייחוס.",
+    "url": "https://www.nature.com/articles/s41746-026-03442-3",
+    "topics": [
+      "research",
+      "adoption"
+    ],
+    "added": "2026-11-26"
+  },
+  {
+    "id": "npj-dm-icu-ct-body-composition",
+    "date": "2026-11-24",
+    "src": "npj Digital Medicine",
+    "fam": "journal",
+    "title": "ניתוח אוטומטי של CT חזה בקבלה ל-ICU מנבא תמותה בחצי שנה — אך עם ביצועים מתונים",
+    "titleSrc": "AI-assisted chest CT scan analysis of body composition at ICU admission and 6-month mortality",
+    "summary": "ניתוח משני של עוגה פרוספקטיבית במרכז רפואי אחד כלל 475 מטופלים עם CT חזה ב-24 השעות הראשונות לאשפוז ב-ICU. סגמנטציה בקוד פתוח כימתה הרכב גוף, וציוני הסיכון נקשרו להישרדות (p<0.001), אך ה-AUC עמד על 0.73 באימות צולב ועל 0.68–0.69 לאחר תיקון לבחירת מאפיינים. מרכז יחיד ונתונים קטנים, ולכן נדרש אימות חיצוני.",
+    "url": "https://www.nature.com/articles/s41746-026-03509-1",
+    "topics": [
+      "imaging",
+      "research"
+    ],
+    "added": "2026-11-26"
+  },
+  {
+    "id": "arxiv-esc-guidelines-hallucination-verifier",
+    "date": "2026-11-26",
+    "src": "arXiv (cs.CL)",
+    "fam": "preprint",
+    "title": "צמצום הזיות בשאלות רפואיות על הנחיות ESC: המאמת, ולא המודל, הוא צוואר הבקבוק",
+    "titleSrc": "Mitigating Hallucinations in Medical Question Answering on ESC Cardiology Guidelines: Evaluation and Retrieval Optimization",
+    "summary": "הפרה-פרינט בדק צנרת אימות-ותיקון על 160 שאלות מארבע הנחיות קרדיולוגיה של ESC ומאגר של 627 רשומות מאומתות. רק 44.7%–50.6% מהטענות שסומנו כהזיה היו הזיות אמיתיות, ו-35% מהשגיאות הסופיות נוצרו בשלב התיקון עצמו; שיעור השגיאה הסופי היה 1.7% מהתשובות. המסקנה: אמינות המאמת צריכה להימדד ולא להיות מוכתבת מראש. פרה-פרינט שטרם עבר ביקורת עמיתים.",
+    "url": "https://arxiv.org/abs/2611.34427",
+    "topics": [
+      "research",
+      "ethics"
+    ],
+    "added": "2026-11-26"
+  },
+  {
+    "id": "arxiv-jhealthbench-l",
+    "date": "2026-11-26",
+    "src": "arXiv (cs.CL)",
+    "fam": "preprint",
+    "title": "JHealthBench-L: התאמה יפנית של HealthBench בבדיקת קלינאים — תרגום בלבד הופך 17.7% מהשיפוטים",
+    "titleSrc": "JHealthBench-L: Clinician-Reviewed Localization of HealthBench for Rubric-Based Medical LLM Evaluation in Japan",
+    "summary": "המאגר כולל 79 התייעצויות מול מטופלים ו-1,022 קריטריונים, ו-93.6% מקריטריוני שלב 2 אושרו ללא הערות על ידי בודקים בלתי תלויים. בהשוואת 18 מודלים תרגום בלבד שמר על דירוג גס (קנדל τ=0.817), אך הפך פסק דין ב-17.7% מהקריטריונים ששונו, לעומת 7.3% מרעש הערכה. פרה-פרינט שטרם עבר ביקורת עמיתים.",
+    "url": "https://arxiv.org/abs/2611.34024",
+    "topics": [
+      "research",
+      "ethics"
+    ],
+    "added": "2026-11-26"
+  },
+  {
+    "id": "arxiv-medskill-e2-medical-agents",
+    "date": "2026-11-26",
+    "src": "arXiv (cs.AI)",
+    "fam": "preprint",
+    "title": "MedSkill-E²: סוכני AI רפואיים 'מוסמכים אך לא משתמשים' — פער של כ-44 נקודות באחוזים",
+    "titleSrc": "MedSkill-E$^{2}$: Evaluating and Evolving Skills for Medical Agents",
+    "summary": "המאמר מגדיר כשל שבו סוכני LLM אינם מיישמים כללי 'מיומנות' שניתנו להם, ובונה את EBU-Bench על 12 קבוצות משימות רפואיות. בכל צירופי המודל והמסגרת נמצא פער ממוצע של 43.94 נקודות באחוזים בין שימוש עצמאי להנחיה מפורשת. שיטת EBU-Evolve שיפרה דיוק עצמאי ב-33.33–55.17 נקודות. פרה-פרינט, ללא ביקורת עמיתים.",
+    "url": "https://arxiv.org/abs/2611.34250",
+    "topics": [
+      "research",
+      "ethics"
+    ],
+    "added": "2026-11-26"
+  },
+  {
+    "id": "arxiv-chd-bench",
+    "date": "2026-11-26",
+    "src": "arXiv (cs.AI)",
+    "fam": "preprint",
+    "title": "CHD-Bench: מודל ראייה-שפה בוחן סריקות לב מולד באופן אינטראקטיבי — F1 של עד 0.63",
+    "titleSrc": "CHD-Bench: Diagnosing Congenital Heart Disease through Interactive Examination",
+    "summary": "המאגר כולל 247 סריקות CT ו-MRI משלוש עוקות ו-38 סוגי מומי לב מולדים, ומלווה בכלי קוד פתוח שנותן למודל גישה ל-22 כלים ב-3D Slicer. Gemini 4 Argon עם הכלים השיג macro F1 של 0.63, 0.63 ו-0.43 בעוקות, ושיפור של עד 20 נקודות לעומת תצוגות סטטיות. מדובר בפרה-פרינט, במדגם קטן ובמשימה מבחנית ולא בשימוש קליני.",
+    "url": "https://arxiv.org/abs/2611.33775",
+    "topics": [
+      "imaging",
+      "research"
+    ],
+    "added": "2026-11-26"
+  },
+  {
+    "id": "ec-health-at-a-glance-europe-2026",
+    "date": "2026-11-25",
+    "src": "הנציבות האירופית (DG SANTE)",
+    "fam": "regulator",
+    "title": "Health at a Glance: Europe 2026 — פרק על בריאות דיגיטלית: 28% ניגשו לרשומות רפואיות מקוונות ב-2024",
+    "titleSrc": "Health at a Glance: Europe 2026 report published today with antimicrobial resistance and digital health in the spotlight",
+    "summary": "לפי הדוח, 28% מבני 16–74 באיחוד ניגשו לרשומותיהם הרפואיות באינטרנט ב-2024, לעומת 10% ב-2020, אך האימוץ נותר איטי בקרב מבוגרים ובעלי השכלה נמוכה. הפרק בוחן אם יותר מעשור של השקעות הניב שימוש רחב והוגן יותר, ואת מוכנות מערכות הבריאות ל-AI; ההודעה אינה כוללת נתוני שימוש ב-AI. מרחב נתוני הבריאות האירופי (EHDS) צפוי להיכנס לתוקף במרץ 2029.",
+    "url": "https://ec.europa.eu/newsroom/sante/newsletter-archives/81812",
+    "topics": [
+      "national-strategies",
+      "adoption"
+    ],
+    "added": "2026-11-26"
+  },
+  {
+    "id": "moh-sg-enhanced-healthhub",
+    "date": "2026-11-25",
+    "src": "משרד הבריאות של סינגפור",
+    "fam": "regulator",
+    "title": "סינגפור משיקה את HealthHub משודרג: אפליקציה לאומית אחת שתחליף את אפליקציות האשכולות עד פברואר 2027",
+    "summary": "שר הבריאות הכריז על HealthHub משודרג כ'דלת כניסה דיגיטלית' אחת: תורים בפוליקליניקות בתצוגת רמזור, משלוח תרופות כרוניות עד הבית, תשלום חשבונות מכמה אשכולות בפעולה אחת וסיכום מידע בריאותי. ארבע אפליקציות מתקיימות כיום במקביל (HealthHub, Health Buddy, NHG Health ואפליקציית NUHS), והן יאוחדו ויושבתו עד סוף פברואר 2027. בנאום לא מוזכרים רכיבי AI.",
+    "url": "https://www.moh.gov.sg/newsroom/speech-by-mr-ong-ye-kung--minister-for-health-and-coordinating-minister-for-social-policies--at-the-launch-of-the-enhanced-healthhub--25-november-2026-/",
+    "topics": [
+      "national-strategies",
+      "adoption"
+    ],
+    "added": "2026-11-26"
   }
 ]
